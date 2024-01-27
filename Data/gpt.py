@@ -18,3 +18,6 @@ dropout = 0.2
 with open('/content/university data','r', encoding='utf-8') as f:
     text = f.read()
 text = ' '.join(text.split())
+
+chars = sorted(list(set(text)))
+vocab_size = len(chars) 
