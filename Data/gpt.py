@@ -14,3 +14,7 @@ n_embd = 256
 n_head = 4
 n_layer = 8
 dropout = 0.2
+
+with open('/content/university data','r', encoding='utf-8') as f:
+    text = f.read()
+text = ' '.join(text.split())
