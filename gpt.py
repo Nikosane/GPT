@@ -39,3 +39,11 @@ def get_batch(split):
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
     x, y = x.to(device) , y.to(device)
     return x, y
+
+@torch.no_grad()
+def extimate_loss():
+    out = {}
+    model.eval()
+    for split in ['train' , 'val']:
+        losses = torch.zeros(eval_iters)
+        
