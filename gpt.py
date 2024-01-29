@@ -1,5 +1,6 @@
 import os
 import torch
+import torch.nn as nn
 from torch.nn import functional as F
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -53,4 +54,12 @@ def extimate_loss():
         out[split] = losses.mean()
     model.train()
     return out 
+
+
+class Head(nn.Module):
+    """one head of self attention"""
+    def __init__(self, head_size):
+        super().__init__()
+        self.key = nn.Linear(n_embd , head_size , biad=False)
+        self.query = nn.Linear()
 
