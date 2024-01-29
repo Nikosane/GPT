@@ -106,3 +106,6 @@ class FeedFoward(nn.Module):
             nn.Dropout(dropout),
         )
 
+    def forward(self, x):
+        return self.net(x)
+
