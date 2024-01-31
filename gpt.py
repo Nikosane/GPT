@@ -192,5 +192,7 @@ if train_model:
   iter_start = 0
   print(f"Training model from scratch")
 
+  print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+
     
 
