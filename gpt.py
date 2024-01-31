@@ -181,6 +181,10 @@ class GPTLanguageModel(nn.Module):
     
 saved_model_path = 'model.pth'
 train_model = True
+if os.path.exists(saved_model_path):
+  train_model = False
+  iter_start = None
+  print(f'using the model without further training')
 
     
 
