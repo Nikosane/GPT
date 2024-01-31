@@ -165,6 +165,19 @@ class GPTLanguageModel(nn.Module):
             loss = F.cross_entropy(logits, targets)
 
         return logits, loss
+    
+    def generate_with_beam_search(self, idx, max_new_tokens, beam_size=15, temperature=1.0):
+        for _ in range(max_new_tokens):
+            idx_cond = idx[:,-block_size:]
+            logits , loss = self(idx_cond)
+            logits = logits[:, -1, :]
+            probs = F.softmax(logits/temperature , dim=-1)
+            idx_next_beam = torch.multinomial(probs, num_samples=beam_size, replacement=True)
+            scores = torch.gather(probs, 1, idx_next_beam)
+            _, selected_beam = scores.max(dim=1)
+            idx_next = idx_next_beam[range(idx_next_beam.size(0)), selected_beam]
+            idx = torch.cat((idx, idx_next.unsqueeze(1)), dim=1)
+        return idx
 
     
 
