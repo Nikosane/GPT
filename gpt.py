@@ -186,5 +186,11 @@ if os.path.exists(saved_model_path):
   iter_start = None
   print(f'using the model without further training')
 
+if train_model:
+  model = GPTLanguageModel()
+  m = model.to(device)
+  iter_start = 0
+  print(f"Training model from scratch")
+
     
 
