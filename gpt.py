@@ -194,5 +194,7 @@ if train_model:
 
   print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
 
+  optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+
     
 
