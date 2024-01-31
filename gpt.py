@@ -178,6 +178,9 @@ class GPTLanguageModel(nn.Module):
             idx_next = idx_next_beam[range(idx_next_beam.size(0)), selected_beam]
             idx = torch.cat((idx, idx_next.unsqueeze(1)), dim=1)
         return idx
+    
+saved_model_path = 'model.pth'
+train_model = True
 
     
 
