@@ -196,5 +196,8 @@ if train_model:
 
   optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
+  for iter in range(max_iters):
+      if iter % eval_interval == 0 or iter == max_iters - 1:
+
     
 
