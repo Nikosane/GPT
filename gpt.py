@@ -207,6 +207,15 @@ if train_model:
       loss.backward()
 
       optimizer.step()
+
+      save_interval = 1000
+      if iter % save_interval == 0 or iter == max_iters - 1:
+          torch.save({
+              'model_state_dict': model.state_dict(),
+              'optimizer_state_dict': optimizer.state_dict(),
+              'iter': iter,
+              'loss': loss,
+          }, f'model.pth')
     
 
     
