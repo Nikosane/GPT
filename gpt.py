@@ -203,6 +203,8 @@ if train_model:
       xb, yb = get_batch('train')
 
       logits, loss = model(xb, yb)
+      optimizer.zero_grad(set_to_none=True)
+      loss.backward()
     
 
     
