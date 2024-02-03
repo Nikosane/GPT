@@ -444,3 +444,20 @@ Bill Nelson, Amelia Philips, and Christopher Steuart, “Guide to Computer Foren
 Additional Reference:
 Kevin Mandia, Chris Prosise, “Incident Response and Computer Forensics,” Tata McGrawHill
 
+Cyber Forensics – Practical 
+Certainly! Here's the information presented in paragraph format without any bullet points:
+
+In the Cyber Forensics – Practical course with the code USCSP5041, students will engage in a comprehensive exploration of practical aspects related to cyber forensics. The course, with a credit of 1 and 3 lectures per week, covers a range of hands-on topics to provide a robust understanding of cyber forensics techniques and methodologies.
+
+The course begins with a practical session on creating a forensic image using tools like FTK Imager or Encase Imager. Students will not only learn the process of creating a forensic image but also delve into checking the integrity of the data and conducting a detailed analysis of the forensic image.
+
+Subsequent sessions involve data acquisition using various methods, including USB Write Blocker + Encase Imager, SATA Write Blocker + Encase Imager, and Falcon Imaging Device. Students will gain practical skills in extracting volatile data from a running computer system, encompassing open processes, network connections, and registry information.
+
+The curriculum further includes capturing and analyzing network packets using Wireshark, covering the fundamentals of identifying live networks, capturing packets, and analyzing the captured data. Students will also explore the usage of Sysinternals tools for network tracking and process monitoring, delving into live process monitoring, RAM and TCP/UDP packet capture, as well as monitoring hard disk, virtual memory, and cache memory.
+
+Another crucial aspect covered in the course is the recovery and inspection of deleted files. Students will learn how to check for deleted files, recover them, and conduct a meticulous analysis of the recovered files. The recovery process will be explored both through ENCASE recovery options and manual command-line techniques.
+
+Steganography detection is also an essential topic, where students will employ steganography analysis tools to uncover hidden information or files within digital images. The course further includes practical sessions on mobile device forensics, email forensics, and web browser forensics. Students will gain hands-on experience in performing a forensic analysis of mobile devices, analyzing email headers and content, and scrutinizing browser artifacts to reconstruct user-browsing history.
+
+Overall, the Cyber Forensics – Practical course equips students with practical skills essential for cyber forensic investigations, preparing them for real-world scenarios in the field.
+
