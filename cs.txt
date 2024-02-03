@@ -357,42 +357,32 @@ USCSP5032 Software Testing & Quality Assurance – Practical 1 3
 This comprehensive course delves into the practical aspects of software testing and quality assurance. Students actively participate in hands-on activities to hone their skills and gain practical insights.
 
 Installation of Selenium IDE and Test Suite Creation
-
 In the initial session, students dive into the world of Selenium by installing Selenium IDE. They create a dynamic test suite, incorporating a minimum of four test cases designed for diverse web page formats, such as HTML, XML, JSON, and more.
 
 Execution of Test Suite Using Selenium IDE
-
 The second session focuses on the seamless execution of a test suite across two distinct websites using Selenium IDE. Students gain practical experience in actions like clicking links, filling forms, and meticulously verifying content.
 
 Usage of Selenium Server (Selenium RC) and Script Execution
-
 Session three introduces the installation of Selenium Server (Selenium RC), showcasing its versatility through script execution in Java or PHP. This enables students to automate a range of browser actions with finesse.
 
 Automated Login Process with Selenium WebDriver
-
 The fourth session empowers students to script an automated login process using Selenium WebDriver. They not only automate the login but also validate the success of the login using well-crafted assertions.
 
 Updating Student Records in Excel File
-
 Session five takes a practical turn as students use Selenium WebDriver to script a program that updates 10 student records in an Excel file. This involves skillful data manipulation and thorough verification processes.
 
 Data Extraction and Analysis with Selenium WebDriver
-
 In the sixth session, students tackle real-world scenarios by scripting Selenium WebDriver programs to selectively extract and analyze data. The emphasis is on extracting insights from students who scored over 60 in specific subjects or all subjects.
 
 Object Identification and Counting with Selenium WebDriver
-
 The seventh session sharpens students' skills in object identification and counting. Using Selenium WebDriver, they write programs to determine the total number of objects present on a given web page.
 
 List or Combo Box Element Identification with Selenium WebDriver
-
 Session eight extends students' capabilities as they write Selenium WebDriver programs to identify and count items in lists or combo boxes on web pages. This practical exercise enhances their proficiency in element identification.
 
 Checkbox Identification and Counting with Selenium WebDriver
-
 In the ninth session, students explore the realm of checkboxes on web pages. Using Selenium WebDriver, they write programs to accurately count both checked and unchecked checkboxes, refining their skills in checkbox identification.
 
 Load Testing with JMeter and Introduction to Bug Tracking
-
 The tenth and final session covers the critical aspect of load testing using JMeter. Students generate and analyze various load scenarios, gaining insights into the robustness of web applications. Additionally, they receive an introduction to Bugzilla, a tool for efficient logging and tracking of software defects.
 
