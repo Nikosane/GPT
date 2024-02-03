@@ -1,0 +1,353 @@
+The revamped and restructured syllabus is meticulously crafted to offer students a comprehensive grasp of computer science concepts, theories, and practical skills, positioning them for success in the dynamic and swiftly evolving technology landscape. Tailored for the Three-year integrated course, the curriculum aligns with current industry needs, addressing the requisite skill sets in the contemporary technological environment. It strives to harmonize program structure and course content with both student aspirations and corporate expectations, ensuring its relevance in today's context.
+
+The TYBSc Computer Science syllabus unfolds with core modules, forming the foundation by covering essential topics in computer science. These modules cultivate computational thinking, analytical abilities, and problem-solving skills. The Artificial Intelligence course delves into cutting-edge AI concepts, empowering students to develop intelligent systems and algorithms. Cyber and Information Security equips students with practices in safeguarding information and systems, while the Data Science course provides a robust foundation in data analysis. The Cloud Computing course focuses on principles, architectures, and applications of cloud computing in an era dominated by cloud-based technologies.
+
+To deepen their expertise, students can choose skill enhancement electives in areas like web development, cybersecurity, data science, or software engineering. Courses such as Linux Server Administration, Software Testing, Cyber Forensics, Game Programming, Data Mining, and Warehousing cater to specialized areas of expertise and industry demands. Generic electives expand horizons, offering exploration beyond core and discipline-specific electives.
+
+A pivotal element of the syllabus is project work, emphasizing hands-on experience. Through practical assignments, students apply theoretical knowledge to real-world scenarios, fostering creativity, problem-solving, and innovation in software solutions. Assessment methods encompass written examinations, practical assignments, project evaluations, and presentations, ensuring a holistic evaluation of both theoretical knowledge and practical skills.
+
+The TY Computer Science syllabus is strategically designed to prepare students for careers in software development, data analysis, research, or further studies in related disciplines. The goal is to empower students with the knowledge and skills necessary to thrive in the ever-evolving technology landscape and contribute to its advancement.
+
+The program expresses gratitude to experts and contributors, acknowledging valuable feedback and suggestions that have shaped the curriculum. Special appreciation goes to the University Department of Computer Science and colleagues from various colleges who played a crucial role in designing specialized courses and the syllabus as a whole.
+
+Choice Based Credit System (CBCS) - sem 5
+The T.Y.B.Sc. Computer Science Syllabus, following the Choice Based Credit System (CBCS) and effective from the Academic year 2023-2024, Semester – V, is thoughtfully designed to offer students a diverse and comprehensive learning experience. The core subjects include "Artificial Intelligence" (USCS501) and its practical counterpart "Artificial Intelligence – Practical" (USCSP501), providing in-depth knowledge and hands-on experience with a credit of 3 and 1, respectively. Another core subject, "Information & Network Security" (USCS502), is complemented by its practical component "Information & Network Security – Practical" (USCSP502), both contributing 3 credits each.
+
+For Skill Enhancement Elective 1 (SEE), students can choose between "Linux Server Administration" (USCS5031) and its practical implementation in "Linux Server Administration – Practical" (USCSP5031), both carrying 3 credits. Skill Enhancement Elective 1 also offers "Software Testing & Quality Assurance" (USCS5032) and its practical application in "Software Testing & Quality Assurance – Practical" (USCSP5032), each with 3 credits.
+
+Skill Enhancement Elective 2 (SEE) introduces "Cyber Forensics" (USCS5041), accompanied by its practical counterpart "Cyber Forensics – Practical" (USCSP5041), both earning 3 credits. Additionally, "Game Programming" (USCS5042) and its practical implementation in "Game Programming – Practical" (USCSP5042) provide students with a hands-on experience and 3 credits each.
+
+The syllabus further offers two Generic Electives – "Project Management" (USCS5051) and "Operations Research" (USCS5052), each carrying 2 credits and involving 3 lectures per week. To round off the semester, students engage in "Project Work – I" (USCSP505), earning 2 credits with 3 lectures per week. Notably, students are required to select one course each from Skill Enhancement Elective 1 and Skill Enhancement Elective 2, along with choosing one course from Generic Elective, allowing for a personalized and focused learning experience. This structured approach ensures that students gain both theoretical knowledge and practical skills, preparing them for diverse career paths in the field of computer science.
+
+sem - 6
+In the continuation of the T.Y.B.Sc. Computer Science Syllabus under the Choice Based Credit System (CBCS) for the Academic year 2023-2024, Semester – VI, students are exposed to a diverse set of core subjects and skill enhancement electives, further enriching their knowledge and practical skills.
+
+The core subjects in this semester include "Data Science" (USCS601) and its practical application, "Data Science – Practical" (USCSP601), each contributing 3 and 1 credits, respectively. "Cloud Computing and Web Services" (USCS602) and its practical counterpart, "Cloud Computing and Web Services – Practical" (USCSP602), also provide a comprehensive understanding with 3 credits each.
+
+For Skill Enhancement Elective 1 (SEE), students can choose between "Wireless and Sensor Networks" (USCS6031) and its practical implementation in "Wireless and Sensor Networks – Practical" (USCSP6031), earning 3 credits. Alternatively, they can opt for "Information Retrieval" (USCS6032) and its practical counterpart "Information Retrieval – Practical" (USCSP6032), both carrying 3 credits.
+
+Skill Enhancement Elective 2 (SEE) offers "Data Mining & Warehousing" (USCS6041) and its practical application in "Data Mining & Warehousing – Practical" (USCSP6041), as well as "Ethical Hacking" (USCS6042) with its practical counterpart "Ethical Hacking – Practical" (USCSP6042), each providing 3 credits.
+
+The syllabus also includes two Generic Electives – "Customer Relationship Management" (USCS6051) and "Cyber Laws and IPR" (USCS6052), both earning 2 credits and involving 3 lectures per week. To conclude the semester, students engage in "Project Work – II" (USCSP605), contributing 2 credits with 3 lectures per week.
+
+As in the previous semester, students are required to select one course each from Skill Enhancement Elective 1 and Skill Enhancement Elective 2, along with choosing one course from Generic Elective, providing flexibility in tailoring their academic journey. This holistic approach ensures that students acquire both theoretical knowledge and practical skills, preparing them for diverse roles in the dynamic field of computer science.
+
+In Semester V, students delve into the multifaceted realm of Artificial Intelligence (AI) through the course "Artificial Intelligence" (USCS501). With a credit allocation of 2 and 3 lectures per week, the curriculum encompasses a comprehensive exploration of intelligent agents, problem-solving strategies, knowledge representation, reasoning methods, machine learning techniques, and probabilistic models. Notably, the course strikes a balance between theoretical foundations and practical applications, aiming to equip students with the skills needed to design and implement intelligent systems effectively.
+
+The course objectives are multifaceted, covering the foundations, history, and state-of-the-art developments in AI, intelligent agent structures, various problem-solving strategies including uninformed and informed search techniques, knowledge representation, reasoning methods, and the implementation of machine learning techniques such as classification, regression, and ensemble learning. These objectives are tailored to foster a robust understanding of AI concepts and their practical applications.
+
+Upon successful completion of the course, students are expected to demonstrate comprehensive knowledge of AI foundations, design intelligent agents for specific environments, apply diverse problem-solving techniques, construct knowledge representation models, and implement machine-learning algorithms for classification and regression tasks.
+
+The unit topics span three main sections: Introduction to AI and Intelligent Agents, Knowledge Representation, Reasoning, and Machine Learning, and Probabilistic Models, Unsupervised Learning, and Reinforcement Learning. Each section is meticulously crafted with a strategic allocation of 15 lectures, ensuring a detailed exploration of concepts and methodologies.
+
+The recommended textbook for this course is "Artificial Intelligence: A Modern Approach" by Stuart Russell and Peter Norvig (3rd Edition, Pearson, 2010), supplemented by additional references such as "Artificial Intelligence: Foundations of Computational Agents" by David L. Poole and Alan K. Mackworth (2nd Edition, Cambridge University Press, 2017) and "Artificial Intelligence" by Kevin Knight and Elaine Rich (3rd Edition, 2017). Further insights are drawn from "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman (Springer, 2013).
+
+This meticulously structured course aims not only to impart theoretical knowledge but also to cultivate practical skills, preparing students for the intricate and dynamic landscape of Artificial Intelligence.
+
+ARTIFICIAL INTELLIGENCE PRACTICAL
+The practical component of the "Artificial Intelligence – Practical 1" course (USCSP501) in Semester V involves a detailed exploration of Breadth First Search (BFS) and Iterative Depth First Search (IDFS). Students are tasked with implementing the BFS algorithm to solve a given problem and subsequently implementing the IDFS algorithm for the same problem. The practical session culminates in a comprehensive comparative analysis, evaluating the performance and efficiency of both algorithms.
+
+Moving on, the practical curriculum includes the implementation of A* Search and Recursive Best-First Search algorithms. Students undertake the challenge of implementing the A* Search algorithm for solving pathfinding problems and subsequently implement the Recursive Best-First Search algorithm for the same problem. The focus lies on comparing the performance and effectiveness of these two algorithms, offering valuable insights into their respective applications.
+
+Another integral component involves Decision Tree Learning. Students are required to implement the Decision Tree Learning algorithm to construct a decision tree for a given dataset. The evaluation phase includes assessing the accuracy and effectiveness of the decision tree on test data. The practical session also emphasizes the visualization and interpretation of the generated decision tree, enhancing students' practical understanding.
+
+The curriculum further extends to Feed Forward Backpropagation Neural Network implementation. Students delve into the intricacies of implementing the Feed Forward Backpropagation algorithm to train a neural network. This involves utilizing a provided dataset to train the neural network for a specific task, followed by an evaluation of the trained network's performance on test data. The practical aspect offers hands-on experience in neural network training and evaluation.
+
+The implementation of Support Vector Machines (SVM) is another key component. Students are tasked with implementing the SVM algorithm for binary classification. This involves training an SVM model using a provided dataset and optimizing its parameters. Subsequently, students evaluate the performance of the SVM model on test data, facilitating an in-depth analysis of the results.
+
+The curriculum also includes a practical session on Adaboost Ensemble Learning. Students implement the Adaboost algorithm to create an ensemble of weak classifiers. The ensemble model is then trained on a given dataset, and its performance is evaluated. The practical session concludes with a comparative analysis, comparing the results obtained with individual weak classifiers.
+
+Naive Bayes' Classifier implementation is a vital aspect of the practical curriculum. Students implement the Naive Bayes' algorithm for classification, training a Naive Bayes' model using a provided dataset. The evaluation phase involves calculating class probabilities and assessing the accuracy of the model on test data. The practical session emphasizes not only implementation but also the interpretation and analysis of the results.
+
+The practical curriculum also includes the implementation of the K-Nearest Neighbors (K-NN) algorithm. Students are guided through the implementation of the K-NN algorithm for classification or regression. Application of the K-NN algorithm to a given dataset and prediction of class or value for test data are integral components. The practical session concludes with an evaluation of the accuracy or error of the predictions, facilitating a thorough analysis of the results.
+
+Association Rule Mining is another significant practical component. Students implement the Association Rule Mining algorithm, such as Apriori, to find frequent itemsets. This involves generating association rules from the frequent itemsets and calculating their support and confidence. The practical session focuses on the interpretation and analysis of the discovered association rules, providing students with valuable insights into data mining techniques.
+
+Lastly, the curriculum includes a practical demonstration of OpenAI/TensorFlow Tools. Students actively explore and experiment with OpenAI or TensorFlow tools and libraries. The practical session culminates in a demonstration or mini-project showcasing the capabilities of the tools. Students are encouraged to discuss and present their findings, providing a platform for sharing insights and potential applications of the explored tools.
+
+These practical sessions collectively aim to reinforce theoretical knowledge with hands-on implementation, fostering critical analysis, and providing students with practical insights into various artificial intelligence algorithms and tools.
+
+Information & Network Security
+The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
+
+The course objectives encompass foundational understanding, exploring encryption techniques, understanding authentication and key management methods, comprehending secure communication systems, and investigating network security measures. These objectives aim to equip students with a robust foundation in computer and network security concepts, fostering critical thinking and practical application.
+
+Upon successful completion of the course, students are expected to demonstrate a thorough analysis of security trends, attacks, and mechanisms, proposing effective security solutions based on the OSI security architecture. They will be proficient in applying classical encryption techniques, implementing public-key cryptography algorithms like RSA, and designing and implementing secure authentication mechanisms. Furthermore, students will have the capability to evaluate and implement various security measures, ensuring the protection of networks and systems from unauthorized access and potential attacks.
+
+The unit topics are meticulously structured into three main sections. In the first section, students delve into the introduction, security trends, the OSI security architecture, security attacks, security services, and mechanisms. Classical encryption techniques, including symmetric cipher models, substitution and transposition techniques, and block cipher principles, are explored in detail, providing a solid foundation.
+
+Moving on to the second section, students explore public-key cryptography, RSA algorithms, key management, message authentication, hash functions, digital signatures, and authentication applications. This section emphasizes the practical application of cryptographic principles and mechanisms.
+
+The final section encompasses electronic mail security, IP security, web security, intrusion, malicious software, and firewalls. Students gain insights into practical aspects such as Pretty Good Privacy (PGP), S/MIME, SSL/TLS, secure electronic transactions, intrusion detection, and firewall design principles. This section prepares students to implement real-world security measures in diverse scenarios.
+
+The recommended textbook for the course is "Cryptography and Network Security: Principles and Practice" by William Stallings (7th edition, Pearson). Additional references include "Cryptography and Network" by Behrouz A. Forouzan and Debdeep Mukhopadhyay (2nd edition, TMH) and "Cryptography and Network Security" by Atul Kahate (Tata McGraw-Hill).
+
+In conclusion, the Information & Network Security course is meticulously designed to provide students with a comprehensive understanding of security concepts, laying the groundwork for practical application and critical analysis in the dynamic field of computer and network security.
+
+Information & Network Security practical 
+The practical module "Information & Network Security – Practical 1" (USCSP502) in Semester V stands as a pivotal hands-on exploration of various security techniques. With an allocation of 3 credits and 3 lectures per week, this practical component serves as a bridge between theoretical concepts and real-world scenarios, cultivating a profound practical understanding of information and network security.
+
+In the initial exercise, students engage in designing and implementing algorithms for encrypting and decrypting messages, employing classical substitution and transposition techniques. This hands-on approach facilitates a deeper comprehension of historical encryption methods, reinforcing theoretical knowledge through practical application.
+
+Moving forward, the practical session delves into the implementation of the RSA algorithm for public-key encryption and decryption. Here, students gain practical experience in contemporary cryptographic techniques, exploring the properties and security considerations associated with RSA.
+
+The curriculum further incorporates a hands-on activity focused on the implementation of algorithms for generating and verifying message authentication codes (MACs). This practical exercise ensures students acquire essential skills in maintaining the integrity and authenticity of transmitted data.
+
+Digital signatures take center stage in another practical exercise, where students implement algorithms like RSA-based signatures and verify the integrity and authenticity of digitally signed messages. This session underscores the significance of digital signatures in the realm of secure communication.
+
+The practical exploration continues with the implementation of the Diffie-Hellman key exchange algorithm. This exercise immerses students in the critical realm of key management for secure communication, allowing them to comprehend the intricacies of secure key exchange over an insecure network.
+
+A practical configuration of IPsec on network devices follows suit, offering students the opportunity to apply security measures in real-world networking scenarios. This hands-on activity equips students with skills in configuring IPsec to ensure secure communication and protect against unauthorized access and potential attacks.
+
+The curriculum further extends to practical sessions involving the configuration and implementation of secure web communication using SSL/TLS protocols. Students engage in certificate management and secure session establishment, gaining practical skills in securing web-based communication.
+
+An integral part of the practical component involves setting up and configuring an intrusion detection system (IDS). This session empowers students with practical experience in monitoring network traffic, detecting potential security breaches, and identifying malicious activities.
+
+The curriculum also addresses the practical analysis and identification of malware samples using antivirus tools. Students delve into analyzing malware behavior and developing countermeasures to mitigate their impact, enhancing their skills in the critical domain of malware analysis.
+
+The practical journey concludes with students configuring and testing firewall rules, exercising control over network traffic and filtering packets based on specified criteria. This hands-on activity provides students with practical experience in configuring and managing firewalls for effective network security.
+
+Collectively, these hands-on sessions aim to bridge the gap between theoretical knowledge and practical application, empowering students with valuable skills to implement diverse security measures effectively and safeguard information and networks.
+
+Linux Server Administration
+The Linux Server Administration course (USCS5031) delves into a comprehensive exploration of Linux server management, offering students a thorough understanding of technical aspects, software handling, user and group administration, file systems, core system services, networking, security, and advanced internet services. Through a blend of theoretical knowledge and practical application, the course aims to equip students with essential skills.
+
+The objectives encompass developing a solid understanding of Linux server administration principles, acquiring practical skills in managing users, groups, and file systems, and configuring secure network services such as DNS, FTP, Apache web server, SMTP, POP, IMAP, and SSH. Furthermore, the course aims to impart knowledge of advanced network administration topics, including NFS, Samba, DFS, NIS, LDAP, DHCP, MySQL, LAMP applications, file services, email services, chat applications, and VPN.
+
+Upon successful completion, students are expected to demonstrate proficiency in managing software packages and repositories, configure and administer user accounts, groups, and permissions, implement network services with proper security measures, design and manage advanced network services for efficient file sharing and user authentication, and apply troubleshooting techniques for identifying and resolving common issues in Linux server administration.
+
+The unit topics span an introduction covering Linux distributions, software management, and single-host administration, focusing on managing users and groups, booting and shutting down processes, file systems, core system services, and network and security aspects. The exploration extends to internet services, encompassing DNS, FTP, Apache web server, SMPT, POP, IMAP, SSH, and network authentication system, emphasizing security measures. The course concludes with an in-depth examination of advanced internet services like NFS, Samba, DFS, NIS, LDAP, DHCP, MySQL, LAMP Applications, file services, email services, chat applications, and virtual private networking.
+
+Textbooks for the course include "Linux Administration: A Beginner’s Guide" by Wale Soyinka (Seventh Edition, McGraw-Hill Education, 2016) and "Ubuntu Server Guide" by the Ubuntu Documentation Team (2016), with additional reference material provided by "Mastering Ubuntu Server" by Jay LaCroix (PACKT Publisher, 2016). The course design emphasizes a holistic approach, fostering a deep understanding of Linux server administration principles and practical skills essential for effective system management.
+
+Linux Server Administration – Practical
+The Linux Server Administration Practical (USCSP5031) is structured to provide students with hands-on experience in essential server administration tasks. In the course, students embark on various practical sessions, beginning with the installation of a DHCP Server in Ubuntu 16.04. Subsequently, they explore the configuration of initial settings, covering aspects such as user addition, network settings, IP address changes, IPv6 disabling, service configuration, display of running services, and adjustment of auto-start settings.
+
+Another significant aspect of the practical exercises involves the comprehensive configuration of the NTP Server (NTPd). This encompasses the installation and setup of NTPd, along with the configuration of NTP Clients on both Ubuntu and Windows platforms. Moving forward, the course delves into SSH Server configuration, emphasizing password authentication. It also guides students through SSH Client configurations for both Ubuntu and Windows environments.
+
+In addition to these, students undertake the installation of the BIND DNS server, with a specific focus on the configuration process for resolving domain names or IP addresses. The course further extends to configuring DHCP servers, NFS servers for directory sharing, and NFS Client configurations for both Ubuntu and Windows. Additionally, students engage in the setup of an LDAP Server for user account sharing within local networks. This involves learning to add LDAP user accounts and installing phpLDAPadmin for web browser-based LDAP server operation.
+
+Moreover, the course covers the configuration of NIS Servers, facilitating user account sharing within local networks. This includes the setup of NIS Clients to bind with NIS Servers. Practical exercises also encompass the installation of MySQL for configuring a database server, complemented by the installation of phpMyAdmin for web browser-based MySQL operation from client machines.
+
+The comprehensive practical foundation in Linux Server Administration concludes by guiding students through the installation of Samba. This facilitates seamless folder and file sharing between Windows and Linux environments. The course design ensures that each practical session offers a distinct focus, providing students with in-depth exposure to various critical tasks in a server environment.
+
+Software Testing & Quality Assurance 
+The course titled "Software Testing & Quality Assurance (USCS5032)" is designed to impart a profound understanding of software testing principles, methodologies, and quality assurance practices. Throughout the course, students delve into the intricacies of software quality, exploring concepts such as the nature of errors, the significance of quality assurance, and the distinction between Quality Assurance (QA), Quality Control (QC), Quality Management (QM), and Software Quality Assurance (SQA). Emphasis is placed on comprehending software development life cycles (SDLC) and the pivotal role testing plays in each phase, aligning with software quality factors.
+
+As the course progresses, students are introduced to the fundamentals of software testing, covering topics such as test case design principles, execution, reporting, and documentation. The distinctions between White Box Testing and Black Box Testing are explored, encompassing functional/specification-based testing, equivalence partitioning, boundary value analysis, decision table testing, state transition testing, and structural testing. The course strategically addresses software testing techniques, including unit testing, integration testing, and system testing.
+
+The curriculum extends to software metrics, offering insights into their conceptualization, development, and utilization. Complexity metrics and their relevance in testing are elucidated, providing students with a comprehensive understanding of measurement in software quality.
+
+Another crucial aspect of the course focuses on defect management, covering the definition of defects, their lifecycle, and the defect management process. Metrics related to defects are explored, and their utilization for process improvement is emphasized. The course further delves into Software Quality Assurance, addressing quality concepts, background issues, challenges, activities, and approaches in SQA. Students gain knowledge of formal technical reviews, statistical quality assurance, and software reliability, with a detailed examination of statistical process control techniques.
+
+The course concludes by introducing students to quality improvement techniques, methodologies, and tools such as Pareto Diagrams, Cause-effect Diagrams, Scatter Diagrams, and Run charts. The chosen textbooks and additional references augment the learning experience, ensuring a comprehensive grasp of software testing and quality assurance theory and practice.
+
+Software Testing & Quality Assurance – Practical 
+The practical component of the "Software Testing & Quality Assurance" course (USCSP5032) involves hands-on exercises that aim to reinforce theoretical concepts and provide students with practical skills in the field. Here's an overview of the practical sessions:
+
+Selenium IDE Installation and Test Suite Creation : Students will install Selenium IDE and create a test suite containing a minimum of four test cases for various web page formats, such as HTML, XML, JSON, etc. This practical exercise focuses on familiarizing students with Selenium IDE and test suite creation.
+
+Website Testing with Selenium IDE: The practical session involves conducting a test suite for two different websites using Selenium IDE. Students will perform various actions, including clicking links, filling forms, and verifying content. This exercise emphasizes practical application of Selenium IDE for web testing.
+
+Selenium Server (Selenium RC) Demonstration: Students will install Selenium Server (Selenium RC) and demonstrate its usage by executing a script in Java or PHP to automate browser actions. This exercise introduces students to Selenium Server and its role in automating web interactions.
+
+Selenium WebDriver for Login Automation: Using Selenium WebDriver, students will write a program to automate the login process on a specific web page. The exercise includes verifying successful login with appropriate assertions, providing practical experience in Selenium WebDriver scripting.
+
+Data Manipulation with Selenium WebDriver: Students will write a program using Selenium WebDriver to update 10 student records in an Excel file. The exercise involves data manipulation and verification, showcasing practical scenarios of using Selenium WebDriver for data-related tasks.
+
+Data Extraction and Analysis with Selenium WebDriver: Using Selenium WebDriver, students will write a program to select the number of students who have scored more than 60 in any one subject (or all subjects). This exercise focuses on data extraction and analysis using Selenium WebDriver.
+
+Object Identification with Selenium WebDriver: Students will write a program using Selenium WebDriver to provide the total number of objects present on a web page. The exercise involves object identification and counting, enhancing students' skills in working with web elements.
+
+Element Identification and Counting: Using Selenium WebDriver, students will write a program to get the number of items in a list or combo box on a web page. The exercise includes element identification and counting, emphasizing practical techniques in web automation.
+
+Checkbox Identification and Counting: Students will write a program using Selenium WebDriver to count the number of checkboxes on a web page, including checked and unchecked counts. The exercise involves checkbox identification and counting, reinforcing skills in handling form elements.
+
+Load Testing with JMeter and Bug Tracking with Bugzilla: The final practical session involves performing load testing on a web application using JMeter. Students will generate and analyze load scenarios. Additionally, they will explore bug tracking using Bugzilla as a tool for logging and tracking software defects. This exercise provides practical exposure to load testing and bug tracking tools commonly used in the industry.
+
+These practical sessions are designed to give students a hands-on experience in software testing and quality assurance, aligning with the theoretical concepts covered in the course.
+
+Cyber Forensics
+The course on Cyber Forensics (USCS5041) is designed to provide students with comprehensive knowledge and practical skills in investigating and analyzing digital evidence. This field of study is crucial in the realm of cybersecurity, as it focuses on the techniques and methodologies required to conduct computer forensics effectively. Below is an overview of the course content:
+
+Introduction to Computer Forensics: The course commences with an understanding of computer forensics principles, emphasizing the importance of preparing for investigations and maintaining professional conduct. Topics include a systematic approach to computer investigations, procedures for high-tech corporate investigations, and insights into data recovery workstations and software. Additionally, the module covers data acquisition, addressing storage formats, acquisition methods, and contingency planning for image acquisitions.
+
+Processing Crime and Incident Scenes: This segment delves into the practical aspects of identifying digital evidence, preparing for a search, securing computer incident or crime scenes, seizing digital evidence, and appropriate storage methodologies. Furthermore, it introduces current computer forensics tools, including an evaluation of tool needs, software, and hardware tools for effective computer forensics analysis.
+
+Computer Forensics Analysis and Validation: The course covers techniques for determining what data to collect and analyze, validating forensic data, addressing data-hiding techniques, and performing remote acquisitions. Students will learn to recover graphics files, recognize file formats, locate and recover graphics files, and identify unknown file formats.
+
+Network Forensics, E-mail Investigations, and Mobile Device Forensics: This module provides an overview of network forensics, emphasizing live acquisitions and the development of standard procedures for network forensics. E-mail investigations and the role of e-mail in cybercrime are explored, along with specialized e-mail forensics tools. Additionally, the course delves into cell phone and mobile device forensics, covering acquisition procedures for these devices.
+
+Report Writing for Investigations: The importance of effective report writing is highlighted, discussing guidelines and utilizing forensics software tools for generating comprehensive reports. Students will develop the skills to document and communicate their findings accurately.
+
+Textbooks and References: The primary textbook for the course is "Guide to Computer Forensics and Investigations" by Bill Nelson, Amelia Philips, and Christopher Steuart. Additional references include "Incident Response and Computer Forensics" by Kevin Mandia and Chris Prosise.
+
+Upon successful completion of the course, students will not only have a solid understanding of computer forensics principles and methodologies but will also possess practical skills in conducting investigations, acquiring and preserving digital evidence, utilizing specialized tools, and generating well-documented reports. These skills are essential for professionals in the field of cybersecurity and digital investigations.
+
+Cyber Forensics – Practical
+The practical component of the Cyber Forensics course (USCSP5041) is designed to provide hands-on experience in alignment with theoretical concepts.
+
+In the first module, students will focus on creating forensic images using tools like FTK Imager or Encase Imager. This involves the critical skills of creating, checking the integrity, and analyzing forensic images.
+
+The second module involves data acquisition techniques, utilizing tools such as USB Write Blocker + Encase Imager, SATA Write Blocker + Encase Imager, and Falcon Imaging Device.
+
+Moving forward, the third module delves into memory dump analysis, where students learn to extract volatile data from a running system, including processes, network connections, and registry information.
+
+The fourth module focuses on network packet analysis using Wireshark. Students will learn to identify live networks, capture packets, and analyze them effectively.
+
+The fifth module introduces Sysinternals tools for network tracking and process monitoring. This includes monitoring live processes, capturing RAM, packets, hard disk, virtual memory, and cache memory.
+
+Recovering and inspecting deleted files is the focus of the sixth module. Students will learn to check for deleted files, recover them using ENCASE, and perform manual recovery through the command line.
+
+The seventh module covers steganography detection, teaching students to identify hidden information within digital images using specialized analysis tools.
+
+Mobile device forensics is the subject of the eighth module, where students will perform a forensic analysis of a mobile device, retrieving call logs, text messages, and other relevant data.
+
+The ninth module dives into email forensics, teaching students to analyze email headers and content to trace the origin of suspicious emails.
+
+The final module, web browser forensics, involves analyzing browser artifacts such as history files, bookmarks, and download records. Students will also learn to interpret timestamp data to determine the user's last internet activity. These practical sessions collectively provide a comprehensive skill set for effective computer forensics investigations.
+
+Game Programming
+The Game Programming course (USCS5042) provides a comprehensive exploration of 3D game development and graphics, offering students a blend of theoretical understanding and practical application. Covering vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture, the course utilizes industry-standard tools like DirectX, Unity, and Python-Pygame.
+
+In the first module, students delve into vector manipulation, transformations, and 3D graphics, acquiring skills in lighting, shading, and texturing. The second module introduces game engines and design principles, covering architecture, real-time simulation, collision dynamics, and an introduction to DirectX 11.
+
+Moving to the third module, students engage with Unity Development Environment, exploring IDE basics, Unity concepts, and game design strategies. They gain proficiency in movement operations, object-oriented concepts, and advanced programming, including virtual worlds, animation, sound effects, artificial intelligence, and user interfaces.
+
+Throughout the course, emphasis is placed on applying vector manipulation techniques, utilizing industry-standard tools, implementing advanced graphics techniques, and designing engaging games. The practical component involves deploying and showcasing 3D games on various platforms, demonstrating proficiency in game development. The course aims to equip students with the skills necessary for creating immersive 3D games and interactive virtual worlds.
+
+Game Programming – Practical
+Setting up DirectX 11 involves configuring the Window Framework and initializing the Direct3D Device. Additionally, this practical includes loading models into DirectX 11 and rendering them effectively.
+
+Learning basic game designing techniques with pygame is a fundamental aspect of this practical, providing hands-on experience in game development.
+The development of a Snake Game using pygame is a key component, allowing students to apply their knowledge to create an interactive and engaging gaming experience.
+Creating a 2D Target Shooting Game is a practical exercise that involves designing and implementing a game with a focus on accuracy and precision.
+The creation of a 2D Infinite Scrolling Background is a valuable skill, enhancing the visual appeal of games and creating a dynamic gaming environment.
+Implementing a Camera Shake Effect in Unity adds an element of realism to the gaming experience, providing insights into advanced graphics techniques.
+Designing and animating a game character in Unity allows students to explore character development and animation within the Unity environment.
+The creation of a Snowfall Particle effect in Unity is a practical exercise that enhances the visual aesthetics of the game, providing insights into particle systems.
+Developing an Android Game with Unity is a hands-on experience in game deployment on mobile platforms, expanding the scope of game programming skills.
+Creating intelligent enemies in Unity is a crucial aspect of game development, involving the implementation of AI techniques to enhance the gaming experience.
+
+
+Project Managament
+The Project Management course places a strong emphasis on effective project management within the computer science field. It delves into essential principles, processes, and knowledge areas, with a practical focus on their application in computer science projects. Key topics encompass project selection, initiation, scope, time, cost, quality, human resources, risk, procurement management, integration management, and advanced digital-age considerations. Through a blend of theory and practical exercises, students cultivate skills to proficiently plan, execute, and control projects in the ever-evolving realm of Computer Science.
+
+Throughout the course, students will:
+
+Acquire a profound understanding of project management principles, processes, and best practices for effective project implementation.
+Craft project charters, delineate project scopes, and formulate work breakdown structures (WBS) to establish clear project objectives and deliverables.
+Develop project schedules, estimate resource requirements, and monitor project progress utilizing appropriate project management techniques.
+Implement quality assurance and control measures to ensure project deliverables align with stakeholder expectations and industry standards.
+Demonstrate adept leadership, teamwork, conflict resolution, and ethical decision-making skills in various project management scenarios.
+
+The unit topics comprehensively cover project initiation, scope, time and cost management, quality and risk management, resource and procurement management, project integration, and advanced subjects such as Agile Project Management and effective people management in projects. The course strives to equip students with a holistic understanding of project management, preparing them for successful careers in the field.
+
+Operations Research
+The Operations Research (OR) course stands as an illuminating exploration into the realm of decision-making, delving into fundamental concepts, techniques, and methodologies. In this academic journey, students embark on a quest to not only understand but master the art of formulating and solving optimization problems. Moreover, the course accentuates the crucial skill of conducting sensitivity analysis, where students unravel the intricacies of assessing the impact of changes in linear programming models.
+
+A distinctive focus on linear programming and duality permeates the course, illuminating key principles that form the backbone of Operations Research. As students navigate this educational odyssey, they encounter advanced topics, including goal programming, transportation problems, and assignment problems. These complex problem-solving techniques serve as a testament to the course's commitment to fostering a profound understanding of Operations Research.
+
+With a pragmatic touch, the course integrates the utilization of computer software commonly wielded in the field of OR for problem-solving. Thus, students not only grasp theoretical underpinnings but also gain hands-on experience with tools that are integral to real-world decision-making scenarios.
+
+Envisioned with a holistic approach, the course objectives are crafted to ensure that students not only comprehend but also internalize the fundamental principles and approaches of Operations Research. Through meticulous guidance, they hone their skills in navigating the intricacies of linear programming problems, dissecting the nuances of duality and its managerial implications.
+
+This journey extends to exploring advanced techniques, where students are equipped to apply sensitivity analysis with finesse. The course acts as a gateway to the fascinating realms of integer linear programming, goal programming, and the intricate world of transportation and assignment problems. Here, students grapple with real-world scenarios, honing their abilities to apply Operations Research techniques with precision.
+
+In essence, the Operations Research course emerges as a comprehensive educational tapestry, weaving together theory and practicality. It not only imparts knowledge but empowers students to wield their understanding in the dynamic landscapes of decision-making, preparing them for the multifaceted challenges of the professional world.
+
+The USCSP505 Project Work – I course serves as a pivotal juncture in the academic journey, marked by an immersive exploration into the realm of project work. As students embark on this experiential odyssey, the course encompasses a credit structure of 2 credits, with a weekly commitment of 3 lectures.
+
+Within the contours of this course, students delve into project-based learning, applying theoretical knowledge to practical scenarios. The course inherently embodies a hands-on approach, fostering a dynamic environment for the application of skills and concepts acquired throughout the academic curriculum.
+
+An essential compass for navigating this course lies in the Project Guidelines provided at the end. These guidelines delineate the framework, expectations, and milestones that students are required to navigate during the project work. Embracing a comprehensive perspective, the course not only imparts academic insights but also cultivates a sense of autonomy, decision-making, and teamwork, essential facets of real-world projects.
+
+In essence, USCSP505 Project Work – I is not merely a course but a transformative experience that propels students into the realms of practical implementation, teamwork, and problem-solving. It sets the stage for the synthesis of academic knowledge and its application in real-world projects, laying the foundation for the holistic development of future professionals.
+
+
+SEMESTER 6
+Data Science
+The USCSP601 Data Science course is a captivating exploration of the dynamic field of data analysis, machine learning, and data visualization. With a focus on fundamental concepts and practical applications, students engage with a curriculum designed to foster proficiency in handling and interpreting complex datasets. The course structure, featuring 2 credits and 3 lectures per week, provides a comprehensive learning experience.
+
+Commencing with an introductory module, the course delves into the core principles of Data Science, elucidating its varied applications and drawing insightful parallels with related domains such as Business Intelligence and Artificial Intelligence. The journey unfolds with an examination of data preprocessing techniques, covering aspects like cleaning, transforming, and merging datasets using essential tools like Pandas and NumPy.
+
+Transitioning into the realm of Data Analysis and Machine Learning, the course explores exploratory data analysis (EDA) techniques and hypothesis testing. It offers a detailed introduction to machine learning, encompassing both supervised and unsupervised learning approaches, along with a deep dive into regression analysis. The module concludes with an exploration of model evaluation techniques, cross-validation methods, and an in-depth study of various machine learning algorithms.
+
+The final module of the course, focusing on Model Evaluation, Data Visualization, and Management, dives into the intricacies of evaluating machine learning models, with a specific emphasis on addressing challenges in imbalanced datasets. The principles of effective data visualization take center stage, introducing students to a variety of visualization tools. The course wraps up with an exploration of data management activities, covering governance, quality assurance, and privacy considerations.
+
+Textbook(s) prescribed for the course include "Data Science from Scratch First Principles with Python" by Joel Grus (O'Reilly, 2nd Edition), "Advancing into Analytics From Excel to Python and R" by George Mount (O'Reilly, First Edition), and "Introduction to Machine Learning with Python" by Andreas C. Muller and Sarah Guido (O'Reilly, First Edition). Additional references include works such as "Doing Data Science" by Rachel Schutt and Cathy O’Neil (O’Reilly, 2013) and "Mastering Machine Learning with R" by Cory Lesmeister (PACKT Publication, 2015).
+
+Upon successful completion of USCSP601, students will emerge equipped with a robust skill set, proficient in data preprocessing, machine learning techniques, model evaluation, and effective data communication through visualization.
+
+Data Science – Practical
+In the USCSP601 Data Science Practical, students embark on a hands-on journey through diverse topics to fortify their practical skills in data manipulation, analysis, and visualization. This practical module, encompassing 3 credits and 3 lectures per week, is designed to complement theoretical learning with real-world applications.
+
+The initial phase introduces students to the versatile realm of Excel, where they master conditional formatting, pivot table creation, VLOOKUP function usage, and conduct what-if analyses using Goal Seek. This serves as a foundational skill set for effective data handling and analysis.
+
+The subsequent stage focuses on Data Frames and Basic Data Pre-processing. Students learn to import data from CSV and JSON files into data frames, perform essential data pre-processing tasks, and wield functions for manipulating and transforming data, including filtering, sorting, and grouping.
+
+Feature Scaling and Dummification form the core of the third phase, guiding students through the application of feature-scaling techniques such as standardization and normalization to numerical features. Feature dummification is explored to convert categorical variables into numerical representations, enhancing the suitability of data for machine learning models.
+
+The fourth stage delves into Hypothesis Testing, where students formulate null and alternative hypotheses, conduct hypothesis tests using statistical methods like t-test and chi-square test, and interpret results to draw meaningful conclusions.
+
+ANOVA (Analysis of Variance) takes center stage in the fifth phase, as students perform one-way ANOVA to compare means across multiple groups. Post-hoc tests are conducted to identify significant differences between group means, providing a robust statistical foundation.
+
+Moving into Regression and its Types, students implement simple linear regression, interpret model coefficients and goodness-of-fit measures, and extend the analysis to multiple linear regression, assessing the impact of additional predictors.
+
+The seventh phase introduces Logistic Regression and Decision Tree models, guiding students through building logistic regression models, evaluating model performance using classification metrics, and constructing decision tree models with insightful interpretations of decision rules.
+
+K-Means Clustering forms the eighth phase, where students apply the K-Means algorithm to group similar data points into clusters. The determination of the optimal number of clusters using the elbow method or silhouette analysis is covered, and clustering results are visualized and analyzed.
+
+Principal Component Analysis (PCA) takes center stage in the ninth phase, with students performing PCA on a dataset to reduce dimensionality, evaluating explained variance, and selecting the appropriate number of principal components. Data visualization tools are introduced in the tenth phase, guiding students to create meaningful visualizations, combine them for compelling data stories, and present findings in a clear and concise manner.
+
+The USCSP601 Data Science Practical provides a comprehensive and applied learning experience, equipping students with practical skills vital for success in the dynamic field of Data Science.
+
+
+Cloud Computing and Web Services
+Course Code: USCS602
+Course Title: Cloud Computing and Web Services  
+Credits: 2 
+Lectures/Week: 3
+
+The course "Cloud Computing and Web Services" offers a profound exploration of cloud computing fundamentals and web service technologies. As students embark on this journey, they will gain comprehensive insights into various types of clouds, deployment models, and cloud platforms. OpenStack and AWS, prominent cloud computing platforms, will be explored in depth through practical exercises and hands-on projects. The course is designed to equip students with the skills needed to adeptly design, deploy, and manage cloud-based applications and services.
+
+The objectives of the course encompass:
+- Grasping the basics of cloud computing, which include understanding different cloud types, deployment models, and the essential characteristics of cloud platforms.
+- Exploring web services technologies, such as SOAP and REST, and understanding their roles in distributed and parallel computing.
+- Developing proficiency in utilizing virtualization technologies, including creating virtual machines and managing virtualized environments using tools like KVM and oVirt.
+- Exploring and utilizing popular cloud computing platforms like OpenStack and AWS to architect, deploy, and manage cloud-based applications and services.
+- Learning about cloud security fundamentals, including confidentiality, integrity, availability, and secure development practices.
+
+Upon successfully completing the course, students will demonstrate their abilities to:
+- Showcase a comprehensive understanding of cloud computing concepts, encompassing different cloud types and their defining characteristics.
+- Implement and utilize web service technologies, such as SOAP and REST, to develop distributed and parallel computing applications.
+- Design, deploy, and manage cloud-based applications and services using platforms like OpenStack and AWS.
+- Apply secure development practices and implement cloud security policies to ensure the confidentiality, integrity, and availability of cloud software solutions.
+- Utilize virtualization technologies effectively, considering the nuanced benefits and drawbacks associated with virtualization.
+
+Unit Topics:
+I. Cloud Computing Basics
+This section initiates the exploration of web services by delving into distributed computing, parallel computing, WSDL structure, SOAP's architecture, SOAP messaging intricacies (particularly in JAX-WS), SOAP headers, and client-side SOAP handlers. REST is also discussed, covering its definition, HTTP methods, and Java API for RESTful Web Services (JAX-RS). The unit further explores virtualization, discussing the characteristics of virtualized environments, weighing the pros and cons of virtualization, and delving into the practicalities of virtualization using KVM. The creation of virtual machines and the utilization of oVirt as a management tool for virtualization environments will be thoroughly covered.
+
+II. Introduction to Cloud Computing
+This segment provides a comprehensive understanding of cloud computing, covering its definition, different types of clouds, deployment of software solutions, and web applications. The exploration extends to various types of cloud platforms, elucidating their essential characteristics, such as on-demand self-service, broad network access, location-independent resource pooling, rapid elasticity, and measured service. The unit also covers cloud computing software security fundamentals, delving into cloud information security objectives, confidentiality, integrity, availability, cloud security services, relevant cloud security design principles, secure cloud software requirements, secure development practices, and approaches to cloud software requirement engineering. The unit concludes with the implementation of cloud security policy.
+
+III. Cloud Applications
+Diving into the practical applications of cloud computing, this unit introduces CloudSim, providing insights into its simulator and architecture. The exploration extends to understanding the working platform for CloudSim. The unit further covers OpenStack, introducing students to its basics, operations, CLI, APIs, and deployment strategies. Practicalities such as tenant model operations, quotas, private cloud building blocks, controller deployment, networking deployment, block storage deployment, compute deployment, deploying and utilizing OpenStack in production environments, building a production environment, and application orchestration using OpenStack Heat will be covered. The unit concludes with an exploration of AWS, covering aspects like architecting on AWS and building complex solutions with Amazon Virtual Private Cloud (Amazon VPC).
+
+Textbook(s):
+
+1. Java Web Services Up and Running 2nd edition, Martin Kalin, O’Reilly (2013).
+2. Pro Power Shell for Amazon Web Services, Brian Beach, Apress, 2014.
+3. Enterprise Cloud Computing Technology, Architecture, Applications, Gautam Shroff, Cambridge University Press, 2010.
+4. Mastering Cloud Computing, Rajkumar Buyya, Christian Vecchiola, S Thamarai Selvi, Tata McGraw Hill Education Private Limited, 2013.
+5. OpenStack in Action, V. K. CODY BUMGARDNER, Manning Publications Co, 2016.
+
+Additional Reference(s):
+1. OpenStack Essentials, Dan Radez, PACKT Publishing, 2015.
+2. OpenStack Operations Guide, Tom Fifield, Diane Fleming, Anne Gentle, Lorin Hochstein, Jonathan Proulx, Everett Toews, and Joe Topjian, O'Reilly Media, Inc., 2014.
+3. [OpenStack Official Website](https://www.openstack.org).
+
+
+
+
