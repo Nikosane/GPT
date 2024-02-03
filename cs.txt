@@ -386,3 +386,61 @@ In the ninth session, students explore the realm of checkboxes on web pages. Usi
 Load Testing with JMeter and Introduction to Bug Tracking
 The tenth and final session covers the critical aspect of load testing using JMeter. Students generate and analyze various load scenarios, gaining insights into the robustness of web applications. Additionally, they receive an introduction to Bugzilla, a tool for efficient logging and tracking of software defects.
 
+Cyber Forensics
+Certainly! Here's the augmented version of the provided information without bold text:
+
+Course Code: USCS5041  
+Course Title: Cyber Forensics  
+Credits: 2  
+Lectures per Week: 3
+
+About the Course:
+
+This course provides an in-depth exploration of computer forensics, emphasizing the techniques and methodologies crucial for investigating and analyzing digital evidence. Students will gain proficiency in fundamental aspects such as computer investigations, data acquisition, crime scene processing, and the utilization of specialized tools for analysis. The curriculum encompasses various dimensions of computer forensics, including network forensics, mobile device forensics, e-mail investigations, and the essential skill of report writing.
+
+Course Objectives:
+
+- Grasp the principles and concepts of computer forensics.
+- Develop systematic approaches for conducting computer investigations.
+- Acquire proficiency in acquiring and preserving digital evidence from diverse storage formats.
+- Explore the application of specialized tools and software for computer forensics analysis.
+- Learn techniques for investigating network-related incidents, including live acquisitions.
+
+Learning Outcomes:
+
+Upon successful completion of this course, students will be able to:
+
+- Demonstrate a solid understanding of the principles and techniques used in computer forensics investigations.
+- Apply systematic approaches to acquire, preserve, and analyze digital evidence from various sources.
+- Utilize specialized tools and software for effective computer forensics analysis.
+- Develop strong skills in investigating network-related incidents, including live acquisitions and network forensics.
+- Generate comprehensive and well-written reports that accurately document the findings of computer forensic investigations.
+
+Unit Topics:
+
+I. Introduction (15 Marks):
+
+- Understanding Computer Forensics, Preparing for Computer Investigations, Maintaining Professional Conduct
+- Computer Investigations: Preparing a Computer Investigation, Taking a Systematic Approach, Procedures for Corporate High-Tech Investigations, Understanding Data Recovery Workstations and Software, Conducting an Investigation
+- Data Acquisition: Storage Formats for Digital Evidence, Determining the Best Acquisition Method, Contingency Planning for Image Acquisitions
+
+II. Processing Crime and Incident Scenes (15 Marks):
+
+- Identifying Digital Evidence, Preparing for a Search, Securing a Computer Incident or Crime Scene, Seizing Digital Evidence at the Scene, Storing Digital Evidence
+- Current Computer Forensics Tools: Evaluating Computer Forensics Tool Needs, Computer Forensics Software Tools, Computer Forensics Hardware Tools
+- Computer Forensics Analysis and Validation: Determining What Data to Collect and Analyze, Validating Forensic Data, Addressing Data-Hiding Techniques, Performing Remote Acquisitions
+- Recovering Graphics Files: Recognizing a Graphics File, Locating and Recovering Graphics Files, Identifying Unknown File Formats
+
+III. Network Forensics and Live Acquisitions (15 Marks):
+
+- Network Forensics Overview, Performing Live Acquisitions, Developing Standard Procedures for Network Forensics, Using Network Tools
+- E-mail Investigations: Role of E-mail in Investigations, Investigating E-mail Crimes and Violations, Using Specialized E-mail Forensics Tools
+- Cell Phone and Mobile Device Forensics: Overview, Acquisition Procedures for Cell Phones and Mobile Devices
+- Report Writing for Investigations: Importance of Reports, Guidelines for Writing Reports, Generating Report Findings with Forensics Software Tools
+
+Textbook:
+Bill Nelson, Amelia Philips, and Christopher Steuart, “Guide to Computer Forensics and Investigations,” Course Technology, 6th edition
+
+Additional Reference:
+Kevin Mandia, Chris Prosise, “Incident Response and Computer Forensics,” Tata McGrawHill
+
