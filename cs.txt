@@ -534,5 +534,29 @@ The final unit delves into core aspects of wireless transmission, encompassing f
 This comprehensive breakdown of units ensures a structured approach to understanding and applying Wireless Sensor Networks, preparing students for practical applications in this dynamic field.
 
 Wireless Sensor Networks – Practical 
+The practical sessions for the "Wireless Sensor Networks" course aim to provide students with hands-on experience in various aspects of WSNs, reinforcing theoretical knowledge through practical application.
+
+In the first session, students will delve into the hardware components of sensor nodes, including sensors, nodes (sensor mote), base stations, and Graphical User Interfaces. The focus is on gaining a practical understanding of the physical elements that constitute a sensor node.
+
+The second session involves an exploration of computational concepts in TinyOS, a popular operating system for wireless embedded sensor networks. Students will learn about events, commands, and tasks, along with the nesC programming model and its components.
+
+The third practical session introduces students to TOSSIM, a simulator for TinyOS-based sensor networks. Students will explore mote-to-mote radio communication and mote-to-PC serial communication, gaining insights into simulation environments.
+
+In the fourth session, students will apply their knowledge to create and simulate a basic ad-hoc network. The focus is on practical implementation, allowing students to observe and analyze the behavior of an ad-hoc network in a simulated environment.
+
+The fifth session involves hands-on experience with reading and analyzing routing tables in a network. This practical aspect provides insights into network communication and data routing.
+
+In the sixth session, students will focus on creating a simulation for a Mobile Ad-hoc Network (MANET). Practical implementation includes packet animation and packet trace functionalities, simulating the movement and communication of nodes in a dynamic ad-hoc network.
+
+The seventh session involves the practical implementation of a wireless sensor network simulation. This hands-on experience allows students to explore the intricacies of setting up and simulating a functional sensor network.
+
+In the eighth session, students will practically implement Medium Access Control (MAC) protocols for wireless sensor networks. They will simulate and observe the behavior of MAC protocols in a controlled environment.
+
+The ninth session focuses on simulating a Mobile Ad-hoc Network (MANET) with directional antennas. This practical experience explores the impact of directional antennas on network communication and connectivity.
+
+The final session involves creating a mobile network simulation using elements such as a cell tower, central office server, web browser, and web server. Students will simulate connections between these components, gaining insights into mobile network scenarios.
+
+These practical sessions are designed to enhance students' practical skills and reinforce theoretical concepts, ensuring a well-rounded understanding of Wireless Sensor Networks.
+
 
 
