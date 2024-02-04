@@ -505,5 +505,10 @@ Unit III - Cloud Applications (15 Lectures): This unit focuses on CloudSim, prov
 
 The textbooks and additional references include works by Martin Kalin, Brian Beach, Gautam Shroff, Rajkumar Buyya, V. K. Cody Bumgardner, and various publications related to OpenStack. These resources offer comprehensive coverage of Java web services, PowerShell for Amazon Web Services, enterprise cloud computing, mastering cloud computing, and practical guides to OpenStack operations. 
 
+Cloud Computing and Web Services – Practical
+In the practical sessions of the "Cloud Computing and Web Services" course (USCSP602), students engage in hands-on activities aimed at applying theoretical concepts to real-world scenarios. They begin by defining a straightforward service for converting currency and calling it from different platforms like JAVA and .NET. Subsequently, they delve into creating SOAP and REST services, gaining practical experience in developing applications that consume Google’s search and map RESTful web services. The sessions also cover the installation and configuration of virtualization using KVM, providing a comprehensive understanding of virtualized environments.
 
+Moreover, students work on applications to download and upload images/videos from servers, utilizing MTOM techniques for efficient data transfer. The practical component extends to implementing FOSS-Cloud functionality, covering both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) aspects within the Virtual Server Infrastructure (VSI). Additionally, the sessions involve the practical implementation of the AWS Flow Framework, where students develop an application with a simple workflow, showcasing their skills in defining contracts, implementing activities, and coordinating workflows.
+
+Lastly, students gain practical insight into OpenStack by implementing user and private network creation. These practical sessions collectively equip students with a diverse skill set, allowing them to navigate various cloud computing and web services tasks effectively.
 
