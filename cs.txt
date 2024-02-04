@@ -208,40 +208,54 @@ The ninth module dives into email forensics, teaching students to analyze email 
 The final module, web browser forensics, involves analyzing browser artifacts such as history files, bookmarks, and download records. Students will also learn to interpret timestamp data to determine the user's last internet activity. These practical sessions collectively provide a comprehensive skill set for effective computer forensics investigations.
 
 Game Programming
-The Game Programming course (USCS5042) provides a comprehensive exploration of 3D game development and graphics, offering students a blend of theoretical understanding and practical application. Covering vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture, the course utilizes industry-standard tools like DirectX, Unity, and Python-Pygame.
+The course with the code USCS5042, titled "Game Programming," is a comprehensive exploration of 3D game development and graphics. It delves into various topics such as vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture. Students will gain practical experience using industry-standard tools like DirectX, Unity, and Python-Pygame.
 
-In the first module, students delve into vector manipulation, transformations, and 3D graphics, acquiring skills in lighting, shading, and texturing. The second module introduces game engines and design principles, covering architecture, real-time simulation, collision dynamics, and an introduction to DirectX 11.
+The primary objectives of the course include understanding the fundamentals of vectors, transformations, and 3D graphics. Students will develop proficiency in using tools such as Unity and DirectX for 3D game development. Advanced graphics techniques, including lighting, shading, and texturing, will be implemented to create visually stunning game environments. The course also emphasizes the application of game design principles to create engaging and immersive gaming experiences.
 
-Moving to the third module, students engage with Unity Development Environment, exploring IDE basics, Unity concepts, and game design strategies. They gain proficiency in movement operations, object-oriented concepts, and advanced programming, including virtual worlds, animation, sound effects, artificial intelligence, and user interfaces.
+Upon successful completion, students will be capable of applying vector manipulation techniques, utilizing industry-standard tools for 3D game development, implementing advanced graphics techniques, designing and developing engaging games, and showcasing proficiency in deploying 3D games on various platforms.
 
-Throughout the course, emphasis is placed on applying vector manipulation techniques, utilizing industry-standard tools, implementing advanced graphics techniques, and designing engaging games. The practical component involves deploying and showcasing 3D games on various platforms, demonstrating proficiency in game development. The course aims to equip students with the skills necessary for creating immersive 3D games and interactive virtual worlds.
+The course is structured into three units:
+
+Unit I - Introduction to Vectors and Transformations (15 Lectures):
+This unit covers fundamental concepts such as vectors, vector manipulation, 2D and 3D transformations, matrices, homogeneous coordinates, and perspective projection. It also introduces 3D graphics for game programming, including transformations, quaternions, 3D modeling and rendering, ray tracing, shader models, lighting, and physics-based simulation.
+
+Unit II - Game Engines and Design (15 Lectures):
+Topics in this unit include game engine architecture, support systems, resources and file systems, game loops, real-time simulation, human interface devices, collision, rigid body dynamics, and game profiling. It introduces DirectX 11, covering COM, textures, swap chains, depth buffering, and multisampling theory. Additionally, 2D and 3D game development using Python-Pygame and other libraries are explored.
+
+Unit III - Unity Development Environment and Advanced Programming (15 Lectures):
+This unit focuses on Unity development, covering IDE basics, Unity concepts, sprites, game loops, functions, simple movement, operations, and object-oriented concepts. Advanced programming topics include virtual worlds, scrolling games, animation, sound effects, advanced game physics, multiple scenes, artificial intelligence, user interfaces, game art, and publishing games.
+
+Textbooks and additional references include works by John Vince, Eric Lengyel, Frank D Luna, Donald Hern, Pauline Baker, and Doron Feinstein, along with the Unity documentation.
 
 Game Programming – Practical
-Setting up DirectX 11 involves configuring the Window Framework and initializing the Direct3D Device. Additionally, this practical includes loading models into DirectX 11 and rendering them effectively.
+The course with the code USCSP5042, titled "Game Programming – Practical," is a hands-on exploration of practical aspects in game programming. With a credit of 1 and 3 lectures per week, this practical course focuses on implementing fundamental game development techniques using industry-relevant tools.
 
-Learning basic game designing techniques with pygame is a fundamental aspect of this practical, providing hands-on experience in game development.
-The development of a Snake Game using pygame is a key component, allowing students to apply their knowledge to create an interactive and engaging gaming experience.
-Creating a 2D Target Shooting Game is a practical exercise that involves designing and implementing a game with a focus on accuracy and precision.
-The creation of a 2D Infinite Scrolling Background is a valuable skill, enhancing the visual appeal of games and creating a dynamic gaming environment.
-Implementing a Camera Shake Effect in Unity adds an element of realism to the gaming experience, providing insights into advanced graphics techniques.
-Designing and animating a game character in Unity allows students to explore character development and animation within the Unity environment.
-The creation of a Snowfall Particle effect in Unity is a practical exercise that enhances the visual aesthetics of the game, providing insights into particle systems.
-Developing an Android Game with Unity is a hands-on experience in game deployment on mobile platforms, expanding the scope of game programming skills.
-Creating intelligent enemies in Unity is a crucial aspect of game development, involving the implementation of AI techniques to enhance the gaming experience.
+Throughout the course, students will engage in various practical sessions. The first session involves setting up DirectX 11, establishing a window framework, initializing a Direct3D device, and learning the essentials of loading models into DirectX 11 for rendering.
+
+Subsequent sessions delve into basic game designing techniques using pygame, where students will have the opportunity to apply their knowledge by developing games. This includes creating a Snake Game and a 2D Target Shooting Game. Additionally, students will learn how to design a 2D Infinite Scrolling Background to enhance the visual appeal of their games.
+
+The practical course extends its scope to Unity, where students will be guided on creating specific effects and features. Sessions cover creating a Camera Shake Effect, designing and animating a Game Character, implementing a Snowfall Particle effect, and developing an Android Game. The final session focuses on creating Intelligent enemies in Unity, emphasizing the application of advanced game development concepts.
+
+Overall, the Game Programming – Practical course ensures that students gain hands-on experience in applying theoretical knowledge to real-world scenarios, equipping them with practical skills essential for game development.
+
 
 
 Project Managament
-The Project Management course places a strong emphasis on effective project management within the computer science field. It delves into essential principles, processes, and knowledge areas, with a practical focus on their application in computer science projects. Key topics encompass project selection, initiation, scope, time, cost, quality, human resources, risk, procurement management, integration management, and advanced digital-age considerations. Through a blend of theory and practical exercises, students cultivate skills to proficiently plan, execute, and control projects in the ever-evolving realm of Computer Science.
+The Project Management course, identified by the code USCS5051, is designed to instill a robust understanding of project management principles within the field of Computer Science. With a credit value of 2 and 3 lectures per week, the course encompasses essential concepts and characteristics of project management, emphasizing their practical application in computer science projects.
 
-Throughout the course, students will:
+The course objectives revolve around equipping students with a comprehensive skill set. These include understanding fundamental project management concepts, developing proficiency in various management areas such as scope, time, cost, quality, and risk, and acquiring knowledge of human resource management techniques. The course also explores agile project management methodologies, advanced topics like stakeholder management, project leadership, governance, and the integration of technology in project management.
 
-Acquire a profound understanding of project management principles, processes, and best practices for effective project implementation.
-Craft project charters, delineate project scopes, and formulate work breakdown structures (WBS) to establish clear project objectives and deliverables.
-Develop project schedules, estimate resource requirements, and monitor project progress utilizing appropriate project management techniques.
-Implement quality assurance and control measures to ensure project deliverables align with stakeholder expectations and industry standards.
-Demonstrate adept leadership, teamwork, conflict resolution, and ethical decision-making skills in various project management scenarios.
+Upon successful completion, students are expected to apply project management principles effectively. They should be capable of creating project charters, defining project scopes, and establishing work breakdown structures. Additionally, students will learn to develop project schedules, estimate resource requirements, and employ quality assurance and control measures to ensure project deliverables meet industry standards.
 
-The unit topics comprehensively cover project initiation, scope, time and cost management, quality and risk management, resource and procurement management, project integration, and advanced subjects such as Agile Project Management and effective people management in projects. The course strives to equip students with a holistic understanding of project management, preparing them for successful careers in the field.
+The course is structured into three units:
+
+Unit I - Introduction to Project Management (15 Lectures): This unit covers the definition and characteristics of a project, the importance of project management, and an overview of project management processes and knowledge areas. It further delves into project selection criteria and methods, project initiation, charter development, stakeholder identification and analysis, and scope planning and definition, including Work Breakdown Structure (WBS) development.
+
+Unit II - Project Execution and Control (15 Lectures): This unit addresses project time and cost management, covering activity definition, sequencing, estimating durations and resources, developing project schedules, and cost estimation techniques. Quality and risk management are explored, including quality planning, standards, assurance and control, risk identification and assessment, and response planning. The unit also covers project resource and procurement management, team development, conflict resolution, communication management, and procurement planning.
+
+Unit III - Advanced Topics in Project Management (15 Lectures): This unit delves into agile project management principles and methodologies, managing iterative and incremental development, the role of technology in project management, and handling virtual teams and distributed project management. It also covers effective people management in projects, leadership styles, team building, motivation techniques, emotional intelligence, stakeholder engagement, communication strategies, conflict resolution, negotiation skills, project governance structures and accountability, ethical considerations in project management, and professional responsibility and codes of conduct.
+
+Textbooks and additional references include works by John M. Nicholas, Jack T. Marchewka, the Project Management Institute, Adolfo Villafiorita, Claudia M. Baca, Patti M. Jansen, and S. J. Mantel, among others. These resources provide comprehensive coverage of project management principles and practices in both business and technology contexts.
 
 Operations Research
 The Operations Research (OR) course stands as an illuminating exploration into the realm of decision-making, delving into fundamental concepts, techniques, and methodologies. In this academic journey, students embark on a quest to not only understand but master the art of formulating and solving optimization problems. Moreover, the course accentuates the crucial skill of conducting sensitivity analysis, where students unravel the intricacies of assessing the impact of changes in linear programming models.
@@ -462,35 +476,34 @@ Steganography detection is also an essential topic, where students will employ s
 Overall, the Cyber Forensics – Practical course equips students with practical skills essential for cyber forensic investigations, preparing them for real-world scenarios in the field.
 
 
-Game Programming
-The course with the code USCS5042, titled "Game Programming," is a comprehensive exploration of 3D game development and graphics. It delves into various topics such as vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture. Students will gain practical experience using industry-standard tools like DirectX, Unity, and Python-Pygame.
+Cloud Computing and Web Services
+The course "Cloud Computing and Web Services" with the code USCS602 provides a comprehensive exploration of cloud computing fundamentals and web service technologies. With a credit value of 2 and 3 lectures per week, this course delves into various aspects, enabling students to understand, apply, and manage cloud-based applications and services.
 
-The primary objectives of the course include understanding the fundamentals of vectors, transformations, and 3D graphics. Students will develop proficiency in using tools such as Unity and DirectX for 3D game development. Advanced graphics techniques, including lighting, shading, and texturing, will be implemented to create visually stunning game environments. The course also emphasizes the application of game design principles to create engaging and immersive gaming experiences.
+The course objectives aim to equip students with essential knowledge and skills:
 
-Upon successful completion, students will be capable of applying vector manipulation techniques, utilizing industry-standard tools for 3D game development, implementing advanced graphics techniques, designing and developing engaging games, and showcasing proficiency in deploying 3D games on various platforms.
+Understanding the basics of cloud computing, including types of clouds, deployment models, and essential characteristics of cloud platforms.
+Exploring web service technologies such as SOAP and REST and understanding their role in distributed and parallel computing.
+Gaining proficiency in utilizing virtualization technologies, including creating virtual machines and managing virtualized environments using tools like KVM and oVirt.
+Exploring and utilizing popular cloud computing platforms such as OpenStack and AWS to architect, deploy, and manage cloud-based applications and services.
+Learning about cloud security fundamentals, including confidentiality, integrity, availability, and secure development practices.
 
-The course is structured into three units:
+Upon successful completion of the course, students are expected to:
 
-Unit I - Introduction to Vectors and Transformations (15 Lectures):
-This unit covers fundamental concepts such as vectors, vector manipulation, 2D and 3D transformations, matrices, homogeneous coordinates, and perspective projection. It also introduces 3D graphics for game programming, including transformations, quaternions, 3D modeling and rendering, ray tracing, shader models, lighting, and physics-based simulation.
+Demonstrate a comprehensive understanding of cloud computing concepts, including different types of clouds and their characteristics.
+Implement and utilize web service technologies, such as SOAP and REST, to develop distributed and parallel computing applications.
+Design, deploy, and manage cloud-based applications and services using popular cloud computing platforms such as OpenStack and AWS.
+Apply secure development practices and implement cloud security policies to ensure the confidentiality, integrity, and availability of cloud software solutions.
+Utilize virtualization technologies to create and manage virtualized environments, considering the benefits and drawbacks of virtualization.
 
-Unit II - Game Engines and Design (15 Lectures):
-Topics in this unit include game engine architecture, support systems, resources and file systems, game loops, real-time simulation, human interface devices, collision, rigid body dynamics, and game profiling. It introduces DirectX 11, covering COM, textures, swap chains, depth buffering, and multisampling theory. Additionally, 2D and 3D game development using Python-Pygame and other libraries are explored.
+The course is divided into three units:
 
-Unit III - Unity Development Environment and Advanced Programming (15 Lectures):
-This unit focuses on Unity development, covering IDE basics, Unity concepts, sprites, game loops, functions, simple movement, operations, and object-oriented concepts. Advanced programming topics include virtual worlds, scrolling games, animation, sound effects, advanced game physics, multiple scenes, artificial intelligence, user interfaces, game art, and publishing games.
+Unit I - Cloud Computing Basics (15 Lectures): This unit covers Web Services, including distributed computing, parallel computing, WSDL structure, SOAP (Structure of SOAP Message in JAX-WS), SOAP Messaging Architecture, SOAP Header, Client-side SOAP Handler, REST (What is REST? HTTP methods, Java API for RESTful Web Services - JAX-RS), and Virtulization, highlighting the characteristics and pros and cons.
 
-Textbooks and additional references include works by John Vince, Eric Lengyel, Frank D Luna, Donald Hern, Pauline Baker, and Doron Feinstein, along with the Unity documentation.
+Unit II - Introduction to Cloud Computing (15 Lectures): This unit provides an introduction to cloud computing, defining types of clouds, deployment of software solutions, and web applications. It explores types of cloud platforms and essential characteristics, comparing cloud providers with traditional IT service providers. Additionally, it covers cloud computing software security fundamentals, including objectives, confidentiality, integrity, availability, security services, design principles, requirements, and secure development practices.
 
-Game Programming – Practical
-The course with the code USCSP5042, titled "Game Programming – Practical," is a hands-on exploration of practical aspects in game programming. With a credit of 1 and 3 lectures per week, this practical course focuses on implementing fundamental game development techniques using industry-relevant tools.
+Unit III - Cloud Applications (15 Lectures): This unit focuses on CloudSim, providing an introduction to the simulator, CloudSim architecture, and understanding the working platform. It further explores OpenStack, covering its introduction, basic operations, CLI, APIs, tenant model operations, and deploying OpenStack in production environments. The unit also addresses AWS, delving into architecting on AWS and building complex solutions with Amazon VPC.
 
-Throughout the course, students will engage in various practical sessions. The first session involves setting up DirectX 11, establishing a window framework, initializing a Direct3D device, and learning the essentials of loading models into DirectX 11 for rendering.
+The textbooks and additional references include works by Martin Kalin, Brian Beach, Gautam Shroff, Rajkumar Buyya, V. K. Cody Bumgardner, and various publications related to OpenStack. These resources offer comprehensive coverage of Java web services, PowerShell for Amazon Web Services, enterprise cloud computing, mastering cloud computing, and practical guides to OpenStack operations. 
 
-Subsequent sessions delve into basic game designing techniques using pygame, where students will have the opportunity to apply their knowledge by developing games. This includes creating a Snake Game and a 2D Target Shooting Game. Additionally, students will learn how to design a 2D Infinite Scrolling Background to enhance the visual appeal of their games.
-
-The practical course extends its scope to Unity, where students will be guided on creating specific effects and features. Sessions cover creating a Camera Shake Effect, designing and animating a Game Character, implementing a Snowfall Particle effect, and developing an Android Game. The final session focuses on creating Intelligent enemies in Unity, emphasizing the application of advanced game development concepts.
-
-Overall, the Game Programming – Practical course ensures that students gain hands-on experience in applying theoretical knowledge to real-world scenarios, equipping them with practical skills essential for game development.
 
 
