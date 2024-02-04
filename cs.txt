@@ -482,3 +482,15 @@ This unit focuses on Unity development, covering IDE basics, Unity concepts, spr
 
 Textbooks and additional references include works by John Vince, Eric Lengyel, Frank D Luna, Donald Hern, Pauline Baker, and Doron Feinstein, along with the Unity documentation.
 
+Game Programming – Practical
+The course with the code USCSP5042, titled "Game Programming – Practical," is a hands-on exploration of practical aspects in game programming. With a credit of 1 and 3 lectures per week, this practical course focuses on implementing fundamental game development techniques using industry-relevant tools.
+
+Throughout the course, students will engage in various practical sessions. The first session involves setting up DirectX 11, establishing a window framework, initializing a Direct3D device, and learning the essentials of loading models into DirectX 11 for rendering.
+
+Subsequent sessions delve into basic game designing techniques using pygame, where students will have the opportunity to apply their knowledge by developing games. This includes creating a Snake Game and a 2D Target Shooting Game. Additionally, students will learn how to design a 2D Infinite Scrolling Background to enhance the visual appeal of their games.
+
+The practical course extends its scope to Unity, where students will be guided on creating specific effects and features. Sessions cover creating a Camera Shake Effect, designing and animating a Game Character, implementing a Snowfall Particle effect, and developing an Android Game. The final session focuses on creating Intelligent enemies in Unity, emphasizing the application of advanced game development concepts.
+
+Overall, the Game Programming – Practical course ensures that students gain hands-on experience in applying theoretical knowledge to real-world scenarios, equipping them with practical skills essential for game development.
+
+
