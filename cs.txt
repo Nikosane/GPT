@@ -461,3 +461,24 @@ Steganography detection is also an essential topic, where students will employ s
 
 Overall, the Cyber Forensics – Practical course equips students with practical skills essential for cyber forensic investigations, preparing them for real-world scenarios in the field.
 
+
+Game Programming
+The course with the code USCS5042, titled "Game Programming," is a comprehensive exploration of 3D game development and graphics. It delves into various topics such as vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture. Students will gain practical experience using industry-standard tools like DirectX, Unity, and Python-Pygame.
+
+The primary objectives of the course include understanding the fundamentals of vectors, transformations, and 3D graphics. Students will develop proficiency in using tools such as Unity and DirectX for 3D game development. Advanced graphics techniques, including lighting, shading, and texturing, will be implemented to create visually stunning game environments. The course also emphasizes the application of game design principles to create engaging and immersive gaming experiences.
+
+Upon successful completion, students will be capable of applying vector manipulation techniques, utilizing industry-standard tools for 3D game development, implementing advanced graphics techniques, designing and developing engaging games, and showcasing proficiency in deploying 3D games on various platforms.
+
+The course is structured into three units:
+
+Unit I - Introduction to Vectors and Transformations (15 Lectures):
+This unit covers fundamental concepts such as vectors, vector manipulation, 2D and 3D transformations, matrices, homogeneous coordinates, and perspective projection. It also introduces 3D graphics for game programming, including transformations, quaternions, 3D modeling and rendering, ray tracing, shader models, lighting, and physics-based simulation.
+
+Unit II - Game Engines and Design (15 Lectures):
+Topics in this unit include game engine architecture, support systems, resources and file systems, game loops, real-time simulation, human interface devices, collision, rigid body dynamics, and game profiling. It introduces DirectX 11, covering COM, textures, swap chains, depth buffering, and multisampling theory. Additionally, 2D and 3D game development using Python-Pygame and other libraries are explored.
+
+Unit III - Unity Development Environment and Advanced Programming (15 Lectures):
+This unit focuses on Unity development, covering IDE basics, Unity concepts, sprites, game loops, functions, simple movement, operations, and object-oriented concepts. Advanced programming topics include virtual worlds, scrolling games, animation, sound effects, advanced game physics, multiple scenes, artificial intelligence, user interfaces, game art, and publishing games.
+
+Textbooks and additional references include works by John Vince, Eric Lengyel, Frank D Luna, Donald Hern, Pauline Baker, and Doron Feinstein, along with the Unity documentation.
+
