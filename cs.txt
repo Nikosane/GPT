@@ -512,3 +512,27 @@ Moreover, students work on applications to download and upload images/videos fro
 
 Lastly, students gain practical insight into OpenStack by implementing user and private network creation. These practical sessions collectively equip students with a diverse skill set, allowing them to navigate various cloud computing and web services tasks effectively.
 
+Wireless Sensor Networks 
+About the Course:
+This course provides a comprehensive exploration of Wireless Sensor Networks (WSNs) and their diverse applications. The curriculum covers fundamental concepts, architectural elements, advantages, and challenges associated with WSNs. Students will delve into sensor node technology, network architecture, optimization goals, and design principles for WSNs. The course also encompasses wireless transmission, telecommunication systems, and introduces WSN operating systems and ad-hoc networks. Through practical examples and case studies, students gain hands-on experience in medium access control protocols, routing strategies, transport control protocols, and WSN middleware architecture.
+
+Course Objectives:
+The objectives of this course are to provide students with a holistic understanding of Wireless Sensor Networks (WSNs), including basic architectural elements, advantages, and challenges. Students will be introduced to key technologies and protocols in WSNs, such as medium access control (MAC) protocols, routing strategies, and transport control protocols. The course aims to familiarize students with wireless transmission principles and relevant telecommunication systems for WSNs, covering frequency, signals, antennas, and satellite systems. Additionally, practical skills in designing and implementing WSN solutions will be developed by exploring WSN operating systems, ad-hoc networks, and optimization goals.
+
+Learning Outcomes:
+Upon successful completion of this course, students will understand fundamental concepts, architectural elements, and optimization goals of Wireless Sensor Networks (WSNs), applying this knowledge to analyze and design WSN solutions. They will be able to evaluate and compare different medium access control protocols and routing strategies in WSNs, making informed decisions to ensure efficient and reliable communication. The course enables students to demonstrate knowledge of wireless transmission technologies, including frequency, signals, antennas, and propagation, analyzing their impact on WSN performance. Furthermore, students will assess the role of telecommunication systems, satellite, and broadcast systems in WSNs, understanding their applications and implications for WSN deployments.
+
+Unit I: Introduction and Overview of Wireless Sensor Networks
+The introductory unit provides a comprehensive foundation for understanding Wireless Sensor Networks (WSNs), covering basic architectural elements, advantages, and challenges. Students delve into sensor node technology, sensor taxonomy, the operating environment of WSNs, and radio technology. The unit explores network architecture, optimization goals, and design principles for WSNs, offering insights into service interfaces and gateway concepts. Additionally, the unit introduces Wireless Sensor Network Operating Systems, providing practical examples and insights into Ad-hoc Networks within WSNs. Students gain an understanding of the characteristics and challenges of ad-hoc networks in WSNs, including considerations for energy efficiency, security, and privacy.
+
+Unit II: Medium Access Control Protocol, Routing, and Transport Control Protocol
+The second unit focuses on essential protocols in WSNs, covering the fundamentals of Medium Access Control (MAC) protocols. A case study on Sensor-MAC enhances students' understanding. The unit explores routing challenges, design issues, and strategies in WSNs, incorporating a case study on the IEEE 802.15.4 LR-WPANs standard. Furthermore, it addresses traditional Transport Control Protocols and the associated design issues. The unit concludes with insights into WSN Middleware Architecture.
+
+Unit III: Wireless Transmission, Telecommunication, Satellite, and Broadcast Systems
+The final unit delves into core aspects of wireless transmission, encompassing frequency for radio transmission, signals, antennas, signal propagation, multiplexing, modulation, spread spectrum, and cellular systems. The unit extends to telecommunication, satellite systems, and broadcast systems. It explores GSM, DECT, ETRA, UMTS, IMT-2000, satellite systems' history, applications, basics (GEO, LEO, MEO), and routing, localization, and handover in satellite systems.
+
+This comprehensive breakdown of units ensures a structured approach to understanding and applying Wireless Sensor Networks, preparing students for practical applications in this dynamic field.
+
+Wireless Sensor Networks – Practical 
+
+
