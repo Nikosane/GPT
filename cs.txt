@@ -587,3 +587,17 @@ Learning to Rank, the ninth module, guides students in implementing a learning t
 The final module, Advanced Topics in Information Retrieval, introduces students to text summarization algorithms and the development of question-answering systems using information extraction techniques. This module exposes students to cutting-edge applications of information retrieval technology.
 
 Overall, the practical exercises in this course complement theoretical knowledge, providing students with valuable hands-on experience and preparing them for real-world challenges in the field of Information Retrieval.
+
+Data Mining & Warehousing
+The course "Data Mining & Warehousing (USCS6041)" provides students with a comprehensive understanding of data warehousing and data mining concepts. In the introductory module, students explore the fundamental framework of data warehousing, distinguishing between OLAP and OLTP. They gain insights into OLAP operations in the multidimensional data model, back-end tools and utilities, metadata repository, and various types of OLAP servers.
+
+The second module delves into Data Warehouse Design Consideration and Dimensional Modeling. Students learn to define a dimensional model, consider granularity of facts, understand the additivity of facts, explore the functional dependency of the data, and implement many-to-many relationships between fact and dimensional modeling. The module also covers different data warehouse models, including Enterprise Data Warehouse (EDW), Data Mart, Virtual Data Warehouse, and Hybrid Data Warehouse.
+
+The third module introduces students to Data Mining, covering the basics, such as knowledge discovery in data (KDD), kinds of databases, and fundamental mining techniques. Data preprocessing is addressed, emphasizing the need for handling missing data, cleaning, integration, and transformation. Association Rules Mining is explored with a focus on frequent item set generation, the APRIORI principle, support and confidence measures, and algorithms like APRIORI and FP-Growth.
+
+In the final module, Classification and Prediction, students learn about model construction, model usage, algorithm selection, and decision tree induction. Various classification methods, including Bayesian classification, linear regression, non-linear regression, and logistic regression, are covered. Model validation techniques, such as precision, recall, F-measure, confusion matrix, cross-validation, and bootstrap, are also discussed.
+
+The last part of the course focuses on Clustering, categorizing major clustering methods like K-means, hierarchical, density-based, and model-based clustering methods. Additionally, outlier analysis and the mining of time-series, sequence data, text databases, and the World Wide Web are explored.
+
+The recommended textbooks for the course include "Data Warehousing: Design, Development And Best Practices" by Soumendra Mohanty, "Data Mining-Concepts and Techniques" by Jiawei Han and Michelin Kamber, and "Data Warehousing Data Mining and OLAP" by Alex Berson and Stephen J. Smith. Additional references provide further insights into data mining techniques, data warehousing fundamentals, and the data warehouse life cycle toolkit. This course equips students with the knowledge and skills to understand, design, and implement data warehousing and data mining solutions.
+
