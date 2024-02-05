@@ -601,3 +601,23 @@ The last part of the course focuses on Clustering, categorizing major clustering
 
 The recommended textbooks for the course include "Data Warehousing: Design, Development And Best Practices" by Soumendra Mohanty, "Data Mining-Concepts and Techniques" by Jiawei Han and Michelin Kamber, and "Data Warehousing Data Mining and OLAP" by Alex Berson and Stephen J. Smith. Additional references provide further insights into data mining techniques, data warehousing fundamentals, and the data warehouse life cycle toolkit. This course equips students with the knowledge and skills to understand, design, and implement data warehousing and data mining solutions.
 
+Data Mining & Warehousing – Practical
+The practical component of the course "Data Mining & Warehousing (USCSP6041)" involves hands-on exercises to reinforce the theoretical concepts. In the first session, students perform operations related to extraction, transformation, and loading (ETL) processes on a sample dataset using PowerBI, gaining practical experience in managing data workflows.
+
+The second session focuses on data integration, where students use Python's pandas library and data manipulation techniques to merge and transform datasets from multiple sources. This exercise enhances their skills in handling diverse data sources and preparing them for mining.
+
+Moving forward, the third session involves applying feature selection techniques in Python, specifically using scikit-learn. Techniques such as variance thresholding and correlation analysis are employed to reduce dimensionality in a dataset, demonstrating the importance of feature selection in data mining processes.
+
+In the fourth session, students work with a market basket dataset using Python's pandas library to discretize continuous variables and create concept hierarchies for categorical variables. This exercise emphasizes the preprocessing steps required for efficient data mining.
+
+The fifth session involves the implementation of the Apriori algorithm in Python, demonstrating how to mine frequent itemsets from a retail transaction dataset and extract association rules. This practical exercise provides hands-on experience in association rule mining.
+
+Moving into predictive modeling, the sixth session requires students to build a decision tree classifier using Python's scikit-learn library. This classifier predicts customer churn based on historical data, showcasing the application of decision trees in classification tasks.
+
+In the seventh session, students implement a Naive Bayes classifier in Python using scikit-learn to classify emails as spam or non-spam based on their content. This exercise introduces practical techniques for text classification.
+
+The last three sessions involve implementing regression methods in Python. In the eighth session, students use linear regression to make predictions based on a sample dataset, while in the ninth session, logistic regression is implemented for predictive modeling. The tenth session focuses on clustering, where students implement the K-means clustering algorithm in Python using scikit-learn to group customers based on their purchasing behavior. These regression and clustering exercises deepen students' understanding of predictive modeling and unsupervised learning techniques.
+
+This practical component complements the theoretical aspects of the course, providing students with valuable hands-on experience in data mining and warehousing techniques using popular tools and libraries.
+
+
