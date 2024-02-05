@@ -565,4 +565,25 @@ Advancing to Unit II, students explore advanced topics, including text categoriz
 
 This comprehensive course equips students with the fundamental principles of IR systems, enabling them to apply indexing, storage, and retrieval techniques efficiently. They learn to compare and select appropriate retrieval models, gaining practical skills in implementation and evaluation. With a focus on real-world applications, including web search and machine learning techniques, students emerge ready to contribute to the dynamic field of Information Retrieval.
 
+Information Retrieval – Practical 
+In the Information Retrieval – Practical course (USCSP6032), students engage in a series of hands-on exercises to reinforce their understanding of IR concepts. In the first module, Document Indexing and Retrieval, students implement an inverted index construction algorithm and utilize it to create a basic document retrieval system. This practical exercise enhances their skills in constructing and using indexes efficiently.
 
+Moving on to Retrieval Models, students implement both the Boolean retrieval model and the vector space model with TF-IDF weighting and cosine similarity. This hands-on module enables them to process queries and understand the application of different retrieval models in real-world scenarios.
+
+The Spelling Correction in IR Systems module challenges students to develop a spelling correction module using edit distance algorithms. They integrate this module into an information retrieval system, addressing the critical aspect of handling spelling errors in queries and documents.
+
+The fourth module, Evaluation Metrics for IR Systems, focuses on practical metrics calculation. Students learn to compute precision, recall, and F-measure for retrieval results and use an evaluation toolkit to measure average precision and other relevant metrics.
+
+Text Categorization, the fifth module, guides students in implementing a text classification algorithm, such as Naive Bayes or Support Vector Machines. They train the classifier on a labelled dataset and evaluate its performance, gaining practical insights into text categorization techniques.
+
+The sixth module, Clustering for Information Retrieval, involves the implementation of clustering algorithms like K-means or hierarchical clustering. Students apply these algorithms to document sets, evaluate clustering results, and understand the role of clustering in improving information retrieval.
+
+Web Crawling and Indexing, the seventh module, introduces students to web crawling challenges. They develop a web crawler capable of fetching and indexing web pages, addressing issues like robots.txt, dynamic content, and crawling delays.
+
+In the eighth module, Link Analysis and PageRank, students implement the PageRank algorithm to rank web pages based on link analysis. Analyzing the results enhances their understanding of link-based ranking algorithms.
+
+Learning to Rank, the ninth module, guides students in implementing a learning to rank algorithm, such as RankSVM or RankBoost. They train the ranking model using labelled data and evaluate its effectiveness in real-world scenarios.
+
+The final module, Advanced Topics in Information Retrieval, introduces students to text summarization algorithms and the development of question-answering systems using information extraction techniques. This module exposes students to cutting-edge applications of information retrieval technology.
+
+Overall, the practical exercises in this course complement theoretical knowledge, providing students with valuable hands-on experience and preparing them for real-world challenges in the field of Information Retrieval.
