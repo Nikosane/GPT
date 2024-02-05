@@ -620,4 +620,17 @@ The last three sessions involve implementing regression methods in Python. In th
 
 This practical component complements the theoretical aspects of the course, providing students with valuable hands-on experience in data mining and warehousing techniques using popular tools and libraries.
 
+Ethical Hacking
+The course "Ethical Hacking (USCS6042)" is designed to provide students with a comprehensive understanding of ethical hacking and penetration testing methodologies. Covering various hacking technologies, the course emphasizes hands-on lab exercises and real-world scenarios to develop practical skills in identifying and mitigating security vulnerabilities.
 
+The introductory unit delves into the terminology and concepts related to ethical hacking, highlighting different hacking technology types, ethical hacking phases, hacker classes, and the skills required to become an ethical hacker. The unit also covers vulnerability research and explores ways to conduct ethical hacking.
+
+The second unit focuses on key aspects such as footprinting, social engineering, scanning, and enumeration. Footprinting involves information gathering methodologies, DNS enumeration, and techniques like traceroute and e-mail tracking. Social engineering is discussed in the context of common attack types, followed by scanning and enumeration techniques, including port scanning and vulnerability scanning.
+
+The third unit explores advanced topics such as system hacking, sniffers, denial of service (DoS) attacks, session hijacking, hacking web servers, web application vulnerabilities, web-based password cracking techniques, SQL injection, buffer overflows, and wireless hacking. Each topic is covered comprehensively, addressing various attack types, countermeasures, and techniques to secure systems.
+
+The unit on penetration testing methodologies outlines the steps involved, automated tools, and deliverables in conducting penetration tests. This unit ties together the knowledge gained throughout the course and provides a structured approach to applying ethical hacking methodologies.
+
+The learning outcomes of the course include the ability to apply ethical hacking methodologies for security assessments and penetration tests, perform effective footprinting and reconnaissance, identify and exploit vulnerabilities in networks and systems, evaluate the security posture of web servers, web applications, and wireless networks, and adhere to ethical and legal considerations in conducting ethical hacking activities.
+
+The course utilizes textbooks like "CEH official Certified Ethical Hacking Review Guide" and references such as "Certified Ethical Hacker" by Michael Gregg and Matt Walker, providing students with a comprehensive resource base for their studies.
