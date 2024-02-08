@@ -1155,7 +1155,6 @@ Resource Management:
 RL finds application in resource management scenarios, such as optimizing energy consumption, where agents learn to make decisions that lead to efficient resource utilization.
 
 Challenges in Reinforcement Learning:
-
 Sample Efficiency:
 One of the challenges in RL is achieving sample efficiency, as learning from limited interactions with the environment requires algorithms to extract meaningful insights with minimal data.
 
