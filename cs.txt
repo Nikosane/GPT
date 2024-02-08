@@ -1164,7 +1164,6 @@ Developing effective exploration strategies remains a challenge, as RL agents ne
 Reinforcement Learning, a dynamic field at the intersection of artificial intelligence and decision-making, continues to shape intelligent systems' ability to learn and adapt in complex, real-world scenarios.
 
 Probabilistic models in statistical learning unfold as a rich tapestry, intricately weaving together probability theory and statistical principles to unravel patterns and relationships within data.
-
 Key Concepts of Probabilistic Models in Statistical Learning:
 Likelihood and Parameters:
 Central to probabilistic models is the notion of likelihood functions, meticulously capturing the probability of observing data given specific parameters. Statistical learning involves the art of estimating these parameters to aptly model the underlying data distribution.
