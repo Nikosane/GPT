@@ -1145,7 +1145,6 @@ Policy Gradient Methods:
 Policy Gradient methods directly optimize the policy, allowing for more flexible representations. Algorithms like REINFORCE employ gradient ascent to iteratively enhance the policy's parameters.
 
 Applications of Reinforcement Learning:
-
 Game Playing:
 Reinforcement Learning shines in the realm of game playing, exemplified by AlphaGo, where the algorithm learned strategies to outperform human champions through iterative gameplay.
 
