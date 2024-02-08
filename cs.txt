@@ -1134,7 +1134,6 @@ Markov Decision Process (MDP):
 RL models often operate within the framework of Markov Decision Processes, where states, actions, transition probabilities, and rewards collectively define the dynamics of the environment. MDPs provide a structured way to formalize RL problems.
 
 Reinforcement Learning Algorithms:
-
 Q-Learning:
 Q-Learning stands as a pioneering algorithm in Reinforcement Learning, focusing on learning the optimal action-value function. It iteratively refines Q-values, representing the expected cumulative reward of taking a specific action in a particular state.
 
@@ -1160,7 +1159,6 @@ One of the challenges in RL is achieving sample efficiency, as learning from lim
 
 Exploration Strategies:
 Developing effective exploration strategies remains a challenge, as RL agents need to strike a balance between exploring new possibilities and exploiting known information to maximize rewards.
-
 Reinforcement Learning, a dynamic field at the intersection of artificial intelligence and decision-making, continues to shape intelligent systems' ability to learn and adapt in complex, real-world scenarios.
 
 Probabilistic models in statistical learning unfold as a rich tapestry, intricately weaving together probability theory and statistical principles to unravel patterns and relationships within data.
