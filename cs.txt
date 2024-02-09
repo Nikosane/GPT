@@ -1015,7 +1015,6 @@ In summary, boosting stands as a powerful technique in ensemble learning, levera
 K-Nearest Neighbors (K-NN), a versatile and intuitive supervised machine learning algorithm, is employed for both classification and regression tasks. It operates on the principle of proximity, making predictions based on the majority class (for classification) or the mean value (for regression) of the k-nearest neighbors in the feature space.
 
 Key Concepts of K-NN:
-
 Distance Metric: K-NN relies on a distance metric, often Euclidean distance, to measure the proximity between data points in the feature space. Other distance metrics like Manhattan distance or Minkowski distance can also be used based on the nature of the data.
 
 K-Nearest Neighbors: The "k" in K-NN represents the number of nearest neighbors considered for making predictions. A higher k value results in a smoother decision boundary, while a lower k value may lead to a more sensitive boundary.
