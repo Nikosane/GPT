@@ -988,7 +988,6 @@ Gradient Boosting: Gradient Boosting builds models sequentially, with each subse
 XGBoost (Extreme Gradient Boosting): XGBoost is an optimized and efficient implementation of gradient boosting, incorporating regularization terms to prevent overfitting and parallel processing for faster training.
 
 Advantages of Boosting:
-
 Improved Accuracy: Boosting often results in higher predictive accuracy compared to individual weak learners, especially in complex tasks.
 
 Adaptability: Boosting adapts to difficult instances by assigning higher weights to misclassified examples, allowing the model to focus on areas that need improvement.
