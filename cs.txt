@@ -989,13 +989,9 @@ XGBoost (Extreme Gradient Boosting): XGBoost is an optimized and efficient imple
 
 Advantages of Boosting:
 Improved Accuracy: Boosting often results in higher predictive accuracy compared to individual weak learners, especially in complex tasks.
-
 Adaptability: Boosting adapts to difficult instances by assigning higher weights to misclassified examples, allowing the model to focus on areas that need improvement.
-
 Versatility: Boosting can be applied to various types of weak learners, making it versatile across different machine learning algorithms.
-
 Disadvantages of Boosting:
-
 Sensitivity to Noisy Data: Boosting may be sensitive to noisy data, leading to overfitting if noise is not properly addressed during training.
 
 Computational Complexity: Training multiple weak learners sequentially can be computationally intensive, requiring careful consideration of resources.
