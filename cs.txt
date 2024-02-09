@@ -997,7 +997,6 @@ Sensitivity to Noisy Data: Boosting may be sensitive to noisy data, leading to o
 Computational Complexity: Training multiple weak learners sequentially can be computationally intensive, requiring careful consideration of resources.
 
 Applications of Boosting:
-
 Classification and Regression: Boosting is widely used in both classification and regression tasks, producing accurate predictions in diverse domains.
 
 Anomaly Detection: Boosting enhances the ability to detect anomalies by focusing on challenging instances during training.
