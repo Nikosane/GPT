@@ -1102,7 +1102,6 @@ Anomaly Detection:
 Unsupervised learning showcases its detective prowess in anomaly detection, where algorithms identify deviations from the norm. These anomalies may signify errors, outliers, or novel patterns, making algorithms like Isolation Forests and One-Class SVMs invaluable.
 
 Applications of Unsupervised Learning:
-
 Clustering in Customer Segmentation:
 Unsupervised learning finds application in customer segmentation, where clustering algorithms unveil hidden patterns in consumer behavior, guiding personalized marketing strategies.
 
