@@ -1088,7 +1088,6 @@ I apologize for the oversight. Let me provide the information in the format you'
 Unsupervised Learning explores uncharted data territories within machine learning, where models navigate without the guiding beacon of labeled outcomes.
 
 Key Concepts of Unsupervised Learning:
-
 Clustering:
 At the heart of unsupervised learning is the art of clustering. Algorithms discern patterns and group similar data points without the crutch of predefined labels. K-Means, Hierarchical Clustering, and DBSCAN stand as sentinels in this quest for intrinsic data structures.
 
