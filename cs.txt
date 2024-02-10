@@ -1012,7 +1012,6 @@ Distance Metric: K-NN relies on a distance metric, often Euclidean distance, to 
 K-Nearest Neighbors: The "k" in K-NN represents the number of nearest neighbors considered for making predictions. A higher k value results in a smoother decision boundary, while a lower k value may lead to a more sensitive boundary.
 
 Voting Mechanism: For classification tasks, K-NN uses a majority voting mechanism among the k-nearest neighbors to determine the class of a new data point. The class with the highest representation among the neighbors is assigned to the target point.
-
 Mean Value for Regression: In regression tasks, K-NN calculates the mean value of the target variable for the k-nearest neighbors to predict the target value for a new data point.
 
 Advantages of K-NN:
