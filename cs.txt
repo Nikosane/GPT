@@ -979,7 +979,6 @@ Sequential Training: Boosting trains a series of weak models sequentially. Each 
 Weighted Instances: During each iteration, instances that were misclassified in the previous rounds receive increased importance. This adaptive training strategy allows boosting to focus on challenging instances, progressively refining the model.
 
 Boosting Algorithms:
-
 AdaBoost (Adaptive Boosting): AdaBoost assigns weights to instances and adjusts them based on their classification success. It combines the outputs of weak models, with more accurate models receiving higher weights in the final prediction.
 
 Gradient Boosting: Gradient Boosting builds models sequentially, with each subsequent model focusing on minimizing the errors of the combined ensemble. It employs gradient descent to optimize the loss function and update model parameters.
