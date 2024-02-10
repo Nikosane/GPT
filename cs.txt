@@ -972,7 +972,6 @@ In summary, ensemble learning stands as a potent strategy in machine learning, h
 Boosting, a potent ensemble learning technique, aims to enhance the performance of weak learners by sequentially combining them into a robust and accurate predictive model. Through a series of iterative training steps, boosting corrects errors made by previous models, resulting in a strong and effective ensemble.
 
 Key Concepts of Boosting:
-
 Weak Learners: Boosting typically employs weak learners, models that perform slightly better than random guessing. Common choices include shallow decision trees, often referred to as decision stumps, or linear models.
 
 Sequential Training: Boosting trains a series of weak models sequentially. Each model emphasizes the mistakes made by its predecessors, giving more weight to instances that were misclassified. This iterative process aims to improve overall predictive accuracy.
