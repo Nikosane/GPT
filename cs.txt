@@ -1417,3 +1417,25 @@ Decision Tree Learning Algorithm:
 Decision Tree Learning involves recursively partitioning the dataset based on feature attributes to create a tree-like structure. The algorithm selects the best attribute at each step to split the data, creating nodes that represent decisions and leaves that represent outcomes.
 
 Implementation:
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import matplotlib.pyplot as plt
+from sklearn.tree import plot_tree
+
+# Assuming 'X' is your feature matrix, 'y' is the target variable
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a Decision Tree Classifier
+clf = DecisionTreeClassifier()
+
+# Train the model
+clf.fit(X_train, y_train)
+
+# Make predictions on test data
+y_pred = clf.predict(X_test)
+
+# Evaluate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+
