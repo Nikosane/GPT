@@ -1369,4 +1369,32 @@ Recursive Best-First Search (RBFS):
 RBFS stands out as a memory-efficient variant of best-first search. It applies a limited-depth best-first search recursively, backtracking when necessary. This makes it particularly suitable for scenarios where memory constraints are a critical consideration.
 
 Implementation:
+class RBFS:
+    def __init__(self, graph, heuristic):
+        self.graph = graph
+        self.heuristic = heuristic
+
+    def rbfs(self, current, goal, f_limit, path):
+        if current == goal:
+            return path + [current], 0
+
+        successors = []
+        for neighbor in self.graph[current]:
+            cost = self.graph[current][neighbor] + self.heuristic(neighbor, goal)
+            successors.append((cost, neighbor))
+
+        while successors:
+            successors.sort()
+            best, second_best = successors[0], successors[1]
+
+            if best[0] > f_limit:
+                return None, best[0]
+
+            alternative = min(f_limit, second_best[0])
+            result, best[0] = self.rbfs(best[1], goal, alternative, path + [current])
+            
+            if result is not None:
+                return result, 0
+
+            successors[0] = (best[0], best[1])
 
