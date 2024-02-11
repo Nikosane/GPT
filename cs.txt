@@ -1410,3 +1410,10 @@ Performance and effectiveness of A* Search and RBFS can be evaluated based on se
     Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
 
 Comparing these aspects can guide the selection of the most suitable algorithm based on specific problem requirements, available resources, and the nature of the search space. A* Search and RBFS each bring unique strengths to pathfinding problems, offering versatile solutions across different contexts.
+
+Decision Tree Learning is a powerful algorithm for classification and regression tasks. Below are the implementation steps, evaluation, and visualization instructions for Decision Tree Learning:
+
+Decision Tree Learning Algorithm:
+Decision Tree Learning involves recursively partitioning the dataset based on feature attributes to create a tree-like structure. The algorithm selects the best attribute at each step to split the data, creating nodes that represent decisions and leaves that represent outcomes.
+
+Implementation:
