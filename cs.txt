@@ -1398,3 +1398,15 @@ class RBFS:
 
             successors[0] = (best[0], best[1])
 
+Comparing Performance and Effectiveness:
+Performance and effectiveness of A* Search and RBFS can be evaluated based on several factors:
+
+    Time Complexity: A* Search typically exhibits efficient time complexity due to its heuristic-guided exploration. RBFS, while efficient, may vary based on heuristic accuracy and branching.
+
+    Space Complexity: A* Search can demand more memory, especially in large graphs, as it stores all expanded nodes. RBFS is designed for memory efficiency, keeping a limited number of nodes in memory.
+
+    Completeness and Optimality: Both algorithms are complete if the search space is finite. A* Search is optimal when the heuristic is admissible, whereas RBFS might not guarantee optimality.
+
+    Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
+
+Comparing these aspects can guide the selection of the most suitable algorithm based on specific problem requirements, available resources, and the nature of the search space. A* Search and RBFS each bring unique strengths to pathfinding problems, offering versatile solutions across different contexts.
