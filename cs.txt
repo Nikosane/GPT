@@ -1293,3 +1293,42 @@ Furthermore, HMMs find applications in natural language processing tasks, includ
 In essence, Hidden Markov Models stand as a sophisticated yet accessible framework, offering a profound understanding of sequential data with latent structures. The interplay between hidden and observable states, coupled with the adaptability of HMMs across diverse domains, underscores their significance in the landscape of probabilistic modeling and machine learning.
 
 
+Breadth-First Search (BFS) and Iterative Depth-First Search (IDFS) stand as fundamental graph traversal algorithms, offering distinct approaches to problem-solving. Let's delve into the implementation details and compare the performance and efficiency of these algorithms.
+
+Breadth-First Search (BFS):
+
+BFS, known for its systematic exploration, traverses all vertices at the current depth before venturing into deeper levels. It guarantees the discovery of the shortest path to each node.
+
+Implementation:
+def bfs(graph, start, goal):
+    queue = [(start, [start])]
+    while queue:
+        (vertex, path) = queue.pop(0)
+        for next_vertex in graph[vertex] - set(path):
+            if next_vertex == goal:
+                return path + [next_vertex]
+            else:
+                queue.append((next_vertex, path + [next_vertex]))
+
+Iterative Depth-First Search (IDFS):
+
+IDFS, a variant of depth-first search, incrementally deepens the exploration depth, striking a balance between depth-first strategy and breadth-first completeness.
+
+Implementation:
+def idfs(graph, start, goal, depth_limit):
+    for depth in range(1, depth_limit + 1):
+        path = dfs(graph, start, goal, depth, [])
+        if path:
+            return path
+
+def dfs(graph, vertex, goal, depth, path):
+    if depth == 0 and vertex == goal:
+        return path + [vertex]
+    elif depth > 0:
+        for next_vertex in graph[vertex] - set(path):
+            result = dfs(graph, next_vertex, goal, depth - 1, path + [vertex])
+            if result:
+                return result
+    return None
+
+
