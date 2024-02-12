@@ -1465,3 +1465,38 @@ print(confusion_matrix(y_test, y_pred))
 
 Conclusion:
 Decision Tree Learning is a versatile algorithm, providing interpretable and visualizable models. Carefully choosing hyperparameters, handling overfitting, and optimizing the tree structure contribute to its effectiveness. The evaluation metrics provide insights into the model's performance, guiding potential adjustments and improvements. Visualizing the decision tree enhances interpretability, making it a valuable tool in machine learning tasks.
+
+The Feedforward Backpropagation Neural Network is a foundational algorithm for training neural networks. Below are steps for its implementation, training on a dataset, and evaluating performance on test data:
+
+Feedforward Backpropagation Algorithm:
+
+Feedforward Backpropagation involves the forward pass to compute predictions and the backward pass to update the model's weights using gradient descent and the backpropagation algorithm.
+
+Implementation:
+from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+# Assuming 'X' is your feature matrix, 'y' is the target variable
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a Feedforward Neural Network
+clf = MLPClassifier(hidden_layer_sizes=(100,), max_iter=1000)
+
+# Train the model
+clf.fit(X_train, y_train)
+
+# Make predictions on test data
+y_pred = clf.predict(X_test)
+
+# Evaluate performance
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+
+# Additional evaluation metrics
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
