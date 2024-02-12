@@ -1507,4 +1507,38 @@ The scikit-learn library provides a convenient implementation, but for a deeper 
 
 Experimenting with different architectures and fine-tuning the model allows for tailoring the neural network to specific tasks. The visualization of the training process, loss curves, and decision boundaries can aid in understanding the neural network's behavior.
 
+Support Vector Machines (SVM) is a powerful algorithm for binary classification tasks. Below are the steps to implement the SVM algorithm, train a model, optimize parameters, and evaluate its performance on test data:
+
+SVM Algorithm:
+
+SVM seeks to find a hyperplane that best separates the data into two classes while maximizing the margin between them. It can handle both linear and non-linear classification tasks through the use of different kernels.
+
+Implementation:
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.model_selection import GridSearchCV
+
+# Assuming 'X' is your feature matrix, 'y' is the target variable
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create an SVM model
+svm_model = SVC()
+
+# Train the model
+svm_model.fit(X_train, y_train)
+
+# Make predictions on test data
+y_pred = svm_model.predict(X_test)
+
+# Evaluate performance
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+
+# Additional evaluation metrics
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
 
