@@ -1439,3 +1439,29 @@ y_pred = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
+Visualizing the Decision Tree:
+plt.figure(figsize=(12, 8))
+plot_tree(clf, filled=True, feature_names=feature_names, class_names=class_names)
+plt.show()
+
+Interpreting the Decision Tree:
+The generated decision tree visual helps interpret the decision-making process. Each node represents a decision based on a feature, and each leaf node represents the predicted outcome. The tree structure reflects the hierarchy of decisions made during classification.
+
+Evaluation:
+Evaluate the accuracy of the model on test data using metrics like accuracy_score or other relevant metrics based on the problem's nature.
+
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+# Evaluate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+
+# Additional evaluation metrics
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+Conclusion:
+Decision Tree Learning is a versatile algorithm, providing interpretable and visualizable models. Carefully choosing hyperparameters, handling overfitting, and optimizing the tree structure contribute to its effectiveness. The evaluation metrics provide insights into the model's performance, guiding potential adjustments and improvements. Visualizing the decision tree enhances interpretability, making it a valuable tool in machine learning tasks.
