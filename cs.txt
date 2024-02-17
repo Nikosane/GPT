@@ -1610,3 +1610,53 @@ Priyanshu appreciates certain aspects of the college, emphasizing the positive a
 
 Dislikes:
 On the flip side, Priyanshu points out areas that could be improved. He expresses dissatisfaction with the infrastructure and course curriculum, indicating a need for upgrades and modernization.
+
+Course Curriculum Overview:
+Choosing Computer Engineering due to its high demand in the industry and the potential for lucrative packages, Priyanshu sheds light on the course structure. With a class size of around 60 students and a faculty-student ratio of 1:60, he notes the presence of well-qualified faculty. However, the teaching methods vary. The end-semester exams are conducted every five months, providing a structured assessment approach.
+
+Internships Opportunities:
+Following AICTE norms, in-house internships are provided from the third semester onwards in fields like Artificial Intelligence, Machine Learning, Cybersecurity, etc. Students also have the opportunity to apply for paid internships during summer/winter holidays.
+
+Placement Experience:
+Students become eligible for placements from the start of the final year (7th Semester). Notable companies like TCS, Infosys, and L&T Infotech are prime recruiters. Start-ups like Zeus Learning have also shown interest in the college. The highest package offered was by Google in 2018, amounting to 1.2 crores.
+
+Loan/Scholarship Provisions:
+The fee structure is deemed affordable compared to other colleges offering similar courses. Government scholarships, such as the EBC scholarship, where 50% of tuition fees are waived off, and the TFWS scheme, where complete tuition fees are waived off for students scoring at least 90% in the entrance, are available.
+
+Campus Life:
+The annual fest, UTSAV, sponsored by Rahul Education, encompasses sports, technical, and cultural events. The college boasts an extensive library with both physical and online resources.
+
+Admission:
+Admission to any course in the college is secured through appearing in MHT CET or JEE Mains exams, with a focus on the subjects PCM (Physics, Chemistry, Maths). For Computer Engineering, scoring at least 70% marks in the entrance is required. The allocation of seats is done through CAP rounds.
+
+Priyanshu also provides insights into other applied colleges, such as Thakur College of Engineering and Technology, citing high fees as a drawback.
+
+In summary, Priyanshu's review offers valuable perspectives for prospective students, shedding light on both positive and improvement areas within the college.
+
+A student at Shree LR Tiwari College of Engineering (SLRTCE), anonymously enrolled in the BE program with a specialization in Computer Engineering since 2021, shares insights into the college experience as of January 28, 2024, providing an overall rating of 8.0/10.
+
+Likes:
+The student appreciates the well-maintained labs, library, and classrooms at the college. Supportive employees and a positive environment contribute to the overall positive experience.
+
+Dislikes:
+On the downside, the student notes concerns about the crowded canteen, as there is only one canteen for all departments. Additionally, there is a lack of a proper ground available on the campus.
+
+Course Curriculum Overview:
+Choosing computer engineering due to a passion for technology, the student describes the course curriculum. Each subject is allocated one faculty, and lab work is supervised by different faculty members. The faculty is well-qualified, and their teaching methods are highly regarded. The class size is around 60, with an annual course fee of INR 100,000.
+
+Internships Opportunities:
+The college provides unpaid internships with a duration of two weeks. During this period, students receive instruction, build a project, and submit a report. Successful completion of the project results in certificates being awarded.
+
+Placement Experience:
+Students become eligible for campus placements from the seventh semester onwards. Companies like Seclore, TCS, Wipro, Nucsoft, etc., visit the campus. The highest package recorded was 1.2 crores in 2018, although it was an off-campus placement at Google. The average package typically ranges from 5-6 LPA.
+
+Loan/Scholarship Provisions:
+The total fees for all four years are INR 94,000, with an additional INR 12,000 for study materials, including assignment sheets and experiment materials. The college offers a scholarship known as EBC, where 50% of fees are refunded to eligible students.
+
+Campus Life:
+Describing campus life as full of enjoyment, the student mentions annual fests and tech fests like CARNIVAL. A larger fest called UTSAV is conducted every three years. The library is well-maintained and stocked with various books. Student-run clubs and committees, such as the Cybersecurity club, CSI committee, and Codeyantra committee, contribute to a vibrant campus life.
+
+Admission:
+The admission process involves clearing the 10+2 examination and appearing for entrance exams like MHT-CET or JEE-Main. The cutoff for the computer department was 75%. After allotment, students need to fill the admission form at the college, incurring a cost of INR 200.
+
+In summary, the student's review provides valuable insights into the positive aspects of SLRTCE, along with some challenges, offering a balanced perspective for prospective students.
