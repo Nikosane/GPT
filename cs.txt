@@ -146,6 +146,7 @@ Another crucial aspect of the course focuses on defect management, covering the 
 
 The course concludes by introducing students to quality improvement techniques, methodologies, and tools such as Pareto Diagrams, Cause-effect Diagrams, Scatter Diagrams, and Run charts. The chosen textbooks and additional references augment the learning experience, ensuring a comprehensive grasp of software testing and quality assurance theory and practice.
 
+
 Software Testing & Quality Assurance – Practical 
 The practical component of the "Software Testing & Quality Assurance" course (USCSP5032) involves hands-on exercises that aim to reinforce theoretical concepts and provide students with practical skills in the field. Here's an overview of the practical sessions:
 
