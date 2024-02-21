@@ -110,6 +110,7 @@ The practical journey concludes with students configuring and testing firewall r
 
 Collectively, these hands-on sessions aim to bridge the gap between theoretical knowledge and practical application, empowering students with valuable skills to implement diverse security measures effectively and safeguard information and networks.
 
+
 Linux Server Administration
 The Linux Server Administration course (USCS5031) delves into a comprehensive exploration of Linux server management, offering students a thorough understanding of technical aspects, software handling, user and group administration, file systems, core system services, networking, security, and advanced internet services. Through a blend of theoretical knowledge and practical application, the course aims to equip students with essential skills.
 
