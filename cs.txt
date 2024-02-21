@@ -134,6 +134,7 @@ Moreover, the course covers the configuration of NIS Servers, facilitating user 
 
 The comprehensive practical foundation in Linux Server Administration concludes by guiding students through the installation of Samba. This facilitates seamless folder and file sharing between Windows and Linux environments. The course design ensures that each practical session offers a distinct focus, providing students with in-depth exposure to various critical tasks in a server environment.
 
+
 Software Testing & Quality Assurance 
 The course titled "Software Testing & Quality Assurance (USCS5032)" is designed to impart a profound understanding of software testing principles, methodologies, and quality assurance practices. Throughout the course, students delve into the intricacies of software quality, exploring concepts such as the nature of errors, the significance of quality assurance, and the distinction between Quality Assurance (QA), Quality Control (QC), Quality Management (QM), and Software Quality Assurance (SQA). Emphasis is placed on comprehending software development life cycles (SDLC) and the pivotal role testing plays in each phase, aligning with software quality factors.
 
