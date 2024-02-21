@@ -172,6 +172,7 @@ Load Testing with JMeter and Bug Tracking with Bugzilla: The final practical ses
 
 These practical sessions are designed to give students a hands-on experience in software testing and quality assurance, aligning with the theoretical concepts covered in the course.
 
+
 Cyber Forensics
 The course on Cyber Forensics (USCS5041) is designed to provide students with comprehensive knowledge and practical skills in investigating and analyzing digital evidence. This field of study is crucial in the realm of cybersecurity, as it focuses on the techniques and methodologies required to conduct computer forensics effectively. Below is an overview of the course content:
 
