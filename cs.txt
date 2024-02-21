@@ -122,6 +122,7 @@ The unit topics span an introduction covering Linux distributions, software mana
 
 Textbooks for the course include "Linux Administration: A Beginner’s Guide" by Wale Soyinka (Seventh Edition, McGraw-Hill Education, 2016) and "Ubuntu Server Guide" by the Ubuntu Documentation Team (2016), with additional reference material provided by "Mastering Ubuntu Server" by Jay LaCroix (PACKT Publisher, 2016). The course design emphasizes a holistic approach, fostering a deep understanding of Linux server administration principles and practical skills essential for effective system management.
 
+
 Linux Server Administration – Practical
 The Linux Server Administration Practical (USCSP5031) is structured to provide students with hands-on experience in essential server administration tasks. In the course, students embark on various practical sessions, beginning with the installation of a DHCP Server in Ubuntu 16.04. Subsequently, they explore the configuration of initial settings, covering aspects such as user addition, network settings, IP address changes, IPv6 disabling, service configuration, display of running services, and adjustment of auto-start settings.
 
