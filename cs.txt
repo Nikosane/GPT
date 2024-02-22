@@ -216,6 +216,7 @@ The ninth module dives into email forensics, teaching students to analyze email 
 
 The final module, web browser forensics, involves analyzing browser artifacts such as history files, bookmarks, and download records. Students will also learn to interpret timestamp data to determine the user's last internet activity. These practical sessions collectively provide a comprehensive skill set for effective computer forensics investigations.
 
+
 Game Programming
 The course with the code USCS5042, titled "Game Programming," is a comprehensive exploration of 3D game development and graphics. It delves into various topics such as vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture. Students will gain practical experience using industry-standard tools like DirectX, Unity, and Python-Pygame.
 
