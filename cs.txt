@@ -192,6 +192,7 @@ Textbooks and References: The primary textbook for the course is "Guide to Compu
 
 Upon successful completion of the course, students will not only have a solid understanding of computer forensics principles and methodologies but will also possess practical skills in conducting investigations, acquiring and preserving digital evidence, utilizing specialized tools, and generating well-documented reports. These skills are essential for professionals in the field of cybersecurity and digital investigations.
 
+
 Cyber Forensics – Practical
 The practical component of the Cyber Forensics course (USCSP5041) is designed to provide hands-on experience in alignment with theoretical concepts.
 
