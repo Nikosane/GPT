@@ -291,6 +291,7 @@ In essence, USCSP505 Project Work – I is not merely a course but a transformat
 
 
 SEMESTER 6
+
 Data Science
 The USCSP601 Data Science course is a captivating exploration of the dynamic field of data analysis, machine learning, and data visualization. With a focus on fundamental concepts and practical applications, students engage with a curriculum designed to foster proficiency in handling and interpreting complex datasets. The course structure, featuring 2 credits and 3 lectures per week, provides a comprehensive learning experience.
 
