@@ -86,6 +86,7 @@ The recommended textbook for the course is "Cryptography and Network Security: P
 
 In conclusion, the Information & Network Security course is meticulously designed to provide students with a comprehensive understanding of security concepts, laying the groundwork for practical application and critical analysis in the dynamic field of computer and network security.
 
+
 Information & Network Security practical 
 The practical module "Information & Network Security – Practical 1" (USCSP502) in Semester V stands as a pivotal hands-on exploration of various security techniques. With an allocation of 3 credits and 3 lectures per week, this practical component serves as a bridge between theoretical concepts and real-world scenarios, cultivating a profound practical understanding of information and network security.
 
