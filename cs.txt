@@ -20,6 +20,7 @@ Skill Enhancement Elective 2 (SEE) introduces "Cyber Forensics" (USCS5041), acco
 
 The syllabus further provides two Generic Electives – "Project Management" (USCS5051) and "Operations Research" (USCS5052), each carrying 2 credits and involving 3 lectures per week. To conclude the semester, students engage in "Project Work – I" (USCSP505), earning 2 credits with 3 lectures per week. Importantly, students must select one course each from Skill Enhancement Elective 1 and Skill Enhancement Elective 2, along with choosing one course from Generic Elective. This approach allows for a personalized and focused learning experience, ensuring that students acquire both theoretical knowledge and practical skills, preparing them for diverse career paths in computer science.
 
+
 Semester - 6
 
 In the continuation of the T.Y.B.Sc. Computer Science Syllabus under the Choice Based Credit System (CBCS) for the Academic year 2023-2024, Semester – VI, students are exposed to a diverse set of core subjects and skill enhancement electives, further enriching their knowledge and practical skills.
