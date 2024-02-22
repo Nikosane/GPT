@@ -237,6 +237,7 @@ This unit focuses on Unity development, covering IDE basics, Unity concepts, spr
 
 Textbooks and additional references include works by John Vince, Eric Lengyel, Frank D Luna, Donald Hern, Pauline Baker, and Doron Feinstein, along with the Unity documentation.
 
+
 Game Programming – Practical
 The course with the code USCSP5042, titled "Game Programming – Practical," is a hands-on exploration of practical aspects in game programming. With a credit of 1 and 3 lectures per week, this practical course focuses on implementing fundamental game development techniques using industry-relevant tools.
 
