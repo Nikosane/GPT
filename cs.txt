@@ -307,6 +307,7 @@ Upon successful completion of USCSP601, students will emerge equipped with a rob
 
 
 Data Science – Practical
+
 In the USCSP601 Data Science Practical, students embark on a hands-on journey through diverse topics to fortify their practical skills in data manipulation, analysis, and visualization. This practical module, encompassing 3 credits and 3 lectures per week, is designed to complement theoretical learning with real-world applications.
 
 The initial phase introduces students to the versatile realm of Excel, where they master conditional formatting, pivot table creation, VLOOKUP function usage, and conduct what-if analyses using Goal Seek. This serves as a foundational skill set for effective data handling and analysis.
