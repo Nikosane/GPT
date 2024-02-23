@@ -337,6 +337,7 @@ Course Title: Cloud Computing and Web Services
 Credits: 2 
 Lectures/Week: 3
 
+
 The course "Cloud Computing and Web Services" offers a profound exploration of cloud computing fundamentals and web service technologies. As students embark on this journey, they will gain comprehensive insights into various types of clouds, deployment models, and cloud platforms. OpenStack and AWS, prominent cloud computing platforms, will be explored in depth through practical exercises and hands-on projects. The course is designed to equip students with the skills needed to adeptly design, deploy, and manage cloud-based applications and services.
 
 The objectives of the course encompass:
