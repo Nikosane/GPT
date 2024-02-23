@@ -354,6 +354,7 @@ Upon successfully completing the course, students will demonstrate their abiliti
 - Apply secure development practices and implement cloud security policies to ensure the confidentiality, integrity, and availability of cloud software solutions.
 - Utilize virtualization technologies effectively, considering the nuanced benefits and drawbacks associated with virtualization.
 
+
 Unit Topics:
 I. Cloud Computing Basics
 This section initiates the exploration of web services by delving into distributed computing, parallel computing, WSDL structure, SOAP's architecture, SOAP messaging intricacies (particularly in JAX-WS), SOAP headers, and client-side SOAP handlers. REST is also discussed, covering its definition, HTTP methods, and Java API for RESTful Web Services (JAX-RS). The unit further explores virtualization, discussing the characteristics of virtualized environments, weighing the pros and cons of virtualization, and delving into the practicalities of virtualization using KVM. The creation of virtual machines and the utilization of oVirt as a management tool for virtualization environments will be thoroughly covered.
