@@ -425,6 +425,7 @@ Course Title: Cyber Forensics
 Credits: 2  
 Lectures per Week: 3
 
+
 About the Course:
 
 This course provides an in-depth exploration of computer forensics, emphasizing the techniques and methodologies crucial for investigating and analyzing digital evidence. Students will gain proficiency in fundamental aspects such as computer investigations, data acquisition, crime scene processing, and the utilization of specialized tools for analysis. The curriculum encompasses various dimensions of computer forensics, including network forensics, mobile device forensics, e-mail investigations, and the essential skill of report writing.
