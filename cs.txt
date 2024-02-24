@@ -611,6 +611,7 @@ The final module, Advanced Topics in Information Retrieval, introduces students 
 
 Overall, the practical exercises in this course complement theoretical knowledge, providing students with valuable hands-on experience and preparing them for real-world challenges in the field of Information Retrieval.
 
+
 Data Mining & Warehousing
 The course "Data Mining & Warehousing (USCS6041)" provides students with a comprehensive understanding of data warehousing and data mining concepts. In the introductory module, students explore the fundamental framework of data warehousing, distinguishing between OLAP and OLTP. They gain insights into OLAP operations in the multidimensional data model, back-end tools and utilities, metadata repository, and various types of OLAP servers.
 
