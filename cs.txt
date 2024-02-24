@@ -588,6 +588,7 @@ This comprehensive course equips students with the fundamental principles of IR 
 
 
 Information Retrieval – Practical 
+
 In the Information Retrieval – Practical course (USCSP6032), students engage in a series of hands-on exercises to reinforce their understanding of IR concepts. In the first module, Document Indexing and Retrieval, students implement an inverted index construction algorithm and utilize it to create a basic document retrieval system. This practical exercise enhances their skills in constructing and using indexes efficiently.
 
 Moving on to Retrieval Models, students implement both the Boolean retrieval model and the vector space model with TF-IDF weighting and cosine similarity. This hands-on module enables them to process queries and understand the application of different retrieval models in real-world scenarios.
