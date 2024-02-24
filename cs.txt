@@ -578,6 +578,7 @@ The final session involves creating a mobile network simulation using elements s
 
 These practical sessions are designed to enhance students' practical skills and reinforce theoretical concepts, ensuring a well-rounded understanding of Wireless Sensor Networks.
 
+
 Information Retrieval
 This course on Information Retrieval (IR) Systems provides students with an in-depth exploration of the principles, techniques, and technologies underlying the design and implementation of IR systems. The foundational segment, Unit I, initiates students into the core components and goals of IR systems, covering topics such as document indexing, storage, and retrieval models. Students gain practical experience in handling challenges related to spelling errors and learn to evaluate IR system performance using metrics like precision and recall.
 
