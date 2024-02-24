@@ -530,6 +530,7 @@ Moreover, students work on applications to download and upload images/videos fro
 
 Lastly, students gain practical insight into OpenStack by implementing user and private network creation. These practical sessions collectively equip students with a diverse skill set, allowing them to navigate various cloud computing and web services tasks effectively.
 
+
 Wireless Sensor Networks 
 About the Course:
 This course provides a comprehensive exploration of Wireless Sensor Networks (WSNs) and their diverse applications. The curriculum covers fundamental concepts, architectural elements, advantages, and challenges associated with WSNs. Students will delve into sensor node technology, network architecture, optimization goals, and design principles for WSNs. The course also encompasses wireless transmission, telecommunication systems, and introduces WSN operating systems and ad-hoc networks. Through practical examples and case studies, students gain hands-on experience in medium access control protocols, routing strategies, transport control protocols, and WSN middleware architecture.
