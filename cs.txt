@@ -586,6 +586,7 @@ Advancing to Unit II, students explore advanced topics, including text categoriz
 
 This comprehensive course equips students with the fundamental principles of IR systems, enabling them to apply indexing, storage, and retrieval techniques efficiently. They learn to compare and select appropriate retrieval models, gaining practical skills in implementation and evaluation. With a focus on real-world applications, including web search and machine learning techniques, students emerge ready to contribute to the dynamic field of Information Retrieval.
 
+
 Information Retrieval – Practical 
 In the Information Retrieval – Practical course (USCSP6032), students engage in a series of hands-on exercises to reinforce their understanding of IR concepts. In the first module, Document Indexing and Retrieval, students implement an inverted index construction algorithm and utilize it to create a basic document retrieval system. This practical exercise enhances their skills in constructing and using indexes efficiently.
 
