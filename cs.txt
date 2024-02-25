@@ -625,6 +625,7 @@ The last part of the course focuses on Clustering, categorizing major clustering
 
 The recommended textbooks for the course include "Data Warehousing: Design, Development And Best Practices" by Soumendra Mohanty, "Data Mining-Concepts and Techniques" by Jiawei Han and Michelin Kamber, and "Data Warehousing Data Mining and OLAP" by Alex Berson and Stephen J. Smith. Additional references provide further insights into data mining techniques, data warehousing fundamentals, and the data warehouse life cycle toolkit. This course equips students with the knowledge and skills to understand, design, and implement data warehousing and data mining solutions.
 
+
 Data Mining & Warehousing – Practical
 The practical component of the course "Data Mining & Warehousing (USCSP6041)" involves hands-on exercises to reinforce the theoretical concepts. In the first session, students perform operations related to extraction, transformation, and loading (ETL) processes on a sample dataset using PowerBI, gaining practical experience in managing data workflows.
 
