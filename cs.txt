@@ -663,6 +663,7 @@ The learning outcomes of the course include the ability to apply ethical hacking
 
 The course utilizes textbooks like "CEH official Certified Ethical Hacking Review Guide" and references such as "Certified Ethical Hacker" by Michael Gregg and Matt Walker, providing students with a comprehensive resource base for their studies.
 
+
 Ethical Hacking - Practical 
 In the "Ethical Hacking - Practical (USCSP6042)" course, students immerse themselves in hands-on exercises, covering a spectrum of ethical hacking techniques. The practical sessions are designed to impart crucial skills in identifying and mitigating security vulnerabilities. Throughout the course, students delve into various topics, including Google and Whois Reconnaissance, Password Encryption and Cracking using tools like CrypTool and Cain and Abel, Linux Network Analysis with a focus on ARP Poisoning, Port Scanning leveraging NMap, Network Traffic Capture and Denial of Service (DoS) Attack using Wireshark and Nemesy, Persistent Cross-Site Scripting Attack, Session Impersonation employing Firefox and Tamper Data, SQL Injection Attack, Crafting a Keylogger using Python, and Exploitation using Metasploit on Kali Linux.
 
