@@ -627,6 +627,7 @@ The recommended textbooks for the course include "Data Warehousing: Design, Deve
 
 
 Data Mining & Warehousing – Practical
+
 The practical component of the course "Data Mining & Warehousing (USCSP6041)" involves hands-on exercises to reinforce the theoretical concepts. In the first session, students perform operations related to extraction, transformation, and loading (ETL) processes on a sample dataset using PowerBI, gaining practical experience in managing data workflows.
 
 The second session focuses on data integration, where students use Python's pandas library and data manipulation techniques to merge and transform datasets from multiple sources. This exercise enhances their skills in handling diverse data sources and preparing them for mining.
