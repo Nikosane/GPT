@@ -665,6 +665,7 @@ The course utilizes textbooks like "CEH official Certified Ethical Hacking Revie
 
 
 Ethical Hacking - Practical 
+
 In the "Ethical Hacking - Practical (USCSP6042)" course, students immerse themselves in hands-on exercises, covering a spectrum of ethical hacking techniques. The practical sessions are designed to impart crucial skills in identifying and mitigating security vulnerabilities. Throughout the course, students delve into various topics, including Google and Whois Reconnaissance, Password Encryption and Cracking using tools like CrypTool and Cain and Abel, Linux Network Analysis with a focus on ARP Poisoning, Port Scanning leveraging NMap, Network Traffic Capture and Denial of Service (DoS) Attack using Wireshark and Nemesy, Persistent Cross-Site Scripting Attack, Session Impersonation employing Firefox and Tamper Data, SQL Injection Attack, Crafting a Keylogger using Python, and Exploitation using Metasploit on Kali Linux.
 
 These immersive exercises empower students with practical experience in the application of ethical hacking methodologies. By performing security assessments and penetration tests, students gain insights into the ethical considerations and legal ramifications associated with these practices. This holistic approach ensures a comprehensive understanding of ethical hacking, preparing students to navigate real-world scenarios with competence and responsibility.
