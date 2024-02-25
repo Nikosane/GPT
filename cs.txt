@@ -648,6 +648,7 @@ This practical component complements the theoretical aspects of the course, prov
 
 
 Ethical Hacking
+
 The course "Ethical Hacking (USCS6042)" is designed to provide students with a comprehensive understanding of ethical hacking and penetration testing methodologies. Covering various hacking technologies, the course emphasizes hands-on lab exercises and real-world scenarios to develop practical skills in identifying and mitigating security vulnerabilities.
 
 The introductory unit delves into the terminology and concepts related to ethical hacking, highlighting different hacking technology types, ethical hacking phases, hacker classes, and the skills required to become an ethical hacker. The unit also covers vulnerability research and explores ways to conduct ethical hacking.
