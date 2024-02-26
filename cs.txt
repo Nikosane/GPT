@@ -381,9 +381,6 @@ Additional Reference(s):
 3. [OpenStack Official Website](https://www.openstack.org).
 
 
-
-Course Code Course Title Credits Lectures / Week
-
 USCSP5032 Software Testing & Quality Assurance – Practical 1 3
 
 This comprehensive course delves into the practical aspects of software testing and quality assurance. Students actively participate in hands-on activities to hone their skills and gain practical insights.
@@ -418,6 +415,7 @@ In the ninth session, students explore the realm of checkboxes on web pages. Usi
 Load Testing with JMeter and Introduction to Bug Tracking
 The tenth and final session covers the critical aspect of load testing using JMeter. Students generate and analyze various load scenarios, gaining insights into the robustness of web applications. Additionally, they receive an introduction to Bugzilla, a tool for efficient logging and tracking of software defects.
 
+-------------------------------------------------------------------------------------
 
 Cyber Forensics
 Certainly! Here's the augmented version of the provided information without bold text:
