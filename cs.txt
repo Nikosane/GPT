@@ -70,6 +70,7 @@ Lastly, the curriculum includes a practical demonstration of OpenAI/TensorFlow T
 
 These practical sessions collectively aim to reinforce theoretical knowledge with hands-on implementation, fostering critical analysis, and providing students with practical insights into various artificial intelligence algorithms and tools.
 
+------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
 
@@ -112,7 +113,7 @@ The curriculum also addresses the practical analysis and identification of malwa
 The practical journey concludes with students configuring and testing firewall rules, exercising control over network traffic and filtering packets based on specified criteria. This hands-on activity provides students with practical experience in configuring and managing firewalls for effective network security.
 
 Collectively, these hands-on sessions aim to bridge the gap between theoretical knowledge and practical application, empowering students with valuable skills to implement diverse security measures effectively and safeguard information and networks.
-
+----------------------------------------------------------------------------------
 
 Linux Server Administration
 The Linux Server Administration course (USCS5031) delves into a comprehensive exploration of Linux server management, offering students a thorough understanding of technical aspects, software handling, user and group administration, file systems, core system services, networking, security, and advanced internet services. Through a blend of theoretical knowledge and practical application, the course aims to equip students with essential skills.
@@ -137,7 +138,7 @@ Moreover, the course covers the configuration of NIS Servers, facilitating user 
 
 The comprehensive practical foundation in Linux Server Administration concludes by guiding students through the installation of Samba. This facilitates seamless folder and file sharing between Windows and Linux environments. The course design ensures that each practical session offers a distinct focus, providing students with in-depth exposure to various critical tasks in a server environment.
 
-
+-----------------------------------------------------------------------------------
 Software Testing & Quality Assurance 
 The course titled "Software Testing & Quality Assurance (USCS5032)" is designed to impart a profound understanding of software testing principles, methodologies, and quality assurance practices. Throughout the course, students delve into the intricacies of software quality, exploring concepts such as the nature of errors, the significance of quality assurance, and the distinction between Quality Assurance (QA), Quality Control (QC), Quality Management (QM), and Software Quality Assurance (SQA). Emphasis is placed on comprehending software development life cycles (SDLC) and the pivotal role testing plays in each phase, aligning with software quality factors.
 
