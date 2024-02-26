@@ -175,7 +175,7 @@ Checkbox Identification and Counting: Students will write a program using Seleni
 Load Testing with JMeter and Bug Tracking with Bugzilla: The final practical session involves performing load testing on a web application using JMeter. Students will generate and analyze load scenarios. Additionally, they will explore bug tracking using Bugzilla as a tool for logging and tracking software defects. This exercise provides practical exposure to load testing and bug tracking tools commonly used in the industry.
 
 These practical sessions are designed to give students a hands-on experience in software testing and quality assurance, aligning with the theoretical concepts covered in the course.
-
+---------------------------------------------------------------------------------
 
 Cyber Forensics
 The course on Cyber Forensics (USCS5041) is designed to provide students with comprehensive knowledge and practical skills in investigating and analyzing digital evidence. This field of study is crucial in the realm of cybersecurity, as it focuses on the techniques and methodologies required to conduct computer forensics effectively. Below is an overview of the course content:
@@ -217,7 +217,7 @@ Mobile device forensics is the subject of the eighth module, where students will
 The ninth module dives into email forensics, teaching students to analyze email headers and content to trace the origin of suspicious emails.
 
 The final module, web browser forensics, involves analyzing browser artifacts such as history files, bookmarks, and download records. Students will also learn to interpret timestamp data to determine the user's last internet activity. These practical sessions collectively provide a comprehensive skill set for effective computer forensics investigations.
-
+-----------------------------------------------------------------------------------
 
 Game Programming
 The course with the code USCS5042, titled "Game Programming," is a comprehensive exploration of 3D game development and graphics. It delves into various topics such as vectors, transformations, 3D modeling, rendering, physics-based simulation, and game engine architecture. Students will gain practical experience using industry-standard tools like DirectX, Unity, and Python-Pygame.
@@ -251,7 +251,7 @@ The practical course extends its scope to Unity, where students will be guided o
 
 Overall, the Game Programming – Practical course ensures that students gain hands-on experience in applying theoretical knowledge to real-world scenarios, equipping them with practical skills essential for game development.
 
-
+----------------------------------------------------------------------------------
 
 Project Managament
 The Project Management course, identified by the code USCS5051, is designed to instill a robust understanding of project management principles within the field of Computer Science. With a credit value of 2 and 3 lectures per week, the course encompasses essential concepts and characteristics of project management, emphasizing their practical application in computer science projects.
@@ -269,6 +269,8 @@ Unit II - Project Execution and Control (15 Lectures): This unit addresses proje
 Unit III - Advanced Topics in Project Management (15 Lectures): This unit delves into agile project management principles and methodologies, managing iterative and incremental development, the role of technology in project management, and handling virtual teams and distributed project management. It also covers effective people management in projects, leadership styles, team building, motivation techniques, emotional intelligence, stakeholder engagement, communication strategies, conflict resolution, negotiation skills, project governance structures and accountability, ethical considerations in project management, and professional responsibility and codes of conduct.
 
 Textbooks and additional references include works by John M. Nicholas, Jack T. Marchewka, the Project Management Institute, Adolfo Villafiorita, Claudia M. Baca, Patti M. Jansen, and S. J. Mantel, among others. These resources provide comprehensive coverage of project management principles and practices in both business and technology contexts.
+
+----------------------------------------------------------------------------------
 
 Operations Research
 The Operations Research (OR) course stands as an illuminating exploration into the realm of decision-making, delving into fundamental concepts, techniques, and methodologies. In this academic journey, students embark on a quest to not only understand but master the art of formulating and solving optimization problems. Moreover, the course accentuates the crucial skill of conducting sensitivity analysis, where students unravel the intricacies of assessing the impact of changes in linear programming models.
@@ -291,7 +293,7 @@ An essential compass for navigating this course lies in the Project Guidelines p
 
 In essence, USCSP505 Project Work – I is not merely a course but a transformative experience that propels students into the realms of practical implementation, teamwork, and problem-solving. It sets the stage for the synthesis of academic knowledge and its application in real-world projects, laying the foundation for the holistic development of future professionals.
 
-
+-----------------------------------------------------------------------------------
 SEMESTER 6
 
 Data Science
@@ -332,14 +334,12 @@ Principal Component Analysis (PCA) takes center stage in the ninth phase, with s
 
 The USCSP601 Data Science Practical provides a comprehensive and applied learning experience, equipping students with practical skills vital for success in the dynamic field of Data Science.
 
-
+----------------------------------------------------------------------------------
 Cloud Computing and Web Services
 Course Code: USCS602
 Course Title: Cloud Computing and Web Services  
 Credits: 2 
 Lectures/Week: 3
-
-
 The course "Cloud Computing and Web Services" offers a profound exploration of cloud computing fundamentals and web service technologies. As students embark on this journey, they will gain comprehensive insights into various types of clouds, deployment models, and cloud platforms. OpenStack and AWS, prominent cloud computing platforms, will be explored in depth through practical exercises and hands-on projects. The course is designed to equip students with the skills needed to adeptly design, deploy, and manage cloud-based applications and services.
 
 The objectives of the course encompass:
