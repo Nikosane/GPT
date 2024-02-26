@@ -530,7 +530,7 @@ Moreover, students work on applications to download and upload images/videos fro
 
 Lastly, students gain practical insight into OpenStack by implementing user and private network creation. These practical sessions collectively equip students with a diverse skill set, allowing them to navigate various cloud computing and web services tasks effectively.
 
-
+------------------------------------------------------------------------------------
 Wireless Sensor Networks 
 
 About the Course:
@@ -578,7 +578,7 @@ The final session involves creating a mobile network simulation using elements s
 
 These practical sessions are designed to enhance students' practical skills and reinforce theoretical concepts, ensuring a well-rounded understanding of Wireless Sensor Networks.
 
-
+-------------------------------------------------------------------------------------
 Information Retrieval
 This course on Information Retrieval (IR) Systems provides students with an in-depth exploration of the principles, techniques, and technologies underlying the design and implementation of IR systems. The foundational segment, Unit I, initiates students into the core components and goals of IR systems, covering topics such as document indexing, storage, and retrieval models. Students gain practical experience in handling challenges related to spelling errors and learn to evaluate IR system performance using metrics like precision and recall.
 
@@ -625,7 +625,7 @@ The last part of the course focuses on Clustering, categorizing major clustering
 
 The recommended textbooks for the course include "Data Warehousing: Design, Development And Best Practices" by Soumendra Mohanty, "Data Mining-Concepts and Techniques" by Jiawei Han and Michelin Kamber, and "Data Warehousing Data Mining and OLAP" by Alex Berson and Stephen J. Smith. Additional references provide further insights into data mining techniques, data warehousing fundamentals, and the data warehouse life cycle toolkit. This course equips students with the knowledge and skills to understand, design, and implement data warehousing and data mining solutions.
 
-
+-------------------------------------------------------------------------------------
 Data Mining & Warehousing – Practical
 
 The practical component of the course "Data Mining & Warehousing (USCSP6041)" involves hands-on exercises to reinforce the theoretical concepts. In the first session, students perform operations related to extraction, transformation, and loading (ETL) processes on a sample dataset using PowerBI, gaining practical experience in managing data workflows.
@@ -646,7 +646,7 @@ The last three sessions involve implementing regression methods in Python. In th
 
 This practical component complements the theoretical aspects of the course, providing students with valuable hands-on experience in data mining and warehousing techniques using popular tools and libraries.
 
-
+------------------------------------------------------------------------------------
 Ethical Hacking
 
 The course "Ethical Hacking (USCS6042)" is designed to provide students with a comprehensive understanding of ethical hacking and penetration testing methodologies. Covering various hacking technologies, the course emphasizes hands-on lab exercises and real-world scenarios to develop practical skills in identifying and mitigating security vulnerabilities.
@@ -676,7 +676,7 @@ The "Customer Relationship Management (USCS6051)" course is a comprehensive expl
 The first unit establishes the foundation by defining CRM, exploring relationship management theories, and emphasizing the benefits of CRM. Students gain insights into the customer journey, covering acquisition, portfolio purchasing, and customer retention strategies. The second unit delves into strategic and operational CRM, covering customer portfolio management and the role of marketing and service automation in enhancing organizational effectiveness. The final unit introduces analytical CRM, focusing on developing and managing customer-related databases, analytics for strategy and tactics, and the implementation of CRM strategies.
 
 Throughout the course, students develop a profound understanding of CRM concepts, theories, and models. They acquire practical skills to manage the customer journey, comprehend the significance of customer-perceived value, and apply strategic and operational CRM approaches effectively. Proficiency in analytical CRM techniques, including data management, analytics, and successful CRM implementation, is fostered through real-life case studies and success stories. The course ensures that students are well-equipped to navigate the complexities of CRM in real-world business scenarios.
-
+-------------------------------------------------------------------------------------
 Cyber Laws and IPR
 The "Cyber Laws and IPR (USCS6052)" course provides a comprehensive understanding of the legal aspects and regulations related to cyberspace and information technology. Covering fundamental concepts, internet technology, network security, cyber law, e-commerce, electronic signatures, cybercrimes, privacy, intellectual property rights, and more, the course aims to equip students with a thorough understanding of the legal framework governing cyberspace.
 
@@ -686,7 +686,7 @@ Upon completing this course, students will demonstrate a comprehensive understan
 
 Textbooks and references for the course include "Cyber Laws & Information Technology," "Cyber Law in India" by Satish Chandra, and "Cyber Security and Cyber Laws" by Nilakshi Jain, among others. These resources provide comprehensive insights into the diverse aspects of cyber laws and intellectual property rights.
 
-
+-------------------------------------------------------------------------------------
 Introduction to AI and Intelligent Agents
 Artificial Intelligence (AI) stands at the forefront of technological innovation, striving to imbue machines with the ability to exhibit human-like intelligence and autonomy. Within this expansive field, the concept of intelligent agents emerges as a cornerstone. Intelligent agents are entities designed to interact with their environment, process information, and make decisions to achieve specific objectives. These agents are endowed with the capacity to perceive their surroundings through sensors, reason about the information gathered, and execute actions in pursuit of predetermined goals. This intricate interplay of perception, reasoning, and action sets the stage for a nuanced exploration of AI's potential applications and capabilities.
 
@@ -1322,44 +1322,14 @@ Furthermore, HMMs find applications in natural language processing tasks, includ
 
 In essence, Hidden Markov Models stand as a sophisticated yet accessible framework, offering a profound understanding of sequential data with latent structures. The interplay between hidden and observable states, coupled with the adaptability of HMMs across diverse domains, underscores their significance in the landscape of probabilistic modeling and machine learning.
 
-
 Breadth-First Search (BFS) and Iterative Depth-First Search (IDFS) stand as fundamental graph traversal algorithms, offering distinct approaches to problem-solving. Let's delve into the implementation details and compare the performance and efficiency of these algorithms.
 
 Breadth-First Search (BFS):
-
 BFS, known for its systematic exploration, traverses all vertices at the current depth before venturing into deeper levels. It guarantees the discovery of the shortest path to each node.
 
-Implementation:
-def bfs(graph, start, goal):
-    queue = [(start, [start])]
-    while queue:
-        (vertex, path) = queue.pop(0)
-        for next_vertex in graph[vertex] - set(path):
-            if next_vertex == goal:
-                return path + [next_vertex]
-            else:
-                queue.append((next_vertex, path + [next_vertex]))
-
 Iterative Depth-First Search (IDFS):
-
 IDFS, a variant of depth-first search, incrementally deepens the exploration depth, striking a balance between depth-first strategy and breadth-first completeness.
 
-Implementation:
-def idfs(graph, start, goal, depth_limit):
-    for depth in range(1, depth_limit + 1):
-        path = dfs(graph, start, goal, depth, [])
-        if path:
-            return path
-
-def dfs(graph, vertex, goal, depth, path):
-    if depth == 0 and vertex == goal:
-        return path + [vertex]
-    elif depth > 0:
-        for next_vertex in graph[vertex] - set(path):
-            result = dfs(graph, next_vertex, goal, depth - 1, path + [vertex])
-            if result:
-                return result
-    return None
 Comparing Performance and Efficiency:
 
 The evaluation of BFS and IDFS involves considering several factors:
@@ -1380,64 +1350,20 @@ A* Search and Recursive Best-First Search (RBFS) represent advanced pathfinding 
 A Search:*
 A* Search seamlessly combines the advantages of uniform cost search and greedy best-first search. It relies on a heuristic to estimate the cost from the current state to the goal, employing a priority queue to explore nodes based on their total cost.
 
-Implementation:
-def astar_search(graph, start, goal, heuristic):
-    priority_queue = PriorityQueue()
-    priority_queue.put((0, start, []))
-
-    while not priority_queue.empty():
-        (cost, current, path) = priority_queue.get()
-
-        if current == goal:
-            return path + [current]
-
-        for neighbor in graph[current]:
-            new_cost = cost + graph[current][neighbor] + heuristic(neighbor, goal)
-            priority_queue.put((new_cost, neighbor, path + [current]))
 
 Recursive Best-First Search (RBFS):
 RBFS stands out as a memory-efficient variant of best-first search. It applies a limited-depth best-first search recursively, backtracking when necessary. This makes it particularly suitable for scenarios where memory constraints are a critical consideration.
 
-Implementation:
-class RBFS:
-    def __init__(self, graph, heuristic):
-        self.graph = graph
-        self.heuristic = heuristic
-
-    def rbfs(self, current, goal, f_limit, path):
-        if current == goal:
-            return path + [current], 0
-
-        successors = []
-        for neighbor in self.graph[current]:
-            cost = self.graph[current][neighbor] + self.heuristic(neighbor, goal)
-            successors.append((cost, neighbor))
-
-        while successors:
-            successors.sort()
-            best, second_best = successors[0], successors[1]
-
-            if best[0] > f_limit:
-                return None, best[0]
-
-            alternative = min(f_limit, second_best[0])
-            result, best[0] = self.rbfs(best[1], goal, alternative, path + [current])
-            
-            if result is not None:
-                return result, 0
-
-            successors[0] = (best[0], best[1])
-
 Comparing Performance and Effectiveness:
 Performance and effectiveness of A* Search and RBFS can be evaluated based on several factors:
 
-    Time Complexity: A* Search typically exhibits efficient time complexity due to its heuristic-guided exploration. RBFS, while efficient, may vary based on heuristic accuracy and branching.
+Time Complexity: A* Search typically exhibits efficient time complexity due to its heuristic-guided exploration. RBFS, while efficient, may vary based on heuristic accuracy and branching.
 
-    Space Complexity: A* Search can demand more memory, especially in large graphs, as it stores all expanded nodes. RBFS is designed for memory efficiency, keeping a limited number of nodes in memory.
+Space Complexity: A* Search can demand more memory, especially in large graphs, as it stores all expanded nodes. RBFS is designed for memory efficiency, keeping a limited number of nodes in memory.
 
-    Completeness and Optimality: Both algorithms are complete if the search space is finite. A* Search is optimal when the heuristic is admissible, whereas RBFS might not guarantee optimality.
+Completeness and Optimality: Both algorithms are complete if the search space is finite. A* Search is optimal when the heuristic is admissible, whereas RBFS might not guarantee optimality.
 
-    Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
+Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
 
 Comparing these aspects can guide the selection of the most suitable algorithm based on specific problem requirements, available resources, and the nature of the search space. A* Search and RBFS each bring unique strengths to pathfinding problems, offering versatile solutions across different contexts.
 
