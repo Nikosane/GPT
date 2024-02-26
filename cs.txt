@@ -493,7 +493,7 @@ Steganography detection is also an essential topic, where students will employ s
 
 Overall, the Cyber Forensics – Practical course equips students with practical skills essential for cyber forensic investigations, preparing them for real-world scenarios in the field.
 
-
+-------------------------------------------------------------------------------------
 Cloud Computing and Web Services
 The course "Cloud Computing and Web Services" with the code USCS602 provides a comprehensive exploration of cloud computing fundamentals and web service technologies. With a credit value of 2 and 3 lectures per week, this course delves into various aspects, enabling students to understand, apply, and manage cloud-based applications and services.
 
