@@ -131,6 +131,33 @@ Problem-solving agents are entities designed to explore and traverse a problem s
 Uninformed search strategies, also known as blind search strategies, lack specific information about the problem other than the available states and actions. These strategies explore the search space systematically without incorporating any additional knowledge. Common uninformed search algorithms include Breadth-First Search (BFS), Depth-First Search (DFS), and Uniform-Cost Search (UCS). BFS explores states level by level, expanding all nodes at the current depth before moving on to the next depth. DFS, on the other hand, explores a branch of the search tree as deeply as possible before backtracking. UCS considers the cost of reaching a state and prioritizes paths with lower costs.
 
 In contrast, informed search strategies leverage heuristic information to guide the search towards more promising paths, reducing the exploration space and improving efficiency. Heuristics are domain-specific rules or estimates that provide a "best guess" of how close a state is to the goal. A* (A-star) search is a widely used informed search algorithm that combines the benefits of both uniform-cost search and heuristics. It evaluates nodes based on a combination of the cost to reach the node and the estimated cost from that node to the goal. This combination, often referred to as the f-cost, guides the search towards more promising solutions while still considering the cost of the path.
+Heuristic search strategies aim to strike a balance between exploration and exploitation, harnessing problem-specific knowledge to make informed decisions about the next steps in the search process. The effectiveness of these strategies depends on the quality of the heuristic function and its ability to accurately estimate the distance or cost to the goal.
+
+In the realm of problem-solving through searching, the interplay between uninformed and informed search strategies reflects a dynamic quest for finding efficient solutions within diverse problem spaces. As AI researchers and practitioners continue to refine these strategies, the development of more sophisticated and adaptive problem-solving agents becomes increasingly attainable, contributing to the broader landscape of intelligent systems.
+
+The realm of problem-solving through searching in Artificial Intelligence unveils a rich tapestry of strategies employed by intelligent agents. Uninformed search strategies, guided solely by the structure of the problem space, showcase the iterative exploration of possibilities. Depth-First Search, with its penchant for exploring as deeply as possible along a branch, contrasts with Breadth-First Search's methodical, layer-by-layer approach. Uniform-Cost Search introduces a nuanced consideration of costs, prioritizing paths that promise efficiency.
+
+On the other side of the spectrum, informed search strategies infuse a touch of domain-specific knowledge into the exploration process. The marriage of heuristics, estimating the proximity to the goal, and algorithms forms the backbone of A* search. This approach intelligently balances the cost of reaching a state and the heuristic estimate, steering the agent towards solutions with a promising blend of efficiency and goal proximity. The intricate dance between uninformed and informed strategies reflects the dynamic nature of problem-solving, where adaptability and context-awareness play pivotal roles.
+
+Heuristic search, akin to human problem-solving intuition, represents a leap beyond brute-force exploration. The efficacy of these strategies hinges on the quality of heuristics, emphasizing the importance of crafting problem-specific insights. This fusion of computational efficiency and domain-specific knowledge propels problem-solving agents towards not only finding solutions but doing so with finesse, reflecting an evolving landscape that resonates with the intricacies of real-world challenges.
+
+The continuous evolution of search strategies mirrors the ever-expanding horizons of AI. Ongoing research endeavors delve into algorithmic nuances, seeking to optimize efficiency, scalability, and adaptability. As the journey of intelligent problem-solving unfolds, the delicate interplay between uninformed and informed strategies serves as a testament to the relentless pursuit of creating agents that navigate complexity with acumen and address multifaceted challenges across diverse domains.
+
+Knowledge representation is a pivotal concept in artificial intelligence, essential for enabling machines to effectively store, organize, and manipulate information for reasoning and problem-solving. Several distinct forms of knowledge representation have been developed to cater to diverse types of information and problem domains.
+
+Semantic networks adopt a graphical structure, interconnecting nodes to represent concepts or entities and using links to denote relationships. This form is particularly adept at illustrating hierarchical relationships and dependencies in a visually intuitive manner.
+
+Frames organize knowledge in a structured format, with each frame containing slots or attributes associated with a specific concept. This approach is useful for modeling objects with varying properties and intricate relationships.
+
+Rule-based representation involves encoding knowledge in the form of "if-then" rules, where specific conditions lead to predefined actions. This method is instrumental for capturing expert knowledge and facilitating decision-making processes.
+
+Ontologies provide a formal representation of knowledge by defining concepts, relationships, and properties within a specific domain. They are especially relevant for capturing complex knowledge structures and fostering interoperability between different systems.
+
+Predicate logic, a formal logical approach, represents knowledge using predicates and quantifiers to express relationships and properties. It offers a precise and mathematical means of knowledge representation suitable for various reasoning tasks.
+
+Conceptual graphs combine elements of semantic networks and predicate logic, utilizing nodes and labeled arcs to represent concepts, relationships, and constraints. This approach offers a comprehensive and flexible representation of knowledge.
+
+Frames and scripts are employed to represent stereotypical knowledge about events and situations. Frames capture information about specific instances, while scripts represent stereotypical sequences of events.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
@@ -750,33 +777,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-Heuristic search strategies aim to strike a balance between exploration and exploitation, harnessing problem-specific knowledge to make informed decisions about the next steps in the search process. The effectiveness of these strategies depends on the quality of the heuristic function and its ability to accurately estimate the distance or cost to the goal.
-
-In the realm of problem-solving through searching, the interplay between uninformed and informed search strategies reflects a dynamic quest for finding efficient solutions within diverse problem spaces. As AI researchers and practitioners continue to refine these strategies, the development of more sophisticated and adaptive problem-solving agents becomes increasingly attainable, contributing to the broader landscape of intelligent systems.
-
-The realm of problem-solving through searching in Artificial Intelligence unveils a rich tapestry of strategies employed by intelligent agents. Uninformed search strategies, guided solely by the structure of the problem space, showcase the iterative exploration of possibilities. Depth-First Search, with its penchant for exploring as deeply as possible along a branch, contrasts with Breadth-First Search's methodical, layer-by-layer approach. Uniform-Cost Search introduces a nuanced consideration of costs, prioritizing paths that promise efficiency.
-
-On the other side of the spectrum, informed search strategies infuse a touch of domain-specific knowledge into the exploration process. The marriage of heuristics, estimating the proximity to the goal, and algorithms forms the backbone of A* search. This approach intelligently balances the cost of reaching a state and the heuristic estimate, steering the agent towards solutions with a promising blend of efficiency and goal proximity. The intricate dance between uninformed and informed strategies reflects the dynamic nature of problem-solving, where adaptability and context-awareness play pivotal roles.
-
-Heuristic search, akin to human problem-solving intuition, represents a leap beyond brute-force exploration. The efficacy of these strategies hinges on the quality of heuristics, emphasizing the importance of crafting problem-specific insights. This fusion of computational efficiency and domain-specific knowledge propels problem-solving agents towards not only finding solutions but doing so with finesse, reflecting an evolving landscape that resonates with the intricacies of real-world challenges.
-
-The continuous evolution of search strategies mirrors the ever-expanding horizons of AI. Ongoing research endeavors delve into algorithmic nuances, seeking to optimize efficiency, scalability, and adaptability. As the journey of intelligent problem-solving unfolds, the delicate interplay between uninformed and informed strategies serves as a testament to the relentless pursuit of creating agents that navigate complexity with acumen and address multifaceted challenges across diverse domains.
-
-Knowledge representation is a pivotal concept in artificial intelligence, essential for enabling machines to effectively store, organize, and manipulate information for reasoning and problem-solving. Several distinct forms of knowledge representation have been developed to cater to diverse types of information and problem domains.
-
-Semantic networks adopt a graphical structure, interconnecting nodes to represent concepts or entities and using links to denote relationships. This form is particularly adept at illustrating hierarchical relationships and dependencies in a visually intuitive manner.
-
-Frames organize knowledge in a structured format, with each frame containing slots or attributes associated with a specific concept. This approach is useful for modeling objects with varying properties and intricate relationships.
-
-Rule-based representation involves encoding knowledge in the form of "if-then" rules, where specific conditions lead to predefined actions. This method is instrumental for capturing expert knowledge and facilitating decision-making processes.
-
-Ontologies provide a formal representation of knowledge by defining concepts, relationships, and properties within a specific domain. They are especially relevant for capturing complex knowledge structures and fostering interoperability between different systems.
-
-Predicate logic, a formal logical approach, represents knowledge using predicates and quantifiers to express relationships and properties. It offers a precise and mathematical means of knowledge representation suitable for various reasoning tasks.
-
-Conceptual graphs combine elements of semantic networks and predicate logic, utilizing nodes and labeled arcs to represent concepts, relationships, and constraints. This approach offers a comprehensive and flexible representation of knowledge.
-
-Frames and scripts are employed to represent stereotypical knowledge about events and situations. Frames capture information about specific instances, while scripts represent stereotypical sequences of events.
 
 Bayesian networks model probabilistic relationships between variables using a directed acyclic graph, making them suitable for representing uncertainty and facilitating probabilistic inferences.
 
