@@ -249,6 +249,37 @@ Other regression algorithms include Polynomial Regression, which captures nonlin
 Evaluation metrics for regression models include Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared. These metrics quantify the accuracy and goodness of fit between predicted and actual values.
 
 Regression finds diverse applications, such as predicting stock prices based on historical data, forecasting weather conditions, or estimating housing prices using features like location, size, and amenities.
+
+Advantages of regression models lie in their simplicity and interpretability, making them valuable for understanding relationships between variables and making predictions in scenarios with well-defined data patterns.
+
+However, regression models have limitations, particularly when dealing with nonlinear relationships or data containing outliers. Overfitting, where the model fits the training data too closely, can lead to poor generalization on new data.
+
+As regression techniques evolve, researchers explore hybrid models and advanced algorithms to address complex data relationships. Successful regression modeling hinges on data quality, feature selection, and choosing appropriate algorithms tailored to the specific predictive task.
+
+Regularization is a crucial concept in machine learning, specifically in regression, aimed at preventing overfitting and improving the generalization of models. Overfitting occurs when a model fits the training data too closely, capturing noise and making it less effective on new, unseen data.
+
+L2 Regularization (Ridge Regression):  
+L2 regularization, also known as Ridge regression, introduces a penalty term proportional to the squared magnitude of the coefficients. This additional term discourages large coefficients, preventing the model from becoming overly complex and mitigating the impact of irrelevant features.
+
+L1 Regularization (Lasso Regression):  
+L1 regularization, or Lasso regression, incorporates a penalty term proportional to the absolute magnitude of the coefficients. This results in some coefficients being exactly zero, effectively performing feature selection and promoting sparsity in the model.
+
+Elastic Net:  
+Elastic Net combines both L2 and L1 regularization, providing a flexible approach that balances the advantages of Ridge and Lasso regression. It addresses the limitations of each method and is particularly useful when dealing with datasets with a high number of features.
+
+Regularization adds a regularization term to the loss function during model training. The strength of regularization is controlled by a hyperparameter, often denoted as λ (lambda). The choice of λ influences the trade-off between fitting the training data well and keeping the model's complexity in check.
+
+Advantages of Regularization:  
+Regularization is instrumental in preventing overfitting, enhancing model robustness, and improving generalization to unseen data. It encourages simpler models, reducing the risk of capturing noise in the training data.
+
+Disadvantages of Regularization:  
+While regularization is a powerful tool, it may not be suitable for every scenario. The choice of the regularization parameter is crucial, and setting it too high can lead to underfitting, while setting it too low may not effectively prevent overfitting.
+
+Applications of Regularization:  
+Regularization is widely applied in regression tasks, especially when dealing with high-dimensional datasets. It finds use in linear regression, logistic regression, support vector machines, and neural networks. Its effectiveness is prominent in scenarios where feature selection, sparsity, and model interpretability are crucial.
+
+In summary, regularization techniques play a pivotal role in refining machine learning models, ensuring their adaptability to diverse datasets while guarding against the pitfalls of overfitting. The balance struck between fitting the training data and controlling model complexity is fundamental to the success of regularization in enhancing model performance.
+
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
@@ -867,37 +898,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 -------------------------------------------------------------------------------------
 
-
-
-Advantages of regression models lie in their simplicity and interpretability, making them valuable for understanding relationships between variables and making predictions in scenarios with well-defined data patterns.
-
-However, regression models have limitations, particularly when dealing with nonlinear relationships or data containing outliers. Overfitting, where the model fits the training data too closely, can lead to poor generalization on new data.
-
-As regression techniques evolve, researchers explore hybrid models and advanced algorithms to address complex data relationships. Successful regression modeling hinges on data quality, feature selection, and choosing appropriate algorithms tailored to the specific predictive task.
-
-Regularization is a crucial concept in machine learning, specifically in regression, aimed at preventing overfitting and improving the generalization of models. Overfitting occurs when a model fits the training data too closely, capturing noise and making it less effective on new, unseen data.
-
-L2 Regularization (Ridge Regression):  
-L2 regularization, also known as Ridge regression, introduces a penalty term proportional to the squared magnitude of the coefficients. This additional term discourages large coefficients, preventing the model from becoming overly complex and mitigating the impact of irrelevant features.
-
-L1 Regularization (Lasso Regression):  
-L1 regularization, or Lasso regression, incorporates a penalty term proportional to the absolute magnitude of the coefficients. This results in some coefficients being exactly zero, effectively performing feature selection and promoting sparsity in the model.
-
-Elastic Net:  
-Elastic Net combines both L2 and L1 regularization, providing a flexible approach that balances the advantages of Ridge and Lasso regression. It addresses the limitations of each method and is particularly useful when dealing with datasets with a high number of features.
-
-Regularization adds a regularization term to the loss function during model training. The strength of regularization is controlled by a hyperparameter, often denoted as λ (lambda). The choice of λ influences the trade-off between fitting the training data well and keeping the model's complexity in check.
-
-Advantages of Regularization:  
-Regularization is instrumental in preventing overfitting, enhancing model robustness, and improving generalization to unseen data. It encourages simpler models, reducing the risk of capturing noise in the training data.
-
-Disadvantages of Regularization:  
-While regularization is a powerful tool, it may not be suitable for every scenario. The choice of the regularization parameter is crucial, and setting it too high can lead to underfitting, while setting it too low may not effectively prevent overfitting.
-
-Applications of Regularization:  
-Regularization is widely applied in regression tasks, especially when dealing with high-dimensional datasets. It finds use in linear regression, logistic regression, support vector machines, and neural networks. Its effectiveness is prominent in scenarios where feature selection, sparsity, and model interpretability are crucial.
-
-In summary, regularization techniques play a pivotal role in refining machine learning models, ensuring their adaptability to diverse datasets while guarding against the pitfalls of overfitting. The balance struck between fitting the training data and controlling model complexity is fundamental to the success of regularization in enhancing model performance.
 
 Decision Trees, versatile in both classification and regression tasks, are structured as tree-like models. They consist of nodes representing decisions or actions, branches indicating possible outcomes, and leaves denoting final predictions.
 
