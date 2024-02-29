@@ -327,6 +327,34 @@ Artificial Neural Networks (ANNs) constitute computational models inspired by th
 
 Neural Network Architecture:
 The input layer receives data, hidden layers (if included) facilitate learning complex representations, and the output layer produces the final predictions. Weights, determining the strength of connections between nodes, play a pivotal role in shaping information flow.
+
+Activation Functions:
+Activation functions, such as sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU), introduce non-linearity. They govern how each node processes weighted inputs, enabling the network to capture intricate patterns.
+
+Training and Backpropagation:
+Training involves adjusting weights during backpropagation to minimize the discrepancy between predicted and actual outputs. Optimization techniques like gradient descent fine-tune the network's parameters.
+
+Advantages of Neural Networks:
+Ability to Learn Complex Patterns: Neural networks excel at capturing intricate patterns and relationships in data, making them potent for tasks with high complexity.
+Adaptability to Various Domains: ANNs prove versatile, finding applications in diverse domains like image recognition, speech processing, and natural language understanding.
+Feature Learning: Through hidden layers, neural networks autonomously learn relevant features, mitigating the need for manual feature engineering.
+
+Disadvantages of Neural Networks:
+Computational Intensity: Training large neural networks can be computationally demanding, necessitating powerful hardware or distributed computing resources.
+Need for Large Datasets: Neural networks often perform optimally with ample labeled data, limiting effectiveness in scenarios with data scarcity.
+Black Box Nature: The intricate nature of neural networks can render them challenging to interpret, raising concerns about their opaque decision-making.
+
+Applications of Neural Networks:
+Image and Speech Recognition: Neural networks dominate tasks like image classification, object detection, speech recognition, and synthesis.
+Natural Language Processing: ANNs play pivotal roles in language understanding, translation, and sentiment analysis.
+Autonomous Vehicles: Neural networks contribute to autonomous vehicle development, addressing challenges in object detection and decision-making.
+
+In summary, artificial neural networks stand as a potent paradigm in machine learning, demonstrating prowess in learning intricate patterns and adapting to diverse tasks. While their applications span various domains, considerations for computational resources and interpretability are pivotal for effective deployment.
+
+Ensemble Learning, a potent machine learning paradigm, involves amalgamating predictions from multiple models to enhance overall performance and robustness. This approach leverages the diversity among individual models to bolster predictive accuracy and generalization.
+
+Bagging (Bootstrap Aggregating):
+Bagging entails training multiple instances of the same learning algorithm on distinct subsets of the training data, often obtained through bootstrapping. The final prediction results from aggregating the outputs of individual models using techniques like averaging (for regression) or voting (for classification). An exemplary bagging algorithm is Random Forest.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
@@ -946,35 +974,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-
-
-Activation Functions:
-Activation functions, such as sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU), introduce non-linearity. They govern how each node processes weighted inputs, enabling the network to capture intricate patterns.
-
-Training and Backpropagation:
-Training involves adjusting weights during backpropagation to minimize the discrepancy between predicted and actual outputs. Optimization techniques like gradient descent fine-tune the network's parameters.
-
-Advantages of Neural Networks:
-Ability to Learn Complex Patterns: Neural networks excel at capturing intricate patterns and relationships in data, making them potent for tasks with high complexity.
-Adaptability to Various Domains: ANNs prove versatile, finding applications in diverse domains like image recognition, speech processing, and natural language understanding.
-Feature Learning: Through hidden layers, neural networks autonomously learn relevant features, mitigating the need for manual feature engineering.
-
-Disadvantages of Neural Networks:
-Computational Intensity: Training large neural networks can be computationally demanding, necessitating powerful hardware or distributed computing resources.
-Need for Large Datasets: Neural networks often perform optimally with ample labeled data, limiting effectiveness in scenarios with data scarcity.
-Black Box Nature: The intricate nature of neural networks can render them challenging to interpret, raising concerns about their opaque decision-making.
-
-Applications of Neural Networks:
-Image and Speech Recognition: Neural networks dominate tasks like image classification, object detection, speech recognition, and synthesis.
-Natural Language Processing: ANNs play pivotal roles in language understanding, translation, and sentiment analysis.
-Autonomous Vehicles: Neural networks contribute to autonomous vehicle development, addressing challenges in object detection and decision-making.
-
-In summary, artificial neural networks stand as a potent paradigm in machine learning, demonstrating prowess in learning intricate patterns and adapting to diverse tasks. While their applications span various domains, considerations for computational resources and interpretability are pivotal for effective deployment.
-
-Ensemble Learning, a potent machine learning paradigm, involves amalgamating predictions from multiple models to enhance overall performance and robustness. This approach leverages the diversity among individual models to bolster predictive accuracy and generalization.
-
-Bagging (Bootstrap Aggregating):
-Bagging entails training multiple instances of the same learning algorithm on distinct subsets of the training data, often obtained through bootstrapping. The final prediction results from aggregating the outputs of individual models using techniques like averaging (for regression) or voting (for classification). An exemplary bagging algorithm is Random Forest.
 
 Boosting:
 Boosting focuses on sequentially training weak learners, correcting errors made by preceding models. Each subsequent model assigns more weight to misclassified instances, emphasizing areas for ensemble improvement. Prominent boosting algorithms include AdaBoost and Gradient Boosting, with variations like XGBoost and LightGBM gaining traction.
