@@ -355,6 +355,26 @@ Ensemble Learning, a potent machine learning paradigm, involves amalgamating pre
 
 Bagging (Bootstrap Aggregating):
 Bagging entails training multiple instances of the same learning algorithm on distinct subsets of the training data, often obtained through bootstrapping. The final prediction results from aggregating the outputs of individual models using techniques like averaging (for regression) or voting (for classification). An exemplary bagging algorithm is Random Forest.
+
+Boosting:
+Boosting focuses on sequentially training weak learners, correcting errors made by preceding models. Each subsequent model assigns more weight to misclassified instances, emphasizing areas for ensemble improvement. Prominent boosting algorithms include AdaBoost and Gradient Boosting, with variations like XGBoost and LightGBM gaining traction.
+
+Stacking:
+Stacking, or stacked generalization, involves training diverse models and combining their predictions using another model (meta-model). The meta-model learns to weigh the outputs of individual models, providing a more sophisticated and often more accurate prediction.
+
+Advantages of Ensemble Learning:
+Improved Performance: Ensemble methods frequently surpass individual models, capitalizing on the strengths of diverse models to mitigate weaknesses.
+Increased Robustness: By aggregating predictions from different models, ensemble learning becomes more robust to noise and outliers in the data.
+Versatility: Ensemble methods find application across various machine learning algorithms, enhancing effectiveness in different scenarios.
+
+Disadvantages of Ensemble Learning:
+Complexity: Ensemble models can be more complex and computationally intensive than individual models, necessitating additional resources.
+Interpretability: The combined nature of ensemble predictions may reduce interpretability, making it challenging to understand the rationale behind specific predictions.
+
+Applications of Ensemble Learning:
+Classification and Regression: Ensemble learning is widely employed in both classification and regression tasks, consistently delivering competitive results.
+Anomaly Detection: Ensembles contribute to anomaly detection by improving the ability to discern normal patterns from outliers.
+Image and Speech Recognition: In complex tasks like image and speech recognition, ensemble methods enhance model accuracy and reliability.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
