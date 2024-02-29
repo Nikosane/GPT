@@ -280,6 +280,30 @@ Regularization is widely applied in regression tasks, especially when dealing wi
 
 In summary, regularization techniques play a pivotal role in refining machine learning models, ensuring their adaptability to diverse datasets while guarding against the pitfalls of overfitting. The balance struck between fitting the training data and controlling model complexity is fundamental to the success of regularization in enhancing model performance.
 
+Decision Trees, versatile in both classification and regression tasks, are structured as tree-like models. They consist of nodes representing decisions or actions, branches indicating possible outcomes, and leaves denoting final predictions.
+
+Splitting Criteria:
+The decision on which feature to use for splitting at each node is crucial. Common splitting criteria include Gini impurity for classification tasks and mean squared error for regression tasks. These criteria help determine the best feature and threshold for creating effective splits.
+
+Advantages of Decision Trees:
+Interpretability: Decision Trees offer a transparent representation of decision-making, making them easy to interpret and understand.
+No Assumptions about Data Distribution: Decision Trees do not assume a specific data distribution, making them versatile for various types of data.
+Handling Nonlinear Relationships: Decision Trees can capture complex, nonlinear relationships in the data.
+
+Disadvantages of Decision Trees:
+Overfitting: Decision Trees can become overly complex, capturing noise in the training data and leading to overfitting. Pruning techniques help address this.
+Sensitivity to Small Variations: Small changes in the data can result in different tree structures, making Decision Trees sensitive to variations.
+Biased Toward Dominant Classes: In classification tasks with imbalanced class distribution, Decision Trees may be biased toward dominant classes.
+
+Applications of Decision Trees:
+Classification: Decision Trees excel in tasks such as spam detection, customer churn prediction, and disease diagnosis.
+Regression: In regression tasks, Decision Trees are effective for predicting numerical values, such as house prices or sales forecasts.
+Data Exploration: Decision Trees can be used to explore and understand the structure of the data, identifying important features.
+
+In summary, Decision Trees provide a transparent and powerful approach to decision-making in machine learning. Their interpretability and ability to handle both classification and regression tasks make them valuable tools across various domains. Careful consideration of pruning techniques and awareness of their sensitivity to data variations are crucial for maximizing the benefits of Decision Trees.
+
+Support Vector Machines (SVMs) serve as robust models in both classification and regression tasks, seeking to find the optimal hyperplane that maximally separates distinct classes within the feature space.
+
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
