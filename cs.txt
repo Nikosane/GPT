@@ -304,6 +304,29 @@ In summary, Decision Trees provide a transparent and powerful approach to decisi
 
 Support Vector Machines (SVMs) serve as robust models in both classification and regression tasks, seeking to find the optimal hyperplane that maximally separates distinct classes within the feature space.
 
+Kernel Functions:
+Critical to SVM, kernel functions like linear, polynomial, and radial basis function (RBF) allow the model to handle intricate relationships between features. These functions are instrumental in creating non-linear decision boundaries when the data is not linearly separable.
+
+Advantages of SVM:
+Effective in High-Dimensional Spaces: SVM performs admirably in high-dimensional feature spaces, making it well-suited for tasks with numerous features.
+Robust to Overfitting: SVM's margin-based approach contributes to its resilience against overfitting, particularly in scenarios with high-dimensional data.
+Versatility: SVM exhibits versatility by being applicable to both linear and non-linear classification and regression tasks.
+
+Disadvantages of SVM:
+Sensitivity to Noise: SVM's performance can be influenced by noise in the training data, impacting the positioning of the hyperplane.
+Computationally Intensive: Training SVMs can be computationally demanding, especially with sizable datasets, necessitating optimization techniques.
+
+Applications of SVM:
+Text and Image Classification: SVM is widely employed in tasks such as text classification and image recognition.
+Bioinformatics: In bioinformatics, SVM finds utility in tasks like protein structure prediction and gene expression classification.
+Handwriting Recognition: SVM has demonstrated success in handwriting recognition applications, distinguishing between different handwritten characters.
+
+In summary, SVMs prove versatile in addressing complex tasks across diverse domains. Their proficiency in managing high-dimensional data and crafting both linear and non-linear decision boundaries makes them valuable tools. Careful consideration of kernel functions and awareness of sensitivity to noise are essential for leveraging the full potential of SVMs.
+
+Artificial Neural Networks (ANNs) constitute computational models inspired by the human brain's structure and function. Comprising interconnected nodes organized into layers, ANNs process information through input, hidden (if present), and output layers.
+
+Neural Network Architecture:
+The input layer receives data, hidden layers (if included) facilitate learning complex representations, and the output layer produces the final predictions. Weights, determining the strength of connections between nodes, play a pivotal role in shaping information flow.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
@@ -923,29 +946,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-Kernel Functions:
-Critical to SVM, kernel functions like linear, polynomial, and radial basis function (RBF) allow the model to handle intricate relationships between features. These functions are instrumental in creating non-linear decision boundaries when the data is not linearly separable.
 
-Advantages of SVM:
-Effective in High-Dimensional Spaces: SVM performs admirably in high-dimensional feature spaces, making it well-suited for tasks with numerous features.
-Robust to Overfitting: SVM's margin-based approach contributes to its resilience against overfitting, particularly in scenarios with high-dimensional data.
-Versatility: SVM exhibits versatility by being applicable to both linear and non-linear classification and regression tasks.
-
-Disadvantages of SVM:
-Sensitivity to Noise: SVM's performance can be influenced by noise in the training data, impacting the positioning of the hyperplane.
-Computationally Intensive: Training SVMs can be computationally demanding, especially with sizable datasets, necessitating optimization techniques.
-
-Applications of SVM:
-Text and Image Classification: SVM is widely employed in tasks such as text classification and image recognition.
-Bioinformatics: In bioinformatics, SVM finds utility in tasks like protein structure prediction and gene expression classification.
-Handwriting Recognition: SVM has demonstrated success in handwriting recognition applications, distinguishing between different handwritten characters.
-
-In summary, SVMs prove versatile in addressing complex tasks across diverse domains. Their proficiency in managing high-dimensional data and crafting both linear and non-linear decision boundaries makes them valuable tools. Careful consideration of kernel functions and awareness of sensitivity to noise are essential for leveraging the full potential of SVMs.
-
-Artificial Neural Networks (ANNs) constitute computational models inspired by the human brain's structure and function. Comprising interconnected nodes organized into layers, ANNs process information through input, hidden (if present), and output layers.
-
-Neural Network Architecture:
-The input layer receives data, hidden layers (if included) facilitate learning complex representations, and the output layer produces the final predictions. Weights, determining the strength of connections between nodes, play a pivotal role in shaping information flow.
 
 Activation Functions:
 Activation functions, such as sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU), introduce non-linearity. They govern how each node processes weighted inputs, enabling the network to capture intricate patterns.
