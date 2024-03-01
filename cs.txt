@@ -1042,20 +1042,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-Disadvantages of K-NN:
-Computational Complexity: As the dataset grows, the computational cost of finding the nearest neighbors increases, affecting real-time applications.
-Sensitivity to Outliers: K-NN can be sensitive to outliers, as they can significantly impact the distance calculations and influence predictions.
-
-Applications of K-NN:
-Classification: K-NN is widely applied in classification tasks such as image recognition, spam detection, and sentiment analysis.
-Regression: In regression tasks, K-NN is used for predicting continuous values, making it applicable in scenarios like house price prediction.
-Anomaly Detection: K-NN is effective in identifying outliers or anomalies in datasets.
-
-In summary, K-NN stands as a simple yet powerful algorithm in machine learning, leveraging proximity-based predictions for diverse applications. While offering simplicity and versatility, considerations for computational complexity and sensitivity to outliers are crucial for its effective utilization.
-
-Gradient Descent stands as a foundational pillar in machine learning, a stalwart optimization algorithm meticulously crafted for the nuanced task of minimizing the cost or loss function during the intricate dance of model training. Nestled within its workings is an objective or cost function, a litmus test gauging the delta between predicted and actual values. The heartbeat of this method is the gradient – a compass pointing toward the steepest ascent, revealing the intricacies of partial derivatives concerning each parameter.
-
-At the helm of control is the learning rate, a pivotal hyperparameter dictating the choreography of steps taken in the vast parameter space during each iteration. Picture a ballet where the precision of each step, guided by this learning rate, can mean the difference between a harmonious convergence and a cacophony of oscillations.
 
 The optimization saga commences with the ceremonial initialization of model parameters, often adorned with the randomness of a carefully orchestrated chaos. A symphony unfolds as the algorithm orchestrates the dance of computation, elegantly calculating the gradient and orchestrating the parameter pas de deux – a dance between the current model state and the negative gradient, both harmonized by the learning rate. Iteration after iteration, this ballet continues until the curtain falls on convergence, signaled by a specified iteration count or the gentle sway of the objective function.
 
