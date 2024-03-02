@@ -438,6 +438,21 @@ In summary, K-NN stands as a simple yet powerful algorithm in machine learning, 
 Gradient Descent stands as a foundational pillar in machine learning, a stalwart optimization algorithm meticulously crafted for the nuanced task of minimizing the cost or loss function during the intricate dance of model training. Nestled within its workings is an objective or cost function, a litmus test gauging the delta between predicted and actual values. The heartbeat of this method is the gradient – a compass pointing toward the steepest ascent, revealing the intricacies of partial derivatives concerning each parameter.
 
 At the helm of control is the learning rate, a pivotal hyperparameter dictating the choreography of steps taken in the vast parameter space during each iteration. Picture a ballet where the precision of each step, guided by this learning rate, can mean the difference between a harmonious convergence and a cacophony of oscillations.
+
+The optimization saga commences with the ceremonial initialization of model parameters, often adorned with the randomness of a carefully orchestrated chaos. A symphony unfolds as the algorithm orchestrates the dance of computation, elegantly calculating the gradient and orchestrating the parameter pas de deux – a dance between the current model state and the negative gradient, both harmonized by the learning rate. Iteration after iteration, this ballet continues until the curtain falls on convergence, signaled by a specified iteration count or the gentle sway of the objective function.
+
+In the grand theater of machine learning, Gradient Descent dons various costumes. Batch Gradient Descent, a meticulous performer, graces the stage employing the entire dataset for each iteration – accurate yet demanding. Stochastic Gradient Descent (SGD), the virtuoso, dazzles with efficiency, updating parameters with the grace of a single randomly chosen data point per iteration. Mini-Batch Gradient Descent, the versatile ensemble, strikes a chord, creating a harmony with a judicious selection of a small, random subset for gradient computation.
+
+The tale of Gradient Descent resonates across the epochs of machine learning, a timeless narrative echoed in various domains. Its adaptability and ubiquity underscore the need for the maestro's touch in hyperparameter tuning, where the learning rate conducts the orchestra to the sweet cadence of convergence.
+
+
+Probabilistic models emerge as a potent framework in the realms of machine learning and statistics, adeptly navigating the intricate terrain of uncertainty inherent in real-world data.
+Key Concepts of Probabilistic Models:
+Probability Distributions:
+Central to probabilistic models are probability distributions, intricate maps that unveil the likelihood of different outcomes or events. Among the ensemble, Gaussian (normal), Bernoulli, and Poisson distributions claim prominence.
+
+Parameters and Random Variables:
+Woven into the fabric of probabilistic models are parameters, the master puppeteers shaping the nuances of probability distributions. Meanwhile, random variables take center stage, embodying the essence of uncertainty by representing unpredictable quantities.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
