@@ -1131,23 +1131,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Key Concepts of Reinforcement Learning:
-
-Policy:
-At the core of Reinforcement Learning lies the policy, a strategy or mapping that agents employ to make decisions in various states of an environment. The objective is to discover an optimal policy that maximizes cumulative rewards over time.
-
-Value Function:
-The value function acts as a guiding compass for agents, estimating the expected cumulative reward associated with being in a particular state or following a specific action. It helps in evaluating the desirability of different states or actions.
-
-Exploration and Exploitation:
-Reinforcement Learning faces the delicate balance of exploration and exploitation. Agents must explore the environment to discover optimal strategies while exploiting known information to maximize short-term rewards.
-
-Markov Decision Process (MDP):
-RL models often operate within the framework of Markov Decision Processes, where states, actions, transition probabilities, and rewards collectively define the dynamics of the environment. MDPs provide a structured way to formalize RL problems.
-
-Reinforcement Learning Algorithms:
-Q-Learning:
-Q-Learning stands as a pioneering algorithm in Reinforcement Learning, focusing on learning the optimal action-value function. It iteratively refines Q-values, representing the expected cumulative reward of taking a specific action in a particular state.
 
 Deep Q Network (DQN):
 DQN introduces deep neural networks into the RL landscape, enabling the handling of high-dimensional state spaces. It leverages neural networks to approximate the Q-function, facilitating more complex and realistic scenarios.
