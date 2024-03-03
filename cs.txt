@@ -1151,25 +1151,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Deep Q Network (DQN):
-DQN introduces deep neural networks into the RL landscape, enabling the handling of high-dimensional state spaces. It leverages neural networks to approximate the Q-function, facilitating more complex and realistic scenarios.
 
-Policy Gradient Methods:
-Policy Gradient methods directly optimize the policy, allowing for more flexible representations. Algorithms like REINFORCE employ gradient ascent to iteratively enhance the policy's parameters.
-
-Applications of Reinforcement Learning:
-Game Playing:
-Reinforcement Learning shines in the realm of game playing, exemplified by AlphaGo, where the algorithm learned strategies to outperform human champions through iterative gameplay.
-
-Robotics and Autonomous Systems:
-In robotics, RL enables the training of autonomous agents to navigate dynamic environments, manipulate objects, and perform complex tasks.
-
-Resource Management:
-RL finds application in resource management scenarios, such as optimizing energy consumption, where agents learn to make decisions that lead to efficient resource utilization.
-
-Challenges in Reinforcement Learning:
-Sample Efficiency:
-One of the challenges in RL is achieving sample efficiency, as learning from limited interactions with the environment requires algorithms to extract meaningful insights with minimal data.
 
 Exploration Strategies:
 Developing effective exploration strategies remains a challenge, as RL agents need to strike a balance between exploring new possibilities and exploiting known information to maximize rewards.
