@@ -568,6 +568,24 @@ Standing as a cornerstone in statistical learning, Maximum Likelihood Estimation
 Prior and Posterior Distributions:
 In the Bayesian realm, models introduce prior distributions, encapsulating prior beliefs about the parameters. As data is observed, these priors are seamlessly transformed into posterior distributions, representing updated beliefs in light of new evidence.
 
+Applications of Probabilistic Models in Statistical Learning:
+Linear Regression:
+Probabilistic models find application in linear regression, where uncertainty about the relationship between variables is quantified through probability distributions. Bayesian linear regression, for instance, allows for uncertainty estimates in predictions.
+
+Classification:
+In classification tasks, probabilistic models, particularly Bayesian models, provide a natural framework for handling uncertainty in class assignments. Probabilistic classification extends beyond mere predictions, offering insights into confidence levels.
+
+Gaussian Processes:
+Gaussian Processes exemplify probabilistic models used in statistical learning for regression tasks. They provide a flexible framework for capturing uncertainty in predictions and adaptability to varying data conditions.
+
+Challenges and Considerations in Probabilistic Models:
+Computational Complexity:
+One of the challenges in employing probabilistic models lies in managing computational complexity, especially when dealing with high-dimensional data or intricate model structures.
+
+Interpretability:
+Probabilistic models often grapple with the challenge of interpretability. Deciphering the intricate dance of probability distributions requires a nuanced understanding, posing considerations for model transparency.
+
+Probabilistic models in statistical learning continue to shape the landscape, providing a nuanced lens through which to view uncertainty and variability in data. Whether applied to linear regression, classification, or Gaussian processes, these models illuminate the path toward a more probabilistic understanding of complex phenomena.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
