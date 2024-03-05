@@ -1237,23 +1237,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-
-
-Independence Assumption:
-A distinctive trait of Naive Bayes lies in its assumption of feature independence. Although a simplification and not always met in real-world scenarios, this assumption eases the computational burden, making the algorithm particularly efficient.
-Probability Estimation:
-The classifier estimates probabilities by calculating the likelihood of each feature occurring given a specific class and the prior probability of that class. These estimates guide the classification decision-making process.
-Types of Naive Bayes Classifiers:
-- Gaussian Naive Bayes: Assumes features follow a Gaussian distribution.
-- Multinomial Naive Bayes: Suitable for discrete data, often used in text classification.
-- Bernoulli Naive Bayes: Applicable for binary data, where features are either present or absent.
-Applications of Naive Bayes Classifier:
-Text Classification:
-Naive Bayes excels in text classification tasks, such as spam filtering and sentiment analysis. Its simplicity and efficiency make it a popular choice for processing large volumes of textual data.
-Medical Diagnosis:
-In the medical domain, Naive Bayes classifiers are utilized for disease prediction and diagnosis based on a set of observed symptoms and patient characteristics.
-Email Filtering:
-Spam filtering in emails leverages Naive Bayes to distinguish between spam and legitimate messages. The classifier learns from the characteristics of previously labeled emails.
 Challenges and Considerations in Naive Bayes Classifier:
 Feature Independence Assumption:
 The assumption of feature independence might not hold in all cases, potentially leading to suboptimal performance when features are correlated.
