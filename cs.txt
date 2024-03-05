@@ -1253,16 +1253,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-Challenges and Considerations in Naive Bayes Classifier:
-Feature Independence Assumption:
-The assumption of feature independence might not hold in all cases, potentially leading to suboptimal performance when features are correlated.
-Handling Continuous Features:
-Gaussian Naive Bayes is well-suited for continuous features assuming a normal distribution. However, for non-normally distributed data, preprocessing or alternative models may be necessary.
-Limited Expressiveness:
-While effective in many scenarios, Naive Bayes has limited expressiveness compared to more complex models. It may struggle to capture intricate relationships in highly nuanced datasets.
-The Naive Bayes Classifier, despite its simplicity, remains a valuable tool in the machine learning toolbox. Its efficiency and effectiveness in certain applications, particularly text-based tasks, underscore its relevance across diverse domains.
-
-In the expansive field of machine learning, the incorporation of Hidden Variables within the framework of the Expectation-Maximization (EM) algorithm unfolds as a captivating exploration into the intricate fabric of data modeling. Learning, at its core, involves the discernment of patterns and relationships within data. However, the introduction of Hidden Variables suggests the existence of underlying factors that exert influence on the observed data, yet these factors remain veiled from direct observation.
 
 The EM algorithm, a cornerstone in this narrative, is a sophisticated iterative method tailored to address scenarios where certain variables elude direct observation. Its adaptability is noteworthy, as it evolves over iterations, proving particularly adept in scenarios where traditional algorithms falter. This iterative nature is pivotal, contributing to the algorithm's capacity to converge towards optimal outcomes through the systematic estimation of hidden variable values.
 
