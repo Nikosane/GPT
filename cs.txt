@@ -1296,18 +1296,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-
-
-
-
-Central to RL is the concept of a Markov Decision Process (MDP), a mathematical framework that formalizes the RL problem. An MDP consists of states, actions, a transition model, a reward function, and a discount factor. States represent different situations in the environment, actions are the decisions the agent can make, the transition model defines the probabilities of transitioning between states based on actions, the reward function assigns values to different state-action pairs, and the discount factor influences the importance of future rewards.
-
-Reinforcement Learning has found applications in diverse domains, from robotics and gaming to finance and healthcare. In robotics, RL enables robots to learn and adapt to different tasks, while in gaming, it has been used to train agents that outperform human players. Financial applications involve portfolio optimization, and in healthcare, RL is applied to personalized treatment plans and drug discovery.
-
-In summary, Reinforcement Learning introduces a dynamic approach to machine learning, where an agent learns by interacting with an environment, receiving feedback in the form of rewards, and adjusting its strategy over time to maximize cumulative rewards. This iterative process, driven by the principles of exploration and exploitation, makes RL a powerful paradigm for training algorithms in complex and dynamic scenarios.
-
-Q-Learning is a fundamental algorithm in the field of Reinforcement Learning (RL) that addresses the challenge of learning optimal actions in a Markov Decision Process (MDP). It is particularly notable for its simplicity and effectiveness, making it a cornerstone in the RL toolbox.
-
 At its core, Q-Learning operates by estimating the value of taking a particular action in a specific state, known as the Q-value. The Q-value represents the cumulative expected reward an agent would obtain by starting from a given state, taking a particular action, and then following an optimal policy. The algorithm iteratively updates these Q-values based on the observed rewards and transitions in the environment.
 
 Applications of Q-Learning:
