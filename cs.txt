@@ -1326,11 +1326,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Breadth-First Search (BFS):
-BFS, known for its systematic exploration, traverses all vertices at the current depth before venturing into deeper levels. It guarantees the discovery of the shortest path to each node.
-
-Iterative Depth-First Search (IDFS):
-IDFS, a variant of depth-first search, incrementally deepens the exploration depth, striking a balance between depth-first strategy and breadth-first completeness.
 
 Comparing Performance and Efficiency:
 
