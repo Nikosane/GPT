@@ -1321,11 +1321,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 -------------------------------------------------------------------------------------
 
-Comparing Performance and Efficiency:
-
-The evaluation of BFS and IDFS involves considering several factors:
-
-Time Complexity: BFS, with its exhaustive exploration, can have a higher time complexity. In contrast, IDFS, leveraging iterative deepening, may demonstrate efficiency, especially in scenarios with limited branching.
 
 Space Complexity: BFS may demand more memory due to the storage of all nodes at the current depth. IDFS, adopting an iterative approach, could potentially conserve memory.
 
