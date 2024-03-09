@@ -1321,12 +1321,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 -------------------------------------------------------------------------------------
 
-
-
-
-
-
-
 Comparing Performance and Efficiency:
 
 The evaluation of BFS and IDFS involves considering several factors:
