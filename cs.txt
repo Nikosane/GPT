@@ -1342,13 +1342,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-
-
-
-
-Recursive Best-First Search (RBFS):
-RBFS stands out as a memory-efficient variant of best-first search. It applies a limited-depth best-first search recursively, backtracking when necessary. This makes it particularly suitable for scenarios where memory constraints are a critical consideration.
-
 Comparing Performance and Effectiveness:
 Performance and effectiveness of A* Search and RBFS can be evaluated based on several factors:
 
