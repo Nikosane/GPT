@@ -1333,10 +1333,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Graph Characteristics: The nature of the problem and the graph's features play a crucial role. BFS might excel in scenarios with constrained branching, while IDFS could outperform in large, sparse graphs.
-
-By weighing these considerations, practitioners can select the most suitable algorithm based on the specific requirements and characteristics of the problem at hand. Each algorithm brings its strengths to the table, offering versatility in problem-solving within different contexts.
-
 
 A* Search and Recursive Best-First Search (RBFS) represent advanced pathfinding algorithms renowned for their effectiveness in solving complex problems. Below, you'll find implementations and a comparative analysis of these algorithms:
 
