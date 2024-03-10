@@ -1339,10 +1339,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-A* Search and Recursive Best-First Search (RBFS) represent advanced pathfinding algorithms renowned for their effectiveness in solving complex problems. Below, you'll find implementations and a comparative analysis of these algorithms:
-
-A Search:*
-A* Search seamlessly combines the advantages of uniform cost search and greedy best-first search. It relies on a heuristic to estimate the cost from the current state to the goal, employing a priority queue to explore nodes based on their total cost.
 
 
 Recursive Best-First Search (RBFS):
