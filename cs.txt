@@ -1344,8 +1344,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 -------------------------------------------------------------------------------------
 
 
-Comparing Performance and Effectiveness:
-Performance and effectiveness of A* Search and RBFS can be evaluated based on several factors:
 
 Time Complexity: A* Search typically exhibits efficient time complexity due to its heuristic-guided exploration. RBFS, while efficient, may vary based on heuristic accuracy and branching.
 
