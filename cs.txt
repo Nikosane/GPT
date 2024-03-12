@@ -1353,7 +1353,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Completeness and Optimality: Both algorithms are complete if the search space is finite. A* Search is optimal when the heuristic is admissible, whereas RBFS might not guarantee optimality.
 
 Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
 
