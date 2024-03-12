@@ -734,6 +734,8 @@ Time Complexity: A* Search typically exhibits efficient time complexity due to i
 Space Complexity: A* Search can demand more memory, especially in large graphs, as it stores all expanded nodes. RBFS is designed for memory efficiency, keeping a limited number of nodes in memory.
 
 Completeness and Optimality: Both algorithms are complete if the search space is finite. A* Search is optimal when the heuristic is admissible, whereas RBFS might not guarantee optimality.
+
+Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
