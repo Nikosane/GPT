@@ -1356,7 +1356,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Heuristic Influence: The choice and accuracy of the heuristic significantly impact both algorithms. A well-designed heuristic improves performance.
 
 Comparing these aspects can guide the selection of the most suitable algorithm based on specific problem requirements, available resources, and the nature of the search space. A* Search and RBFS each bring unique strengths to pathfinding problems, offering versatile solutions across different contexts.
 
