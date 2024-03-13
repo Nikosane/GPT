@@ -1362,7 +1362,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Decision Tree Learning is a powerful algorithm for classification and regression tasks. Below are the implementation steps, evaluation, and visualization instructions for Decision Tree Learning:
 
 Decision Tree Learning Algorithm:
 Decision Tree Learning involves recursively partitioning the dataset based on feature attributes to create a tree-like structure. The algorithm selects the best attribute at each step to split the data, creating nodes that represent decisions and leaves that represent outcomes.
