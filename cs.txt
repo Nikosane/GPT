@@ -1381,8 +1381,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Create a Decision Tree Classifier
-clf = DecisionTreeClassifier()
 
 # Train the model
 clf.fit(X_train, y_train)
