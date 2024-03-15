@@ -1396,8 +1396,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Visualizing the Decision Tree:
-plt.figure(figsize=(12, 8))
 plot_tree(clf, filled=True, feature_names=feature_names, class_names=class_names)
 plt.show()
 
