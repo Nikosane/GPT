@@ -1399,8 +1399,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-plot_tree(clf, filled=True, feature_names=feature_names, class_names=class_names)
-plt.show()
 
 Interpreting the Decision Tree:
 The generated decision tree visual helps interpret the decision-making process. Each node represents a decision based on a feature, and each leaf node represents the predicted outcome. The tree structure reflects the hierarchy of decisions made during classification.
