@@ -1405,7 +1405,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-The generated decision tree visual helps interpret the decision-making process. Each node represents a decision based on a feature, and each leaf node represents the predicted outcome. The tree structure reflects the hierarchy of decisions made during classification.
 
 Evaluation:
 Evaluate the accuracy of the model on test data using metrics like accuracy_score or other relevant metrics based on the problem's nature.
