@@ -1407,7 +1407,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Evaluation:
 Evaluate the accuracy of the model on test data using metrics like accuracy_score or other relevant metrics based on the problem's nature.
 
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
