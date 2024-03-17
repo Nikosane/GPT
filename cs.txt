@@ -1412,7 +1412,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Evaluate accuracy
 accuracy = accuracy_score(y_test, y_pred)
