@@ -1415,7 +1415,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Evaluate accuracy
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
