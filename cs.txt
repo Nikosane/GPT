@@ -1428,7 +1428,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-print(confusion_matrix(y_test, y_pred))
 
 Conclusion:
 Decision Tree Learning is a versatile algorithm, providing interpretable and visualizable models. Carefully choosing hyperparameters, handling overfitting, and optimizing the tree structure contribute to its effectiveness. The evaluation metrics provide insights into the model's performance, guiding potential adjustments and improvements. Visualizing the decision tree enhances interpretability, making it a valuable tool in machine learning tasks.
