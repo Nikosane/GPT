@@ -1433,7 +1433,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
- visualizable models. Carefully choosing hyperparameters, handling overfitting, and optimizing the tree structure contribute to its effectiveness. The evaluation metrics provide insights into the model's performance, guiding potential adjustments and improvements. Visualizing the decision tree enhances interpretability, making it a valuable tool in machine learning tasks.
+ optimizing the tree structure contribute to its effectiveness. The evaluation metrics provide insights into the model's performance, guiding potential adjustments and improvements. Visualizing the decision tree enhances interpretability, making it a valuable tool in machine learning tasks.
 
 The Feedforward Backpropagation Neural Network is a foundational algorithm for training neural networks. Below are steps for its implementation, training on a dataset, and evaluating performance on test data:
 
