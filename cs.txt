@@ -1435,7 +1435,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-The Feedforward Backpropagation Neural Network is a foundational algorithm for training neural networks. Below are steps for its implementation, training on a dataset, and evaluating performance on test data:
+
 
 Feedforward Backpropagation Algorithm:
 
