@@ -1442,7 +1442,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Feedforward Backpropagation involves the forward pass to compute predictions and the backward pass to update the model's weights using gradient descent and the backpropagation algorithm.
+
 
 Implementation:
 from sklearn.neural_network import MLPClassifier
