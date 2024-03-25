@@ -1461,7 +1461,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-clf = MLPClassifier(hidden_layer_sizes=(100,), max_iter=1000)
+
 
 # Train the model
 clf.fit(X_train, y_train)
