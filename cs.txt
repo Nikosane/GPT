@@ -1466,7 +1466,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-clf.fit(X_train, y_train)
+
 
 # Make predictions on test data
 y_pred = clf.predict(X_test)
