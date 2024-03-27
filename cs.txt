@@ -1471,7 +1471,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-y_pred = clf.predict(X_test)
+
 
 # Evaluate performance
 accuracy = accuracy_score(y_test, y_pred)
