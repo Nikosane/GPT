@@ -1478,7 +1478,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-print("Accuracy:", accuracy)
 
 # Additional evaluation metrics
 print("Classification Report:")
