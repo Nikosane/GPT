@@ -1489,7 +1489,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-print("Confusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
 Conclusion:
