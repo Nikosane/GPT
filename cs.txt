@@ -1491,7 +1491,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-print(confusion_matrix(y_test, y_pred))
+
 
 Conclusion:
 The Feedforward Backpropagation Neural Network is a powerful algorithm for various tasks, including classification. Adjusting hyperparameters such as the number of hidden layers, neurons per layer, and learning rate can impact performance. Evaluating the model on test data using metrics like accuracy, precision, recall, and confusion matrix provides insights into its effectiveness.
