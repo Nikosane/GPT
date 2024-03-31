@@ -835,6 +835,9 @@ The scikit-learn library provides a convenient implementation, but for a deeper 
 Experimenting with different architectures and fine-tuning the model allows for tailoring the neural network to specific tasks. The visualization of the training process, loss curves, and decision boundaries can aid in understanding the neural network's behavior.
 
 Support Vector Machines (SVM) is a powerful algorithm for binary classification tasks. Below are the steps to implement the SVM algorithm, train a model, optimize parameters, and evaluate its performance on test data:
+
+SVM Algorithm:
+SVM seeks to find a hyperplane that best separates the data into two classes while maximizing the margin between them. It can handle both linear and non-linear classification tasks through the use of different kernels.
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
