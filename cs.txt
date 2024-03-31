@@ -1512,8 +1512,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-SVM Algorithm:
-SVM seeks to find a hyperplane that best separates the data into two classes while maximizing the margin between them. It can handle both linear and non-linear classification tasks through the use of different kernels.
+
 
 Implementation:
 from sklearn.svm import SVC
