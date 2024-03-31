@@ -1508,7 +1508,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Support Vector Machines (SVM) is a powerful algorithm for binary classification tasks. Below are the steps to implement the SVM algorithm, train a model, optimize parameters, and evaluate its performance on test data:
+
 
 SVM Algorithm:
 SVM seeks to find a hyperplane that best separates the data into two classes while maximizing the margin between them. It can handle both linear and non-linear classification tasks through the use of different kernels.
