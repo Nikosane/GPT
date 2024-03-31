@@ -1504,7 +1504,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-Experimenting with different architectures and fine-tuning the model allows for tailoring the neural network to specific tasks. The visualization of the training process, loss curves, and decision boundaries can aid in understanding the neural network's behavior.
+
 
 Support Vector Machines (SVM) is a powerful algorithm for binary classification tasks. Below are the steps to implement the SVM algorithm, train a model, optimize parameters, and evaluate its performance on test data:
 
