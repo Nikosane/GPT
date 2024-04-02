@@ -1529,7 +1529,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
 # Create an SVM model
 svm_model = SVC()
 # Train the model
