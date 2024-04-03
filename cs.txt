@@ -1513,8 +1513,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Make predictions on test data
-y_pred = svm_model.predict(X_test)
+
 # Evaluate performance
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
