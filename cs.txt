@@ -1509,31 +1509,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-svm_model = SVC()
 # Train the model
 svm_model.fit(X_train, y_train)
 # Make predictions on test data
