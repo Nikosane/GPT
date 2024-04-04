@@ -1518,7 +1518,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-accuracy = accuracy_score(y_test, y_pred)
+
 print("Accuracy:", accuracy)
 # Additional evaluation metrics
 print("Classification Report:")
