@@ -1531,7 +1531,7 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-print(confusion_matrix(y_test, y_pred))
+
 
 Hyperparameter Optimization:
 # Define a parameter grid for optimization
