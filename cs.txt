@@ -1540,8 +1540,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Create an SVM model
-svm_model = SVC()
 
 # Use GridSearchCV for hyperparameter optimization
 grid_search = GridSearchCV(estimator=svm_model, param_grid=param_grid, cv=5)
