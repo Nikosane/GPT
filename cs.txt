@@ -1536,8 +1536,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Define a parameter grid for optimization
-param_grid = {'C': [0.1, 1, 10, 100], 'kernel': ['linear', 'rbf', 'poly', 'sigmoid'], 'gamma': ['scale', 'auto']}
 
 # Create an SVM model
 svm_model = SVC()
