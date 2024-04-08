@@ -1554,9 +1554,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Train the model with the best parameters
-optimized_svm_model = SVC(**best_params)
-optimized_svm_model.fit(X_train, y_train)
 
 Conclusion:
 Implementing SVM for binary classification involves training the model, making predictions, and evaluating its performance. Hyperparameter optimization, as demonstrated with GridSearchCV, allows fine-tuning to enhance model accuracy.
