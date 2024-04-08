@@ -1549,10 +1549,6 @@ Textbooks and references for the course include "Cyber Laws & Information Techno
 
 
 
-# Get the best parameters
-best_params = grid_search.best_params_
-print("Best Parameters:", best_params)
-
 # Train the model with the best parameters
 optimized_svm_model = SVC(**best_params)
 optimized_svm_model.fit(X_train, y_train)
