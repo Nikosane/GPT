@@ -874,6 +874,11 @@ svm_model = SVC()
 # Use GridSearchCV for hyperparameter optimization
 grid_search = GridSearchCV(estimator=svm_model, param_grid=param_grid, cv=5)
 grid_search.fit(X_train, y_train)
+
+# Get the best parameters
+best_params = grid_search.best_params_
+print("Best Parameters:", best_params)
+
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
