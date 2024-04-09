@@ -885,6 +885,8 @@ optimized_svm_model.fit(X_train, y_train)
 
 Conclusion:
 Implementing SVM for binary classification involves training the model, making predictions, and evaluating its performance. Hyperparameter optimization, as demonstrated with GridSearchCV, allows fine-tuning to enhance model accuracy.
+
+Evaluating the SVM model using metrics like accuracy, precision, recall, and confusion matrix provides insights into its effectiveness. Additionally, understanding the impact of hyperparameters such as the choice of kernel, regularization parameter (C), and kernel-specific parameters (e.g., gamma) is crucial for optimal performance. Experimenting with different kernel functions and regularization settings can be beneficial in achieving better results for specific datasets.	
 ------------------------------------------------------------------------------
 Information & Network Security
 The course titled "Information & Network Security" (USCS502) offered in Semester V provides students with an extensive understanding of the principles and techniques integral to computer and network security. With a credit allocation of 2 and 3 lectures per week, the curriculum covers diverse security topics, ranging from encryption techniques to network security principles. Through a comprehensive blend of theoretical learning and practical exercises, students gain the essential knowledge and skills needed to proficiently analyze, design, and implement secure systems, effectively safeguarding against a myriad of security threats.
