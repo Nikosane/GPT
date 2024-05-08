@@ -24,3 +24,5 @@ Reasoning in AI involves the development of systems that can derive conclusions 
 Knowledge representation aims to capture and organize knowledge in a manner that AI systems can understand and utilize effectively. This includes methods such as semantic networks, ontologies, and knowledge graphs.
 Planning involves developing algorithms and techniques for creating sequences of actions to achieve desired goals efficiently, which is essential for autonomous systems and robotics.
 Learning is a fundamental aspect of AI, encompassing machine learning and deep learning techniques that enable systems to improve their performance over time based on experience and data.
+Natural language processing (NLP) focuses on enabling computers to understand, generate, and interact with human language, facilitating applications such as chatbots, translation services, and sentiment analysis.
+Perception involves developing systems capable of interpreting and understanding sensory inputs such as images, speech, and other forms of data, enabling tasks like object recognition, speech recognition, and gesture interpretation.
