@@ -65,3 +65,6 @@ Causes and effects: Knowledge bases capture causal relationships, including the 
 Knowledge about knowledge (meta-knowledge): This includes information about what is known, including beliefs, perceptions, and awareness of what others know or believe (epistemic knowledge).
 
 Default reasoning: Knowledge bases incorporate default assumptions or rules that humans generally consider true unless stated otherwise. These assumptions remain valid even when other facts may change or evolve.
+
+Overall, knowledge bases play a crucial role in AI by providing a structured representation of diverse knowledge domains. They enable AI systems to reason, infer, and make decisions based on the captured information, facilitating intelligent behavior and problem-solving across various applications.
+A knowledge base serves as a repository of information represented in a format that computer programs can utilize. It contains a body of knowledge that AI systems can access and manipulate to perform tasks. An ontology, on the other hand, refers to the specific set of objects, relations, concepts, and properties defining a particular domain of knowledge.
