@@ -68,3 +68,7 @@ Default reasoning: Knowledge bases incorporate default assumptions or rules that
 
 Overall, knowledge bases play a crucial role in AI by providing a structured representation of diverse knowledge domains. They enable AI systems to reason, infer, and make decisions based on the captured information, facilitating intelligent behavior and problem-solving across various applications.
 A knowledge base serves as a repository of information represented in a format that computer programs can utilize. It contains a body of knowledge that AI systems can access and manipulate to perform tasks. An ontology, on the other hand, refers to the specific set of objects, relations, concepts, and properties defining a particular domain of knowledge.
+
+In AI, knowledge bases are designed to capture and represent various aspects of knowledge, including objects, properties, categories, relations between objects, situations, events, states, time-related information, causes and effects, meta-knowledge (knowledge about what is known or believed), default reasoning (assumptions held to be true until proven otherwise), and many other domains of knowledge.
+
+These knowledge bases enable AI systems to reason, infer, and make decisions based on the structured knowledge they contain. By organizing information in this way, AI can exhibit intelligent behavior and problem-solving across different applications and domains within artificial intelligence.
