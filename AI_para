@@ -62,3 +62,6 @@ Objects, properties, categories, and relations: This involves representing entit
 Situations, events, states, and time: AI systems need to understand different states of affairs, events occurring within a domain, temporal aspects such as time-related information, and how situations evolve over time.
 
 Causes and effects: Knowledge bases capture causal relationships, including the effects of actions or events and their underlying causes.
+Knowledge about knowledge (meta-knowledge): This includes information about what is known, including beliefs, perceptions, and awareness of what others know or believe (epistemic knowledge).
+
+Default reasoning: Knowledge bases incorporate default assumptions or rules that humans generally consider true unless stated otherwise. These assumptions remain valid even when other facts may change or evolve.
