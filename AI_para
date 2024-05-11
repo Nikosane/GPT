@@ -59,3 +59,6 @@ A knowledge base is a collection of information represented in a format that can
 In AI, knowledge bases are designed to encompass a broad range of information, including:
 
 Objects, properties, categories, and relations: This involves representing entities (objects), their attributes (properties), the classes or types they belong to (categories), and the relationships between different entities.
+Situations, events, states, and time: AI systems need to understand different states of affairs, events occurring within a domain, temporal aspects such as time-related information, and how situations evolve over time.
+
+Causes and effects: Knowledge bases capture causal relationships, including the effects of actions or events and their underlying causes.
