@@ -56,4 +56,6 @@ Clinical decision support: In healthcare, structured knowledge representations a
 Knowledge discovery: AI techniques leverage formal knowledge representations to extract actionable insights and patterns from large datasets, uncovering hidden relationships and trends that inform decision-making and strategy development.
 These applications highlight the significance and versatility of knowledge representation in AI, serving as a foundational framework for intelligent systems to effectively navigate and utilize information across diverse domains and tasks.
 A knowledge base is a collection of information represented in a format that can be utilized by computer programs. It serves as a repository of knowledge that AI systems can access and manipulate to perform various tasks. An ontology, on the other hand, defines the set of objects, relations, concepts, and properties specific to a particular domain of knowledge.
+In AI, knowledge bases are designed to encompass a broad range of information, including:
 
+Objects, properties, categories, and relations: This involves representing entities (objects), their attributes (properties), the classes or types they belong to (categories), and the relationships between different entities.
