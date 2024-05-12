@@ -84,3 +84,6 @@ Addressing these complex challenges requires interdisciplinary approaches that i
 
 By improving our ability to capture, model, and utilize commonsense knowledge effectively, AI can achieve higher levels of understanding and intelligence across diverse applications and domains. These efforts contribute to the development of more sophisticated and capable AI systems that can handle complex real-world scenarios with greater accuracy and efficiency.
 In the context of artificial intelligence, planning and decision-making are fundamental processes that involve agents interacting with the world to achieve specific goals or preferences.
+
+An "agent" in AI refers to any entity that perceives its environment and takes actions to accomplish objectives. A rational agent is guided by goals or preferences and acts strategically to achieve them effectively.
+
