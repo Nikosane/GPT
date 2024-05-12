@@ -87,3 +87,4 @@ In the context of artificial intelligence, planning and decision-making are fund
 
 An "agent" in AI refers to any entity that perceives its environment and takes actions to accomplish objectives. A rational agent is guided by goals or preferences and acts strategically to achieve them effectively.
 
+In automated planning, the agent is tasked with achieving a specific goal by selecting a sequence of actions that lead to the desired outcome. Planning algorithms aim to generate action sequences that transform the current state of the environment into a desired state, considering constraints and objectives.
