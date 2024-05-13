@@ -102,3 +102,5 @@ However, in many real-world scenarios, agents face uncertainty regarding their c
 In such situations, the agent must rely on probabilistic estimates and make educated guesses when choosing actions. Rather than having full knowledge of the environment, the agent operates under partial information and makes decisions based on available data and assumptions.
 
 After taking an action, the agent must reassess the situation to determine the actual outcomes and adjust its understanding of the environment accordingly. This iterative process involves continuous learning and adaptation based on feedback received from the environment.
+
+Probabilistic planning and decision-making techniques are employed to address uncertainty in AI systems. These approaches incorporate probability distributions to model uncertain states and actions, allowing agents to make informed decisions under incomplete information.
