@@ -100,3 +100,5 @@ In classical planning within artificial intelligence, the agent operates under t
 However, in many real-world scenarios, agents face uncertainty regarding their current situation (referred to as "unknown" or "unobservable") and the outcomes of potential actions (referred to as "nondeterministic"). This uncertainty complicates decision-making processes as the agent cannot accurately predict the consequences of its actions.
 
 In such situations, the agent must rely on probabilistic estimates and make educated guesses when choosing actions. Rather than having full knowledge of the environment, the agent operates under partial information and makes decisions based on available data and assumptions.
+
+After taking an action, the agent must reassess the situation to determine the actual outcomes and adjust its understanding of the environment accordingly. This iterative process involves continuous learning and adaptation based on feedback received from the environment.
