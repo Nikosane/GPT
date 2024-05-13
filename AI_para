@@ -96,3 +96,5 @@ This process of maximizing expected utility is a foundational principle in decis
 
 Overall, planning and decision-making in AI involve sophisticated algorithms and methodologies that enable agents to reason, strategize, and act intelligently to achieve predefined goals or preferences, contributing to the development of intelligent systems capable of autonomous behavior and adaptive problem-solving.
 In classical planning within artificial intelligence, the agent operates under the assumption that it knows precisely the effects of any action it takes. This deterministic setting allows for straightforward decision-making based on a clear understanding of how actions will impact the environment.
+
+However, in many real-world scenarios, agents face uncertainty regarding their current situation (referred to as "unknown" or "unobservable") and the outcomes of potential actions (referred to as "nondeterministic"). This uncertainty complicates decision-making processes as the agent cannot accurately predict the consequences of its actions.
