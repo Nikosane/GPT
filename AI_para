@@ -111,3 +111,8 @@ In certain problems within artificial intelligence, an agent's preferences may b
 To address uncertain preferences, agents can leverage learning techniques such as inverse reinforcement learning. This approach involves observing and inferring the underlying preferences of other agents or humans based on their actions and behaviors, allowing the AI agent to adapt its decision-making accordingly.
 
 Alternatively, an agent can actively seek information to improve its understanding of preferences over time. By gathering data and feedback through interactions, the agent can refine its model of preferences and make more informed decisions.
+
+Information value theory is a useful framework in such contexts, providing a method to quantify the value of exploratory or experimental actions aimed at reducing uncertainty. This theory helps agents prioritize actions that yield the most valuable information to enhance decision-making effectiveness.
+
+In practice, the space of possible future actions and situations is often vast and complex, making it intractable to explore exhaustively. AI agents must navigate this uncertainty by taking actions and evaluating situations while acknowledging the inherent unpredictability of outcomes.
+
