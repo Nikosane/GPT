@@ -116,3 +116,6 @@ Information value theory is a useful framework in such contexts, providing a met
 
 In practice, the space of possible future actions and situations is often vast and complex, making it intractable to explore exhaustively. AI agents must navigate this uncertainty by taking actions and evaluating situations while acknowledging the inherent unpredictability of outcomes.
 
+To manage the complexity of uncertain environments, AI agents employ probabilistic reasoning, decision theory, and adaptive learning strategies. These approaches enable agents to make informed decisions under uncertainty, balancing the exploration of new possibilities with the exploitation of known information to achieve desired outcomes effectively.
+
+By integrating uncertainty management techniques into AI systems, researchers strive to develop robust and adaptive agents capable of navigating dynamic and uncertain environments, ultimately advancing the capabilities of artificial intelligence in real-world applications.
