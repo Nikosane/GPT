@@ -107,3 +107,7 @@ Probabilistic planning and decision-making techniques are employed to address un
 
 By embracing uncertainty and probabilistic reasoning, AI agents can navigate complex and dynamic environments more effectively, adjusting their strategies based on observed outcomes and refining their understanding over time. This adaptive approach mirrors human problem-solving in uncertain conditions and enables AI systems to handle real-world challenges that involve inherent unpredictability and variability.
 In certain problems within artificial intelligence, an agent's preferences may be uncertain, particularly in scenarios involving interactions with other agents or humans. This uncertainty can arise due to the complexity of human behavior or the dynamic nature of the environment.
+
+To address uncertain preferences, agents can leverage learning techniques such as inverse reinforcement learning. This approach involves observing and inferring the underlying preferences of other agents or humans based on their actions and behaviors, allowing the AI agent to adapt its decision-making accordingly.
+
+Alternatively, an agent can actively seek information to improve its understanding of preferences over time. By gathering data and feedback through interactions, the agent can refine its model of preferences and make more informed decisions.
