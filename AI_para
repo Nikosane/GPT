@@ -170,3 +170,8 @@ Artificial intelligence (AI) research employs a rich diversity of techniques to 
 In AI, search methods are used to navigate through vast solution spaces in search of optimal or satisfactory outcomes. Two primary types of search techniques are commonly employed:
 
 State Space Search: This approach views problem-solving as navigating through a set of states, where each state represents a potential configuration or solution. AI algorithms like depth-first search, breadth-first search, A* search, and heuristic search methods systematically explore this state space to identify suitable solutions based on predefined criteria.
+
+Local Search: Local search algorithms iteratively refine solutions by exploring neighboring states from a current solution. Techniques such as hill climbing, simulated annealing, genetic algorithms, and gradient descent are used to optimize solutions within complex search spaces.
+
+By leveraging search and optimization techniques, AI systems can effectively address diverse problems, including robotics, game playing, logistics, and resource allocation. These methods enable machines to navigate and solve complex challenges efficiently, driving innovation and advancing the capabilities of artificial intelligence.
+State space search is a fundamental technique in artificial intelligence that involves exploring a tree-like structure of possible states to identify a desired goal state. This method is commonly used in planning algorithms, where the objective is to navigate through a series of goals and subgoals to reach a specific target state, a process known as means-ends analysis.
