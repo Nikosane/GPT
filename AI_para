@@ -166,3 +166,7 @@ The pursuit of AGI is a complex and interdisciplinary challenge that involves in
 
 While achieving AGI remains a long-term goal with numerous technical and ethical considerations, progress in this direction holds the promise of transformative advancements in robotics, automation, and human-computer interaction. Ultimately, the development of AGI could revolutionize how we perceive and harness the potential of artificial intelligence in addressing complex real-world problems and advancing scientific understanding.
 Artificial intelligence (AI) research employs a rich diversity of techniques to accomplish its goals. One foundational approach is search and optimization, which involves systematically exploring potential solutions to complex problems.
+
+In AI, search methods are used to navigate through vast solution spaces in search of optimal or satisfactory outcomes. Two primary types of search techniques are commonly employed:
+
+State Space Search: This approach views problem-solving as navigating through a set of states, where each state represents a potential configuration or solution. AI algorithms like depth-first search, breadth-first search, A* search, and heuristic search methods systematically explore this state space to identify suitable solutions based on predefined criteria.
