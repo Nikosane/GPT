@@ -153,3 +153,7 @@ Affective computing, as part of this field, involves interdisciplinary systems t
 
 By integrating social intelligence into AI systems, researchers are striving to create more empathetic and responsive technologies that can adapt to human emotions and preferences, ultimately improving the overall user experience and enabling more meaningful interactions between humans and machines.
 While efforts to imbue computer agents with social intelligence can enhance user interaction, they can also lead to unrealistic expectations among less experienced users regarding the actual capabilities of these agents. Despite this caveat, there have been notable achievements in affective computing, particularly in the domains of textual sentiment analysis and multimodal sentiment analysis.
+
+Textual sentiment analysis involves algorithms that analyze written text to determine the sentiment expressed, whether positive, negative, or neutral. This technology is widely used in applications such as social media monitoring, customer feedback analysis, and market sentiment analysis.
+
+More recently, multimodal sentiment analysis has emerged as a promising area within affective computing. This approach involves AI systems analyzing emotions expressed through multiple modalities, such as text, audio, and video. For instance, AI can classify the emotional expressions exhibited by a person in a video recording, enabling deeper insights into human affective states.
