@@ -182,3 +182,5 @@ To address this issue, AI employs heuristics or "rules of thumb" to guide the se
 
 Overall, state space search is a foundational concept in AI problem-solving, and the integration of heuristic strategies plays a critical role in enhancing the practicality and performance of AI systems when dealing with real-world complexities and constraints.
 Adversarial search is a specialized technique used primarily in game-playing programs like chess or Go, where two opposing players compete against each other. In this approach, the AI system searches through a tree of possible moves and counter-moves to identify a winning or optimal strategy against an opponent.
+
+The process of adversarial search involves simulating the sequence of moves and counter-moves that both players might make, leading to different game states or board configurations. The AI algorithm evaluates these potential states based on predefined criteria, such as maximizing the likelihood of winning or minimizing the opponent's advantage.
