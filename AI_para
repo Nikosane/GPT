@@ -184,3 +184,5 @@ Overall, state space search is a foundational concept in AI problem-solving, and
 Adversarial search is a specialized technique used primarily in game-playing programs like chess or Go, where two opposing players compete against each other. In this approach, the AI system searches through a tree of possible moves and counter-moves to identify a winning or optimal strategy against an opponent.
 
 The process of adversarial search involves simulating the sequence of moves and counter-moves that both players might make, leading to different game states or board configurations. The AI algorithm evaluates these potential states based on predefined criteria, such as maximizing the likelihood of winning or minimizing the opponent's advantage.
+
+For instance, in chess, an AI player might explore various sequences of moves and anticipate the opponent's responses to identify the most advantageous moves to make. This involves recursively evaluating potential game positions and selecting the best move based on the anticipated future outcomes.
