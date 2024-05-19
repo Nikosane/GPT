@@ -192,3 +192,7 @@ Local search is a mathematical optimization technique employed in artificial int
 Local search is a mathematical optimization technique employed in artificial intelligence to find solutions to complex problems. Unlike exhaustive search methods that explore all possible solutions, local search begins with an initial guess or solution and iteratively refines it to improve its quality incrementally.
 
 The key idea behind local search is to navigate the solution space by making local adjustments, aiming to optimize a specific objective or minimize a loss function. This approach is particularly useful for optimization problems where the goal is to find the best solution within a large and complex search space.
+
+One common example of local search is gradient descent, used extensively in machine learning and optimization tasks. Gradient descent involves iteratively adjusting parameters to minimize a loss function or error metric. By calculating the gradient (or slope) of the loss function with respect to the parameters, the algorithm determines the direction in which to adjust the parameters to reduce the loss.
+
+In the context of gradient descent, the algorithm starts with an initial guess for the parameters and then updates them in small steps based on the negative gradient of the loss function. This process continues iteratively until convergence to a local minimum or until a stopping criterion is met.
