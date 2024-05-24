@@ -288,3 +288,8 @@ The connections between nodes have weights that are learned during training to m
 The connections between nodes have weights that are learned during training to minimize prediction errors. During training, the network adjusts these weights based on observed input-output pairs (training data). Activation functions introduce non-linearity into the network's computations and can be sigmoid, tanh, ReLU, or softmax, depending on the task.
 
 Neural networks with more than one hidden layer are called deep neural networks (DNNs). Deep learning focuses on training deep neural networks to automatically learn hierarchical representations of data, enabling them to capture complex patterns and dependencies.
+
+Deep neural networks have achieved significant success in tasks like image and speech recognition, natural language processing, and autonomous driving. They continue to advance AI capabilities by leveraging large-scale data and computational resources for training and optimization.
+
+Overall, artificial neural networks are fundamental to modern AI and machine learning, offering a powerful framework for learning from data and performing complex tasks inspired by human cognitive abilities.
+Learning algorithms for neural networks, such as the widely used backpropagation algorithm, employ local search methods to adjust the weights of connections between neurons during training. The goal is to optimize the network's ability to produce the correct outputs for given inputs. Backpropagation involves a process of iteratively updating weights based on the calculated error between predicted and actual outputs, propagated backward through the network.
