@@ -341,3 +341,8 @@ During pre-training, GPT models are trained to predict the next token (e.g., wor
 Once pre-trained, GPT models can generate text by repeatedly predicting the next token based on an initial prompt or input text. The generated text reflects the learned patterns and context encoded in the model's parameters.
 
 To enhance the quality, truthfulness, and utility of generated text, GPT models can undergo additional training phases, often using techniques like Reinforcement Learning from Human Feedback (RLHF). This process involves providing feedback to the model based on human evaluation of generated text, encouraging the model to produce more accurate and contextually appropriate responses.
+
+Despite their capabilities, current GPT models are susceptible to generating falsehoods or "hallucinations," where the generated text may deviate from factual accuracy or logical coherence. However, these issues can be mitigated with reinforcement learning techniques and high-quality training data, which help refine the model's responses and reduce the incidence of misleading outputs.
+
+GPT models find extensive applications in chatbots, where they serve as conversational agents capable of understanding and responding to natural language queries or requests. Chatbots powered by GPT models enable seamless interactions with users through text-based interfaces, providing information, answering questions, and performing tasks based on user input.
+
