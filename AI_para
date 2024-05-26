@@ -336,3 +336,8 @@ The combination of increased computing power and abundant training data has faci
 
 As researchers continue to explore the underlying mechanisms of deep learning's effectiveness, ongoing efforts are focused on improving model interpretability, robustness, and generalization capabilities. Deep learning remains a rapidly evolving field with profound implications for the future of AI and its applications across diverse industries.
 Generative Pre-trained Transformers (GPT) are advanced language models based on transformer architecture that excel in natural language processing tasks. These models are trained on large text corpora, such as internet data, to learn semantic relationships between words and context within sentences.
+During pre-training, GPT models are trained to predict the next token (e.g., word, subword, or punctuation) in a sequence of text. By learning to predict the next token based on previous context, GPT models acquire extensive knowledge about language patterns and semantics, enabling them to generate coherent and human-like text.
+
+Once pre-trained, GPT models can generate text by repeatedly predicting the next token based on an initial prompt or input text. The generated text reflects the learned patterns and context encoded in the model's parameters.
+
+To enhance the quality, truthfulness, and utility of generated text, GPT models can undergo additional training phases, often using techniques like Reinforcement Learning from Human Feedback (RLHF). This process involves providing feedback to the model based on human evaluation of generated text, encouraging the model to produce more accurate and contextually appropriate responses.
