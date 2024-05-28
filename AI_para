@@ -422,11 +422,9 @@ In March 2016, DeepMind's AlphaGo stunned the world by winning 4 out of 5 games 
 These achievements highlight the remarkable progress and capabilities of AI in mastering complex games that require strategic thinking, pattern recognition, and decision-making under uncertainty. Game-playing programs continue to serve as testbeds for advancing AI algorithms and pushing the boundaries of artificial intelligence research.
 Game artificial intelligence has been a dynamic area of research and development, showcasing the evolution of AI capabilities across different games:
 
-In 1997, IBM's Deep Blue made history by defeating reigning world chess champion Garry Kasparov, demonstrating the strategic prowess of AI in chess.
+In 2017, DeepMind's AlphaGo defeated Ke Jie, the world's top-ranked Go player at the time, further demonstrating AI's mastery in the game of Go.
 
-In 2011, IBM's Watson AI system outperformed legendary Jeopardy! champions Brad Rutter and Ken Jennings in an exhibition match, showcasing AI's ability to understand and respond to natural language questions.
+AI programs like Pluribus have been designed to excel in imperfect-information games such as poker, highlighting AI's ability to strategize and adapt in scenarios with hidden information.
 
-In March 2016, DeepMind's AlphaGo stunned the world by winning 4 out of 5 games of Go against Go champion Lee Sedol, marking the first time a computer Go-playing system achieved victory against a professional player without handicaps.
+DeepMind's development of generalistic reinforcement learning models, such as MuZero, has enabled AI agents to learn and excel in various games including chess, Go, and Atari games, demonstrating versatility in learning and adaptation.
 
-These achievements highlight the remarkable progress and capabilities of AI in mastering complex games that require strategic thinking, pattern recognition, and decision-making under uncertainty. Game-playing programs continue to serve as testbeds for advancing AI algorithms and pushing the boundaries of artificial intelligence research.
-Game artificial intelligence has been a dynamic area of research and development, showcasing the evolution of AI capabilities across different games:
