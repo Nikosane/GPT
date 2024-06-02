@@ -567,3 +567,8 @@ Educating the public about the capabilities and risks of AI-driven misinformatio
 
 Ultimately, safeguarding against the misuse of AI for propaganda and manipulation demands a multifaceted approach that prioritizes ethical AI governance, technological innovation, and concerted global efforts to preserve the integrity of public discourse and democratic institutions in the digital age.
 Algorithmic bias poses a significant challenge in machine learning, where AI systems can inadvertently perpetuate biases present in their training data. This bias can arise from various factors, including the selection of skewed or unrepresentative data during the model training process.
+
+Developers may not always be aware of the biases present in the data or understand how these biases manifest in the AI models they create. The deployment of biased algorithms, especially in critical domains like medicine, finance, recruitment, housing, or policing, can result in discriminatory outcomes that harm individuals or marginalized groups.
+
+The impact of algorithmic discrimination is far-reaching, affecting areas such as job opportunities, financial access, and legal decisions. For example, biased AI systems used in hiring processes can perpetuate gender or racial disparities, while biased credit scoring models can reinforce financial inequalities.
+
