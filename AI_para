@@ -586,3 +586,7 @@ Despite these challenges, researchers continue to explore innovative approaches 
 The goal of fairness in machine learning is not just to eliminate bias, but to ensure that AI technologies uphold ethical principles and promote equitable outcomes for diverse populations. By fostering a deeper understanding of fairness and integrating ethical considerations into AI design and deployment, researchers strive to build AI systems that benefit society while minimizing harm and promoting inclusivity.
 The incident involving Google Photos' image labeling feature misidentifying Jacky Alcine and a friend as "gorillas" due to their race highlighted a serious issue of algorithmic bias stemming from inadequate representation of diverse populations in training data. The system's misclassification underscored the problem of "sample size disparity," where certain groups are underrepresented or marginalized in datasets used to train AI models.
 
+In response to the backlash and outcry over this incident, Google took immediate action by disabling the system's ability to label anything as a "gorilla." However, this temporary fix highlighted broader challenges in addressing bias and ensuring equitable representation in AI technologies.
+
+Despite efforts to improve AI systems and enhance diversity in training data, as of 2023, major technology companies including Google, Apple, Facebook, Microsoft, and Amazon continued to struggle with accurately identifying gorillas or similar objects without risking offensive misclassifications based on race.
+
