@@ -619,3 +619,7 @@ To address these challenges, researchers and practitioners advocate for approach
 
 Ultimately, the criticism of COMPAS underscores the need for responsible AI practices that prioritize equity, fairness, and the pursuit of a future that reflects progress and social justice, rather than perpetuating historical biases and injustices through algorithmic decision-making.
 Bias and unfairness in AI systems can persist and go undetected due to the lack of diversity among developers, who are predominantly white and male. The underrepresentation of Black individuals and women in AI engineering, with only about 4% of AI engineers being Black and 20% being women, contributes to blind spots in the design, development, and testing of AI technologies.
+
+The homogeneity of the developer community can inadvertently perpetuate biases and overlook potential sources of algorithmic unfairness that disproportionately impact diverse populations. Biased assumptions, preferences, and blind spots rooted in the experiences and perspectives of a narrow demographic can inadvertently shape AI systems in ways that reinforce systemic inequalities.
+
+The consequences of this lack of diversity are significant, as AI systems increasingly play critical roles in decision-making across various sectors, including criminal justice, healthcare, finance, and employment. Unaddressed biases can lead to discriminatory outcomes, exacerbate societal inequalities, and erode trust in AI technologies.
