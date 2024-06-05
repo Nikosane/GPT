@@ -656,3 +656,7 @@ Moreover, promoting interdisciplinary collaborations between AI experts, domain 
 Ultimately, enhancing transparency and interpretability in machine learning is critical for building trust, fostering responsible AI innovation, and ensuring that AI technologies align with societal values and ethical principles. By embracing a culture of transparency and accountability, we can navigate the complexities of AI and harness its transformative potential while mitigating risks and safeguarding against unintended consequences.
 The case of a machine learning system misclassifying patients with asthma as "low risk" for dying from pneumonia highlights the complexities and challenges of relying solely on correlations within training data without considering broader context or domain expertise.
 
+In this scenario, the machine learning model learned from historical data that patients with asthma tended to receive more medical care and interventions, which potentially lowered their observed mortality rates from pneumonia. As a result, the model associated asthma with a lower risk of pneumonia-related mortality, despite asthma being a known severe risk factor for pneumonia complications.
+
+This example underscores the limitations of machine learning systems when confronted with complex and nuanced relationships within data. While correlations may exist between certain variables, such as asthma and medical intervention, they can be misleading if not carefully interpreted and contextualized.
+
