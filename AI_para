@@ -678,3 +678,9 @@ Furthermore, regulatory frameworks like the GDPR seek to establish guidelines fo
 While the challenge of providing explanations for algorithmic decisions remains complex, ongoing efforts to advance explainable AI and ethical guidelines are critical for building trust, promoting transparency, and safeguarding against the potential harms of opaque or biased AI systems. By prioritizing the right to explanation and fostering responsible AI practices, we can navigate the ethical complexities of AI deployment and promote equitable outcomes for individuals and society as a whole.
 DARPA launched the XAI ("Explainable Artificial Intelligence") program in 2014 with the goal of addressing challenges related to transparency and interpretability in AI systems. This initiative aims to develop methods and technologies that enable AI systems to provide understandable explanations for their decisions and behaviors, enhancing accountability, trust, and reliability in AI applications. The XAI program seeks to advance research and development in explainable AI, ultimately promoting the responsible and ethical deployment of AI technologies across various domains.
 Several strategies have been proposed to address the challenge of transparency and interpretability in AI systems:
+
+The SHAP (SHapley Additive exPlanations) method visualizes the contribution of each feature to the model's output, aiding in understanding how individual input features influence predictions.
+
+LIME (Local Interpretable Model-agnostic Explanations) approximates complex models locally with simpler, interpretable models, making it easier to explain individual predictions in a way that humans can understand.
+
+Multitask learning involves training a model to perform multiple related tasks simultaneously. This approach can provide additional outputs alongside the main classification task, offering insights into what the model has learned across different dimensions.
