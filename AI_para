@@ -666,3 +666,7 @@ Moreover, promoting transparency and explainability in AI-driven decision-making
 
 Ultimately, leveraging AI in healthcare requires a holistic approach that combines technical innovation with ethical stewardship, ensuring that AI technologies enhance patient care, improve resource allocation, and support informed decision-making without compromising patient safety or exacerbating existing health disparities.
 The issue of providing explanations for algorithmic decisions is crucial, especially when individuals are harmed by these decisions. Just as doctors are expected to explain their reasoning behind medical decisions, there is a growing recognition that individuals affected by AI systems have a right to understand the basis for algorithmic outcomes that impact their lives.
+
+Early discussions around the European Union's General Data Protection Regulation (GDPR) in 2016 highlighted the importance of this right, emphasizing the need for transparency and accountability in AI-driven decision-making. However, industry experts have noted that providing meaningful explanations for complex algorithmic decisions remains an unresolved challenge.
+
+Regulators and policymakers argue that despite the complexity of this issue, the potential harm caused by opaque or biased algorithmic systems is real and cannot be ignored. If AI systems cannot provide satisfactory explanations for their decisions, there are concerns about their reliability, fairness, and ethical implications.
