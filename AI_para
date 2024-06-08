@@ -738,3 +738,9 @@ The evolving landscape of AI poses challenges for security and governance, highl
 
 Furthermore, interdisciplinary collaboration among researchers, policymakers, and industry stakeholders is crucial for anticipating and addressing the unforeseen consequences of AI proliferation. By fostering transparency, accountability, and ethical practices in AI innovation and deployment, we can mitigate risks and maximize the societal benefits of this transformative technology.
 The development and training of AI systems demand significant computing resources, which often necessitates substantial financial investments. As a result, many organizations, particularly smaller startups like Cohere and OpenAI, rely on industry giants such as Google and Microsoft to access the necessary data centers and computational infrastructure.
+
+Big Tech companies like Google and Microsoft have the financial means to invest heavily in building and maintaining sophisticated data centers equipped with powerful hardware tailored for AI tasks. These infrastructure investments enable them to handle large-scale data processing and train complex AI models efficiently.
+
+For smaller startups and organizations like Cohere and OpenAI, purchasing access to these data centers from industry giants is a practical solution to overcome the barrier of high upfront costs associated with AI development. By leveraging the infrastructure and resources of established tech companies, startups can focus on developing AI algorithms and applications without the burden of managing extensive computing infrastructure themselves.
+
+However, this reliance on industry giants for computing resources raises concerns about dependency and potential barriers to entry for smaller players in the AI ecosystem. It underscores the importance of fostering a diverse and competitive AI landscape by promoting accessibility to computing resources and encouraging innovation across different sectors.
