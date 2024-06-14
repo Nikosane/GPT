@@ -888,3 +888,6 @@ The ability to fine-tune open-weight models supports research and innovation by 
 
 However, the open nature of these models also raises concerns about potential misuse and security risks. When open-weight models are fine-tuned without appropriate safeguards, there is a risk of inadvertently training away built-in security measures or ethical constraints. For example, if a model is repeatedly fine-tuned to prioritize certain objectives or ignore specific constraints, it may become less effective at detecting harmful requests or making ethical decisions.
 
+To address these challenges, researchers and developers must exercise caution and responsibility when fine-tuning open-weight models. Implementing robust security measures, ethical guidelines, and validation processes is essential to ensure the safe and responsible use of AI technologies. By promoting transparency, accountability, and ethical AI practices, stakeholders can harness the benefits of open-source AI while mitigating potential risks associated with model customization and adaptation.
+Researchers caution about the potential risks associated with future AI models, emphasizing the importance of proactive measures to mitigate potential harms and ensure responsible deployment.
+
