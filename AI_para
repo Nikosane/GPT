@@ -875,3 +875,7 @@ These approaches reflect ongoing efforts within the AI research community to int
 The exploration of alternative approaches to machine ethics underscores the interdisciplinary nature of AI ethics research and the importance of addressing ethical considerations in AI systems. By fostering collaboration and innovation in this field, stakeholders can advance the development of AI technologies that align with human values and contribute positively to societal well-being.
 The AI open-source community encompasses a range of organizations and initiatives dedicated to advancing AI research and development through open collaboration and sharing of resources.
 
+Prominent organizations actively contributing to the AI open-source ecosystem include Hugging Face, Google, EleutherAI, and Meta (formerly Facebook). These organizations provide platforms, tools, and frameworks that enable researchers and developers to access, explore, and contribute to AI models and technologies.
+
+One notable trend in the AI open-source community is the release of open-weight AI models, such as Llama 2, Mistral, or Stable Diffusion. These models are made publicly available along with their architecture and trained parameters (referred to as "weights"). By releasing AI models as open-weight, researchers and developers can study, modify, and leverage these models for various applications, fostering innovation and collaboration in the AI field.
+
