@@ -898,3 +898,7 @@ Pre-release audits involve comprehensive evaluations of AI models to identify po
 Additionally, cost-benefit analyses are essential for evaluating the trade-offs associated with deploying AI technologies. Researchers must consider not only the potential benefits of AI innovations but also the associated risks and ethical considerations. By conducting rigorous cost-benefit analyses, stakeholders can make informed decisions about the development, deployment, and regulation of AI technologies.
 
 Overall, proactive measures such as pre-release audits and cost-benefit analyses play a crucial role in ensuring the safe and responsible development of AI technologies. By addressing potential risks and ethical concerns early in the development process, researchers and policymakers can promote the ethical use of AI and minimize the potential negative impacts associated with advanced AI capabilities.
+Frameworks for assessing the ethical permissibility of artificial intelligence projects play a crucial role in guiding the design, development, and implementation of AI systems. One notable framework is the Care and Act Framework, which incorporates SUM values (Societal, Utility, Moral) developed by the Alan Turing Institute. This framework aims to evaluate AI projects across four main areas.
+
+Firstly, the framework assesses the potential societal implications and consequences of deploying the AI system. This involves considering how the AI technology may impact various stakeholders, communities, and broader societal dynamics.
+
