@@ -929,3 +929,7 @@ Promoting the wellbeing of individuals and communities affected by AI technologi
 
 At the design stage, interdisciplinary collaboration ensures that ethical principles are embedded into the AI system's objectives and functionality. Data scientists work closely with domain experts to identify potential biases, risks, and societal impacts associated with the data used to train AI models. Product managers and delivery managers collaborate to define use cases and applications that align with ethical guidelines and promote positive outcomes for users and communities.
 
+During development, collaboration among team members is essential for implementing responsible AI practices. Data engineers and data scientists work together to ensure data quality, transparency, and fairness in AI algorithms. Domain experts provide insights into contextual factors and ethical considerations relevant to specific applications.
+
+In implementation, ongoing collaboration and communication among stakeholders help monitor the real-world impact of AI technologies. Delivery managers engage with communities and end-users to gather feedback, address concerns, and ensure that AI systems uphold ethical standards and societal values.
+
