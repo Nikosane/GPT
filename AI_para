@@ -982,3 +982,5 @@ The history of artificial intelligence (AI) can be traced back to ancient philos
 
 Following Turing's insights, the field of artificial intelligence began to take shape, with researchers exploring various approaches to creating intelligent machines. Early efforts focused on symbolic reasoning systems, such as expert systems, which used logical rules to process information and draw conclusions. These systems showed promise in limited domains but struggled to cope with the complexity and uncertainty inherent in real-world tasks.
 
+In parallel, the development of neural networks and connectionist models gained traction, inspired by the biological structure of the brain. Researchers like Warren McCulloch and Walter Pitts proposed simplified models of neurons and networks, laying the foundation for modern neural network architectures. Despite initial enthusiasm, progress in neural networks slowed during the 1970s and 1980s due to computational limitations and challenges in training deep networks.
+
