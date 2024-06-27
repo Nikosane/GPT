@@ -1105,3 +1105,5 @@ In the realm of AI, symbolic systems were designed to encode explicit rules and 
 
 However, symbolic AI encountered significant limitations. These included issues of brittleness, as systems struggled with real-world ambiguity and uncertainty outside of well-defined problem spaces. Symbolic AI also required extensive manual knowledge encoding, making it labor-intensive and challenging to scale for complex tasks or large datasets. Additionally, symbolic systems often lacked common-sense reasoning abilities and were not adept at learning from raw data or adapting to dynamic environments.
 
+The rise of statistical machine learning and deep learning in the 2010s represented a paradigm shift away from symbolic AI. These approaches excel in handling large datasets, learning from patterns, and making decisions based on statistical inference rather than explicit rules. While symbolic AI remains relevant in certain contexts, contemporary AI research often explores hybrid approaches that combine symbolic reasoning with statistical techniques to overcome the limitations inherent in both paradigms.
+
