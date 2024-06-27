@@ -1103,3 +1103,5 @@ Symbolic AI, often referred to as "Good Old-Fashioned AI" (GOFAI), aimed to repl
 
 In the realm of AI, symbolic systems were designed to encode explicit rules and logical relationships to solve specific problems within well-defined domains. Expert systems, a prominent application of symbolic AI, demonstrated expertise in narrow areas by leveraging symbolic representations of knowledge and applying rule-based inference mechanisms.
 
+However, symbolic AI encountered significant limitations. These included issues of brittleness, as systems struggled with real-world ambiguity and uncertainty outside of well-defined problem spaces. Symbolic AI also required extensive manual knowledge encoding, making it labor-intensive and challenging to scale for complex tasks or large datasets. Additionally, symbolic systems often lacked common-sense reasoning abilities and were not adept at learning from raw data or adapting to dynamic environments.
+
