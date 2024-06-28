@@ -1120,3 +1120,5 @@ Finally, the system must demonstrate a broad range of intelligent behaviors, not
 
 The Physical Symbol Systems Hypothesis played a foundational role in the development of early AI systems, such as expert systems and rule-based reasoning engines, which excelled in domains where knowledge could be explicitly represented using symbols and logical rules.
 
+However, over time, the limitations of symbolic AI became apparent, particularly in handling real-world complexity, ambiguity, and learning from data. The success of statistical approaches like machine learning led to a shift away from purely symbolic methods toward more data-driven and probabilistic approaches in AI.
+
