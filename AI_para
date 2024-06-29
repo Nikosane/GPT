@@ -1127,3 +1127,5 @@ The symbolic approach in AI, while successful in certain tasks like algebra and 
 
 Moravec's paradox underscores a fundamental limitation of the symbolic approach: while symbolic systems excel in logical reasoning and rule-based manipulation of explicit knowledge, they struggle with tasks that require intuitive understanding, perception, and adaptive learning—capabilities that humans possess innately.
 
+Philosopher Hubert Dreyfus challenged the symbolic AI paradigm as early as the 1960s, arguing that human expertise relies more on unconscious instincts and intuitive "feel" for situations rather than explicit symbol manipulation. Dreyfus' critique, initially dismissed by the AI community, gained traction over time as AI research encountered persistent challenges in replicating human-like cognitive abilities.
+
