@@ -1136,3 +1136,5 @@ The challenges within artificial intelligence persist despite the shift towards 
 
 Symbolic AI offers the potential for explainable AI, allowing researchers and users to understand the underlying logic and decision-making processes of AI systems. In contrast, sub-symbolic AI, particularly modern statistical approaches like deep learning, often operates as a "black box," making it difficult or impossible to explain why specific decisions are made.
 
+The emerging field of neuro-symbolic artificial intelligence seeks to bridge the gap between symbolic and sub-symbolic approaches. By integrating symbolic reasoning with neural networks and other sub-symbolic techniques, neuro-symbolic AI aims to combine the interpretability of symbolic systems with the learning and pattern recognition capabilities of neural networks.
+
