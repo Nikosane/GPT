@@ -1181,3 +1181,5 @@ AI researchers are divided on the strategic approach to advancing artificial int
 
 Narrow AI, also known as weak artificial intelligence, focuses on solving specific problems or performing specialized tasks within well-defined domains. This approach involves developing AI systems that excel at specific functions, such as image recognition, natural language processing, or game playing. Narrow AI systems leverage machine learning techniques, including deep learning and reinforcement learning, to achieve high performance in targeted applications.
 
+In contrast, artificial general intelligence (AGI) aims to create machines capable of understanding, learning, and reasoning across diverse domains and tasks at a level comparable to human intelligence. AGI represents a more ambitious and far-reaching goal, requiring the development of versatile and adaptable AI systems that can generalize knowledge and skills beyond predefined contexts.
+
