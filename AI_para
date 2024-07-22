@@ -1398,3 +1398,5 @@ Isaac Asimov's Three Laws of Robotics, famously introduced in his stories and bo
 
 Asimov's First Law states that a robot may not injure a human being or, through inaction, allow a human being to come to harm. The Second Law dictates that a robot must obey orders given to it by human beings, except where such orders would conflict with the First Law. Finally, the Third Law stipulates that a robot must protect its own existence as long as this protection does not conflict with the First or Second Law.
 
+Despite their prevalence in popular culture and lay discussions about machine ethics, Asimov's laws are often critiqued by artificial intelligence researchers for their practical limitations. One key criticism is their inherent ambiguity and potential for misinterpretation. The laws use vague terms like "harm" and "injury," which can be interpreted differently in various contexts. This ambiguity makes it challenging to implement the laws effectively in real-world AI systems where clear guidelines and precise definitions are essential for ethical behavior.
+
