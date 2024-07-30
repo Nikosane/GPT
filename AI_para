@@ -1497,3 +1497,5 @@ Research in the 1960s and 1970s produced the first problem-solving program, or e
 
 The 1980s and 1990s saw the proliferation of microcomputers and new levels of network connectivity, which significantly advanced the development of AI systems in healthcare. During this period, researchers and developers recognized that AI systems must be designed to handle the absence of perfect data and to build on the expertise of physicians. This understanding led to the exploration and application of various advanced approaches to intelligent computing in healthcare.
 
+Fuzzy set theory was employed to manage the uncertainty and imprecision inherent in medical data, allowing AI systems to make more flexible and accurate decisions. Bayesian networks were utilized to model probabilistic relationships among variables, providing a structured way to incorporate uncertainty and expert knowledge into decision-making processes. Additionally, artificial neural networks, inspired by the structure and function of the human brain, were applied to detect complex patterns in data, making them particularly useful for tasks such as image recognition and diagnosis.
+
