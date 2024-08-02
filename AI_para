@@ -1535,3 +1535,5 @@ Wearables, smartphones, and internet-based technologies have demonstrated signif
 
 Another growing area of research is the application of AI in classifying heart sounds and diagnosing valvular disease. AI models can analyze the acoustic properties of heartbeats to detect abnormalities that may indicate conditions such as valve stenosis or regurgitation. This non-invasive approach can facilitate earlier diagnosis and intervention, improving patient outcomes.
 
+However, the integration of AI in cardiovascular medicine faces several challenges. One significant challenge is the limited data available to train machine learning models. This scarcity of data can affect the accuracy and generalizability of AI algorithms. Additionally, there is a need for more comprehensive data that includes social determinants of health, as these factors can significantly impact cardiovascular disease outcomes. Addressing these data limitations is crucial for the continued development and effectiveness of AI applications in cardiovascular health.
+
