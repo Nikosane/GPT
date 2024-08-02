@@ -1533,3 +1533,5 @@ These advancements in AI applications for cardiovascular health underscore the t
 
 Wearables, smartphones, and internet-based technologies have demonstrated significant potential in monitoring patients' cardiac data points, thereby expanding the amount of data available and the various settings in which AI models can operate. These technologies enable continuous monitoring of cardiac health, allowing for the early detection of cardiac events occurring outside of the hospital. By collecting real-time data such as heart rate, rhythm, and other vital signs, AI algorithms can analyze this information to identify abnormalities and provide timely alerts to both patients and healthcare providers.
 
+Another growing area of research is the application of AI in classifying heart sounds and diagnosing valvular disease. AI models can analyze the acoustic properties of heartbeats to detect abnormalities that may indicate conditions such as valve stenosis or regurgitation. This non-invasive approach can facilitate earlier diagnosis and intervention, improving patient outcomes.
+
