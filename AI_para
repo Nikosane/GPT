@@ -1541,3 +1541,5 @@ Despite these challenges, the advancements in AI and its integration with wearab
 
 A key limitation in early studies evaluating AI was the omission of data comparing algorithmic performance to that of humans. However, recent studies have begun to address this gap by assessing AI performance relative to physicians. One example is research indicating that AI is noninferior to humans in the interpretation of cardiac echocardiograms. This means that AI can interpret these echocardiograms with accuracy comparable to that of human cardiologists, ensuring reliable diagnoses.
 
+Another study demonstrates that AI can diagnose heart attacks better than human physicians in emergency settings. This improved diagnostic capability reduces both low-value testing and missed diagnoses, leading to more efficient and accurate patient care. By minimizing unnecessary tests and promptly identifying true cases of heart attacks, AI can enhance the quality and speed of emergency medical services.
+
