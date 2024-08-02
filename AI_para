@@ -1539,3 +1539,5 @@ However, the integration of AI in cardiovascular medicine faces several challeng
 
 Despite these challenges, the advancements in AI and its integration with wearable and smartphone technologies offer promising prospects for enhancing cardiovascular care. By enabling continuous monitoring, early detection, and accurate diagnosis, AI has the potential to transform how cardiovascular diseases are managed and treated.
 
+A key limitation in early studies evaluating AI was the omission of data comparing algorithmic performance to that of humans. However, recent studies have begun to address this gap by assessing AI performance relative to physicians. One example is research indicating that AI is noninferior to humans in the interpretation of cardiac echocardiograms. This means that AI can interpret these echocardiograms with accuracy comparable to that of human cardiologists, ensuring reliable diagnoses.
+
