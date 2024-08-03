@@ -1547,3 +1547,5 @@ These findings highlight the significant potential of AI to complement and even 
 
 Dermatology, being an imaging-abundant specialty, has naturally benefited from advancements in deep learning, which is strongly tied to image processing. The alignment between dermatology and deep learning is particularly fitting due to the high volume and variety of imaging used in the field. Dermatological imaging can be categorized into three main types: contextual images, macro images, and micro images.
 
+For each imaging modality, deep learning has demonstrated significant progress. For instance, Han et al. showcased the use of AI to detect keratinocytic skin cancer from face photographs, leveraging deep learning to identify signs of skin cancer based on facial images. Esteva et al. advanced this further by achieving dermatologist-level classification of skin cancer from lesion images, illustrating how AI can match or even exceed the diagnostic accuracy of human experts.
+
