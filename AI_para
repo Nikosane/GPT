@@ -1549,3 +1549,5 @@ Dermatology, being an imaging-abundant specialty, has naturally benefited from a
 
 For each imaging modality, deep learning has demonstrated significant progress. For instance, Han et al. showcased the use of AI to detect keratinocytic skin cancer from face photographs, leveraging deep learning to identify signs of skin cancer based on facial images. Esteva et al. advanced this further by achieving dermatologist-level classification of skin cancer from lesion images, illustrating how AI can match or even exceed the diagnostic accuracy of human experts.
 
+Additionally, Noyan et al. contributed to the field by developing AI models that enhance the accuracy and efficiency of dermatological diagnoses. These advancements illustrate the growing potential of deep learning in dermatology, enabling more precise and automated analysis of skin conditions. The continued integration of AI in dermatology holds promise for improving diagnostic capabilities, personalizing treatment, and streamlining patient care.
+
