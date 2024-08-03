@@ -1551,3 +1551,5 @@ For each imaging modality, deep learning has demonstrated significant progress. 
 
 Additionally, Noyan et al. contributed to the field by developing AI models that enhance the accuracy and efficiency of dermatological diagnoses. These advancements illustrate the growing potential of deep learning in dermatology, enabling more precise and automated analysis of skin conditions. The continued integration of AI in dermatology holds promise for improving diagnostic capabilities, personalizing treatment, and streamlining patient care.
 
+Noyan et al. demonstrated a convolutional neural network that achieved 94% accuracy in identifying skin cells from microscopic Tzanck smear images. This impressive performance highlights the potential of deep learning algorithms to enhance diagnostic precision in dermatology.
+
