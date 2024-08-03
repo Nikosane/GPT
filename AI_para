@@ -1554,4 +1554,4 @@ Additionally, Noyan et al. contributed to the field by developing AI models that
 Noyan et al. demonstrated a convolutional neural network that achieved 94% accuracy in identifying skin cells from microscopic Tzanck smear images. This impressive performance highlights the potential of deep learning algorithms to enhance diagnostic precision in dermatology.
 
 However, a significant concern raised with this work is the lack of engagement with disparities related to skin color. The AI model's effectiveness has not been thoroughly evaluated across different skin tones, particularly for non-white skin. This oversight raises important issues about the equitable treatment of all patients and the potential for biases in AI systems. Addressing these disparities is crucial to ensuring that AI tools are inclusive and provide accurate and fair diagnoses across diverse populations. The development of more inclusive datasets and algorithms that account for skin color variations is essential for improving the overall reliability and fairness of AI applications in dermatology.
-
+v
