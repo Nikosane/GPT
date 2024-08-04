@@ -1561,3 +1561,5 @@ The review found that only four research studies tested AI algorithms on clinics
 
 This discrepancy underscores the importance of rigorous testing and validation of AI systems in varied real-world contexts to ensure their reliability and generalizability. As AI continues to evolve, addressing these issues will be crucial for developing tools that are not only effective but also equitable and broadly applicable across different patient populations.
 
+Moreover, research on AI algorithms for skin cancer detection often faces limitations regarding the context in which they are evaluated. For instance, only one study has been conducted in the context of a full clinical examination, while other studies were based on interactions through web apps or online questionnaires, with most relying solely on context-free images of lesions. In the study involving a comprehensive clinical examination, dermatologists were found to significantly outperform the AI algorithms, highlighting the importance of context and the limitations of using isolated images for assessment.
+
