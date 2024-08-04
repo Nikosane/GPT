@@ -1557,3 +1557,5 @@ However, a significant concern raised with this work is the lack of engagement w
 
 According to some researchers, AI algorithms have demonstrated effectiveness in identifying skin cancer, potentially surpassing dermatologists in certain aspects. However, a 2021 review article highlighted a critical issue: most studies analyzing the performance of AI algorithms for skin cancer classification did not use external test sets. This means that many evaluations were based on data from the same sources as the training data, which may not fully represent real-world clinical settings.
 
+The review found that only four research studies tested AI algorithms on clinics, regions, or populations distinct from those used for training. In these studies, the performance of dermatologists was found to be on par with that of the AI algorithms. This suggests that while AI shows promise, its performance may not consistently exceed that of experienced dermatologists when evaluated in diverse and independent clinical environments.
+
