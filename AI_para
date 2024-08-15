@@ -1624,3 +1624,8 @@ In computer science, particularly in the context of pathfinding algorithms, a he
 GPU (Graphics Processing Unit) chips were originally developed for rendering 3D graphics onscreen.  Nevertheless, GPUs have proved optimal for specialized computational tasks due to their ability to perform parallel computation in a way that CPUs may not.
 
 How are GPUs different from CPUs?  CPUs perform serial tasks very fast but with very little parallelism. A mid-range CPU may have a handful of cores and a mid-range GPU will have several thousand. GPU cores are much slower/less powerful but run in parallel.  The parallelism of GPUs are optimal for neural networks because of the kind of math that is performed: Sparse matrix multiplication.  
+GPUs were popularized in the ML community after discoveries in 2009 and 2012 during which researchers co-opted NVIDIA GPUs and an NVIDIA library called CUDA to train an image recognition model orders of magnitude faster than was previously possible. 
+
+Anecdote: GPUs were also popularized in cryptocurrency mining for the same reason -- they can substantially outpace CPUs in tasks that benefit from parallel computation.
+
+NVIDIA shares the GPU market with AMD but NVIDIA dominates the ML segment of the market because of the CUDA (and later on, cuDNN) libraries which have gained widespread usage.
