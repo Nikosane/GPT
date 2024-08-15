@@ -1619,3 +1619,4 @@ The Adaptive Neuro-Fuzzy Inference System (ANFIS), also known as the Adaptive Ne
 
 ANFIS utilizes fuzzy IF-THEN rules to handle uncertainty and imprecision in data, while also employing neural network techniques to learn and adapt from the data. This integration allows ANFIS to approximate nonlinear functions effectively, making it a versatile and robust tool for various applications. The system's inference mechanism is based on fuzzy rules that can be tuned through learning algorithms to improve performance.
 
+To enhance the efficiency and optimization of ANFIS, it is common to use genetic algorithms to determine the best parameters for the system. This approach leverages evolutionary techniques to search for optimal solutions, further refining the performance of the ANFIS and expanding its applicability in diverse fields such as control systems, pattern recognition, and forecasting.
