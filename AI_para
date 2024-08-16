@@ -1629,3 +1629,7 @@ GPUs were popularized in the ML community after discoveries in 2009 and 2012 dur
 Anecdote: GPUs were also popularized in cryptocurrency mining for the same reason -- they can substantially outpace CPUs in tasks that benefit from parallel computation.
 
 NVIDIA shares the GPU market with AMD but NVIDIA dominates the ML segment of the market because of the CUDA (and later on, cuDNN) libraries which have gained widespread usage.
+
+An algorithm is a precise sequence of instructions designed to solve a particular problem or achieve a specific objective. In the context of a recipe, such as one for making pommes frites (French fries), the recipe serves as an algorithm, where the goal is to prepare a specific dish. Each step of the recipe is carefully outlined, detailing the necessary actions and ingredients to ensure the desired result.
+
+In computer science, algorithms function similarly, but instead of using food ingredients, they operate on data structures. The step-by-step instructions of an algorithm in computing are written in a programming language, guiding the computer through a process to manipulate data, perform calculations, or solve a problem. Just as a cooking recipe must be followed accurately to achieve the desired dish, an algorithm must be executed correctly to obtain the intended outcome in a computational task.
