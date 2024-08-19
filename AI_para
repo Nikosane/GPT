@@ -1730,3 +1730,8 @@ To sort an array using Bubble Sort, you begin at the start of the array and comp
 This process is then repeated for the remaining elements, excluding the last sorted ones, which are already in their correct positions. The algorithm continues making these passes until no further swaps are needed, indicating that the array is fully sorted.
 
 As you observe the algorithm in action, you’ll notice that the larger values "bubble" to the top with each pass, and the array becomes progressively more ordered. While Bubble Sort is easy to understand and implement, it is not the most efficient for large data sets due to its O(n²) time complexity, where 'n' represents the number of elements in the array.
+ChatGPT
+
+Bubble Sort is a simple sorting algorithm that organizes an array by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. The process continues until the entire array is sorted in ascending order, from the lowest value to the highest.
+
+The name "Bubble Sort" comes from the way the algorithm works. During each pass through the array, the largest unsorted element "bubbles up" to its correct position, just like how bubbles rise to the surface in water. This process of bubbling up continues with each pass, gradually moving the next largest element to its correct place in the array. The algorithm continues to pass through the list until no more swaps are needed, indicating that the array is fully sorted.
