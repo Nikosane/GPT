@@ -1783,3 +1783,7 @@ As the algorithm progresses, the unsorted portion of the array gradually becomes
 To fully grasp how the Selection Sort algorithm works, let's consider a manual run-through of the process. In the example, the lowest value, 3, was identified and moved to the start of the array in step 3. While 3 was correctly positioned, the rest of the array remained unsorted at that point.
 
 This illustrates a key aspect of Selection Sort: the algorithm must continue running through the array multiple times. With each pass, the next lowest value is identified and moved to the front of the unsorted section, gradually organizing the array. For example, after moving 3 to the front, the algorithm would next identify the second-lowest value, say 5, and move it to the second position.
+
+This process is repeated, with each pass through the array placing the next lowest value in its correct position. By the time the algorithm reaches the highest value, which ends up at the end of the array, the entire array is sorted. For an array of 5 values, the algorithm needs to run 4 times, ensuring that all elements are in the correct order.
+
+As the algorithm progresses, the unsorted portion of the array gradually becomes smaller. After each pass, one more value is sorted and placed in its correct position, reducing the number of elements the algorithm needs to consider in the next pass. By the end of the process, the array is fully sorted, with each element in ascending order.
