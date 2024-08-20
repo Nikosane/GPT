@@ -1763,3 +1763,11 @@ This sum equals \(\frac{n(n-1)}{2}\), which is a quadratic function. Therefore, 
 In the best-case scenario, if the array is already sorted, Bubble Sort can detect this and stop early. However, even in this case, the algorithm will still make \(O(n)\) comparisons in the first pass, making the overall best-case time complexity \(O(n)\). 
 
 Due to its simplicity and quadratic time complexity, Bubble Sort is generally inefficient for large datasets compared to more advanced algorithms like Quick Sort or Merge Sort, which have better time complexities.
+
+The Selection Sort algorithm works by repeatedly finding the minimum value from the unsorted part of the array and moving it to the front. Here's how the process unfolds:
+
+First, the algorithm scans the entire array to locate the smallest value. Once identified, this value is swapped with the first element of the array, effectively placing the smallest value in its correct, sorted position at the beginning. The algorithm then moves on to the next position in the array and repeats the process.
+
+The next step involves scanning the remaining unsorted portion of the array to find the next smallest value. This value is then swapped with the first element of this unsorted portion, effectively placing it in its correct position. The algorithm continues this process, iterating over the array as many times as there are elements, each time moving the next smallest value to the front of the unsorted section.
+
+By the time the algorithm completes, all values in the array have been sorted into ascending order. The Selection Sort algorithm has the advantage of simplicity and is easy to understand and implement, but like Bubble Sort, it has a time complexity of \(O(n^2)\), making it inefficient for large datasets. Unlike Bubble Sort, however, Selection Sort minimizes the number of swaps, which can be beneficial in scenarios where writing to memory is costly.
