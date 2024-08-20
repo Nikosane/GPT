@@ -1753,3 +1753,13 @@ To implement the Bubble Sort algorithm in a programming language, you first need
 The implementation requires two loops: an inner loop and an outer loop. The inner loop is responsible for going through the array and performing the necessary swaps. With each pass, the inner loop compares adjacent elements and swaps them if needed. However, as the largest elements are gradually moved to their correct positions at the end of the array, the inner loop needs to iterate through fewer elements each time, so it runs one less comparison in each subsequent pass.
 
 The outer loop controls how many times the inner loop executes. For an array of `n` elements, the outer loop must run `n-1` times, as the array will be fully sorted after `n-1` passes. After the final iteration, all elements in the array will be in the correct order, completing the sorting process.
+
+The time complexity of the Bubble Sort algorithm can be analyzed by considering how many comparisons and swaps are made during the sorting process. Bubble Sort works by repeatedly passing through the array and comparing adjacent elements, swapping them if necessary. For an array of `n` elements, each pass through the array involves making `n-1` comparisons in the first loop.
+
+After the first pass, the largest element is correctly positioned at the end of the array, so the next pass only needs to make `n-2` comparisons, and so on. This continues until the array is fully sorted. In the worst-case scenario, the algorithm will make `n-1` passes through the array, and the total number of comparisons will be the sum of the first `n-1` natural numbers: 
+
+This sum equals \(\frac{n(n-1)}{2}\), which is a quadratic function. Therefore, the time complexity of Bubble Sort in the worst case is \(O(n^2)\).
+
+In the best-case scenario, if the array is already sorted, Bubble Sort can detect this and stop early. However, even in this case, the algorithm will still make \(O(n)\) comparisons in the first pass, making the overall best-case time complexity \(O(n)\). 
+
+Due to its simplicity and quadratic time complexity, Bubble Sort is generally inefficient for large datasets compared to more advanced algorithms like Quick Sort or Merge Sort, which have better time complexities.
