@@ -1747,3 +1747,9 @@ In the first pass of the Bubble Sort algorithm, the highest value in the array, 
 To fully sort the array, the Bubble Sort algorithm must continue to run through the array multiple times. During each subsequent pass, the next highest value will bubble up to its correct position, while the rest of the array gradually becomes sorted. The algorithm continues this process until all values are in their proper positions.
 
 For an array of 5 values, the algorithm needs to run through the array 4 times, with each pass reducing the length of the unsorted portion of the array. By the time the algorithm has completed all necessary passes, the smallest value, 3, will be left at the start of the array, and the entire array will be sorted.
+
+To implement the Bubble Sort algorithm in a programming language, you first need an array containing the values you wish to sort. The algorithm works by repeatedly stepping through the array and comparing each pair of adjacent elements. If the current element is greater than the next one, the elements are swapped. This process ensures that, after each pass through the array, the largest unsorted element "bubbles up" to its correct position.
+
+The implementation requires two loops: an inner loop and an outer loop. The inner loop is responsible for going through the array and performing the necessary swaps. With each pass, the inner loop compares adjacent elements and swaps them if needed. However, as the largest elements are gradually moved to their correct positions at the end of the array, the inner loop needs to iterate through fewer elements each time, so it runs one less comparison in each subsequent pass.
+
+The outer loop controls how many times the inner loop executes. For an array of `n` elements, the outer loop must run `n-1` times, as the array will be fully sorted after `n-1` passes. After the final iteration, all elements in the array will be in the correct order, completing the sorting process.
