@@ -1787,3 +1787,9 @@ This illustrates a key aspect of Selection Sort: the algorithm must continue run
 This process is repeated, with each pass through the array placing the next lowest value in its correct position. By the time the algorithm reaches the highest value, which ends up at the end of the array, the entire array is sorted. For an array of 5 values, the algorithm needs to run 4 times, ensuring that all elements are in the correct order.
 
 As the algorithm progresses, the unsorted portion of the array gradually becomes smaller. After each pass, one more value is sorted and placed in its correct position, reducing the number of elements the algorithm needs to consider in the next pass. By the end of the process, the array is fully sorted, with each element in ascending order.
+
+To implement the Selection Sort algorithm in a programming language, you begin by initializing an array with the values you want to sort. The process involves an outer loop that iterates through the array, controlling the number of times the sorting operation is performed. For an array with "n" values, the outer loop needs to run "n minus 1" times.
+
+Within each iteration of the outer loop, there is an inner loop that searches through the unsorted portion of the array to find the lowest value. Once the lowest value is identified, it is moved to the front of the unsorted part of the array. After each pass through the array, the unsorted portion becomes one element shorter, and the outer loop continues until the entire array is sorted.
+
+In words, if you have an array with "n" values, the outer loop must iterate "n minus 1" times to ensure all elements are sorted. Each iteration reduces the number of unsorted elements by one, gradually sorting the array as the process continues.
