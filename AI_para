@@ -1793,3 +1793,5 @@ To implement the Selection Sort algorithm in a programming language, you begin b
 Within each iteration of the outer loop, there is an inner loop that searches through the unsorted portion of the array to find the lowest value. Once the lowest value is identified, it is moved to the front of the unsorted part of the array. After each pass through the array, the unsorted portion becomes one element shorter, and the outer loop continues until the entire array is sorted.
 
 In words, if you have an array with "n" values, the outer loop must iterate "n minus 1" times to ensure all elements are sorted. Each iteration reduces the number of unsorted elements by one, gradually sorting the array as the process continues.
+
+The Selection Sort algorithm, while effective in sorting arrays, can be refined to address the issue of shifting elements. In its basic form, the algorithm finds the lowest value in the unsorted portion of the array and moves it to the front. However, this process involves removing the lowest value element and then shifting all subsequent elements one place down to fill the gap left by the removal.
