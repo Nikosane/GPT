@@ -1815,3 +1815,7 @@ Initially, the algorithm selects the first value from the unsorted portion. It t
 To implement the Insertion Sort algorithm in a programming language, you need to consider the array of values you want to sort. The algorithm works by dividing the array into two parts: one part holds the sorted values, and the other part holds the values that are yet to be sorted.
 
 The process begins by taking the first value from the unsorted portion of the array and placing it in its correct position within the sorted part of the array. This placement requires comparing the value to each element in the sorted portion, shifting elements as necessary, until the value finds its appropriate spot.
+
+As you proceed, the sorted portion of the array grows, while the unsorted portion shrinks, with each iteration focusing on finding the correct position for the next value from the unsorted part. This process continues until the entire array is sorted.
+
+The Insertion Sort algorithm typically runs through the array a number of times equal to the total number of values minus one, as the first value is already considered sorted. Each pass through the array reduces the size of the unsorted portion, gradually leading to a fully sorted array.
