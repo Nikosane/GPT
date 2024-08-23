@@ -1845,3 +1845,7 @@ Once the array is divided in this manner, the next critical operation is to swap
 The Quicksort algorithm then continues by recursively applying the same process to these sub-arrays. It selects a new pivot for each sub-array, reorganizes the elements around the new pivot, and splits the array further. This recursive division continues until each sub-array reaches a size of zero or one, at which point it is considered fully sorted.
 
 To summarize, the Quicksort algorithm systematically reduces the problem by dividing the array into increasingly smaller sub-arrays, sorting them through repeated comparisons and swaps, until the entire array is fully sorted. This recursive approach, combined with the strategic selection and placement of pivot elements, is what gives Quicksort its efficiency and speed in sorting even large arrays.
+
+To effectively implement the Quicksort algorithm, it's important to understand the key concepts of recursion and partitioning. Recursion involves a function calling itself to solve smaller instances of the same problem, while partitioning refers to the process of rearranging elements around a pivot within the array.
+
+You start by initializing an array with the values that need sorting. The quickSort method serves as the main function responsible for sorting the array. This method calls itself recursively to handle the sub-arrays generated during the process. The recursion continues as long as the sub-array has more than one element since a sub-array with zero or one element is already sorted.
