@@ -1889,3 +1889,5 @@ Next, the algorithm iterates through the original array that needs to be sorted.
 Once all the values have been counted, the algorithm moves on to constructing the sorted array. It does this by iterating through the count array. For each index in the count array, the algorithm adds the appropriate number of elements to the sorted array. The value of these elements corresponds to the index in the count array, and the number of times this value is added to the sorted array corresponds to the count stored at that index.
 
 In essence, the process involves counting the occurrences of each value, and then reconstructing the sorted array by repeating each value according to its count. This method bypasses the need for comparisons, making Counting Sort efficient for sorting arrays with a limited range of values.
+
+Counting Sort is a specialized algorithm that excels in sorting arrays by counting the occurrences of each distinct value. However, its effectiveness is contingent upon certain conditions that limit its applicability to specific types of data. Understanding these conditions is essential for determining when Counting Sort is the appropriate choice.
