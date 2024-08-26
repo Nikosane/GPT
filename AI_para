@@ -1909,3 +1909,9 @@ First, the algorithm begins by iterating through the input array, counting the o
 After all values have been counted, the algorithm then reconstructs the sorted array. This reconstruction happens by iterating through the count array. For each index in the count array that has a non-zero value, the corresponding value is added to the output array the appropriate number of times. The position of each value in the output array is determined by the cumulative counts in the count array, ensuring that the values are placed in the correct order.
 
 Understanding these steps is crucial for implementing the algorithm, as each phase plays a specific role in the sorting process. With this conceptual framework in place, we can proceed to implement the Counting Sort algorithm using Python, translating these steps into code that efficiently sorts an array based on the principles we've outlined.
+
+To implement the Counting Sort algorithm in a programming language, we need to carefully structure the method to efficiently sort an array of integers. Here's how you can approach it:
+
+First, you need an array with values that require sorting. The core of the implementation lies within a method, typically named countingSort, which takes this array of integers as its input.
+
+Inside the countingSort method, you must create a secondary array, often referred to as the count array, that will be used to keep track of the frequency of each integer value in the input array. The size of this count array should correspond to the range of the values in the input array. To determine the appropriate size, you first identify the highest value in the input array. For example, if the highest value is 5, the count array must contain 6 elements, corresponding to the possible non-negative integers 0 through 5.
