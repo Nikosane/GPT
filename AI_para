@@ -1927,3 +1927,7 @@ The time complexity of the Counting Sort algorithm is influenced by two key fact
 In general, the time complexity for Counting Sort is represented as O(n+k)O(n+k). This reflects the two main phases of the algorithm: counting the occurrences of each value (which depends on nn) and reconstructing the sorted array using the count array (which depends on kk).
 
 In the best-case scenario, the range of possible values kk is relatively small compared to the number of elements nn. When this is the case, the algorithm's time complexity is approximately O(n)O(n), making Counting Sort extremely efficient. This scenario occurs when the number of distinct integer values that need to be sorted is significantly less than the number of elements in the array.
+
+However, in the worst-case scenario, the range of possible values kk is large relative to the number of elements nn. In such situations, the time complexity can degrade to O(n2)O(n2) or worse. This happens because the algorithm must create a large count array, which becomes inefficient when kk is much larger than nn. The larger the count array, the more time and space the algorithm requires, reducing its overall efficiency.
+
+In summary, while Counting Sort can be highly efficient under certain conditions, its performance is heavily dependent on the relationship between kk and nn. The algorithm is best suited for scenarios where the range of possible values kk is not significantly larger than the number of elements nn in the array.
