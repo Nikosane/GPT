@@ -1920,4 +1920,4 @@ The next step involves iterating over the input array to populate the count arra
 
 After all values in the input array have been counted, the algorithm proceeds to reconstruct the sorted array. This is achieved by iterating through the count array. For each index in the count array that has a non-zero count, you insert the corresponding value into the output array the appropriate number of times. This ensures that all elements appear in the correct order in the final sorted array.
 
-
+The process described ensures that the input array is sorted according to the rules of the Counting Sort algorithm, where each value is counted and then placed in the output array in the correct sequence based on the counts recorded. The method is efficient for arrays where the range of possible values (from the smallest to the largest integer) is not significantly larger than the number of elements in the array.
