@@ -1951,3 +1951,7 @@ After completing the sorting for the least significant digit, the algorithm move
 By the time the algorithm reaches the most significant digit (the leftmost one), the array has been fully sorted. Each number has been placed in its correct position, and the entire array is now ordered from the smallest to the largest number.
 
 The key to Radix Sort's efficiency lies in its ability to sort numbers without directly comparing them to each other. Instead, it relies on the position and value of individual digits, which allows it to handle large datasets effectively.
+
+Stable sorting is a crucial concept when it comes to certain sorting algorithms, especially Radix Sort. A sorting algorithm is said to be stable if it maintains the relative order of elements with the same value in the array. In other words, if two elements are equal in terms of their value, they should appear in the same order in the sorted array as they did in the original array.
+
+To illustrate this with an example, let's consider two elements "K" and "L", both having the value "3". If "K" appears before "L" in the original array, a stable sorting algorithm will ensure that "K" still appears before "L" in the sorted array. This stability is particularly important for Radix Sort, as it sorts the array one digit at a time.
