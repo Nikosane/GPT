@@ -1963,3 +1963,15 @@ For the previous sorting algorithms we've discussed, such as Bubble Sort, Select
 To help understand how stable sorting works, imagine sorting elements into buckets based on a specific digit. If we place elements into the buckets from the beginning of the array to the end, we maintain their relative order. However, if we were to place elements from the end of the array to the beginning, this would disrupt the original order and result in an unstable sort, leading to an incorrect final array.
 
 In Radix Sort, ensuring that each digit's sorting process is stable is what guarantees that the final result is correctly sorted. Without stability, the algorithm would fail to preserve the correct order of elements, and the sorting process would not function as intended.
+
+Let's break down what happens during a manual run-through of the Radix Sort algorithm to understand its operations in more detail.
+
+First, the algorithm identifies the radix in focus, which refers to the specific digit position it is currently sorting by, starting from the least significant digit (the rightmost one). The values from the original array are then moved to a two-dimensional radix array, where they are placed into buckets based on the current digit's value. For example, if the current digit in focus is the units place, the number 437 would go into the bucket corresponding to 7.
+
+After all the values are placed into their respective buckets, they are then moved back into the original array in the order they appear in the radix array. This process ensures that the array is sorted according to the current digit. However, this is just the first pass; the algorithm must repeat this process for every digit, moving from the least significant to the most significant digit.
+
+For instance, if 437 is the highest number in the array, the algorithm knows it must go through three passes—one for each digit (units, tens, and hundreds). This ensures that the array is fully sorted by the end of the process.
+
+One important observation is that the radix array needs to be two-dimensional. This is because more than one value might have the same digit in the same position (e.g., both 137 and 437 have 7 in the units place). The two-dimensional structure allows the algorithm to handle multiple values that share the same digit without losing any information.
+
+Finally, the values must be moved between the original array and the radix array in a way that preserves their relative order when they have the same digit in focus. This ensures that the sorting process is stable, meaning that the order of equal elements remains the same as it was in the original array. This stability is crucial for Radix Sort to function correctly, especially when sorting by subsequent digits, as it ensures that the previous sorting steps are not disrupted.
