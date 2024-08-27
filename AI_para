@@ -1975,3 +1975,4 @@ For instance, if 437 is the highest number in the array, the algorithm knows it 
 One important observation is that the radix array needs to be two-dimensional. This is because more than one value might have the same digit in the same position (e.g., both 137 and 437 have 7 in the units place). The two-dimensional structure allows the algorithm to handle multiple values that share the same digit without losing any information.
 
 Finally, the values must be moved between the original array and the radix array in a way that preserves their relative order when they have the same digit in focus. This ensures that the sorting process is stable, meaning that the order of equal elements remains the same as it was in the original array. This stability is crucial for Radix Sort to function correctly, especially when sorting by subsequent digits, as it ensures that the previous sorting steps are not disrupted.
+
