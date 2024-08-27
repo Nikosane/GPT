@@ -1941,3 +1941,7 @@ Radix Sort is a non-comparative sorting algorithm, meaning it does not compare t
 However, it is important to note that Radix Sort is only applicable to non-negative integers. The algorithm assumes that all numbers have the same number of digits, padding shorter numbers with leading zeros if necessary. Additionally, while Radix Sort can be very efficient, especially for large datasets with a small range of digit values, it requires additional space for the buckets and multiple passes over the data, which might not be ideal in all scenarios.
 
 In summary, Radix Sort works by sorting numbers digit by digit, starting from the least significant digit, and uses the radix to distribute numbers into buckets. It is a non-comparative algorithm that efficiently sorts non-negative integers.
+
+First, the algorithm begins by focusing on the least significant digit, which is the rightmost digit of each number in the array. The sorting process starts with this digit because it is the easiest to handle when numbers have varying digit lengths.
+
+Next, the values in the array are sorted based on the current digit in focus. This is done by distributing the numbers into different buckets, where each bucket corresponds to one of the possible digit values (from 0 to 9). Once all the numbers are placed into their respective buckets, they are collected back into the array, maintaining the order based on the digit that was just sorted.
