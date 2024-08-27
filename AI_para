@@ -1960,4 +1960,6 @@ In Radix Sort, when sorting based on the least significant digit (the rightmost 
 
 For the previous sorting algorithms we've discussed, such as Bubble Sort, Selection Sort, and Quicksort, stability might not make a significant difference in the outcome because they either directly compare values or sort the entire value at once. However, for Radix Sort, where the sorting is performed on individual digits sequentially, stability is essential.
 
+To help understand how stable sorting works, imagine sorting elements into buckets based on a specific digit. If we place elements into the buckets from the beginning of the array to the end, we maintain their relative order. However, if we were to place elements from the end of the array to the beginning, this would disrupt the original order and result in an unstable sort, leading to an incorrect final array.
 
+In Radix Sort, ensuring that each digit's sorting process is stable is what guarantees that the final result is correctly sorted. Without stability, the algorithm would fail to preserve the correct order of elements, and the sorting process would not function as intended.
