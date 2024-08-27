@@ -1955,3 +1955,9 @@ The key to Radix Sort's efficiency lies in its ability to sort numbers without d
 Stable sorting is a crucial concept when it comes to certain sorting algorithms, especially Radix Sort. A sorting algorithm is said to be stable if it maintains the relative order of elements with the same value in the array. In other words, if two elements are equal in terms of their value, they should appear in the same order in the sorted array as they did in the original array.
 
 To illustrate this with an example, let's consider two elements "K" and "L", both having the value "3". If "K" appears before "L" in the original array, a stable sorting algorithm will ensure that "K" still appears before "L" in the sorted array. This stability is particularly important for Radix Sort, as it sorts the array one digit at a time.
+
+In Radix Sort, when sorting based on the least significant digit (the rightmost digit), it's important that the relative order of elements with the same digit remains unchanged. This ensures that when the algorithm moves on to sort by the next digit, the previous sorting order is not disrupted. If the sorting were not stable, the work done in previous steps could be undone, leading to an incorrect final result.
+
+For the previous sorting algorithms we've discussed, such as Bubble Sort, Selection Sort, and Quicksort, stability might not make a significant difference in the outcome because they either directly compare values or sort the entire value at once. However, for Radix Sort, where the sorting is performed on individual digits sequentially, stability is essential.
+
+
