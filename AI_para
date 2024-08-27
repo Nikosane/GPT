@@ -1945,3 +1945,9 @@ In summary, Radix Sort works by sorting numbers digit by digit, starting from th
 First, the algorithm begins by focusing on the least significant digit, which is the rightmost digit of each number in the array. The sorting process starts with this digit because it is the easiest to handle when numbers have varying digit lengths.
 
 Next, the values in the array are sorted based on the current digit in focus. This is done by distributing the numbers into different buckets, where each bucket corresponds to one of the possible digit values (from 0 to 9). Once all the numbers are placed into their respective buckets, they are collected back into the array, maintaining the order based on the digit that was just sorted.
+
+After completing the sorting for the least significant digit, the algorithm moves to the next digit to the left. The process of sorting the numbers based on the current digit is repeated, with the numbers being redistributed into buckets according to the new digit in focus. This cycle continues until all digits of the numbers have been processed.
+
+By the time the algorithm reaches the most significant digit (the leftmost one), the array has been fully sorted. Each number has been placed in its correct position, and the entire array is now ordered from the smallest to the largest number.
+
+The key to Radix Sort's efficiency lies in its ability to sort numbers without directly comparing them to each other. Instead, it relies on the position and value of individual digits, which allows it to handle large datasets effectively.
