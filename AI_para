@@ -1980,3 +1980,11 @@ Divide:
 The first step in the Merge Sort algorithm is the division of the array. The array is continually split into smaller sub-arrays, each time dividing it into two halves. This division continues recursively until each sub-array contains only a single element. At this point, since an array with one element is already sorted, the division process stops.
 
 This division is visually represented in an animation where bars representing the array's elements are pushed downward, indicating that the array is being split into smaller and smaller parts. Each of these smaller parts will eventually become a single-element array.
+
+Conquer:
+
+Once the array has been divided into the smallest possible units, the algorithm begins the process of merging these sub-arrays back together. This is where the actual sorting happens.
+
+Starting with the smallest sub-arrays, the algorithm compares the elements of adjacent sub-arrays and merges them into a new, larger array in sorted order. For example, if you have two sub-arrays [3] and [7], they are merged into [3, 7] since 3 is less than 7. This process is repeated for all pairs of sub-arrays, gradually building up larger sorted arrays until the entire original array is merged back together in sorted order.
+
+In the animation, this merging process is represented by the bars being lifted back up, showing that the sub-arrays are coming together in sorted order.
