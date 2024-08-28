@@ -1995,3 +1995,9 @@ Final Outcome:
 By the end of the process, the original array, which may have been completely unsorted, is now fully sorted. The recursion ensures that every element is compared and placed in the correct order, resulting in a sorted array.
 
 In summary, Merge Sort works by recursively dividing the array into smaller sub-arrays, sorting these sub-arrays, and then merging them back together in the correct order. This process, though complex in its recursion, results in a highly efficient sorting algorithm that is stable and works well even with large datasets.
+
+The Merge Sort algorithm begins by dividing the unsorted array into two equal halves, creating two sub-arrays that are each half the size of the original array. This division process continues recursively, with each sub-array being split into two smaller sub-arrays, until each sub-array contains only a single element. At this point, the division stops because an array with a single element is inherently sorted.
+
+Once the array has been divided into these minimal sub-arrays, the algorithm shifts focus to the merging phase. During merging, the algorithm takes two sub-arrays at a time and combines them into a larger sorted array. The merging is done by comparing the elements of the two sub-arrays and placing the lower value first in the new merged array. This process is repeated, progressively merging larger sub-arrays, until the entire array is recombined into a single sorted array.
+
+Throughout the process, the key to sorting lies in the merging step, where elements are consistently ordered so that the smallest values are placed first. This ensures that when the algorithm finishes, the array is fully sorted in ascending order.
