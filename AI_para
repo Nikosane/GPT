@@ -1975,16 +1975,19 @@ For instance, if 437 is the highest number in the array, the algorithm knows it 
 One important observation is that the radix array needs to be two-dimensional. This is because more than one value might have the same digit in the same position (e.g., both 137 and 437 have 7 in the units place). The two-dimensional structure allows the algorithm to handle multiple values that share the same digit without losing any information.
 
 The Merge Sort algorithm is a classic example of a divide-and-conquer strategy, where the problem of sorting an array is broken down into more manageable sub-problems, which are then solved individually and combined to form the final solution.
-Divide:
 
+Divide:
 The first step in the Merge Sort algorithm is the division of the array. The array is continually split into smaller sub-arrays, each time dividing it into two halves. This division continues recursively until each sub-array contains only a single element. At this point, since an array with one element is already sorted, the division process stops.
 
 This division is visually represented in an animation where bars representing the array's elements are pushed downward, indicating that the array is being split into smaller and smaller parts. Each of these smaller parts will eventually become a single-element array.
 
 Conquer:
-
 Once the array has been divided into the smallest possible units, the algorithm begins the process of merging these sub-arrays back together. This is where the actual sorting happens.
 
 Starting with the smallest sub-arrays, the algorithm compares the elements of adjacent sub-arrays and merges them into a new, larger array in sorted order. For example, if you have two sub-arrays [3] and [7], they are merged into [3, 7] since 3 is less than 7. This process is repeated for all pairs of sub-arrays, gradually building up larger sorted arrays until the entire original array is merged back together in sorted order.
 
 In the animation, this merging process is represented by the bars being lifted back up, showing that the sub-arrays are coming together in sorted order.
+
+Recursion:
+The breaking down (dividing) and building up (merging) of the array is done recursively. This means that the Merge Sort algorithm repeatedly applies the same steps to smaller and smaller parts of the array until the entire array is sorted. Each recursive call to the Merge Sort function handles the division and subsequent merging of a specific segment of the array.
+
