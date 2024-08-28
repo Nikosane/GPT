@@ -1991,3 +1991,7 @@ In the animation, this merging process is represented by the bars being lifted b
 Recursion:
 The breaking down (dividing) and building up (merging) of the array is done recursively. This means that the Merge Sort algorithm repeatedly applies the same steps to smaller and smaller parts of the array until the entire array is sorted. Each recursive call to the Merge Sort function handles the division and subsequent merging of a specific segment of the array.
 
+Final Outcome:
+By the end of the process, the original array, which may have been completely unsorted, is now fully sorted. The recursion ensures that every element is compared and placed in the correct order, resulting in a sorted array.
+
+In summary, Merge Sort works by recursively dividing the array into smaller sub-arrays, sorting these sub-arrays, and then merging them back together in the correct order. This process, though complex in its recursion, results in a highly efficient sorting algorithm that is stable and works well even with large datasets.
