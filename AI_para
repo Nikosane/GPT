@@ -1974,4 +1974,9 @@ For instance, if 437 is the highest number in the array, the algorithm knows it 
 
 One important observation is that the radix array needs to be two-dimensional. This is because more than one value might have the same digit in the same position (e.g., both 137 and 437 have 7 in the units place). The two-dimensional structure allows the algorithm to handle multiple values that share the same digit without losing any information.
 
+The Merge Sort algorithm is a classic example of a divide-and-conquer strategy, where the problem of sorting an array is broken down into more manageable sub-problems, which are then solved individually and combined to form the final solution.
+Divide:
 
+The first step in the Merge Sort algorithm is the division of the array. The array is continually split into smaller sub-arrays, each time dividing it into two halves. This division continues recursively until each sub-array contains only a single element. At this point, since an array with one element is already sorted, the division process stops.
+
+This division is visually represented in an animation where bars representing the array's elements are pushed downward, indicating that the array is being split into smaller and smaller parts. Each of these smaller parts will eventually become a single-element array.
