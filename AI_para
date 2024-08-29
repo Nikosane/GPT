@@ -2016,4 +2016,5 @@ The core of the algorithm lies in two main functions. The first function is resp
 
 The second function is responsible for merging the sub-arrays back together. This merging process is done in a way that maintains the order of elements, ensuring that the result is a sorted array. As the sub-arrays are merged, the function compares elements from each sub-array, placing them in the correct order in the final merged array.
 
+By recursively dividing the array and then merging it back together in a sorted manner, the Merge Sort algorithm efficiently sorts the entire array. This combination of splitting and merging allows Merge Sort to achieve a time complexity of O(n log n), making it one of the more efficient sorting algorithms, particularly for larger datasets.
 
