@@ -2013,3 +2013,7 @@ Through this process, the Merge Sort algorithm ensures that the array is fully s
 To implement the Merge Sort algorithm in a programming language, you need to approach it systematically, beginning with the array of values that require sorting. Merge Sort is a divide-and-conquer algorithm that operates by splitting the array into increasingly smaller sub-arrays until each sub-array consists of only one element. This process of dividing the array continues recursively until no further division is possible.
 
 The core of the algorithm lies in two main functions. The first function is responsible for splitting the array into two halves. Once the array is split, this function calls itself on each of these halves, effectively applying the same division process repeatedly. This recursive splitting continues until each sub-array contains only one element, at which point they are inherently sorted because a single element does not need sorting.
+
+The second function is responsible for merging the sub-arrays back together. This merging process is done in a way that maintains the order of elements, ensuring that the result is a sorted array. As the sub-arrays are merged, the function compares elements from each sub-array, placing them in the correct order in the final merged array.
+
+
