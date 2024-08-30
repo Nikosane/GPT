@@ -2037,3 +2037,5 @@ Linear Search is a straightforward algorithm that traverses an array to find a s
 The simplicity of Linear Search makes it easy to understand and implement. It works by starting at the first element of the array and checking each element one by one until the desired value is found or the end of the array is reached. This process ensures that even if the value is present only once in the array, it will be found.
 
 However, Linear Search has its limitations. The time complexity of Linear Search is O(n)O(n), where nn is the number of elements in the array. This means that in the worst-case scenario, the algorithm must check every element in the array before it can determine whether the value is present. As a result, Linear Search can be inefficient for large datasets.
+
+An important distinction to note between sorting and searching algorithms is their effect on the array. Sorting algorithms, like those we have previously discussed, modify the array by rearranging its elements in a particular order. On the other hand, searching algorithms like Linear Search do not alter the array; they simply traverse it to find the desired value.
