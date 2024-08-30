@@ -2033,3 +2033,5 @@ Second, during the merging phase, each of these individual elements is merged ba
 This means that Merge Sort consistently performs efficiently, even in the worst-case scenario where the array is completely unsorted. Unlike some other algorithms, Merge Sort doesn't benefit from a partially sorted array, as it always follows the same process of splitting and merging, leading to a consistent time complexity of \( O(n \cdot \log n) \) across all cases. This characteristic makes Merge Sort reliable for handling large datasets with predictable performance.
 
 Linear Search is a straightforward algorithm that traverses an array to find a specific value and returns the index where that value is located. If the value is not found, the algorithm typically returns a special indicator, such as -1 or None, depending on the implementation.
+
+The simplicity of Linear Search makes it easy to understand and implement. It works by starting at the first element of the array and checking each element one by one until the desired value is found or the end of the array is reached. This process ensures that even if the value is present only once in the array, it will be found.
