@@ -2045,3 +2045,9 @@ If the array is already sorted, a more efficient search method, such as Binary S
 In Linear Search, the algorithm systematically goes through the array from the beginning. As it checks each element, it compares the current element with the value that is being searched for. If it finds a match, it returns the index of that element, indicating where in the array the value is located.
 
 If the algorithm reaches the end of the array without finding the desired value, it returns `-1` (or another indicator, depending on the implementation) to signal that the value is not present in the array. This straightforward approach ensures that every element is checked, guaranteeing that if the value exists in the array, it will be found. However, if the value is absent, the algorithm will have traversed the entire array by the time it concludes.
+
+In a manual run-through of the Linear Search algorithm, the process unfolds in a straightforward manner. The algorithm begins at the start of the array and sequentially checks each value to see if it matches the target value, which in this case is 11. 
+
+As the algorithm progresses, it examines each element one by one. If it encounters the value 11, it immediately stops searching and returns the index of the element where the match was found. This index indicates the position of the target value within the array.
+
+If the algorithm completes its examination of the entire array without finding the target value, it returns `-1`, signaling that the value 11 is not present in the array. This step-by-step approach ensures that all elements are checked, making Linear Search a simple yet exhaustive method for finding a specific value in an array.
