@@ -2041,3 +2041,7 @@ However, Linear Search has its limitations. The time complexity of Linear Search
 An important distinction to note between sorting and searching algorithms is their effect on the array. Sorting algorithms, like those we have previously discussed, modify the array by rearranging its elements in a particular order. On the other hand, searching algorithms like Linear Search do not alter the array; they simply traverse it to find the desired value.
 
 If the array is already sorted, a more efficient search method, such as Binary Search, should be used. Binary Search significantly reduces the number of comparisons needed to find a value by repeatedly dividing the search range in half, making it much faster than Linear Search for sorted arrays. We will explore Binary Search in detail next.
+
+In Linear Search, the algorithm systematically goes through the array from the beginning. As it checks each element, it compares the current element with the value that is being searched for. If it finds a match, it returns the index of that element, indicating where in the array the value is located.
+
+If the algorithm reaches the end of the array without finding the desired value, it returns `-1` (or another indicator, depending on the implementation) to signal that the value is not present in the array. This straightforward approach ensures that every element is checked, guaranteeing that if the value exists in the array, it will be found. However, if the value is absent, the algorithm will have traversed the entire array by the time it concludes.
