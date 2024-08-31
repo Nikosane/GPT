@@ -2058,3 +2058,4 @@ The core of the algorithm is a loop that iterates over each element in the array
 
 If the loop completes without finding the target value, the algorithm returns -1. This return value indicates that the target was not present in the array, thereby concluding the search process. The simplicity of this approach makes Linear Search easy to implement and understand, though it may not be the most efficient for large or sorted datasets.
 
+The time complexity of Linear Search is directly tied to the number of elements in the array. If the target value is located at the very beginning of the array, the search is completed in just one comparison, making it exceptionally efficient in this best-case scenario. However, if the target value is either at the very end of the array or not present at all, the search must examine every element, resulting in n comparisons, where n is the number of elements in the array.
