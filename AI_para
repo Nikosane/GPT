@@ -2051,3 +2051,5 @@ In a manual run-through of the Linear Search algorithm, the process unfolds in a
 As the algorithm progresses, it examines each element one by one. If it encounters the value 11, it immediately stops searching and returns the index of the element where the match was found. This index indicates the position of the target value within the array.
 
 If the algorithm completes its examination of the entire array without finding the target value, it returns `-1`, signaling that the value 11 is not present in the array. This step-by-step approach ensures that all elements are checked, making Linear Search a simple yet exhaustive method for finding a specific value in an array.
+
+To implement the Linear Search algorithm in a programming language, we start with an array containing the values that need to be searched. Alongside this, we define a target value that we want to find within the array.
