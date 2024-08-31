@@ -2055,3 +2055,6 @@ If the algorithm completes its examination of the entire array without finding t
 To implement the Linear Search algorithm in a programming language, we start with an array containing the values that need to be searched. Alongside this, we define a target value that we want to find within the array.
 
 The core of the algorithm is a loop that iterates over each element in the array, starting from the first element and proceeding sequentially to the last. As the loop progresses, each element is compared with the target value. If a match is found, the algorithm returns the index of the matching element, effectively stopping further searching since the target has been located.
+
+If the loop completes without finding the target value, the algorithm returns -1. This return value indicates that the target was not present in the array, thereby concluding the search process. The simplicity of this approach makes Linear Search easy to implement and understand, though it may not be the most efficient for large or sorted datasets.
+
