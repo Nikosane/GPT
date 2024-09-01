@@ -2079,3 +2079,11 @@ To narrow down the search area, the "left" variable is updated to 4, correspondi
 The algorithm updates the "right" variable to 4, which is the index just to the left of the previous middle value, and calculates the middle index again as (4+4)/2=4(4+4)/2=4. This leaves only one index, 4, to be checked. The value at index 4 is 11, which matches the target value, so the algorithm returns index 4 as the result.
 
 This process of halving the search area continues until the target value is found, at which point the index of the target is returned. If the target value is not present in the array, the algorithm will eventually narrow the search area to nothing and return -1, indicating that the value was not found.
+
+To implement the Binary Search algorithm, first, an array with values to search through is required, along with a target value that needs to be found. The search begins by initiating a loop that continues running as long as the left index is less than or equal to the right index, ensuring that the search area is valid.
+
+Within the loop, the middle index is calculated by averaging the left and right indices. The value at this middle index is then compared to the target value. If the middle value matches the target value, the index is returned immediately, indicating that the target has been found.
+
+If the middle value does not match the target, the algorithm determines whether the target is smaller or larger than the middle value. If the target is smaller, the right index is updated to narrow the search area to the left half of the array. If the target is larger, the left index is updated to focus on the right half.
+
+The loop continues this process of comparison and index updating until either the target value is found, or the left index surpasses the right index. If the loop ends without finding the target, the algorithm returns -1, signifying that the target value is not present in the array.
