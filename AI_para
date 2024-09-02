@@ -2087,3 +2087,5 @@ Within the loop, the middle index is calculated by averaging the left and right 
 If the middle value does not match the target, the algorithm determines whether the target is smaller or larger than the middle value. If the target is smaller, the right index is updated to narrow the search area to the left half of the array. If the target is larger, the left index is updated to focus on the right half.
 
 The loop continues this process of comparison and index updating until either the target value is found, or the left index surpasses the right index. If the loop ends without finding the target, the algorithm returns -1, signifying that the target value is not present in the array.
+
+Binary Search is an efficient algorithm due to its method of dividing the search area in half with each comparison. This characteristic drastically reduces the number of comparisons needed to find a target value in a sorted array. Even in the worst-case scenario, where the target value is not found, Binary Search only requires log⁡2nlog2​n comparisons to search through an array of nn values.
