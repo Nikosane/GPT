@@ -2089,3 +2089,5 @@ If the middle value does not match the target, the algorithm determines whether 
 The loop continues this process of comparison and index updating until either the target value is found, or the left index surpasses the right index. If the loop ends without finding the target, the algorithm returns -1, signifying that the target value is not present in the array.
 
 Binary Search is an efficient algorithm due to its method of dividing the search area in half with each comparison. This characteristic drastically reduces the number of comparisons needed to find a target value in a sorted array. Even in the worst-case scenario, where the target value is not found, Binary Search only requires log⁡2nlog2​n comparisons to search through an array of nn values.
+
+This logarithmic time complexity, denoted as O(log⁡2n)O(log2​n), makes Binary Search significantly faster than linear search algorithms, especially as the size of the array increases. By continuously halving the search area, Binary Search ensures that the number of operations grows very slowly compared to the size of the array, making it an optimal choice for searching in sorted data.
