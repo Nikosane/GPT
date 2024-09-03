@@ -2108,3 +2108,6 @@ One of the key distinctions is in memory management. Arrays require a fixed size
 
 In summary, Linked Lists are a more customizable and flexible data structure compared to arrays, particularly useful in scenarios where memory management and dynamic resizing are important considerations.
 
+To fully grasp the concept of Linked Lists and how they differ from arrays, it's essential to understand some basic principles of how computer memory operates.
+
+Computer memory, often referred to as RAM (Random Access Memory), is the temporary storage space that your program utilizes while it's running. This is where all the variables, arrays, and linked lists are stored and managed. Unlike hard drives or SSDs, which are used for long-term storage, RAM is designed for quick access and manipulation of data by the CPU.
