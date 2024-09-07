@@ -2165,3 +2165,5 @@ In Python, the Node class is used to represent a node in a linked list. Each nod
 In the Python code, four nodes are created by instantiating the Node class. These nodes are then manually linked together by setting the next attribute of each node to point to the subsequent node, creating a chain of nodes. Once the nodes are linked, the list can be traversed, and the data in each node is printed in sequence.
 
 Compared to C, Python's dynamic nature and higher-level abstractions make the code shorter and easier to understand, especially if the goal is to grasp the linked list concept rather than focusing on how linked lists are implemented at the memory level. This abstraction simplifies the process, avoiding the need for explicit memory management like in C.
+
+A singly linked list is the simplest form of a linked list. In this structure, each node contains data and a single pointer to the next node. This makes it memory efficient since each node only needs to store one address. However, it only allows movement in one direction—from the head to the tail of the list.
