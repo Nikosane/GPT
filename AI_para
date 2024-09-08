@@ -2175,3 +2175,7 @@ Traversal of a linked list involves going through each node in the list by follo
 Traversing a linked list is important for operations like searching for a specific node, reading or updating the content of a node, removing a node, or inserting a new node at a specific position relative to another node. Since linked lists are linear in nature, traversal is a fundamental operation for working with the structure. Unlike arrays, where you can directly access elements by index, linked lists require traversal to find and interact with nodes.
 
 To find the lowest value in a singly linked list, we traverse the list, starting from the head node, and compare each node's value to track the minimum value encountered. The process is similar to finding the lowest value in an array, but instead of using an index to access elements, we follow the "next" pointer in each node to move from one node to the next.
+
+The traversal begins by setting the value of the first node as the current lowest value. Then, as we move to each subsequent node, we compare its value to the current lowest. If the node’s value is lower, we update the current lowest value. This continues until we reach the end of the list, at which point the lowest value is returned.
+
+This method ensures that every node in the list is checked, and by the end of the traversal, we will have identified the lowest value present in the linked list.
