@@ -2169,3 +2169,7 @@ A singly linked list is the simplest form of a linked list. In this structure, e
 A doubly linked list extends the concept by allowing each node to store two pointers: one to the next node and one to the previous node. This structure requires more memory but provides the advantage of allowing traversal in both directions, which can be useful in many applications that require backtracking or bidirectional navigation.
 
 A circular linked list takes either a singly or doubly linked list and connects the last node (the tail) back to the first node (the head), forming a loop. This eliminates the concept of a true "end" to the list, which can be beneficial for scenarios where the list needs to be traversed continuously. However, because there is no natural null pointer at the end of the list, extra logic is needed to determine where the list begins and ends in certain cases. This makes circular linked lists well-suited for tasks like scheduling or buffering, where a repetitive cycle is useful.
+
+Traversal of a linked list involves going through each node in the list by following the links or pointers from one node to the next. This is done starting from the head of the list and continuing until reaching the end, where the pointer is null (for singly and doubly linked lists) or where the list circles back to the head (in a circular linked list).
+
+
