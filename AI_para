@@ -2179,3 +2179,9 @@ To find the lowest value in a singly linked list, we traverse the list, starting
 The traversal begins by setting the value of the first node as the current lowest value. Then, as we move to each subsequent node, we compare its value to the current lowest. If the node’s value is lower, we update the current lowest value. This continues until we reach the end of the list, at which point the lowest value is returned.
 
 This method ensures that every node in the list is checked, and by the end of the traversal, we will have identified the lowest value present in the linked list.
+
+To delete a node in a singly linked list when we have the reference to that node, the process involves ensuring the nodes on either side of the node are connected properly before deletion to prevent breaking the list.
+
+In a singly linked list, each node contains data and a pointer to the next node. To safely delete a node, we must first traverse the list from the head to find the node that comes immediately before the node we wish to delete. This is necessary because, in a singly linked list, we cannot move backward from the node to be deleted—only forward.
+
+Once the previous node is identified, we take its next pointer and set it to point to the node that follows the node we are deleting. This effectively bypasses the node to be removed, connecting the previous node directly to the next node in the sequence. After this connection is made, we can safely delete the node, knowing that the linked list remains intact.
