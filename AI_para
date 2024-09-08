@@ -2158,8 +2158,6 @@ The `printList()` function loops through the linked list, starting from the head
 
 In the `main()` function, we create four nodes and link them together by assigning each node's pointer to the memory address of the next node. After linking, the `printList()` function is called to display the values of the nodes in the list. Once the list has been printed, the memory occupied by the nodes is freed, which is important to prevent memory leaks. A memory leak occurs when dynamically allocated memory is not properly freed, leading to inefficient memory usage over time. Freeing the memory ensures that the space is released and can be reused later by other parts of the program.
 
-ChatGPT
-
 In Python, the Node class is used to represent a node in a linked list. Each node contains two attributes: one for the data (which can be any value) and one for the link to the next node in the list. This link is essentially a reference to the next node, allowing the nodes to be connected in a sequence.
 
 In the Python code, four nodes are created by instantiating the Node class. These nodes are then manually linked together by setting the next attribute of each node to point to the subsequent node, creating a chain of nodes. Once the nodes are linked, the list can be traversed, and the data in each node is printed in sequence.
