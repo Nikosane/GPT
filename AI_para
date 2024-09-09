@@ -2185,3 +2185,7 @@ To delete a node in a singly linked list when we have the reference to that node
 In a singly linked list, each node contains data and a pointer to the next node. To safely delete a node, we must first traverse the list from the head to find the node that comes immediately before the node we wish to delete. This is necessary because, in a singly linked list, we cannot move backward from the node to be deleted—only forward.
 
 Once the previous node is identified, we take its next pointer and set it to point to the node that follows the node we are deleting. This effectively bypasses the node to be removed, connecting the previous node directly to the next node in the sequence. After this connection is made, we can safely delete the node, knowing that the linked list remains intact.
+
+ChatGPT
+
+Linked Lists and Arrays are both fundamental data structures, but they differ in several key ways in terms of their structure, memory allocation, and how they handle operations such as insertion, deletion, and accessing elements.
