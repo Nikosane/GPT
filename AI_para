@@ -2186,6 +2186,6 @@ In a singly linked list, each node contains data and a pointer to the next node.
 
 Once the previous node is identified, we take its next pointer and set it to point to the node that follows the node we are deleting. This effectively bypasses the node to be removed, connecting the previous node directly to the next node in the sequence. After this connection is made, we can safely delete the node, knowing that the linked list remains intact.
 
-ChatGPT
-
 Linked Lists and Arrays are both fundamental data structures, but they differ in several key ways in terms of their structure, memory allocation, and how they handle operations such as insertion, deletion, and accessing elements.
+
+One of the main differences between linked lists and arrays is how they are allocated in memory. Arrays are allocated a fixed size in memory, meaning that once an array is created, it cannot grow beyond its predetermined size unless the entire array is moved to a larger memory space. This can cause inefficiencies when working with large or dynamically changing data sets. In contrast, linked lists do not have this limitation. Each node in a linked list is allocated separately in memory, which allows the list to grow or shrink without needing to move all elements to a new memory location. This dynamic memory allocation gives linked lists an advantage in cases where the size of the data set is unpredictable.
