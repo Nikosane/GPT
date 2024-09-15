@@ -2290,4 +2290,4 @@ A Hash Table, on the other hand, solves this problem by allowing for near-instan
 
 The efficiency of hash tables comes from their ability to map keys (like names) to values using the hash function. However, in certain cases, two keys might produce the same hash code, leading to what is known as a collision. Hash Tables handle collisions through various techniques such as chaining, where multiple elements with the same hash code are stored in a linked list at the same index, or open addressing, where the table probes other available slots to store the colliding element.
 
-
+In summary, Hash Tables offer a highly efficient way to store and retrieve data by using a hash function to directly access the desired element, bypassing the need for a linear search. This makes them especially useful for tasks that involve frequent searching, adding, and deleting operations, particularly in scenarios with large datasets. The trade-off is that collisions must be managed, but even with these, the average performance of a hash table remains significantly better than that of linked lists or arrays for many operations.
