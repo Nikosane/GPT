@@ -2321,3 +2321,9 @@ In a Hash Table, elements are organized into storage units known as buckets. Eac
 Collisions occur when two elements produce the same hash code and are assigned to the same bucket. There are two common strategies to handle collisions. The first is chaining, where multiple elements are stored in the same bucket using either arrays or linked lists, allowing more than one element to exist in the same bucket. The second method, open addressing, finds the next available bucket to store the element when a collision occurs. In this method, elements are relocated to different buckets, depending on the specific technique used, though open addressing is not explored further in this context.
 
 By efficiently handling collisions and providing fast access, Hash Tables offer an effective way to store and retrieve data based on unique keys.
+
+A Hash Set is a specific type of Hash Table that is designed to hold a large number of elements efficiently. It is particularly useful for performing operations such as searching, adding, and removing elements quickly, even when dealing with large data sets.
+
+The primary use of a Hash Set is for lookup operations. It allows you to check whether a particular element is part of the set in a very efficient manner. Hash Sets are ideal for situations where you need to ensure that elements are unique and want fast access for operations like membership tests, where you need to determine whether an item exists within the set.
+
+By utilizing the properties of a hash function, a Hash Set provides an average time complexity of O(1) for these operations, making it highly efficient compared to other data structures like arrays or linked lists, which typically require linear time for such tasks.
