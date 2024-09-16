@@ -2311,3 +2311,7 @@ Modulo, often represented as the % symbol in programming languages or "mod" in m
 Hash Tables are incredibly useful for several tasks due to their efficiency. One common use is checking if an item exists in a collection, such as finding a specific book in a large library catalog. Instead of scanning through the entire list, a Hash Table allows you to quickly check for the presence of an item.
 
 Another use of Hash Tables is in storing unique items and quickly retrieving them. For example, if you need to store and look up phone numbers, a Hash Table can store each number uniquely and provide rapid access when you search for a specific number.
+
+Hash Tables are also excellent for connecting values to keys, which is particularly useful for tasks like linking names to phone numbers or other data. The key (such as a name) is hashed to an index in the table, where its corresponding value (such as a phone number) is stored.
+
+The primary reason Hash Tables excel in these tasks is their speed. Compared to arrays and linked lists, which have a time complexity of O(n) for searching and deleting items, Hash Tables typically have a time complexity of O(1) on average. This means that operations can be performed in constant time, regardless of the size of the dataset. For large collections of data, this makes Hash Tables significantly faster and more efficient than other data structures.
