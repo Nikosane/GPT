@@ -2327,3 +2327,5 @@ A Hash Set is a specific type of Hash Table that is designed to hold a large num
 The primary use of a Hash Set is for lookup operations. It allows you to check whether a particular element is part of the set in a very efficient manner. Hash Sets are ideal for situations where you need to ensure that elements are unique and want fast access for operations like membership tests, where you need to determine whether an item exists within the set.
 
 By utilizing the properties of a hash function, a Hash Set provides an average time complexity of O(1) for these operations, making it highly efficient compared to other data structures like arrays or linked lists, which typically require linear time for such tasks.
+
+A hash code is produced by a hash function, which is essential for determining where an element will be stored in a Hash Set. In this case, the hash function works by taking the input (such as a name) and summing up the Unicode code points for each character in the name. Each character has a unique Unicode number, and the sum of these numbers represents the total value for the name.
