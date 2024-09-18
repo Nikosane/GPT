@@ -2349,3 +2349,9 @@ A Hash Map is a type of Hash Table that is used to store and manage large amount
 One common use of Hash Maps is to find detailed information about a specific item. For example, in a Hash Map where people are stored, the key could be a unique identifier like a social security number, while the value might contain the person's name or other details. By using the key, you can quickly retrieve or update the associated value.
 
 Hash Maps are highly efficient, offering average time complexity of O(1) for most operations, making them ideal for managing large datasets where quick access and modifications are needed.
+
+ChatGPT
+
+To better grasp how Hash Maps work, it's helpful to understand the concepts behind Hash Tables and Hash Sets, as well as the key terms used in the context of Hash Maps.
+
+An entry in a Hash Map consists of a key and a value, forming what is known as a key-value pair. The key is unique for each entry and is used to generate a hash code, which determines the specific bucket where that entry is stored in the Hash Map. This allows the Hash Map to efficiently locate, modify, or remove entries based on their keys.
