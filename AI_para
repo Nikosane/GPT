@@ -2343,3 +2343,7 @@ In a Hash Set, direct access to elements is made possible by generating a hash c
 However, collisions can occur when multiple elements are assigned to the same bucket. For example, when searching for "Jens," if other names also reside in the same bucket, the search becomes more complex. In the worst case, all elements might end up in a single bucket, requiring a full scan of that bucket to find the desired element. This leads to a worst-case time complexity of O(n), which is the same as linear structures like arrays and linked lists.
 
 To maintain efficiency, it’s essential to have a hash function that evenly distributes elements across buckets, avoiding clusters in any single bucket. Additionally, the number of buckets should be roughly proportional to the number of elements in the Hash Set. Having too few buckets leads to slower performance due to more collisions, while having too many buckets results in wasted memory. A well-balanced Hash Set design ensures optimal performance and efficient memory usage.
+
+A Hash Map is a type of Hash Table that is used to store and manage large amounts of data in the form of key-value pairs. It allows for fast operations such as searching, adding, modifying, and removing entries. The key is used to uniquely identify each entry, and the value contains the associated data.
+
+
