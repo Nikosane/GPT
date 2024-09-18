@@ -2357,3 +2357,9 @@ An entry in a Hash Map consists of a key and a value, forming what is known as a
 The hash code is a numerical value generated from the key and is essential for identifying the bucket where the entry will be stored. A bucket in a Hash Map is a container that holds one or more entries. The number of buckets and the way entries are distributed among them is important for maintaining the performance of the Hash Map.
 
 Finally, the value associated with a key can hold nearly any kind of information, such as a person's name, birth date, address, or a combination of many types of data. The key-value structure of a Hash Map ensures that each entry is quickly accessible using its unique key, making it highly efficient for managing large sets of data.
+
+A hash code is produced by a hash function, which is key to determining where data is stored in a Hash Map. In the scenario described, the hash function processes a person's social security number by adding all the digits together, ignoring the dash, and then performing a modulo 10 operation (% 10) on the resulting sum. This produces a hash code, which is a number between 0 and 9, directing the data to one of ten possible buckets in the Hash Map.
+
+For example, if Charlotte's social security number is 123-4567, the sum of these digits is 28. Performing modulo 10 on this sum (28 % 10) results in 8, meaning Charlotte's information is stored in bucket 8. When searching for or removing Charlotte's information from the Hash Map, the same process is followed: the hash code is generated again, leading directly to the correct bucket.
+
+If Charlotte is the only person in bucket 8, the hash code gives us instant access to her entry. This method ensures efficient searching, adding, and deleting, as long as the buckets are well-distributed and there are no significant collisions.
