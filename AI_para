@@ -2350,8 +2350,10 @@ One common use of Hash Maps is to find detailed information about a specific ite
 
 Hash Maps are highly efficient, offering average time complexity of O(1) for most operations, making them ideal for managing large datasets where quick access and modifications are needed.
 
-ChatGPT
-
 To better grasp how Hash Maps work, it's helpful to understand the concepts behind Hash Tables and Hash Sets, as well as the key terms used in the context of Hash Maps.
 
 An entry in a Hash Map consists of a key and a value, forming what is known as a key-value pair. The key is unique for each entry and is used to generate a hash code, which determines the specific bucket where that entry is stored in the Hash Map. This allows the Hash Map to efficiently locate, modify, or remove entries based on their keys.
+
+The hash code is a numerical value generated from the key and is essential for identifying the bucket where the entry will be stored. A bucket in a Hash Map is a container that holds one or more entries. The number of buckets and the way entries are distributed among them is important for maintaining the performance of the Hash Map.
+
+Finally, the value associated with a key can hold nearly any kind of information, such as a person's name, birth date, address, or a combination of many types of data. The key-value structure of a Hash Map ensures that each entry is quickly accessible using its unique key, making it highly efficient for managing large sets of data.
