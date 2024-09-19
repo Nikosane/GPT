@@ -2379,3 +2379,8 @@ The hash function method computes a hash code for a given key. It does this by s
 The add method, or put, adds a new entry or updates an existing entry in the Hash Map. It calculates the appropriate bucket index using the hash function, checks if the key is already present in that bucket, and either updates the existing entry or appends a new one.
 
 The retrieve method, or get, allows you to access the value associated with a given key. It uses the hash function to determine the bucket index, searches through that bucket for the key, and returns the associated value if found. If the key is not found, it returns None.
+
+The remove method deletes an entry from the Hash Map. It calculates the bucket index using the hash function, searches for the key within that bucket, and removes the entry if it is found. If the key is not present, no action is taken.
+
+In summary, this implementation involves creating and managing buckets for storing entries, using hash functions to ensure efficient access, and providing methods to add, retrieve, and remove entries from the Hash Map.
+
