@@ -2369,3 +2369,5 @@ When searching for Charlotte in a Hash Map, we use her social security number, 1
 However, in a worst-case scenario, all entries might end up in the same bucket due to collisions, forcing us to search through all the entries in that bucket. If the person we’re searching for is the last one, we would need to compare each social security number in that bucket until we find the correct one. In such cases, the time complexity becomes O(n), which is the same as arrays and linked lists.
 
 To maintain Hash Map efficiency, it’s essential to have a well-designed hash function that evenly distributes entries across buckets, minimizing the risk of collisions. Additionally, the number of buckets should be roughly equal to the number of entries to balance memory usage and speed. Too many buckets would waste memory, while too few buckets would slow down the search process.
+
+To implement a Hash Map in Python from scratch, you start by creating a class called SimpleHashMap. Inside this class, you need to define a method to initialize the Hash Map, a method to compute hash codes, and methods to perform basic operations such as adding, retrieving, and removing entries.
