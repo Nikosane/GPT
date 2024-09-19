@@ -2371,3 +2371,7 @@ However, in a worst-case scenario, all entries might end up in the same bucket d
 To maintain Hash Map efficiency, it’s essential to have a well-designed hash function that evenly distributes entries across buckets, minimizing the risk of collisions. Additionally, the number of buckets should be roughly equal to the number of entries to balance memory usage and speed. Too many buckets would waste memory, while too few buckets would slow down the search process.
 
 To implement a Hash Map in Python from scratch, you start by creating a class called SimpleHashMap. Inside this class, you need to define a method to initialize the Hash Map, a method to compute hash codes, and methods to perform basic operations such as adding, retrieving, and removing entries.
+
+The initialization method sets up the Hash Map with a fixed number of buckets, each represented by an empty list. This number of buckets is determined when you create an instance of SimpleHashMap.
+
+The hash function method computes a hash code for a given key. It does this by summing the Unicode code points of the characters in the key and taking the result modulo the number of buckets. This process ensures that each key is mapped to a specific bucket.
