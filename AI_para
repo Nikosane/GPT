@@ -2384,3 +2384,10 @@ The remove method deletes an entry from the Hash Map. It calculates the bucket i
 
 In summary, this implementation involves creating and managing buckets for storing entries, using hash functions to ensure efficient access, and providing methods to add, retrieve, and remove entries from the Hash Map.
 
+Trees are a data structure that differs fundamentally from linear structures like Arrays, Linked Lists, Stacks, and Queues. While these linear structures organize elements in a single, sequential path, Trees allow for more complex relationships by enabling each node to have multiple "children" nodes.
+
+In a Tree, each node contains data and has links to other nodes, called its children. The structure branches out from a single starting node, known as the root, and spreads into a hierarchy. This branching capability allows Trees to represent more complex relationships and hierarchies compared to linear data structures.
+
+A Tree is made up of nodes, where each node holds data and may have links to other nodes. The top node is called the root, and all other nodes are arranged in a hierarchical manner below it. Each node can have zero or more child nodes. The nodes that do not have any children are referred to as leaf nodes.
+
+Trees are particularly useful for representing hierarchical data, such as organizational structures or file systems, where elements have a parent-child relationship. They provide efficient ways to organize and access data, making them suitable for various applications including searching, sorting, and managing hierarchical relationships.
