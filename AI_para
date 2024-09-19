@@ -2375,3 +2375,5 @@ To implement a Hash Map in Python from scratch, you start by creating a class ca
 The initialization method sets up the Hash Map with a fixed number of buckets, each represented by an empty list. This number of buckets is determined when you create an instance of SimpleHashMap.
 
 The hash function method computes a hash code for a given key. It does this by summing the Unicode code points of the characters in the key and taking the result modulo the number of buckets. This process ensures that each key is mapped to a specific bucket.
+
+The add method, or put, adds a new entry or updates an existing entry in the Hash Map. It calculates the appropriate bucket index using the hash function, checks if the key is already present in that bucket, and either updates the existing entry or appends a new one.
