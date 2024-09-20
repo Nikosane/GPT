@@ -2397,3 +2397,5 @@ The Tree data structure proves to be valuable in various scenarios where organiz
 Another practical use of trees is in routing tables, where they help route data efficiently in network algorithms. Additionally, trees are commonly applied in sorting and searching operations, offering improved performance in comparison to linear data structures.
 
 Priority queues, which allow for efficient retrieval of the highest or lowest priority elements, are frequently implemented using tree structures like binary heaps. These tree-based structures enable efficient management of priorities in various applications, such as scheduling algorithms or resource allocation systems.
+
+In the Tree data structure, the first node is known as the root node, which serves as the starting point of the tree. Nodes are connected by links, referred to as edges, which form relationships between them. A node that has links to other nodes is called a parent node, and those linked nodes are its child nodes. An internal node is another term for a parent node. A node can have zero, one, or multiple child nodes, but each node can only have one parent.
