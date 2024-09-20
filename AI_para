@@ -2404,3 +2404,12 @@ Nodes that do not have any child nodes are known as leaves, or leaf nodes. These
 
 The height of an individual node is defined as the maximum number of edges between that node and its furthest leaf node. Finally, the tree size is the total count of nodes within the tree, which gives a sense of how many elements are stored in the structure.
 
+Trees are an essential data structure in computer science that represent hierarchical relationships. There are several important types of trees used for various purposes.
+
+Binary Trees are one of the most basic tree structures. In a binary tree, each node can have up to two children, referred to as the left child and the right child. Binary trees are foundational and serve as the basis for more advanced trees such as Binary Search Trees and AVL Trees.
+
+A Binary Search Tree (BST) is a type of binary tree in which the nodes are arranged in a specific order. For each node, the left child contains a value less than the node's value, and the right child contains a value greater than the node's value. This structure allows for efficient searching, insertion, and deletion operations, as it maintains a sorted order of the data.
+
+An AVL Tree is a self-balancing binary search tree. The primary feature of an AVL tree is that it maintains balance by ensuring that the height difference between the left and right subtrees of any node is at most one. This balance is critical for maintaining optimal performance and is achieved through tree rotations whenever nodes are added or removed, preventing the tree from becoming skewed.
+
+These tree types are explained in more detail, along with animations and implementation techniques. Each type offers different advantages depending on the specific use case, such as quick searching in BSTs or balanced performance in AVL trees.
