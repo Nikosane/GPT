@@ -2399,3 +2399,8 @@ Another practical use of trees is in routing tables, where they help route data 
 Priority queues, which allow for efficient retrieval of the highest or lowest priority elements, are frequently implemented using tree structures like binary heaps. These tree-based structures enable efficient management of priorities in various applications, such as scheduling algorithms or resource allocation systems.
 
 In the Tree data structure, the first node is known as the root node, which serves as the starting point of the tree. Nodes are connected by links, referred to as edges, which form relationships between them. A node that has links to other nodes is called a parent node, and those linked nodes are its child nodes. An internal node is another term for a parent node. A node can have zero, one, or multiple child nodes, but each node can only have one parent.
+
+Nodes that do not have any child nodes are known as leaves, or leaf nodes. These are the end points in the tree. The height of the tree refers to the maximum number of edges from the root node to a leaf node, which is essentially the longest path in the tree. For instance, if the longest path contains two edges, the tree’s height is 2.
+
+The height of an individual node is defined as the maximum number of edges between that node and its furthest leaf node. Finally, the tree size is the total count of nodes within the tree, which gives a sense of how many elements are stored in the structure.
+
