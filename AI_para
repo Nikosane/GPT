@@ -2413,3 +2413,5 @@ A Binary Search Tree (BST) is a type of binary tree in which the nodes are arran
 An AVL Tree is a self-balancing binary search tree. The primary feature of an AVL tree is that it maintains balance by ensuring that the height difference between the left and right subtrees of any node is at most one. This balance is critical for maintaining optimal performance and is achieved through tree rotations whenever nodes are added or removed, preventing the tree from becoming skewed.
 
 These tree types are explained in more detail, along with animations and implementation techniques. Each type offers different advantages depending on the specific use case, such as quick searching in BSTs or balanced performance in AVL trees.
+
+A Binary Tree is a specialized tree data structure in which each node has at most two child nodes, commonly referred to as the left child and the right child. This structural limitation to two children per node provides various advantages.
