@@ -2417,3 +2417,5 @@ These tree types are explained in more detail, along with animations and impleme
 A Binary Tree is a specialized tree data structure in which each node has at most two child nodes, commonly referred to as the left child and the right child. This structural limitation to two children per node provides various advantages.
 
 First, algorithms for operations like traversal, searching, insertion, and deletion become simpler to understand and implement, while also running more efficiently. This efficiency arises from the clear left-right branching structure that reduces complexity when navigating through the tree.
+
+Binary trees are foundational for Binary Search Trees (BSTs), where the data is stored in a sorted manner. In BSTs, the left child of a node contains values smaller than the parent node, while the right child contains larger values. This structure allows for highly efficient searching, as it systematically reduces the portion of the tree that needs to be examined, yielding faster lookup times.
