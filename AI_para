@@ -2443,3 +2443,7 @@ A full Binary Tree is one where each node has either no children or exactly two 
 A perfect Binary Tree is a more restrictive structure. It requires that all internal nodes have exactly two children and that all leaf nodes (nodes with no children) are on the same level. Every level of the tree is completely filled. Because of this strict structure, a perfect Binary Tree is also a full, balanced, and complete Binary Tree.
 
 These various Binary Tree structures provide different performance characteristics and use cases, making it easier to decide which type is appropriate for specific tasks like efficient searching, balancing loads, or maintaining structured data.
+
+In a Pre-order Traversal of a binary tree, the process involves visiting the root node first, followed by recursively visiting the left subtree, and finally the right subtree. This ensures that the current node is processed before its child nodes, which defines the "pre-order" nature of the traversal.
+
+In the given example, the first node to be printed is the root node, labeled as 'R'. The traversal moves recursively to the left subtree, visiting node 'A' next. After visiting 'A', the traversal continues to node 'C', which is the left child of 'A'.
