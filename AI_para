@@ -2435,3 +2435,7 @@ In the upcoming sections, a deeper exploration of Binary Search Trees and AVL Tr
 Binary Trees come in several different types, each with unique properties that influence their structure and performance in various operations. Understanding these types is crucial for choosing the right kind of Binary Tree for a specific application.
 
 A balanced Binary Tree ensures that the difference in height between the left and right subtrees of any node is at most 1. This balance allows for efficient operations, like insertion, deletion, and searching, keeping the time complexity close to O(log n).
+
+A complete Binary Tree is structured so that all levels, except possibly the last one, are completely filled with nodes. The last level is filled from left to right, and this property ensures that the tree is compact and close to balanced. Since it’s nearly balanced, it offers efficient access and modification operations.
+
+A full Binary Tree is one where each node has either no children or exactly two children. There are no nodes with only one child in this structure. This type of tree can have a variety of shapes but maintains this consistent rule about the number of children per node.
