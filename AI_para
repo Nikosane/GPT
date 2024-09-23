@@ -2453,3 +2453,13 @@ Since node 'C' has no left child, when the left child of 'C' is called, it retur
 Node 'D', the right child of 'A', is then printed as the traversal proceeds. The process continues in this manner, with the traversal recursively exploring each subtree from left to right, always printing the current node before exploring its children.
 
 This recursive approach ensures that the nodes are printed in the correct pre-order sequence: root first, followed by left children, and finally right children.
+
+In In-order Traversal of a binary tree, the process follows a specific sequence: first, it recursively visits the left subtree, then it processes (prints) the current node, and finally it recursively visits the right subtree. This traversal ensures that the left children of a node are visited before the node itself, which is why it is called "in-order."
+
+In the given example, the function starts by calling itself with the current node's left child. This recursive call continues until it reaches a node that has no left child. In this case, when the left child of node 'C' is called, it returns None since node 'C' does not have a left child. This marks the point where the traversal can begin processing the current node.
+
+Since the left child of 'C' is None, the data part of node 'C' is printed, making 'C' the first element to be printed in the in-order sequence. After printing 'C', the function attempts to traverse the right child of 'C'. However, since 'C' also has no right child, this call also returns None.
+
+Once 'C' has been processed, the function returns to the previous recursive call, which was at node 'A'. Now, the data part of node 'A' is printed, and the traversal proceeds to its right child, node 'D'. After printing 'D', the traversal continues upward to the root node 'R', which is then printed, and the process continues for the rest of the tree.
+
+Thus, the nodes are printed in the order of their in-order traversal, starting with 'C', then 'A', 'D', and finally 'R', as the traversal proceeds recursively through each node's left subtree, current node, and right subtree.
