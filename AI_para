@@ -2439,3 +2439,7 @@ A balanced Binary Tree ensures that the difference in height between the left an
 A complete Binary Tree is structured so that all levels, except possibly the last one, are completely filled with nodes. The last level is filled from left to right, and this property ensures that the tree is compact and close to balanced. Since it’s nearly balanced, it offers efficient access and modification operations.
 
 A full Binary Tree is one where each node has either no children or exactly two children. There are no nodes with only one child in this structure. This type of tree can have a variety of shapes but maintains this consistent rule about the number of children per node.
+
+A perfect Binary Tree is a more restrictive structure. It requires that all internal nodes have exactly two children and that all leaf nodes (nodes with no children) are on the same level. Every level of the tree is completely filled. Because of this strict structure, a perfect Binary Tree is also a full, balanced, and complete Binary Tree.
+
+These various Binary Tree structures provide different performance characteristics and use cases, making it easier to decide which type is appropriate for specific tasks like efficient searching, balancing loads, or maintaining structured data.
