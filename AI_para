@@ -2447,3 +2447,9 @@ These various Binary Tree structures provide different performance characteristi
 In a Pre-order Traversal of a binary tree, the process involves visiting the root node first, followed by recursively visiting the left subtree, and finally the right subtree. This ensures that the current node is processed before its child nodes, which defines the "pre-order" nature of the traversal.
 
 In the given example, the first node to be printed is the root node, labeled as 'R'. The traversal moves recursively to the left subtree, visiting node 'A' next. After visiting 'A', the traversal continues to node 'C', which is the left child of 'A'.
+
+Since node 'C' has no left child, when the left child of 'C' is called, it returns None, meaning there is nothing to print. Similarly, the right child of 'C' also returns None, as node 'C' has no right child either. This marks the completion of processing for node 'C', so the function moves back up to continue with the right child of node 'A'.
+
+Node 'D', the right child of 'A', is then printed as the traversal proceeds. The process continues in this manner, with the traversal recursively exploring each subtree from left to right, always printing the current node before exploring its children.
+
+This recursive approach ensures that the nodes are printed in the correct pre-order sequence: root first, followed by left children, and finally right children.
