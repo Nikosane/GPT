@@ -2471,3 +2471,5 @@ The function starts by traversing the left subtree. When it reaches node 'C', it
 After processing 'C', the function returns to the previous recursive call at node 'A'. Now it traverses 'A's right subtree, which leads to node 'D'. Node 'D' is also processed after its (nonexistent) left and right children return None, so 'D' is printed.
 
 Once both children of 'A' have been processed ('C' and 'D'), 'A' itself is printed. The function continues to propagate back up the tree, and this pattern repeats until the entire tree has been traversed. The root node 'R' is printed last, as it is only processed after both the left and right subtrees have been fully traversed.
+
+Thus, in post-order traversal, the nodes are printed in the order that ensures all children are visited first, followed by the node itself. In this case, the nodes are printed in the sequence: 'C', 'D', 'A', and finally 'R'.
