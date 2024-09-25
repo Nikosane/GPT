@@ -2467,3 +2467,7 @@ Thus, the nodes are printed in the order of their in-order traversal, starting w
 In Post-order Traversal, the function first recursively traverses the left subtree, then the right subtree, and only after both have been traversed does it process (or print) the current node. This traversal ensures that each node is visited after its child nodes, which is why it is called "post-order."
 
 The function starts by traversing the left subtree. When it reaches node 'C', it attempts to traverse 'C's left child. Since 'C' has no left child, the function returns None. Then, the function tries to traverse 'C's right child, which also returns None. At this point, both the left and right children of 'C' have been handled, so 'C' is printed. This is the first node to be printed in post-order.
+
+After processing 'C', the function returns to the previous recursive call at node 'A'. Now it traverses 'A's right subtree, which leads to node 'D'. Node 'D' is also processed after its (nonexistent) left and right children return None, so 'D' is printed.
+
+Once both children of 'A' have been processed ('C' and 'D'), 'A' itself is printed. The function continues to propagate back up the tree, and this pattern repeats until the entire tree has been traversed. The root node 'R' is printed last, as it is only processed after both the left and right subtrees have been fully traversed.
