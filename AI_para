@@ -2535,3 +2535,10 @@ The AVL Tree is a self-balancing type of Binary Search Tree, named after its inv
 The key distinction between AVL Trees and regular Binary Search Trees is that AVL Trees perform rotation operations to maintain balance. A Binary Search Tree is considered balanced when the difference in height between its left and right subtrees is less than 2. When this balance is disturbed, the AVL Tree automatically performs rotations to restore the balance, thus ensuring a minimum tree height.
 
 This balancing ensures that operations on an AVL Tree remain consistently fast, unlike in a regular Binary Search Tree, where an unbalanced structure can lead to longer runtimes. By maintaining balance through these rotations, AVL Trees prevent the tree from degenerating into a linked list-like structure, which would result in slower operations.
+
+The balance factor in an AVL Tree is used to determine if a node is balanced by comparing the heights of its left and right subtrees. Each node in the tree stores the height of its subtrees, and the balance factor is calculated by subtracting the height of the left subtree from the height of the right subtree. The height of a subtree is defined as the number of edges between the root node of the subtree and the leaf node that is farthest down.
+
+For any node, the balance factor is calculated using the formula: balance factor of X equals the height of the right subtree of X minus the height of the left subtree of X. A balance factor of zero indicates that the node is balanced because the left and right subtrees have equal height. When the balance factor is positive, the node is said to be right heavy, meaning the right subtree is taller than the left. When the balance factor is negative, the node is left heavy, meaning the left subtree is taller than the right.
+
+If the balance factor of any node is less than -1 or greater than 1, the tree is no longer considered balanced. When this happens, a rotation operation is needed to restore the balance of the tree. This process ensures that the AVL Tree maintains a minimal height, which is important for efficient searching, insertion, and deletion operations.
+
