@@ -2543,3 +2543,5 @@ For any node, the balance factor is calculated using the formula: balance factor
 If the balance factor of any node is less than -1 or greater than 1, the tree is no longer considered balanced. When this happens, a rotation operation is needed to restore the balance of the tree. This process ensures that the AVL Tree maintains a minimal height, which is important for efficient searching, insertion, and deletion operations.
 
 When the balance factor of a node in an AVL Tree falls outside the range of -1 to 1, the tree is considered out of balance, necessitating a rotation to restore equilibrium. There are four distinct scenarios that can lead to an imbalance, each requiring a specific type of rotation to correct the issue.
+
+In the Left-Left (LL) case, both the unbalanced node and its left child are left-heavy. To restore balance, a single right rotation is performed. In the Right-Right (RR) case, both the unbalanced node and its right child are right-heavy, requiring a single left rotation to correct the imbalance.
