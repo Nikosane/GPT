@@ -2551,3 +2551,7 @@ The Left-Right (LR) case occurs when the unbalanced node is left-heavy, but its 
 By applying these rotations, an AVL Tree can maintain its balance, ensuring efficient operations for searching, inserting, and deleting nodes.
 
 The Left-Left (LL) case occurs when a node in an AVL Tree becomes left-heavy, and its left child is also left-heavy. In this scenario, the balance factor of the unbalanced node is less than -1, indicating that it requires corrective action to restore balance. To achieve this, a single right rotation on the unbalanced node is performed.
+
+In the provided animation, two instances of the LL case can be observed. The first instance occurs when node D is added, causing the balance factor of node Q to drop to -2, signaling that the tree has become unbalanced. Since both node Q and its left child node P have negative balance factors, this situation qualifies as an LL case. A right rotation at node Q is executed, successfully restoring the balance of the tree.
+
+The second instance arises after nodes L, C, and B are added. Here, node P's balance factor also becomes -2, indicating another imbalance. Similar to the previous case, both node P and its left child node D exhibit left-heavy characteristics, making this yet another LL case. A right rotation at node P is again performed, restoring the tree’s balance.
