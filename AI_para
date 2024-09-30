@@ -2567,3 +2567,7 @@ A Graph is a data structure that is composed of vertices, also referred to as no
 Graphs are commonly applied to problems where objects and relationships between them need to be represented. In social networks, for instance, individuals are represented as vertices, and their relationships, such as friendships, are the edges connecting them. In maps and navigation systems, locations like towns or bus stops are vertices, and the roads connecting them are the edges. Algorithms applied to these Graphs help in determining routes, such as finding the shortest path between two locations.
 
 On the internet, Graphs can represent web pages as vertices and hyperlinks between them as edges. Similarly, in biology, Graphs can model systems such as neural networks or simulate the spread of diseases, where vertices represent nodes like neurons or infected individuals, and edges represent the connections or interactions between them. This ability to represent interconnected data makes Graphs a powerful structure in various fields.
+
+A weighted Graph is a type of Graph where each edge has an associated value or "weight." These weights can represent various attributes such as distance, capacity, time, or probability, depending on the problem being modeled.
+
+A connected Graph is one where all vertices are connected to each other through some path of edges. In contrast, a disconnected Graph has isolated subgraphs or vertices that are not connected to the rest of the Graph.
