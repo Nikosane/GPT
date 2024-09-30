@@ -2571,3 +2571,9 @@ On the internet, Graphs can represent web pages as vertices and hyperlinks betwe
 A weighted Graph is a type of Graph where each edge has an associated value or "weight." These weights can represent various attributes such as distance, capacity, time, or probability, depending on the problem being modeled.
 
 A connected Graph is one where all vertices are connected to each other through some path of edges. In contrast, a disconnected Graph has isolated subgraphs or vertices that are not connected to the rest of the Graph.
+
+A directed Graph, or digraph, has edges that point in specific directions. These directed edges often represent relationships like hierarchy or flow. Unlike undirected Graphs, where the edges have no direction, directed edges only allow movement from one vertex to another in the indicated direction.
+
+A cyclic Graph contains cycles, which are paths that begin and end at the same vertex. In a directed cyclic Graph, cycles occur when you can follow directed edges in a circular path. In an undirected cyclic Graph, you can return to the starting vertex without repeating any edge. If a Graph has no cycles, it is called acyclic.
+
+A loop, or self-loop, is an edge that starts and ends at the same vertex. This creates a simple cycle consisting of just one edge. When a loop is added to a Graph, it introduces cyclic behavior as the path starts and ends at the same vertex using the same edge.
