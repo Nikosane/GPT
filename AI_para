@@ -2577,3 +2577,11 @@ A directed Graph, or digraph, has edges that point in specific directions. These
 A cyclic Graph contains cycles, which are paths that begin and end at the same vertex. In a directed cyclic Graph, cycles occur when you can follow directed edges in a circular path. In an undirected cyclic Graph, you can return to the starting vertex without repeating any edge. If a Graph has no cycles, it is called acyclic.
 
 A loop, or self-loop, is an edge that starts and ends at the same vertex. This creates a simple cycle consisting of just one edge. When a loop is added to a Graph, it introduces cyclic behavior as the path starts and ends at the same vertex using the same edge.
+
+A Graph representation refers to the method used to store and manage the information about the vertices and edges in memory. The choice of representation can impact space usage, speed of operations like searching or modifying the Graph, and the overall suitability for different types of Graphs, such as directed, weighted, or undirected Graphs. Additionally, some representations may be simpler to understand and implement, depending on the problem at hand.
+
+There are different ways to represent a Graph, each with its own advantages and drawbacks. Some representations may use more memory but allow for faster lookups, while others are more space-efficient but might be slower in certain operations. The choice of representation depends on the structure of the Graph and the type of tasks we need to perform on it.
+
+The focus moving forward in this tutorial is the Adjacency Matrix representation, which is simple to understand and implement. This representation can be used effectively for various types of Graphs, including weighted and directed ones, making it versatile for most cases we encounter.
+
+In general, a Graph representation records information about which vertices are connected or adjacent. In the context of Graphs, two vertices are said to be adjacent if there is an edge between them. The representations also indicate whether edges have weights or directions when necessary.
