@@ -2587,3 +2587,5 @@ The focus moving forward in this tutorial is the Adjacency Matrix representation
 In general, a Graph representation records information about which vertices are connected or adjacent. In the context of Graphs, two vertices are said to be adjacent if there is an edge between them. The representations also indicate whether edges have weights or directions when necessary.
 
 The Adjacency Matrix is the representation of choice for Graphs in this tutorial. It is structured as a two-dimensional array, where each cell at index (i, j) indicates the presence or absence of an edge from vertex i to vertex j. If there is an edge between these vertices, the cell contains a value, and if not, it is typically set to zero.
+
+In the case of an undirected Graph, the adjacency matrix is symmetric, meaning that if there is an edge from vertex A to vertex B, there is also an edge from vertex B to vertex A. This symmetry is reflected in the matrix, where corresponding cells (i, j) and (j, i) contain the same value.
