@@ -2597,3 +2597,9 @@ Overall, the adjacency matrix is a straightforward method for representing Graph
 The Adjacency List is an efficient way to represent sparse Graphs, where many vertices exist, but each vertex only connects to a small number of other vertices. In contrast to the Adjacency Matrix, which reserves memory for every possible edge (including those that do not exist), the Adjacency List only stores information about the edges that are present, making it more space-efficient.
 
 An Adjacency List consists of an array containing all the vertices in the Graph. For each vertex, there is a Linked List (or another Array) that stores its adjacent vertices. Each vertex in the main array points to its own Linked List, which contains the indexes of the neighboring vertices.
+
+For example, in a Graph with vertices A, B, C, and D, if vertex A is connected to vertices D, B, and C, the Linked List for vertex A would include the indexes of those vertices. This means that if we look at vertex A's entry in the Adjacency List, we might find the indexes 3 (for D), 1 (for B), and 2 (for C).
+
+An Adjacency List can also represent directed and weighted Graphs. In this case, the edges are stored as pairs of values (i, w), where i indicates the index of the destination vertex and w represents the weight of the edge. For instance, if vertex D has a directed edge to vertex A with a weight of 4, the Linked List for vertex D would include the entry (0, 4), indicating that there is an edge going to vertex A (index 0) with a weight of 4.
+
+Overall, the Adjacency List is a versatile and space-efficient way to represent Graphs, particularly when dealing with sparse connections. It allows for easy traversal and manipulation of edges while minimizing memory usage.
