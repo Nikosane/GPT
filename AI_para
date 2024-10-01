@@ -2585,3 +2585,5 @@ There are different ways to represent a Graph, each with its own advantages and 
 The focus moving forward in this tutorial is the Adjacency Matrix representation, which is simple to understand and implement. This representation can be used effectively for various types of Graphs, including weighted and directed ones, making it versatile for most cases we encounter.
 
 In general, a Graph representation records information about which vertices are connected or adjacent. In the context of Graphs, two vertices are said to be adjacent if there is an edge between them. The representations also indicate whether edges have weights or directions when necessary.
+
+The Adjacency Matrix is the representation of choice for Graphs in this tutorial. It is structured as a two-dimensional array, where each cell at index (i, j) indicates the presence or absence of an edge from vertex i to vertex j. If there is an edge between these vertices, the cell contains a value, and if not, it is typically set to zero.
