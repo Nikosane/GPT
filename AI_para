@@ -2593,3 +2593,7 @@ In the case of an undirected Graph, the adjacency matrix is symmetric, meaning t
 For a directed Graph, the adjacency matrix is not necessarily symmetrical. The values at (i, j) will indicate an edge going from vertex i to vertex j, but the reverse may not be true. To represent weighted edges in the adjacency matrix, instead of using '1' to indicate the presence of an edge, we can store the actual weight of the edge in the corresponding cell.
 
 Overall, the adjacency matrix is a straightforward method for representing Graphs, making it easy to visualize connections between vertices and efficient for operations that involve checking the existence of edges.
+
+The Adjacency List is an efficient way to represent sparse Graphs, where many vertices exist, but each vertex only connects to a small number of other vertices. In contrast to the Adjacency Matrix, which reserves memory for every possible edge (including those that do not exist), the Adjacency List only stores information about the edges that are present, making it more space-efficient.
+
+An Adjacency List consists of an array containing all the vertices in the Graph. For each vertex, there is a Linked List (or another Array) that stores its adjacent vertices. Each vertex in the main array points to its own Linked List, which contains the indexes of the neighboring vertices.
