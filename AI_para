@@ -2591,3 +2591,5 @@ The Adjacency Matrix is the representation of choice for Graphs in this tutorial
 In the case of an undirected Graph, the adjacency matrix is symmetric, meaning that if there is an edge from vertex A to vertex B, there is also an edge from vertex B to vertex A. This symmetry is reflected in the matrix, where corresponding cells (i, j) and (j, i) contain the same value.
 
 For a directed Graph, the adjacency matrix is not necessarily symmetrical. The values at (i, j) will indicate an edge going from vertex i to vertex j, but the reverse may not be true. To represent weighted edges in the adjacency matrix, instead of using '1' to indicate the presence of an edge, we can store the actual weight of the edge in the corresponding cell.
+
+Overall, the adjacency matrix is a straightforward method for representing Graphs, making it easy to visualize connections between vertices and efficient for operations that involve checking the existence of edges.
