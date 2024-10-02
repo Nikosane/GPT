@@ -2603,3 +2603,5 @@ For example, in a Graph with vertices A, B, C, and D, if vertex A is connected t
 An Adjacency List can also represent directed and weighted Graphs. In this case, the edges are stored as pairs of values (i, w), where i indicates the index of the destination vertex and w represents the weight of the edge. For instance, if vertex D has a directed edge to vertex A with a weight of 4, the Linked List for vertex D would include the entry (0, 4), indicating that there is an edge going to vertex A (index 0) with a weight of 4.
 
 Overall, the Adjacency List is a versatile and space-efficient way to represent Graphs, particularly when dealing with sparse connections. It allows for easy traversal and manipulation of edges while minimizing memory usage.
+
+In a basic Graph implementation using an Adjacency Matrix, the Graph is represented as a 2D array where the rows and columns correspond to the vertices of the Graph. For an undirected Graph, an edge between two vertices is represented by placing a "1" in both corresponding positions in the matrix, indicating that the edge exists and goes in both directions.
