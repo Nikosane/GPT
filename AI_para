@@ -2614,4 +2614,8 @@ Since the graph is undirected, the matrix is symmetric. For example, if vertex A
 
 To implement a directed and weighted graph, we modify the adjacency matrix structure used for an undirected graph in two main ways. First, we remove the symmetry by ensuring that adding an edge from one vertex to another does not automatically create an edge in the opposite direction. This makes the graph directed. Second, instead of simply marking the presence of an edge with the value '1', we use the actual weight of the edge, which represents the connection between two vertices.
 
+To represent a directed graph, we store the edge's weight only from the starting vertex to the ending vertex. No weight is stored for the reverse direction unless explicitly added. Additionally, for graphs that are weighted, we include a weight value in the adjacency matrix to show the strength or cost associated with traveling along that edge. In cases where no edge exists between two vertices, a default value such as '0' or 'infinity' can be used to indicate the absence of a connection.
 
+For example, if we have four vertices labeled A, B, C, and D, we can create a directed, weighted graph by specifying the connections and their respective weights. The adjacency matrix will store the weights, allowing us to represent both the direction and cost of each connection between vertices.
+
+If we add an edge from vertex A to vertex B with a weight of 5, the corresponding cell in the adjacency matrix will reflect that. However, no reverse connection will be assumed unless explicitly defined. Similarly, other edges with weights can be added, resulting in a matrix that reflects both the directed nature of the graph and the weights of the edges.
