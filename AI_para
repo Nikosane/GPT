@@ -2609,3 +2609,6 @@ In a basic Graph implementation using an Adjacency Matrix, the Graph is represen
 If we have vertices A, B, C, and D, they are stored in an array like this: vertexData = ['A', 'B', 'C', 'D']. The adjacency matrix is a square matrix where each cell (i, j) represents whether there is an edge between vertex i and vertex j.
 
 This matrix shows that vertex A (index 0) is connected to vertices B (index 1) and D (index 3), vertex B (index 1) is connected to vertices A (index 0) and C (index 2), vertex C (index 2) is connected to vertices B (index 1) and D (index 3), and vertex D (index 3) is connected to vertices A (index 0) and C (index 2).
+
+Since the graph is undirected, the matrix is symmetric. For example, if vertex A is connected to vertex D, it is represented as 1 in both positions (0, 3) and (3, 0) in the matrix. This method is simple and effective for dense graphs, where most vertices are connected. However, for sparse graphs, where there are fewer edges, an Adjacency List would be more memory-efficient.
+
