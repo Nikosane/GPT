@@ -2607,3 +2607,5 @@ Overall, the Adjacency List is a versatile and space-efficient way to represent 
 In a basic Graph implementation using an Adjacency Matrix, the Graph is represented as a 2D array where the rows and columns correspond to the vertices of the Graph. For an undirected Graph, an edge between two vertices is represented by placing a "1" in both corresponding positions in the matrix, indicating that the edge exists and goes in both directions.
 
 If we have vertices A, B, C, and D, they are stored in an array like this: vertexData = ['A', 'B', 'C', 'D']. The adjacency matrix is a square matrix where each cell (i, j) represents whether there is an edge between vertex i and vertex j.
+
+This matrix shows that vertex A (index 0) is connected to vertices B (index 1) and D (index 3), vertex B (index 1) is connected to vertices A (index 0) and C (index 2), vertex C (index 2) is connected to vertices B (index 1) and D (index 3), and vertex D (index 3) is connected to vertices A (index 0) and C (index 2).
