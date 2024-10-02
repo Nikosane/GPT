@@ -2612,3 +2612,6 @@ This matrix shows that vertex A (index 0) is connected to vertices B (index 1) a
 
 Since the graph is undirected, the matrix is symmetric. For example, if vertex A is connected to vertex D, it is represented as 1 in both positions (0, 3) and (3, 0) in the matrix. This method is simple and effective for dense graphs, where most vertices are connected. However, for sparse graphs, where there are fewer edges, an Adjacency List would be more memory-efficient.
 
+To implement a directed and weighted graph, we modify the adjacency matrix structure used for an undirected graph in two main ways. First, we remove the symmetry by ensuring that adding an edge from one vertex to another does not automatically create an edge in the opposite direction. This makes the graph directed. Second, instead of simply marking the presence of an edge with the value '1', we use the actual weight of the edge, which represents the connection between two vertices.
+
+
