@@ -2625,3 +2625,8 @@ Graph traversal refers to the process of starting from a specific vertex and vis
 There are two primary methods used for graph traversal: Depth First Search (DFS) and Breadth First Search (BFS).
 
 Depth First Search (DFS) involves exploring as far along a branch as possible before backtracking. This is often implemented using a stack or through recursion, which naturally utilizes the call stack. DFS starts at a given vertex, moves to an adjacent vertex, and continues deeper into the graph until it reaches a vertex with no unvisited neighbors, at which point it backtracks to explore alternative paths.
+
+On the other hand, Breadth First Search (BFS) explores the graph level by level, starting from a specific vertex and visiting all its neighbors before moving on to their neighbors. BFS is typically implemented using a queue, where vertices are enqueued when discovered and dequeued when processed. This ensures that BFS visits all vertices at the current level before proceeding to the next level.
+
+Both DFS and BFS are fundamental techniques that serve as the basis for many graph algorithms, each with unique advantages depending on the specific problem being solved.
+
