@@ -2621,3 +2621,7 @@ For example, if we have four vertices labeled A, B, C, and D, we can create a di
 If we add an edge from vertex A to vertex B with a weight of 5, the corresponding cell in the adjacency matrix will reflect that. However, no reverse connection will be assumed unless explicitly defined. Similarly, other edges with weights can be added, resulting in a matrix that reflects both the directed nature of the graph and the weights of the edges.
 
 Graph traversal refers to the process of starting from a specific vertex and visiting other vertices by following the edges, continuing this process until all reachable vertices have been visited. The traversal of graphs is important for understanding the behavior and application of algorithms that operate on graph structures.
+
+There are two primary methods used for graph traversal: Depth First Search (DFS) and Breadth First Search (BFS).
+
+Depth First Search (DFS) involves exploring as far along a branch as possible before backtracking. This is often implemented using a stack or through recursion, which naturally utilizes the call stack. DFS starts at a given vertex, moves to an adjacent vertex, and continues deeper into the graph until it reaches a vertex with no unvisited neighbors, at which point it backtracks to explore alternative paths.
