@@ -2619,3 +2619,5 @@ To represent a directed graph, we store the edge's weight only from the starting
 For example, if we have four vertices labeled A, B, C, and D, we can create a directed, weighted graph by specifying the connections and their respective weights. The adjacency matrix will store the weights, allowing us to represent both the direction and cost of each connection between vertices.
 
 If we add an edge from vertex A to vertex B with a weight of 5, the corresponding cell in the adjacency matrix will reflect that. However, no reverse connection will be assumed unless explicitly defined. Similarly, other edges with weights can be added, resulting in a matrix that reflects both the directed nature of the graph and the weights of the edges.
+
+Graph traversal refers to the process of starting from a specific vertex and visiting other vertices by following the edges, continuing this process until all reachable vertices have been visited. The traversal of graphs is important for understanding the behavior and application of algorithms that operate on graph structures.
