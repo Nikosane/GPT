@@ -2630,3 +2630,4 @@ On the other hand, Breadth First Search (BFS) explores the graph level by level,
 
 Both DFS and BFS are fundamental techniques that serve as the basis for many graph algorithms, each with unique advantages depending on the specific problem being solved.
 
+Depth First Search (DFS) is a graph traversal technique that explores vertices by going as deep as possible into the graph before backtracking. It starts at an initial vertex, visits an adjacent vertex, and continues exploring each vertex's adjacent vertices recursively until it reaches a vertex with no unvisited neighbors. Then, the traversal backtracks and continues exploring the next available vertex.
