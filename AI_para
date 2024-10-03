@@ -2636,3 +2636,10 @@ In DFS traversal, the algorithm marks a vertex as visited when it is encountered
 
 DFS can be implemented using a stack or recursion (which utilizes the call stack), making it ideal for problems where the solution involves exploring deeply connected components or searching for paths through a graph.
 
+Breadth First Search (BFS) is a graph traversal technique where vertices are visited level by level. Starting from a given vertex, BFS explores all adjacent vertices before moving on to the vertices adjacent to them. This ensures that vertices with the same distance from the starting vertex are visited before those further away.
+
+BFS works by first placing the starting vertex in a queue. As long as the queue contains vertices, it dequeues a vertex, marks it as visited, and then enqueues all of its unvisited adjacent vertices. The process continues until the queue is empty, meaning all reachable vertices have been visited.
+
+For example, starting BFS from vertex D, the algorithm enqueues D and visits it first. Then, it enqueues D's adjacent vertices, like A and E, and visits them next. It continues by visiting their adjacent vertices until all vertices have been explored.
+
+BFS is commonly implemented using a queue and is ideal for finding the shortest path in unweighted graphs or for exploring all nodes within a certain "distance" from the starting point.
