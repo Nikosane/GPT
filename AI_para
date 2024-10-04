@@ -2655,3 +2655,10 @@ Cycle detection is crucial in graph-based applications because the presence of c
 In cycle detection using DFS, the algorithm explores each vertex and marks it as visited. During traversal, if it encounters an adjacent vertex that has already been visited and is not the immediate parent of the current vertex, a cycle is detected. In a directed graph, a cycle can also be detected by keeping track of vertices in the recursion stack; if a vertex is revisited while still in the recursion stack, this indicates a back edge, and hence, a cycle.
 
 The DFS method checks for cycles while maintaining simplicity and efficiency, making it a natural choice for detecting cycles in many types of graphs, especially for detecting directed cycles.
+
+Union-Find (or Disjoint Set Union) is a data structure that helps detect cycles, especially in undirected graphs. Initially, each vertex is considered its own group or subset. For every edge explored, the algorithm checks if both vertices of the edge belong to the same subset. If they do, this indicates that adding the edge would create a cycle. If they belong to different subsets, the subsets are merged (or "unioned").
+
+This method works well for dynamic graphs where edges are added progressively, and it’s particularly effective in applications like detecting cycles in network connectivity and forest-like structures.
+
+Both methods are widely used depending on the graph's nature and the specific needs of the application.
+
