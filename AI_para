@@ -2651,3 +2651,7 @@ For instance, in a graph, a cycle could involve traveling from vertex A to B, th
 In graph algorithms, detecting cycles is crucial for understanding the structure of the graph and determining whether certain conditions, like deadlock in systems, are present. Cycles can also indicate problems in scheduling, dependency resolution, or navigation tasks.
 
 Cycle detection is crucial in graph-based applications because the presence of cycles can signal potential issues like deadlocks in operating systems, inconsistencies in scheduling, or undesired feedback in circuit design. There are two primary methods for detecting cycles in graphs: Depth First Search (DFS) and Union-Find.
+
+In cycle detection using DFS, the algorithm explores each vertex and marks it as visited. During traversal, if it encounters an adjacent vertex that has already been visited and is not the immediate parent of the current vertex, a cycle is detected. In a directed graph, a cycle can also be detected by keeping track of vertices in the recursion stack; if a vertex is revisited while still in the recursion stack, this indicates a back edge, and hence, a cycle.
+
+The DFS method checks for cycles while maintaining simplicity and efficiency, making it a natural choice for detecting cycles in many types of graphs, especially for detecting directed cycles.
