@@ -2649,3 +2649,5 @@ A cycle in a graph refers to a path that begins and ends at the same vertex, whe
 For instance, in a graph, a cycle could involve traveling from vertex A to B, then to C, and back to A, creating a closed loop. This property can appear in both directed and undirected graphs. However, the definition of a cycle can vary depending on the type of problem being solved. A self-loop, where an edge connects a vertex back to itself, may or may not be considered a cycle depending on the context.
 
 In graph algorithms, detecting cycles is crucial for understanding the structure of the graph and determining whether certain conditions, like deadlock in systems, are present. Cycles can also indicate problems in scheduling, dependency resolution, or navigation tasks.
+
+Cycle detection is crucial in graph-based applications because the presence of cycles can signal potential issues like deadlocks in operating systems, inconsistencies in scheduling, or undesired feedback in circuit design. There are two primary methods for detecting cycles in graphs: Depth First Search (DFS) and Union-Find.
