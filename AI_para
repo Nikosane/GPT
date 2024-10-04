@@ -2643,3 +2643,5 @@ BFS works by first placing the starting vertex in a queue. As long as the queue 
 For example, starting BFS from vertex D, the algorithm enqueues D and visits it first. Then, it enqueues D's adjacent vertices, like A and E, and visits them next. It continues by visiting their adjacent vertices until all vertices have been explored.
 
 BFS is commonly implemented using a queue and is ideal for finding the shortest path in unweighted graphs or for exploring all nodes within a certain "distance" from the starting point.
+
+A cycle in a graph refers to a path that begins and ends at the same vertex, where no edge is used more than once. In simple terms, it’s like starting at one point, traveling through a series of connected vertices, and eventually returning to the starting point without retracing any steps along the same edge.
