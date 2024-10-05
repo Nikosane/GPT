@@ -2663,3 +2663,5 @@ This method works well for dynamic graphs where edges are added progressively, a
 Both methods are widely used depending on the graph's nature and the specific needs of the application.
 
 Cycle detection in undirected graphs using Depth First Search (DFS) works by leveraging a traversal process similar to standard DFS but with key modifications to check for cycles. The traversal begins by initiating DFS on each unvisited vertex, ensuring that even disconnected parts of the graph are explored. As DFS proceeds, each vertex is marked as visited to prevent revisiting during the traversal.
+
+The core idea behind cycle detection is that if DFS encounters an adjacent vertex that has already been visited and is not the parent of the current vertex, this indicates the presence of a cycle. The reason the parent vertex is excluded from this check is that backtracking from a child to its parent is a normal part of DFS traversal and does not imply a cycle. Only when a previously visited vertex is found, which is not the parent, can a cycle be confirmed.
