@@ -2683,3 +2683,5 @@ The process begins by placing each vertex in its own subset, effectively isolati
 In the animation illustrating Union-Find cycle detection, as the algorithm processes edges, it gradually merges subsets. For instance, as the edge between vertices A and B is explored, the subsets for A and B are merged. When the edge between vertices A and D is finally processed, both vertices A and D already belong to the same subset. This signifies the presence of a cycle, as the vertices have been connected through other paths before the current edge is considered.
 
 Once a cycle is detected, the algorithm halts, even though other potential cycles may exist in different parts of the graph. The algorithm does not need to explore further because the presence of one cycle is enough to conclude that the graph contains at least one cycle.
+
+Union-Find is particularly useful for cycle detection in scenarios involving large, sparse graphs because it allows for efficient merging and lookup operations.
