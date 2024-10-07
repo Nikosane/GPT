@@ -2693,3 +2693,5 @@ In a graph, the vertices represent points such as cities, routers, or intersecti
 In the example provided, the graph has weighted edges between its vertices. The task is to find the shortest path from vertex D to vertex F. The shortest route from D to F is through vertices E and C, forming the path D -> E -> C -> F, with a total path weight of 10 (2 + 4 + 4). While other paths may exist between D and F, such as D -> A -> F, their total weights are higher, meaning they do not represent the shortest path.
 
 The shortest path algorithms, such as Dijkstra's or the Bellman-Ford algorithm, are commonly used to solve such problems in both directed and undirected graphs, ensuring that the route with the minimal cumulative weight is found.
+
+The shortest path problem is a well-known problem in computer science, where the goal is to find the minimum distance or cost to travel between two vertices in a graph. This problem is significant in various applications such as routing in communication networks, GPS navigation systems, and logistics planning.
