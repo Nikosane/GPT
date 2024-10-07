@@ -2694,4 +2694,6 @@ In the example provided, the graph has weighted edges between its vertices. The 
 
 The shortest path algorithms, such as Dijkstra's or the Bellman-Ford algorithm, are commonly used to solve such problems in both directed and undirected graphs, ensuring that the route with the minimal cumulative weight is found.
 
-The shortest path problem is a well-known problem in computer science, where the goal is to find the minimum distance or cost to travel between two vertices in a graph. This problem is significant in various applications such as routing in communication networks, GPS navigation systems, and logistics planning.
+In the shortest path problem, Dijkstra's algorithm and the Bellman-Ford algorithm are two of the most commonly used solutions to find the shortest path from one start vertex to all other vertices in a graph.
+
+The goal is to check the edges in the graph and find a path between vertices that minimizes the combined weight of the edges, referred to as the path cost or path weight. Each algorithm takes an initial approach by setting the distance from the starting vertex to all other vertices as infinity, which signifies that no path is known yet. As the algorithm progresses, edges are evaluated repeatedly to update or relax the distances between vertices when a shorter path is discovered.
