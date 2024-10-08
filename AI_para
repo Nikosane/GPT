@@ -2709,3 +2709,5 @@ In graphs with positive edge weights, algorithms like Dijkstra's are able to wor
 Negative edge weights, on the other hand, create a different dynamic, and this is where the Bellman-Ford algorithm becomes useful. Negative edge weights may represent cases where the gains outweigh the losses. For instance, if a negative edge weight exists between vertex C and vertex A with a value of -3, this can indicate that the overall result of moving from C to A results in a net gain, such as earning $3 more than the cost, after taking into account expenses like fuel.
 
 The key difference between positive and negative edge weights is that positive weights are more straightforward, representing costs or distances, while negative weights introduce the possibility of gains or profits, which require specialized handling through algorithms like Bellman-Ford to avoid complications such as negative weight cycles.
+
+In graphs with negative cycles, finding the shortest path becomes impossible because there is a cycle with a total negative path weight, which can continually decrease the overall distance or cost as you keep looping through the cycle.
