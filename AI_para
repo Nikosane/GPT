@@ -2719,3 +2719,11 @@ If we are looking for the shortest distance from vertex D, for example, to all o
 Fortunately, the Bellman-Ford algorithm, which is designed to work with graphs containing negative edges, has a mechanism to detect these negative cycles. When a negative cycle is found, the algorithm can terminate, indicating that no valid shortest path exists due to the negative cycle. This feature ensures that the problem doesn't continue infinitely and alerts us to the presence of cycles that prevent the determination of shortest paths.
 
 Dijkstra's algorithm is used to solve the single-source shortest path problem, which means it finds the shortest path from one selected vertex (the source) to all other vertices in a graph. The algorithm operates by repeatedly choosing the nearest unvisited vertex and updating the shortest known distances to its unvisited neighbors.
+
+The process starts with the source vertex, marking it as visited, and then the algorithm checks all its neighboring vertices. If a shorter path to a neighboring vertex can be found by going through the source, the distance is updated. The algorithm then moves to the next nearest unvisited vertex and repeats this process until all vertices have been visited. This ensures that the shortest path from the source to every other vertex is found.
+
+A priority queue is often used to efficiently select the nearest unvisited vertex at each step. This helps to minimize the time taken to update distances as the algorithm progresses. The algorithm keeps track of the shortest known distance to each vertex and updates this value whenever a shorter path is found.
+
+Dijkstra's algorithm works well for graphs where all edges have non-negative weights. However, it does not handle negative edge weights, because if there are negative weights, the algorithm might not correctly find the shortest path. In graphs with negative edges, the Bellman-Ford algorithm is used instead, as it can detect negative cycles and handle such edges properly.
+
+To run Dijkstra's algorithm, three key elements are needed: the source vertex, a way to mark vertices as visited, and a method to store and update the shortest distances to each vertex. By following this procedure, the algorithm guarantees finding the shortest path from the source to all other vertices in the graph.
