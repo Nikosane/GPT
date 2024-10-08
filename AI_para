@@ -2711,3 +2711,5 @@ Negative edge weights, on the other hand, create a different dynamic, and this i
 The key difference between positive and negative edge weights is that positive weights are more straightforward, representing costs or distances, while negative weights introduce the possibility of gains or profits, which require specialized handling through algorithms like Bellman-Ford to avoid complications such as negative weight cycles.
 
 In graphs with negative cycles, finding the shortest path becomes impossible because there is a cycle with a total negative path weight, which can continually decrease the overall distance or cost as you keep looping through the cycle.
+
+For instance, if we take the path A->E->B->C->A, the total weight of the cycle is negative, i.e., 5+2-4-4 = -1. This means each time you traverse the cycle, the overall distance reduces by 1. Therefore, no shortest path can be definitively determined since the algorithm can always continue to reduce the path weight by going through the negative cycle again and again.
