@@ -2777,3 +2777,5 @@ Vertex H is added next, as it has the lowest edge weight (6), and it becomes the
 This step-by-step process forms the complete MST. Running the simulation would visualize the operations of Prim’s algorithm as described here.
 
 The time complexity of Prim’s algorithm, when implemented using a basic array, is O(V2)O(V2), where VV is the number of vertices in the graph. This complexity comes from the fact that Prim’s algorithm involves nested loops. The first loop iterates over all the vertices in the graph to ensure each vertex gets included in the Minimum Spanning Tree (MST), resulting in a time complexity of O(V)O(V).
+
+Inside this first loop, there is a second loop that scans through all the adjacent vertices to find the one with the lowest key value outside the MST. This operation also takes O(V)O(V), as it needs to check each vertex to identify the one that should be added to the tree next. After selecting a vertex and adding it to the MST, a third loop runs to update the key values of the vertices still outside the MST, based on their connection to the newly added vertex. This step also requires O(V)O(V) time.
