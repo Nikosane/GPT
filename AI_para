@@ -2775,3 +2775,5 @@ Next, vertex C is added to the MST because the edge B-C has the lowest weight (3
 Vertex H is added next, as it has the lowest edge weight (6), and it becomes the parent of vertex G in the parents array. Following this, either vertex E or F could be chosen next, as both have the same lowest edge weight (4). For this demonstration, vertex E is chosen. Finally, the last two vertices, F and G, are added to the MST. D-F is selected as the MST edge to F, and E-G as the MST edge to G, since these edges have the lowest weights from the current MST.
 
 This step-by-step process forms the complete MST. Running the simulation would visualize the operations of Prim’s algorithm as described here.
+
+The time complexity of Prim’s algorithm, when implemented using a basic array, is O(V2)O(V2), where VV is the number of vertices in the graph. This complexity comes from the fact that Prim’s algorithm involves nested loops. The first loop iterates over all the vertices in the graph to ensure each vertex gets included in the Minimum Spanning Tree (MST), resulting in a time complexity of O(V)O(V).
