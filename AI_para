@@ -2797,3 +2797,5 @@ Unlike Prim's algorithm, which requires the graph to be fully connected in order
 This capability makes Kruskal’s algorithm especially useful for graphs that may have multiple isolated clusters, as it can handle both connected and unconnected graphs, ensuring optimal results in each case.
 
 Kruskal's algorithm operates by first sorting all the edges of a graph in ascending order of their weights. This sorting ensures that the algorithm always considers the most cost-effective connections first, making it ideal for minimizing the total edge weight in the Minimum Spanning Tree (MST). Once the edges are sorted, Kruskal's algorithm iterates through them, starting with the edge with the lowest weight.
+
+For each edge, the algorithm checks whether adding that edge to the current set of edges in the MST would create a cycle. If adding the edge does not form a cycle, it is included as part of the MST. This check is crucial because the MST must remain acyclic, adhering to the definition of a tree structure. If adding an edge would form a cycle, the edge is skipped, and the algorithm moves on to the next edge in the sorted list.
