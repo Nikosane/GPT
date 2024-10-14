@@ -2804,4 +2804,6 @@ This process continues until all vertices in the graph are connected, or, in the
 
 In Kruskal's algorithm, we start by sorting the edges in ascending order of their weights, ensuring that we always begin with the smallest edges. In this example, the first edge added to the Minimum Spanning Tree (MST) is C-E, with a weight of 2, followed by D-E, with a weight of 3, and then A-B, with a weight of 4. These edges connect different vertices without forming any cycles, so they are included in the MST.
 
+When the algorithm encounters the edge C-D, which also has a low weight, it is not added to the MST because adding it would create a cycle involving vertices C, D, and E. The red indication highlights this, emphasizing that no cyclic connections are allowed in the MST.
+
 
