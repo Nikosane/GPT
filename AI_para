@@ -2807,3 +2807,7 @@ In Kruskal's algorithm, we start by sorting the edges in ascending order of thei
 When the algorithm encounters the edge C-D, which also has a low weight, it is not added to the MST because adding it would create a cycle involving vertices C, D, and E. The red indication highlights this, emphasizing that no cyclic connections are allowed in the MST.
 
 Moving forward, Kruskal's algorithm adds more edges. The edge E-G, with a weight of 6, is included, followed by D-F, with a weight of 7. However, the edge C-G, despite having the same weight as D-F, is not added because it would form a cycle. Similarly, the edge B-C, with a weight of 8, is added since it doesn’t form any cycles.
+
+At this point, all vertices in the graph are connected, forming the MST. However, Kruskal's algorithm continues to check all the remaining edges to ensure no additional, useful edges can be added. The last three edges – A-C (weight 9), A-G (weight 10), and F-G (weight 11) – are not added because they would create cycles in the MST.
+
+
