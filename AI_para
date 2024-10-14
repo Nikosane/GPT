@@ -2801,3 +2801,7 @@ Kruskal's algorithm operates by first sorting all the edges of a graph in ascend
 For each edge, the algorithm checks whether adding that edge to the current set of edges in the MST would create a cycle. If adding the edge does not form a cycle, it is included as part of the MST. This check is crucial because the MST must remain acyclic, adhering to the definition of a tree structure. If adding an edge would form a cycle, the edge is skipped, and the algorithm moves on to the next edge in the sorted list.
 
 This process continues until all vertices in the graph are connected, or, in the case of an unconnected graph, until a Minimum Spanning Forest is formed. Kruskal's algorithm ensures that only the most efficient edges are used to create the spanning tree while avoiding any redundant or cyclic connections.
+
+In Kruskal's algorithm, we start by sorting the edges in ascending order of their weights, ensuring that we always begin with the smallest edges. In this example, the first edge added to the Minimum Spanning Tree (MST) is C-E, with a weight of 2, followed by D-E, with a weight of 3, and then A-B, with a weight of 4. These edges connect different vertices without forming any cycles, so they are included in the MST.
+
+
