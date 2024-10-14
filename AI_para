@@ -2810,4 +2810,5 @@ Moving forward, Kruskal's algorithm adds more edges. The edge E-G, with a weight
 
 At this point, all vertices in the graph are connected, forming the MST. However, Kruskal's algorithm continues to check all the remaining edges to ensure no additional, useful edges can be added. The last three edges – A-C (weight 9), A-G (weight 10), and F-G (weight 11) – are not added because they would create cycles in the MST.
 
+After processing all the edges, the algorithm is finished, and the MST is complete. This manual step-by-step run through demonstrates how Kruskal’s algorithm systematically builds the MST while avoiding cycles, focusing on the edges with the smallest weights.
 
