@@ -2852,3 +2852,6 @@ This graph transformation ensures that the multiple sources and sinks are funnel
 
 By using this approach, even complex networks with several entry and exit points for flow can be efficiently managed and analyzed with standard maximum flow algorithms.
 
+The Max-flow Min-cut Theorem is a key result in network flow theory, connecting two important concepts: the maximum flow in a flow network and the minimum cut separating the source from the sink. To understand this, we first need to grasp what a "cut" in a flow network is.
+
+A cut divides the vertices of a flow network into two sets: set SS, which contains the source vertex, and set TT, which contains the sink vertex and all remaining vertices. The idea is that as long as the sink is not included in set SS, you can expand set SS by including adjacent vertices. Expanding set SS reduces the size of set TT, and any edges that run from vertices in set SS to those in set TT form the "cut."
