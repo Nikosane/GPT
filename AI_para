@@ -2855,3 +2855,9 @@ By using this approach, even complex networks with several entry and exit points
 The Max-flow Min-cut Theorem is a key result in network flow theory, connecting two important concepts: the maximum flow in a flow network and the minimum cut separating the source from the sink. To understand this, we first need to grasp what a "cut" in a flow network is.
 
 A cut divides the vertices of a flow network into two sets: set SS, which contains the source vertex, and set TT, which contains the sink vertex and all remaining vertices. The idea is that as long as the sink is not included in set SS, you can expand set SS by including adjacent vertices. Expanding set SS reduces the size of set TT, and any edges that run from vertices in set SS to those in set TT form the "cut."
+
+The capacity of this cut is determined by summing the capacities of all edges that cross from set SS to set TT. The minimum cut in a network is the cut with the smallest total capacity, representing the narrowest point through which flow must pass. This cut is critical because it forms the bottleneck in the network.
+
+The Max-flow Min-cut Theorem states that the value of the maximum flow in a network is equal to the total capacity of the minimum cut. In other words, the maximum amount of flow that can be pushed from the source to the sink is constrained by the smallest cut separating them.
+
+For example, in a network where several cuts can be made, each will have a different total capacity, depending on which edges connect set SS to set TT. The minimum cut will limit how much flow can pass through, and according to the theorem, this minimum cut capacity equals the maximum flow that can be achieved in the network. Thus, solving for one (maximum flow or minimum cut) automatically provides the solution to the other.
