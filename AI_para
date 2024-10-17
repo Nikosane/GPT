@@ -2881,3 +2881,13 @@ For all vertices except the source and the sink, there is a conservation of flow
 Lastly, all flow that leaves the source vertex must eventually reach the sink vertex. This condition ensures that whatever flow is pushed out from the source vertex is fully absorbed by the sink vertex, meaning no flow is lost within the network.
 
 These mathematical principles provide the foundation for solving the maximum flow problem using algorithms like Ford-Fulkerson and Edmonds-Karp, ensuring that the flow is optimized throughout the network according to the constraints set by edge capacities and flow conservation rules.
+
+The Ford-Fulkerson algorithm is used to solve the maximum flow problem in a directed graph. This problem involves finding the maximum amount of flow that can pass from a designated source vertex to a sink vertex, where each edge in the graph has a specific capacity that limits how much flow can travel through it.
+
+In this context, the algorithm begins by identifying a path from the source to the sink, called an augmented path, where there is available capacity along all edges. Once such a path is found, the algorithm sends as much flow as possible through that path, based on the available capacities of the edges. After this, the flow values on the edges are updated accordingly, reducing the available capacity as flow is added.
+
+The process repeats, with the algorithm finding new paths from the source to the sink and sending additional flow along those paths, until no more augmented paths can be found. At that point, the algorithm has achieved the maximum flow, meaning that no more flow can be pushed through the graph without exceeding the edge capacities.
+
+In the example described, the Ford-Fulkerson algorithm is applied to a graph where the flow starts at the source vertex ss and ends at the sink vertex tt. The edges in the graph have capacities, and the algorithm tries to maximize the flow through those edges while adhering to these capacity limits. The numbers displayed on the edges in the simulation represent the current flow as well as the total capacity of the edge, such as 0/7 on edge s→v2s→v2, meaning the current flow is 0, but the capacity is 7.
+
+Through this process, the Ford-Fulkerson algorithm is able to find the maximum flow from the source to the sink, which in this case is 8. This technique is widely applicable in real-world scenarios, such as optimizing traffic networks, managing resources in manufacturing, enhancing logistics and supply chain operations, and even scheduling flights for airlines.
