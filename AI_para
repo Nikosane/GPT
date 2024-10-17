@@ -2871,3 +2871,5 @@ In logistics and supply chain management, finding the minimum cut can pinpoint c
 In essence, using maximum flow algorithms not only provides insight into the current limitations of a network but also guides decisions on where modifications should be made to further increase capacity, whether that be in traffic, manufacturing, or logistics systems.
 
 The maximum flow problem is not only significant in computer science but also represents a mathematical optimization problem. The goal is to determine the maximum flow possible from a source vertex to a sink vertex in a directed graph, where each edge has a specific capacity.
+
+First, each edge in the graph has a capacity that limits the flow through it. For any edge from a vertex uu to a vertex vv, the flow must be less than or equal to the capacity of that edge. This means that the flow is restricted by the maximum capacity of the edge, ensuring that no more flow is pushed through an edge than it can handle.
