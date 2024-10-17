@@ -2876,4 +2876,4 @@ First, each edge in the graph has a capacity that limits the flow through it. Fo
 
 Additionally, for all edges in the graph, the flow in one direction from a vertex uu to a vertex vv is considered the negative of the flow in the reverse direction, from vv to uu. This implies that flow is directional, and sending flow in one direction cancels out any flow going in the reverse direction on the same edge.
 
-
+For all vertices except the source and the sink, there is a conservation of flow. This means that the amount of flow entering a vertex must equal the amount of flow leaving the vertex. In other words, no flow is lost or generated within the graph, ensuring that the total flow is conserved at all points, except for the source and sink.
