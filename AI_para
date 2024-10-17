@@ -2873,3 +2873,7 @@ In essence, using maximum flow algorithms not only provides insight into the cur
 The maximum flow problem is not only significant in computer science but also represents a mathematical optimization problem. The goal is to determine the maximum flow possible from a source vertex to a sink vertex in a directed graph, where each edge has a specific capacity.
 
 First, each edge in the graph has a capacity that limits the flow through it. For any edge from a vertex uu to a vertex vv, the flow must be less than or equal to the capacity of that edge. This means that the flow is restricted by the maximum capacity of the edge, ensuring that no more flow is pushed through an edge than it can handle.
+
+Additionally, for all edges in the graph, the flow in one direction from a vertex uu to a vertex vv is considered the negative of the flow in the reverse direction, from vv to uu. This implies that flow is directional, and sending flow in one direction cancels out any flow going in the reverse direction on the same edge.
+
+
