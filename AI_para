@@ -2901,3 +2901,11 @@ After calculating the bottleneck value, the flow along each edge in the path is 
 The algorithm repeats this sequence of steps until it can no longer find any new augmented path from the source to the sink with available capacity. At this point, the maximum flow has been reached, and the total flow being sent from the source to the sink is maximized.
 
 This method of gradually increasing flow makes the Ford-Fulkerson algorithm highly efficient, and it stops only when no further improvements to the flow are possible.
+
+The concept of the residual network is fundamental to how the Ford-Fulkerson algorithm functions. The residual network is derived from the original flow network and provides a way to represent how much additional flow can be pushed through the graph at any given time.
+
+Each edge in the residual network has a residual capacity, which is defined as the difference between the edge's original capacity and the current flow in that edge. The residual capacity represents the available capacity that can still accommodate more flow. For example, if an edge between vertices v3 and v4 has a flow of 2 and a capacity of 3, the residual capacity in that edge would be 1. This means that it is possible to send one more unit of flow through this edge before reaching its capacity.
+
+The residual network also includes reverse edges for each edge in the original graph. These reverse edges allow for the possibility of sending flow back, which might be necessary when adjusting flow to find the maximum capacity. The reverse edges have a residual capacity equal to the current flow in the original direction. This allows the algorithm to "undo" or redistribute flow along different paths as needed.
+
+By updating and working with the residual network, the Ford-Fulkerson algorithm can iteratively push more flow through the graph, making adjustments and corrections along the way, until no more flow can be sent from the source to the sink. This is the key mechanism that allows the algorithm to find the maximum flow efficiently.
