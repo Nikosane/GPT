@@ -2895,3 +2895,5 @@ Through this process, the Ford-Fulkerson algorithm is able to find the maximum f
 The Ford-Fulkerson algorithm begins by initializing all edges with zero flow. The goal is to progressively increase the flow through the graph by identifying augmented paths, which are paths from the source to the sink where additional flow can be sent through the edges without exceeding their capacities.
 
 The algorithm then searches for an augmented path that has available capacity on all of its edges. Once an augmented path is identified, a bottleneck calculation is performed to determine the maximum amount of flow that can be pushed through that path. The bottleneck value is simply the minimum available capacity among the edges in the augmented path.
+
+After calculating the bottleneck value, the flow along each edge in the path is increased by that amount. This process of finding an augmented path, calculating the bottleneck, and increasing the flow continues iteratively.
