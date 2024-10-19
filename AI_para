@@ -2909,3 +2909,11 @@ Each edge in the residual network has a residual capacity, which is defined as t
 The residual network also includes reverse edges for each edge in the original graph. These reverse edges allow for the possibility of sending flow back, which might be necessary when adjusting flow to find the maximum capacity. The reverse edges have a residual capacity equal to the current flow in the original direction. This allows the algorithm to "undo" or redistribute flow along different paths as needed.
 
 By updating and working with the residual network, the Ford-Fulkerson algorithm can iteratively push more flow through the graph, making adjustments and corrections along the way, until no more flow can be sent from the source to the sink. This is the key mechanism that allows the algorithm to find the maximum flow efficiently.
+
+Reversed edges in the Ford-Fulkerson algorithm are an essential mechanism that allows for the redistribution or adjustment of flow in the residual network. When an edge in the original graph carries a flow, a reverse edge is created in the residual network to potentially send some of this flow back, enabling the algorithm to optimize the total flow.
+
+For example, if there is a flow going from vertex v3v3​ to vertex v4v4​, and later on, the algorithm determines that this flow could be better utilized by redirecting it through a different path, it can send flow back from v4v4​ to v3v3​ using the reverse edge. This reverse flow can free up capacity in the original edge and allows new flow paths to be discovered, ultimately increasing the total flow in the network.
+
+A reverse edge is associated with a residual capacity, which is equal to the flow in the corresponding original edge. For instance, if there is a flow of 2 units from v3v3​ to v4v4​, a reverse edge from v4v4​ to v3v3​ will have a residual capacity of 2 units. This reverse capacity allows the algorithm to send up to 2 units of flow back in the opposite direction if needed, effectively undoing or adjusting the flow in the original path.
+
+By utilizing reversed edges and residual capacities, the Ford-Fulkerson algorithm can refine its flow distribution, ensuring that the maximum possible flow is achieved between the source and sink vertices. This dynamic adjustment is what allows the algorithm to converge on the optimal solution efficiently.
