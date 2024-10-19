@@ -2899,3 +2899,5 @@ The algorithm then searches for an augmented path that has available capacity on
 After calculating the bottleneck value, the flow along each edge in the path is increased by that amount. This process of finding an augmented path, calculating the bottleneck, and increasing the flow continues iteratively.
 
 The algorithm repeats this sequence of steps until it can no longer find any new augmented path from the source to the sink with available capacity. At this point, the maximum flow has been reached, and the total flow being sent from the source to the sink is maximized.
+
+This method of gradually increasing flow makes the Ford-Fulkerson algorithm highly efficient, and it stops only when no further improvements to the flow are possible.
