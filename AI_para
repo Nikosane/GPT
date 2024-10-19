@@ -2893,3 +2893,5 @@ In the example described, the Ford-Fulkerson algorithm is applied to a graph whe
 Through this process, the Ford-Fulkerson algorithm is able to find the maximum flow from the source to the sink, which in this case is 8. This technique is widely applicable in real-world scenarios, such as optimizing traffic networks, managing resources in manufacturing, enhancing logistics and supply chain operations, and even scheduling flights for airlines.
 
 The Ford-Fulkerson algorithm begins by initializing all edges with zero flow. The goal is to progressively increase the flow through the graph by identifying augmented paths, which are paths from the source to the sink where additional flow can be sent through the edges without exceeding their capacities.
+
+The algorithm then searches for an augmented path that has available capacity on all of its edges. Once an augmented path is identified, a bottleneck calculation is performed to determine the maximum amount of flow that can be pushed through that path. The bottleneck value is simply the minimum available capacity among the edges in the augmented path.
