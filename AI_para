@@ -2921,3 +2921,5 @@ By utilizing reversed edges and residual capacities, the Ford-Fulkerson algorith
 In the manual run-through of the Edmonds-Karp algorithm, the process starts with no flow in the graph. The algorithm first uses Breadth-First Search (BFS) to find an augmented path where flow can be increased. In the first iteration, the path found is s→v1→v3→ts→v1→v3→t.
 
 Next, the bottleneck calculation is performed to determine how much flow can be sent through this path. In this case, the bottleneck value is 2, meaning that a flow of 2 units can be sent along this path. After this calculation, a flow of 2 units is sent over each edge in the path, so the flow from s→v1s→v1, v1→v3v1→v3, and v3→tv3→t is updated to reflect the increase in flow.
+
+In the next iteration, the algorithm repeats the process. It finds another augmented path using BFS, which is s→v1→v4→ts→v1→v4→t. However, the flow in this path can only be increased by 1 unit because the edge s→v1s→v1 only has enough remaining capacity for 1 additional unit of flow. Therefore, the flow along the edges in this path is increased by 1 unit, bringing the flow closer to the maximum possible value for the network.
