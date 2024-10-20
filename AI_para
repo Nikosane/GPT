@@ -2919,3 +2919,5 @@ A reverse edge is associated with a residual capacity, which is equal to the flo
 By utilizing reversed edges and residual capacities, the Ford-Fulkerson algorithm can refine its flow distribution, ensuring that the maximum possible flow is achieved between the source and sink vertices. This dynamic adjustment is what allows the algorithm to converge on the optimal solution efficiently.
 
 In the manual run-through of the Edmonds-Karp algorithm, the process starts with no flow in the graph. The algorithm first uses Breadth-First Search (BFS) to find an augmented path where flow can be increased. In the first iteration, the path found is s→v1→v3→ts→v1→v3→t.
+
+Next, the bottleneck calculation is performed to determine how much flow can be sent through this path. In this case, the bottleneck value is 2, meaning that a flow of 2 units can be sent along this path. After this calculation, a flow of 2 units is sent over each edge in the path, so the flow from s→v1s→v1, v1→v3v1→v3, and v3→tv3→t is updated to reflect the increase in flow.
