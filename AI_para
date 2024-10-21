@@ -2959,3 +2959,11 @@ When we refer to "one operation" in the context of time complexity, we are using
 For example, in the Bubble Sort algorithm, a single operation might involve comparing two elements in an array and swapping them if necessary. Even though this might technically involve several smaller steps (like memory access, comparison, and swapping), we still treat it as one operation because it takes constant time, meaning the time required doesn't change based on the size of the input.
 
 When we say an operation takes "constant time," we mean that the time to execute that operation remains the same regardless of the number of elements (denoted as nn) in the dataset. Whether you're comparing elements in an array of size 10 or 1000, each comparison and swap takes a fixed amount of time, which is why it's considered to run in constant time. This is key to understanding time complexity, as it allows us to generalize the performance of an algorithm over varying input sizes.
+
+Big O notation is a mathematical tool used to describe the upper bound or worst-case scenario for the time complexity of an algorithm. In other words, it tells us how an algorithm's runtime grows as the input size (nn) increases, focusing on the most dominant term that contributes to the growth.
+
+In computer science, Big O notation helps us understand the efficiency of an algorithm by expressing its runtime in terms of nn, which represents the size of the input data. For example, if an algorithm's runtime increases proportionally to the size of the input, we would describe it as O(n)O(n), meaning the algorithm's runtime grows linearly with the input size.
+
+The "O" in Big O notation stands for "order of," indicating the order of growth of the algorithm. The parenthesis after the O contains the function of nn, representing the relationship between input size and time complexity. This notation helps us focus on the most significant factors affecting performance, ignoring constants and less dominant terms. For instance, if the time complexity is expressed as O(n2+n)O(n2+n), Big O notation simplifies it to O(n2)O(n2), since n2n2 dominates as nn grows larger.
+
+This abstraction makes Big O notation useful for comparing algorithms and understanding their scalability, regardless of factors like hardware, programming language, or implementation details.
