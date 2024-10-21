@@ -2945,3 +2945,5 @@ For example, in a simple algorithm that finds the smallest value in an array, ea
 In general, time complexity expresses the growth rate of an algorithm's operations as the input size increases. The fewer operations needed to solve a problem as the input grows, the more efficient the algorithm is.
 
 When comparing algorithms, we do not rely on actual runtime because many factors can influence how long an algorithm takes to run. The programming language chosen, how the code is written, the compiler or interpreter used, the hardware, the operating system, and the amount of data processed all contribute to variations in runtime. These factors make it difficult to determine which algorithm is inherently faster based solely on actual time measurements.
+
+Instead, a better way to measure an algorithm's performance is by using a more standardized approach, such as time complexity, which evaluates how efficiently an algorithm processes data as its input size grows. This abstract evaluation helps us compare algorithms more accurately, without being affected by external, environment-specific variables.
