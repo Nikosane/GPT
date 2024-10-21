@@ -2954,3 +2954,8 @@ For instance, in an algorithm designed to find the smallest value in an array, e
 
 This measure helps us predict how an algorithm will perform as the input data grows, making it easier to choose the right algorithm for a specific problem, especially when working with large datasets.
 
+When we refer to "one operation" in the context of time complexity, we are using it as an abstraction to represent a basic step in an algorithm, which typically requires a fixed or constant amount of time to perform. This concept is helpful in evaluating algorithms without worrying about the low-level details, such as the number of CPU cycles involved.
+
+For example, in the Bubble Sort algorithm, a single operation might involve comparing two elements in an array and swapping them if necessary. Even though this might technically involve several smaller steps (like memory access, comparison, and swapping), we still treat it as one operation because it takes constant time, meaning the time required doesn't change based on the size of the input.
+
+When we say an operation takes "constant time," we mean that the time to execute that operation remains the same regardless of the number of elements (denoted as nn) in the dataset. Whether you're comparing elements in an array of size 10 or 1000, each comparison and swap takes a fixed amount of time, which is why it's considered to run in constant time. This is key to understanding time complexity, as it allows us to generalize the performance of an algorithm over varying input sizes.
