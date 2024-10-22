@@ -2979,3 +2979,19 @@ The best case scenario refers to the situation where the algorithm performs the 
 The average case time complexity is a measure of how the algorithm performs on average, considering all possible inputs. This is often the expected performance and is useful because, in practice, inputs tend to vary. For QuickSort, the average case is also O(nlog⁡n)O(nlogn), as most pivots divide the array into reasonably balanced subarrays.
 
 Many algorithms experience different runtimes depending on the specific input, even if the input size nn remains constant. A sorting algorithm like Bubble Sort, for example, might have a best case time complexity of O(n)O(n) when the array is already sorted, but a worst case time complexity of O(n2)O(n2) when the array is in reverse order. Therefore, understanding these different cases helps us predict how efficiently an algorithm will perform in various real-world situations.
+
+Big O notation is a concept used to describe the behavior of a function as its input grows large. In computer science, it is applied to analyze the time complexity of algorithms, providing a way to express how an algorithm's runtime increases relative to the size of the input, denoted as n.
+
+Mathematically, Big O notation is used to establish an upper bound for the growth rate of a function. It focuses on the dominant term in the expression for the runtime of an algorithm, while ignoring lower-order terms and constant factors. This is because, as n becomes large, these factors become less significant compared to the dominant term.
+
+To define Big O notation formally:
+
+Let f(n) and g(n) be two functions that describe the growth of an algorithm's runtime. We say that f(n) = O(g(n)) if there exist positive constants C and n₀ such that f(n) is less than or equal to C times g(n) for all n greater than or equal to n₀. This definition means that for sufficiently large n, the function f(n) will always be bounded above by C times g(n), where C is a constant factor.
+
+For example, consider the function f(n) = 3n² + 2n + 5. To express this using Big O notation, we focus on the term that grows the fastest as n increases, which in this case is n². The lower-order terms 2n and 5 become insignificant as n becomes large. Therefore, we write f(n) = O(n²). This tells us that the growth of f(n) is dominated by n², and as n increases, the n² term will determine the runtime more than any other term.
+
+In this example, C could be 10, for instance, and n₀ could be any value where the inequality f(n) is less than or equal to C times g(n) holds. This approach abstracts away the exact details of the constants and lower-order terms, focusing on the asymptotic behavior of the function as n approaches infinity.
+
+In practice, Big O notation simplifies the comparison of algorithms. It allows us to compare their efficiencies in the worst case, by focusing only on the largest factor that contributes to the time complexity. For example, an algorithm with O(n) time complexity grows linearly with the input size, while an algorithm with O(n²) grows quadratically, meaning it becomes much slower as n increases. An algorithm with O(log n) grows logarithmically, meaning it increases very slowly as n grows.
+
+Big O notation provides a mathematical tool to compare and reason about the efficiency of different algorithms, especially as input sizes become large.
