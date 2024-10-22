@@ -2969,3 +2969,5 @@ The "O" in Big O notation stands for "order of," indicating the order of growth 
 This abstraction makes Big O notation useful for comparing algorithms and understanding their scalability, regardless of factors like hardware, programming language, or implementation details.
 
 In algorithm analysis, "best," "average," and "worst" case scenarios describe the different possible performances of an algorithm depending on the specific input data it processes.
+
+The worst case time complexity refers to the maximum number of operations an algorithm would need to perform for any given input of size nn. This is represented using Big O notation and is often the most important case because it gives a guarantee of the upper bound on the runtime, ensuring the algorithm will never take longer than this.
