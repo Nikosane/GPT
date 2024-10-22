@@ -2967,3 +2967,5 @@ In computer science, Big O notation helps us understand the efficiency of an alg
 The "O" in Big O notation stands for "order of," indicating the order of growth of the algorithm. The parenthesis after the O contains the function of nn, representing the relationship between input size and time complexity. This notation helps us focus on the most significant factors affecting performance, ignoring constants and less dominant terms. For instance, if the time complexity is expressed as O(n2+n)O(n2+n), Big O notation simplifies it to O(n2)O(n2), since n2n2 dominates as nn grows larger.
 
 This abstraction makes Big O notation useful for comparing algorithms and understanding their scalability, regardless of factors like hardware, programming language, or implementation details.
+
+In algorithm analysis, "best," "average," and "worst" case scenarios describe the different possible performances of an algorithm depending on the specific input data it processes.
