@@ -2975,3 +2975,5 @@ The worst case time complexity refers to the maximum number of operations an alg
 For example, in the case of sorting algorithms like QuickSort, the worst case occurs when the pivot chosen divides the array in the most unbalanced way possible, which results in the algorithm taking longer than usual. For QuickSort, the worst-case time complexity is O(n2)O(n2) when the pivot divides the array poorly.
 
 The best case scenario refers to the situation where the algorithm performs the fewest possible operations. This happens when the input is in a favorable state. For instance, for the same QuickSort algorithm, the best case occurs when the pivot divides the array into two equal halves at every step, giving a time complexity of O(nlog⁡n)O(nlogn).
+
+The average case time complexity is a measure of how the algorithm performs on average, considering all possible inputs. This is often the expected performance and is useful because, in practice, inputs tend to vary. For QuickSort, the average case is also O(nlog⁡n)O(nlogn), as most pivots divide the array into reasonably balanced subarrays.
