@@ -2971,3 +2971,5 @@ This abstraction makes Big O notation useful for comparing algorithms and unders
 In algorithm analysis, "best," "average," and "worst" case scenarios describe the different possible performances of an algorithm depending on the specific input data it processes.
 
 The worst case time complexity refers to the maximum number of operations an algorithm would need to perform for any given input of size nn. This is represented using Big O notation and is often the most important case because it gives a guarantee of the upper bound on the runtime, ensuring the algorithm will never take longer than this.
+
+For example, in the case of sorting algorithms like QuickSort, the worst case occurs when the pivot chosen divides the array in the most unbalanced way possible, which results in the algorithm taking longer than usual. For QuickSort, the worst-case time complexity is O(n2)O(n2) when the pivot divides the array poorly.
