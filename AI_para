@@ -2999,3 +2999,11 @@ Big O notation provides a mathematical tool to compare and reason about the effi
 The time complexity of the Bubble Sort algorithm can be described mathematically as follows. In the worst-case scenario, the algorithm passes through an array of n elements n−1 times. During each pass, every element is compared to the next, and if the left element is larger than the right, they are swapped. This process causes the largest elements to "bubble up" to their correct position, leaving the unsorted part of the array shorter after each pass.
 
 The number of operations performed during the sorting process can be calculated by considering that the algorithm compares and swaps elements during each pass through the array. The total number of comparisons and swaps performed is approximately proportional to n² in the worst case.
+
+We can calculate the number of operations as:
+
+Operations = (n−1) × n / 2 = n² / 2 − n / 2
+
+When analyzing time complexity, we focus on large input sizes, meaning n is a very large number. For large values of n, the term n² becomes significantly larger than the term n, and therefore we can simplify the equation by discarding the smaller term:
+
+Operations ≈ n² / 2 = 1/2 ⋅ n²
