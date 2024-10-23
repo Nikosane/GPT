@@ -2997,3 +2997,5 @@ In practice, Big O notation simplifies the comparison of algorithms. It allows u
 Big O notation provides a mathematical tool to compare and reason about the efficiency of different algorithms, especially as input sizes become large.
 
 The time complexity of the Bubble Sort algorithm can be described mathematically as follows. In the worst-case scenario, the algorithm passes through an array of n elements n−1 times. During each pass, every element is compared to the next, and if the left element is larger than the right, they are swapped. This process causes the largest elements to "bubble up" to their correct position, leaving the unsorted part of the array shorter after each pass.
+
+The number of operations performed during the sorting process can be calculated by considering that the algorithm compares and swaps elements during each pass through the array. The total number of comparisons and swaps performed is approximately proportional to n² in the worst case.
