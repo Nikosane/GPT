@@ -3011,3 +3011,5 @@ Operations ≈ n² / 2 = 1/2 ⋅ n²
 When describing time complexity using Big O notation, constant factors like 1/2 are disregarded because they do not significantly impact the growth rate of the algorithm for large inputs. As a result, the time complexity of the Bubble Sort algorithm is expressed as:
 
 O(1/2 ⋅ n²) = O(n²)
+
+This means that the time complexity of Bubble Sort grows quadratically with the size of the input, making it inefficient for large datasets.
