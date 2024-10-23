@@ -3013,3 +3013,23 @@ When describing time complexity using Big O notation, constant factors like 1/2 
 O(1/2 ⋅ n²) = O(n²)
 
 This means that the time complexity of Bubble Sort grows quadratically with the size of the input, making it inefficient for large datasets.
+
+The Selection Sort algorithm sorts an array by repeatedly finding the lowest value from the unsorted portion of the array and moving it to the correct position at the front. This process continues until the entire array is sorted.
+
+Selection Sort goes through an array of n elements n−1 times because once all values except the last are sorted, the last value will naturally be in its correct place. During each pass through the unsorted part of the array, the algorithm finds the lowest value and swaps it with the first unsorted element.
+
+In the first pass, the algorithm compares all elements to find the smallest one. In the second pass, it compares all but the first element, and so on. As the unsorted portion of the array becomes smaller, fewer comparisons are needed. Overall, Selection Sort performs about n² comparisons, as it repeatedly scans the unsorted section of the array.
+
+The total number of operations can be calculated as follows:
+
+Operations ≈ n × (n−1) / 2 = n² / 2 − n / 2
+
+Similar to Bubble Sort, for large values of n, the term n² dominates, and we can ignore the smaller term n / 2. Therefore, the total number of operations is approximately n² / 2.
+
+In addition to comparisons, Selection Sort requires a swap operation for each pass, meaning n swaps are needed overall.
+
+Since we focus on large input sizes when analyzing time complexity, constant factors are disregarded. As a result, the time complexity of Selection Sort is expressed using Big O notation as:
+
+O(n²)
+
+This means that Selection Sort has a quadratic time complexity, making it inefficient for large datasets, similar to Bubble Sort.
