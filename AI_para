@@ -3033,3 +3033,25 @@ Since we focus on large input sizes when analyzing time complexity, constant fac
 O(n²)
 
 This means that Selection Sort has a quadratic time complexity, making it inefficient for large datasets, similar to Bubble Sort.
+
+In the worst-case scenario for Insertion Sort, the array is sorted in reverse order, meaning every new element must be compared with and shifted past all the previously sorted elements. For example, when sorting an array in descending order to ascending order, every value has to move through the already sorted part of the array, which results in the maximum number of comparisons and shifts.
+
+Let's break down the operations performed by Insertion Sort:
+
+The 1st value is already considered sorted, so no comparisons are needed. The 2nd value must be compared to the 1st value and shifted if necessary. The 3rd value must be compared with both the 1st and 2nd values and shifted. The 4th value must be compared and shifted past three values, and so on.
+
+In the worst-case scenario, the algorithm performs approximately:
+
+Operations = 1 + 2 + 3 + ... + (n−1)
+
+This sum of comparisons can be written as:
+
+Operations = (n−1) × n / 2 ≈ n² / 2 − n / 2
+
+For large values of n, the term n² dominates, and the smaller term −n / 2 can be ignored. Therefore, the number of operations is roughly proportional to n² / 2.
+
+Similar to Selection Sort and Bubble Sort, the time complexity of Insertion Sort in the worst case is dominated by n², making its worst-case time complexity:
+
+O(n²)
+
+Insertion Sort is efficient when the array is already mostly sorted, in which case its time complexity approaches O(n). However, in the worst-case scenario (reverse-sorted array), the time complexity is quadratic, O(n²), similar to other simple sorting algorithms.
