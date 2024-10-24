@@ -3057,3 +3057,5 @@ O(n²)
 Insertion Sort is efficient when the array is already mostly sorted, in which case its time complexity approaches O(n). However, in the worst-case scenario (reverse-sorted array), the time complexity is quadratic, O(n²), similar to other simple sorting algorithms.
 
 In Quicksort, the time complexity depends on how well the pivot element divides the array into sub-arrays. The best and average cases occur when the pivot divides the array into two roughly equal halves each time.
+
+In the best and average cases, Quicksort divides the array into two equal halves and continues recursively until the entire array is sorted. Each division requires operations proportional to the number of elements, or O(n), to rearrange the elements around the pivot. Since the array is halved at each recursive step, the number of levels in the recursion is approximately log(n). Therefore, the total time complexity is O(n log n).
