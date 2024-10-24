@@ -3061,3 +3061,13 @@ In Quicksort, the time complexity depends on how well the pivot element divides 
 In the best and average cases, Quicksort divides the array into two equal halves and continues recursively until the entire array is sorted. Each division requires operations proportional to the number of elements, or O(n), to rearrange the elements around the pivot. Since the array is halved at each recursive step, the number of levels in the recursion is approximately log(n). Therefore, the total time complexity is O(n log n).
 
 In the worst case, the pivot element is always the smallest or largest, leading to one of the sub-arrays having almost the entire array's elements, while the other has none. In this case, the problem is only reduced by one element in each recursive step, resulting in n recursive calls, each requiring O(n) operations to rearrange the elements. This leads to a worst-case time complexity of O(n²).
+
+In summary, the time complexity for Quicksort is:
+
+Best case: O(n log n)
+
+Average case: O(n log n)
+
+Worst case: O(n²)
+
+
