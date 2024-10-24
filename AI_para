@@ -3070,4 +3070,5 @@ Average case: O(n log n)
 
 Worst case: O(n²)
 
+Quicksort is efficient on average, but the worst case occurs when the pivot is chosen poorly, leading to quadratic time complexity. Strategies like choosing a random pivot or using the median-of-three method can help avoid the worst case.
 
