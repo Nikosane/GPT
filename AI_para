@@ -3075,3 +3075,11 @@ Quicksort is efficient on average, but the worst case occurs when the pivot is c
 In the worst-case scenario for Quicksort, where the array is already sorted (either in ascending or descending order), the pivot chosen ends up being the smallest or largest element. As a result, one of the sub-arrays is empty, and the other contains nearly all the elements.
 
 This leads to the algorithm making n recursive calls, as the size of the array decreases by only one element in each step. Additionally, each recursive call requires O(n) comparisons to rearrange the elements around the pivot.
+
+Thus, the total number of comparisons in the worst case can be approximated as:
+
+Comparisons ≈ n + (n - 1) + (n - 2) + ... + 1 = O(n²)
+
+This happens because in every step, Quicksort is comparing nearly every element of the array. Therefore, the worst-case time complexity of Quicksort is O(n²), making it inefficient for already sorted arrays when the pivot is poorly chosen.
+
+To mitigate this issue, methods like choosing a random pivot or using the median-of-three rule are employed to avoid consistently hitting the worst case.
