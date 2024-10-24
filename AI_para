@@ -3055,3 +3055,5 @@ Similar to Selection Sort and Bubble Sort, the time complexity of Insertion Sort
 O(n²)
 
 Insertion Sort is efficient when the array is already mostly sorted, in which case its time complexity approaches O(n). However, in the worst-case scenario (reverse-sorted array), the time complexity is quadratic, O(n²), similar to other simple sorting algorithms.
+
+In Quicksort, the time complexity depends on how well the pivot element divides the array into sub-arrays. The best and average cases occur when the pivot divides the array into two roughly equal halves each time.
