@@ -3085,3 +3085,7 @@ This happens because in every step, Quicksort is comparing nearly every element 
 To mitigate this issue, methods like choosing a random pivot or using the median-of-three rule are employed to avoid consistently hitting the worst case.
 
 In the average case, Quicksort's efficiency comes from its ability to divide the array into two roughly equal parts around the pivot element. Each time the array is split, Quicksort processes each half separately, and because each sub-array is about half the size of the previous one, the recursive depth reduces significantly with each level.
+
+When the array is evenly split at each recursive level, Quicksort only needs about log₂(n) recursive levels to complete the sorting. At each level, Quicksort performs O(n) comparisons to divide the array. This leads to a total number of comparisons approximated by:
+
+Comparisons ≈ n * log₂(n)
