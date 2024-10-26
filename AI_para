@@ -3083,3 +3083,5 @@ Comparisons ≈ n + (n - 1) + (n - 2) + ... + 1 = O(n²)
 This happens because in every step, Quicksort is comparing nearly every element of the array. Therefore, the worst-case time complexity of Quicksort is O(n²), making it inefficient for already sorted arrays when the pivot is poorly chosen.
 
 To mitigate this issue, methods like choosing a random pivot or using the median-of-three rule are employed to avoid consistently hitting the worst case.
+
+In the average case, Quicksort's efficiency comes from its ability to divide the array into two roughly equal parts around the pivot element. Each time the array is split, Quicksort processes each half separately, and because each sub-array is about half the size of the previous one, the recursive depth reduces significantly with each level.
