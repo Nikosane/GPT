@@ -3089,3 +3089,5 @@ In the average case, Quicksort's efficiency comes from its ability to divide the
 When the array is evenly split at each recursive level, Quicksort only needs about log₂(n) recursive levels to complete the sorting. At each level, Quicksort performs O(n) comparisons to divide the array. This leads to a total number of comparisons approximated by:
 
 Comparisons ≈ n * log₂(n)
+
+Thus, in the average case, Quicksort’s time complexity is O(n log n), making it considerably faster than O(n²) algorithms like Bubble Sort or Selection Sort for most inputs. This average-case performance is why Quicksort is often chosen as a preferred sorting algorithm, especially for large datasets.
