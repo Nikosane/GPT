@@ -3091,3 +3091,5 @@ When the array is evenly split at each recursive level, Quicksort only needs abo
 Comparisons ≈ n * log₂(n)
 
 Thus, in the average case, Quicksort’s time complexity is O(n log n), making it considerably faster than O(n²) algorithms like Bubble Sort or Selection Sort for most inputs. This average-case performance is why Quicksort is often chosen as a preferred sorting algorithm, especially for large datasets.
+
+Counting Sort organizes values by counting their occurrences and using this count to construct a sorted array. When representing its time complexity in Big O notation, we examine the main operations involved. First, Counting Sort scans each element in the array once to find the maximum value, which requires n operations. For an array with values ranging from 0 to k, Counting Sort needs a counting array of size k+1, and initializing this array requires k+1 operations. Each value in the input array is then counted once, requiring n operations. Finally, the sorted array is built by iterating through the counting array to place values in the correct order, also requiring n operations.
