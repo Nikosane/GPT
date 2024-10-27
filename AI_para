@@ -3096,3 +3096,8 @@ Counting Sort organizes values by counting their occurrences and using this coun
 
 Therefore, the time complexity of Counting Sort is O(n + k). Counting Sort is most efficient when k, the range of possible values, is not significantly larger than n, the number of elements to sort. When k is much larger than n, the algorithm becomes less efficient due to the initialization and handling of a large counting array.
 
+The best case scenario for Counting Sort occurs when the range kk is much smaller than the input size nn, for example, if k(n)=0.1⋅nk(n)=0.1⋅n. This would mean, for instance, that for 100 elements, the range would span from 0 to 10; for 1000 elements, the range would be 0 to 100. In this situation, the time complexity becomes O(n+k)=O(n+0.1⋅n)=O(1.1⋅n)O(n+k)=O(n+0.1⋅n)=O(1.1⋅n), which simplifies to O(n)O(n).
+
+In the worst case scenario, however, the range kk is significantly larger than nn. For example, with an input of only 10 elements but a range between 0 and 100, or similarly, for 1000 elements with a range between 0 and 1,000,000. In such cases, the growth of kk may become quadratic relative to nn, described by k(n)=n2k(n)=n2. The time complexity then becomes O(n+k)=O(n+n2)O(n+k)=O(n+n2), which simplifies to O(n2)O(n2). Even larger ranges would increase this complexity further, but this example illustrates a realistic yet challenging case.
+
+Thus, it’s crucial to consider the relationship between the range of values and the number of elements to be sorted when selecting Counting Sort. Additionally, as Counting Sort only works with non-negative integer values, this limitation should also be considered before choosing this algorithm.
