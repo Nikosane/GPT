@@ -3105,3 +3105,6 @@ Thus, it’s crucial to consider the relationship between the range of values an
 In a simulation of Counting Sort, you would set the input size nn and range kk to observe how the algorithm's number of operations changes with different scenarios. Here, if we set n=300n=300 and choose a range kk from 0 to 1000, we can see where Counting Sort’s operations lie between the best case scenario O(n)O(n) and the worst case O(n2)O(n2).
 
 With a large kk and a smaller nn, Counting Sort generally becomes less efficient. For example, if kk is large compared to nn, the counting array requires significant space and time, and thus the algorithm approaches O(n2)O(n2). However, when kk is much smaller or comparable to nn, the operations stay closer to O(n)O(n), making Counting Sort more efficient.
+
+Regardless of whether the array is ordered randomly, in ascending order, or in descending order, the number of operations in Counting Sort remains the same. This is because each input case — random, ascending, or descending — involves setting up a counting array, counting each value, and then creating a sorted output array.
+
