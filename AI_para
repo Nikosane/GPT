@@ -3108,3 +3108,10 @@ With a large kk and a smaller nn, Counting Sort generally becomes less efficient
 
 Regardless of whether the array is ordered randomly, in ascending order, or in descending order, the number of operations in Counting Sort remains the same. This is because each input case — random, ascending, or descending — involves setting up a counting array, counting each value, and then creating a sorted output array.
 
+Radix Sort works by sorting non-negative integers one digit at a time. In Radix Sort, the algorithm takes an array of nn values, each having up to kk digits (where kk represents the number of digits in the largest number).
+
+Each pass of Radix Sort moves nn values into a "radix" array, sorts them by the current digit, and then moves them back to the main array. This process of moving values in and out requires n+n=2⋅nn+n=2⋅n operations for each pass.
+
+Since Radix Sort repeats this process for each digit (totaling kk digits), the overall number of operations required is 2⋅n⋅k2⋅n⋅k.
+
+Using Big O notation, the time complexity for Radix Sort is O(n⋅k)O(n⋅k). When kk is relatively small compared to nn, Radix Sort performs efficiently, as O(n⋅k)O(n⋅k) approaches O(n)O(n).
