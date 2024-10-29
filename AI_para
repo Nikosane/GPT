@@ -3122,3 +3122,4 @@ The array with nn elements is repeatedly split into sub-arrays. For an array of 
 
 This pattern of splitting continues until each element is isolated in its own sub-array, setting up the next stage: merging.
 
+Linear Search works by sequentially checking each element in an array until it finds the target value. If the value is found, the function returns the index of that value. If the value is not found after checking all elements, it returns -1.
