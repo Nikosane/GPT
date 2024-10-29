@@ -3125,3 +3125,12 @@ This pattern of splitting continues until each element is isolated in its own su
 Linear Search works by sequentially checking each element in an array until it finds the target value. If the value is found, the function returns the index of that value. If the value is not found after checking all elements, it returns -1.
 
 The time complexity of Linear Search can be evaluated by examining the number of comparisons required to locate the target value in an array with nn elements.
+
+In the best case scenario, the target value is the very first element of the array. This requires only one comparison, giving a time complexity of O(1)O(1).
+
+In the worst case scenario, the algorithm must compare the target with every element in the array until reaching the end without finding a match, resulting in nn comparisons. Thus, the worst case time complexity is O(n)O(n).
+
+For the average case scenario, if we assume exactly one instance of the target value is present in the array and its position is equally likely to be anywhere within the array, then the target will be found on average about halfway through. Therefore, the average time complexity can also be approximated as O(n)O(n).
+
+In summary, Linear Search has a time complexity of O(n)O(n), where nn represents the number of elements in the array.
+
