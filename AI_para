@@ -3115,3 +3115,5 @@ Each pass of Radix Sort moves nn values into a "radix" array, sorts them by the 
 Since Radix Sort repeats this process for each digit (totaling kk digits), the overall number of operations required is 2⋅n⋅k2⋅n⋅k.
 
 Using Big O notation, the time complexity for Radix Sort is O(n⋅k)O(n⋅k). When kk is relatively small compared to nn, Radix Sort performs efficiently, as O(n⋅k)O(n⋅k) approaches O(n)O(n).
+
+Merge Sort divides an array of nn values into smaller sub-arrays until each sub-array has only one element, a process known as "splitting." To understand the time complexity of Merge Sort, we can begin by analyzing the operations involved in splitting and merging.
