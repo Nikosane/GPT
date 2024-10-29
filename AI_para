@@ -3119,3 +3119,6 @@ Using Big O notation, the time complexity for Radix Sort is O(n⋅k)O(n⋅k). Wh
 Merge Sort divides an array of nn values into smaller sub-arrays until each sub-array has only one element, a process known as "splitting." To understand the time complexity of Merge Sort, we can begin by analyzing the operations involved in splitting and merging.
 
 The array with nn elements is repeatedly split into sub-arrays. For an array of n=16n=16 elements, for instance, the process involves successive splits, reducing the array sizes as follows: 16→8→4→2→116→8→4→2→1. This results in a total of n−1n−1 splits. So, in our example of an array with 16 elements, the splits add up to 1+2+4+8=151+2+4+8=15.
+
+This pattern of splitting continues until each element is isolated in its own sub-array, setting up the next stage: merging.
+
