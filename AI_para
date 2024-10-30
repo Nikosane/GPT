@@ -3139,3 +3139,5 @@ Binary Search is an efficient algorithm used to locate a target value within a s
 To determine the time complexity of Binary Search, we can analyze the number of comparisons required to find the target value in an array containing nn elements.
 
 In the best case scenario, the target value is located at the first middle element checked. This requires just one comparison, yielding a time complexity of O(1)O(1).
+
+The worst case scenario occurs when the search interval is continually halved until only one element remains. Importantly, the result of whether the target value is found or not does not affect the time complexity in this scenario.
