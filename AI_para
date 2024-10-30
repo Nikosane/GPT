@@ -3145,3 +3145,11 @@ The worst case scenario occurs when the search interval is continually halved un
 For arrays whose lengths are powers of 2 (such as 2, 4, 8, 16, 32, and so on), we can see the number of divisions required to reduce the search area to one value. For instance, when starting with an array of length 2, it requires one cut to reach one value. For an array of length 8, it takes three cuts to reduce it to one value, and for an array of length 32, it requires five cuts.
 
 This pattern shows that the number of times the array can be halved to arrive at one element can be represented mathematically using base-2 logarithm. Therefore, the time complexity of Binary Search can be expressed as O(log⁡2n)O(log2​n), where nn is the number of elements in the array.
+
+The Euclidean algorithm is a well-known method for computing the greatest common divisor (gcd) of two integers, a and b. The gcd is defined as the largest positive integer that divides both a and b without leaving a remainder. The algorithm works based on the principle that the gcd of two numbers also divides their difference.
+
+To find the gcd, start with two positive integers, a and b, where a is greater than or equal to b. Divide a by b and compute the remainder, denoted as r, which is r=amod  br=amodb. Replace a with b and b with r. Continue this process until b becomes zero. When b equals zero, the value of a at that stage is the gcd of the original pair of numbers.
+
+For example, to find the gcd of 48 and 18, start with a equal to 48 and b equal to 18. Calculate r as 48mod  1848mod18, which equals 12. Then replace a with 18 and b with 12. Next, calculate r as 18mod  1218mod12, which equals 6. Replace a with 12 and b with 6, and calculate r again as 12mod  612mod6, which equals 0. Replace a with 6 and b with 0. Since b is now 0, the gcd is 6.
+
+The Euclidean algorithm is efficient and can quickly find the gcd even for large integers, operating in logarithmic time relative to the size of the numbers involved.
