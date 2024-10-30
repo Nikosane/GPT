@@ -3144,4 +3144,4 @@ The worst case scenario occurs when the search interval is continually halved un
 
 For arrays whose lengths are powers of 2 (such as 2, 4, 8, 16, 32, and so on), we can see the number of divisions required to reduce the search area to one value. For instance, when starting with an array of length 2, it requires one cut to reach one value. For an array of length 8, it takes three cuts to reduce it to one value, and for an array of length 32, it requires five cuts.
 
-
+This pattern shows that the number of times the array can be halved to arrive at one element can be represented mathematically using base-2 logarithm. Therefore, the time complexity of Binary Search can be expressed as O(log⁡2n)O(log2​n), where nn is the number of elements in the array.
