@@ -3135,3 +3135,7 @@ For the average case scenario, if we assume exactly one instance of the target v
 In summary, Linear Search has a time complexity of O(n)O(n), where nn represents the number of elements in the array.
 
 Binary Search is an efficient algorithm used to locate a target value within a sorted array. It operates by examining the middle element of the array. If the middle element matches the target value, the search is complete. If it does not, the algorithm decides whether to search the left or right sub-array based on whether the target value is smaller or larger than the middle element. This process is repeated until the target value is found or the search area is exhausted.
+
+To determine the time complexity of Binary Search, we can analyze the number of comparisons required to find the target value in an array containing nn elements.
+
+In the best case scenario, the target value is located at the first middle element checked. This requires just one comparison, yielding a time complexity of O(1)O(1).
