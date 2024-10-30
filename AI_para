@@ -3141,3 +3141,7 @@ To determine the time complexity of Binary Search, we can analyze the number of 
 In the best case scenario, the target value is located at the first middle element checked. This requires just one comparison, yielding a time complexity of O(1)O(1).
 
 The worst case scenario occurs when the search interval is continually halved until only one element remains. Importantly, the result of whether the target value is found or not does not affect the time complexity in this scenario.
+
+For arrays whose lengths are powers of 2 (such as 2, 4, 8, 16, 32, and so on), we can see the number of divisions required to reduce the search area to one value. For instance, when starting with an array of length 2, it requires one cut to reach one value. For an array of length 8, it takes three cuts to reduce it to one value, and for an array of length 32, it requires five cuts.
+
+
