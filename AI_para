@@ -3167,3 +3167,7 @@ A common divisor is any number that can divide two numbers, aa and bb, without l
 The greatest common divisor (GCD) is the largest of the common divisors. For example, the GCD of 18 and 12 is 6, as it is the highest number among their common divisors (2, 3, and 6). The GCD is significant in number theory and cryptography, where it is used in techniques for encrypting messages.
 
 Huffman Coding is an algorithm designed for lossless data compression, meaning that it reduces file size without losing any original information. Huffman Coding is widely used in various compression algorithms. For example, it plays a key role in lossless compression formats like zip, gzip, and png, as well as in some lossy compression algorithms, such as those used in mp3 and jpeg formats.
+
+This algorithm represents data with variable-length bit codes. More frequently occurring pieces of data are assigned shorter bit representations, while less frequent data uses longer bits. This efficient allocation of bits allows for significant compression of the data.
+
+One essential feature of Huffman Coding is that it produces codes in such a way that no code is a prefix of another code. This characteristic, known as the prefix-free property, ensures that each code sequence is unique, making the data easy to decode accurately without confusion or ambiguity.
