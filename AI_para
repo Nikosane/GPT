@@ -3153,3 +3153,5 @@ To find the gcd, start with two positive integers, a and b, where a is greater t
 For example, to find the gcd of 48 and 18, start with a equal to 48 and b equal to 18. Calculate r as 48mod  1848mod18, which equals 12. Then replace a with 18 and b with 12. Next, calculate r as 18mod  1218mod12, which equals 6. Replace a with 12 and b with 6, and calculate r again as 12mod  612mod6, which equals 0. Replace a with 6 and b with 0. Since b is now 0, the gcd is 6.
 
 The Euclidean algorithm is efficient and can quickly find the gcd even for large integers, operating in logarithmic time relative to the size of the numbers involved.
+
+To find the greatest common divisor (GCD) of two numbers aa and bb, the algorithm follows a series of divisions with remainders. Here’s the process in simple steps:
