@@ -3159,3 +3159,10 @@ To find the greatest common divisor (GCD) of two numbers aa and bb, the algorith
 Start with two initial numbers, aa and bb, where aa is greater than bb. Perform a division of aa by bb, which gives a quotient q0q0​ and a remainder r0r0​, so that a=q0⋅b+r0a=q0​⋅b+r0​. Use the remainder r0r0​ from the last calculation and set up the next division: b=q1⋅r0+r1b=q1​⋅r0​+r1​, where q1q1​ is the quotient, and r1r1​ is the new remainder. Repeat this process, using the last remainder and divisor, until the remainder becomes zero. The second last remainder, just before reaching zero, is the greatest common divisor (GCD) of aa and bb.
 
 This method iteratively reduces the size of the numbers involved until the GCD is identified.
+
+A divisor is a number that divides another number without leaving a remainder. For example, 3 is a divisor of 6 because when dividing 6 by 3, the result is exactly 2 with no remainder. A remainder is what’s left over after dividing a number that doesn’t divide evenly. For instance, dividing 7 by 3 gives 2 with a remainder of 1, meaning 3 is not a divisor of 7.
+
+A common divisor is any number that can divide two numbers, aa and bb, without leaving a remainder. For example, the numbers 2, 3, and 6 are common divisors of 18 and 12 since each of these can divide both numbers without producing a remainder.
+
+The greatest common divisor (GCD) is the largest of the common divisors. For example, the GCD of 18 and 12 is 6, as it is the highest number among their common divisors (2, 3, and 6). The GCD is significant in number theory and cryptography, where it is used in techniques for encrypting messages.
+
