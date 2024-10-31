@@ -3157,3 +3157,5 @@ The Euclidean algorithm is efficient and can quickly find the gcd even for large
 To find the greatest common divisor (GCD) of two numbers aa and bb, the algorithm follows a series of divisions with remainders. Here’s the process in simple steps:
 
 Start with two initial numbers, aa and bb, where aa is greater than bb. Perform a division of aa by bb, which gives a quotient q0q0​ and a remainder r0r0​, so that a=q0⋅b+r0a=q0​⋅b+r0​. Use the remainder r0r0​ from the last calculation and set up the next division: b=q1⋅r0+r1b=q1​⋅r0​+r1​, where q1q1​ is the quotient, and r1r1​ is the new remainder. Repeat this process, using the last remainder and divisor, until the remainder becomes zero. The second last remainder, just before reaching zero, is the greatest common divisor (GCD) of aa and bb.
+
+This method iteratively reduces the size of the numbers involved until the GCD is identified.
