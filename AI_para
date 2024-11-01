@@ -3171,3 +3171,5 @@ Huffman Coding is an algorithm designed for lossless data compression, meaning t
 This algorithm represents data with variable-length bit codes. More frequently occurring pieces of data are assigned shorter bit representations, while less frequent data uses longer bits. This efficient allocation of bits allows for significant compression of the data.
 
 One essential feature of Huffman Coding is that it produces codes in such a way that no code is a prefix of another code. This characteristic, known as the prefix-free property, ensures that each code sequence is unique, making the data easy to decode accurately without confusion or ambiguity.
+
+First, the algorithm counts the frequency of each piece of data. Based on these counts, it builds a binary tree, beginning with nodes representing the data with the lowest counts. Each time two nodes are combined, they become child nodes of a new parent node. This new parent node’s count is the sum of its two child nodes.
