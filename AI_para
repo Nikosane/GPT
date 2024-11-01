@@ -3177,3 +3177,5 @@ First, the algorithm counts the frequency of each piece of data. Based on these 
 Each edge from a parent node is labeled: '0' for the left child and '1' for the right child. Once the binary tree is complete, each data element can be traced by following a unique path of '0's and '1's from the root to the data node, resulting in a unique binary code for each piece of data.
 
 The final step is to replace each piece of data with its corresponding binary code by following the paths in the binary tree, creating a compressed Huffman-encoded version of the data.
+
+Huffman Coding is an algorithm that uses a variable length of bits for each piece of data, assigning shorter bit representations to the data pieces that occur most often. This approach efficiently compresses data by reducing the amount of space taken up by frequently occurring elements. Huffman Coding also ensures that no code is the prefix of another code, which makes it possible to decode the compressed data without confusion.
