@@ -3175,3 +3175,5 @@ One essential feature of Huffman Coding is that it produces codes in such a way 
 First, the algorithm counts the frequency of each piece of data. Based on these counts, it builds a binary tree, beginning with nodes representing the data with the lowest counts. Each time two nodes are combined, they become child nodes of a new parent node. This new parent node’s count is the sum of its two child nodes.
 
 Each edge from a parent node is labeled: '0' for the left child and '1' for the right child. Once the binary tree is complete, each data element can be traced by following a unique path of '0's and '1's from the root to the data node, resulting in a unique binary code for each piece of data.
+
+The final step is to replace each piece of data with its corresponding binary code by following the paths in the binary tree, creating a compressed Huffman-encoded version of the data.
