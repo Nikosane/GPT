@@ -3179,3 +3179,6 @@ Each edge from a parent node is labeled: '0' for the left child and '1' for the 
 The final step is to replace each piece of data with its corresponding binary code by following the paths in the binary tree, creating a compressed Huffman-encoded version of the data.
 
 Huffman Coding is an algorithm that uses a variable length of bits for each piece of data, assigning shorter bit representations to the data pieces that occur most often. This approach efficiently compresses data by reducing the amount of space taken up by frequently occurring elements. Huffman Coding also ensures that no code is the prefix of another code, which makes it possible to decode the compressed data without confusion.
+
+Data compression reduces the size of the original data while keeping most or all of the information intact. For example, sound files are typically compressed to around 10% of their original size, with minimal loss of information. Compression can be either lossless or lossy. In lossless compression, the compressed data retains all the original information, making it suitable for text files and other data where accuracy is essential. In contrast, lossy compression sacrifices some information to achieve a smaller size, commonly used for media files like music (mp3), images (jpeg), and videos (mp4), where perfect accuracy is less critical.
+
