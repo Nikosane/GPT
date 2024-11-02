@@ -3193,3 +3193,7 @@ The primary objective is to identify the shortest possible route that fulfills t
 The Traveling Salesman Problem (TSP) is characterized by the challenge of determining the shortest possible route to visit a given set of cities exactly once and return to the starting point. The most straightforward method to find the optimal route involves evaluating all potential routes.
 
 This brute-force approach leads to a time complexity of O(n!), which reflects the factorial growth of the number of routes as the number of cities increases. For instance, with six cities, there are 720 possible routes to examine. When the number of cities increases to eight, the total rises dramatically to 40,320 routes. With ten cities, the complexity becomes even more pronounced, requiring over 3.6 million routes to be considered.
+
+In mathematical terms, the "!" symbol denotes factorial, which quantifies the number of ways to arrange a set of items. For example, for four cities, the calculation is 4! = 4 × 3 × 2 × 1 = 24 distinct routes available for visiting each city once.
+
+While the Held-Karp algorithm presents a more efficient method for solving TSP, with a time complexity of O(2^n * n^2), its complexity remains substantial and requires significant computational resources, making it impractical for larger datasets without additional optimizations or approximations.
